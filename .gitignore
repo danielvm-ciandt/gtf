@@ -33,7 +33,7 @@ Thumbs.db
 !.env.example
 node_modules/
 .next/
-/dist/
+# /dist/ is committed so the package can be installed from GitHub without a build step
 !/pkg/dist/modes/
 !/pkg/dist/core/export-html/
 build/
@@ -57,10 +57,7 @@ packages/*/node_modules/
 # ── Scratch/WIP files ──
 preflight-script.ts
 
-# ── GSD baseline (auto-generated) ──
-dist/
-!/pkg/dist/modes/
-!/pkg/dist/core/export-html/
+# dist/ is intentionally tracked (see above)
 .bg_shell
 .gsd*.tgz
 .artifacts/
