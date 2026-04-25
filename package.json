@@ -130,7 +130,6 @@
     "proper-lockfile": "^4.1.2",
     "proxy-agent": "^6.5.0",
     "semver": "^7.7.4",
-    "sharp": "^0.34.5",
     "sql.js": "^1.14.1",
     "strip-ansi": "^7.1.0",
     "undici": "^7.24.2",
@@ -153,7 +152,8 @@
     "@gsd-build/engine-linux-x64-gnu": ">=2.10.2",
     "@gsd-build/engine-win32-x64-msvc": ">=2.10.2",
     "fsevents": "~2.3.3",
-    "koffi": "^2.9.0"
+    "koffi": "^2.9.0",
+    "sharp": "^0.34.5"
   },
   "overrides": {
     "gaxios": "7.1.4"
