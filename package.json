@@ -1,15 +1,15 @@
 {
-  "name": "gsd-pi",
+  "name": "gtf",
   "version": "2.77.0",
-  "description": "GSD — Get Shit Done coding agent",
+  "description": "GTF — GSD Through Flow coding agent",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gsd-build/gsd-2.git"
+    "url": "https://github.com/danielvm-ciandt/gtf.git"
   },
-  "homepage": "https://github.com/gsd-build/gsd-2#readme",
+  "homepage": "https://github.com/danielvm-ciandt/gtf#readme",
   "bugs": {
-    "url": "https://github.com/gsd-build/gsd-2/issues"
+    "url": "https://github.com/danielvm-ciandt/gtf/issues"
   },
   "type": "module",
   "workspaces": [
@@ -18,9 +18,9 @@
     "extensions/*"
   ],
   "bin": {
-    "gsd": "dist/loader.js",
-    "gsd-cli": "dist/loader.js",
-    "gsd-pi": "scripts/install.js"
+    "gtf": "dist/loader.js",
+    "gtf-cli": "dist/loader.js",
+    "gtf-pi": "scripts/install.js"
   },
   "files": [
     "dist",
@@ -34,7 +34,8 @@
     "scripts/ensure-workspace-builds.cjs",
     "scripts/lib/workspace-manifest.cjs",
     "package.json",
-    "README.md"
+    "README.md",
+    "flow-guide.md"
   ],
   "piConfig": {
     "name": "gsd",
@@ -97,7 +98,7 @@
     "release:update-changelog": "node scripts/update-changelog.mjs",
     "docker:build-runtime": "docker build --target runtime -t ghcr.io/gsd-build/gsd-pi .",
     "docker:build-builder": "docker build --target builder -t ghcr.io/gsd-build/gsd-ci-builder .",
-    "prepublishOnly": "npm run sync-pkg-version && npm run sync-platform-versions && node scripts/prepublish-check.mjs && npm run build && npm run typecheck:extensions && npm run validate-pack",
+    "prepublishOnly": "echo 'Use github install: npm install -g github:danielvm-ciandt/gtf'",
     "test:live-regression": "node --experimental-strip-types tests/live-regression/run.ts"
   },
   "dependencies": {
