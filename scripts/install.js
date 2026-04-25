@@ -46,9 +46,12 @@ const c = supportsColor
 // ── Version ────────────────────────────────────────────────────────────────
 
 let gsdVersion = '0.0.0'
+let sharpVersion = '0.34.5'
 try {
   const pkg = JSON.parse(readFileSync(join(packageRoot, 'package.json'), 'utf-8'))
   gsdVersion = pkg.version || '0.0.0'
+  const sv = pkg.optionalDependencies?.sharp || pkg.dependencies?.sharp || ''
+  sharpVersion = sv.replace(/^[^0-9]*/, '') || sharpVersion
 } catch { /* ignore */ }
 
 if (HAS_VERSION) {
@@ -228,6 +231,50 @@ async function installLocally() {
     stopSpinner()
     printFail('Local install failed', err.message)
     return false
+  }
+}
+
+// ── Step: sharp ────────────────────────────────────────────────────────────
+
+async function installSharp() {
+  // sharp is listed as an optionalDependency so that a CWD-at-spawn ENOENT in
+  // its lifecycle hook does not abort the global install. We verify it loaded
+  // here and re-install with --ignore-scripts if it is missing.
+  try {
+    const sharpPath = join(packageRoot, 'node_modules', 'sharp', 'lib', 'index.js')
+    if (existsSync(sharpPath)) {
+      printStep('sharp', `v${sharpVersion} installed`)
+      return
+    }
+  } catch { /* fall through to recovery */ }
+
+  startSpinner('Installing sharp...                       ')
+  try {
+    const result = await new Promise((res) => {
+      execCb(
+        `npm install "sharp@${sharpVersion}" --ignore-scripts --no-save --prefix "${packageRoot}"`,
+        { timeout: 120_000 },
+        (error, stdout, stderr) => {
+          res({ ok: !error, stdout: stdout || '', stderr: stderr || '', error })
+        }
+      )
+    })
+    stopSpinner()
+
+    if (!result.ok) {
+      const meaningful = (result.stderr || '')
+        .split('\n')
+        .filter(l => !l.includes('npm warn') && !l.includes('npm WARN') && l.trim())
+        .slice(-3)
+        .join('; ')
+      printWarn('sharp', meaningful || 'install failed — run npm install sharp manually')
+      return
+    }
+
+    printStep('sharp', `v${sharpVersion} installed`)
+  } catch (err) {
+    stopSpinner()
+    printWarn('sharp', err.message)
   }
 }
 
@@ -499,6 +546,7 @@ const isLocal = args.includes('--local') || args.includes('-l')
 if (IS_POSTINSTALL) {
   // Running as npm postinstall hook — just do workspace linking + deps
   linkWorkspacePackages()
+  await installSharp()
   await installChromium()
   await installRtk()
 } else {
@@ -513,6 +561,7 @@ if (IS_POSTINSTALL) {
 
   // Run postinstall steps that npm skipped
   linkWorkspacePackages()
+  await installSharp()
   await installChromium()
   await installRtk()
 
