@@ -1318,7 +1318,7 @@ export function buildSdkOptions(
 		cwd: process.cwd(),
 		permissionMode,
 		allowDangerouslySkipPermissions: permissionMode === "bypassPermissions",
-		settingSources: ["project"],
+		settingSources: ["user", "project"],
 		systemPrompt: { type: "preset", preset: "claude_code" },
 		disallowedTools,
 		...(allowedTools.length > 0 ? { allowedTools } : {}),
