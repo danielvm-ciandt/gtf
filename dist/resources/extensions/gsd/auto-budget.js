@@ -1,0 +1,30 @@
+/**
+ * Budget alert level tracking and enforcement for auto-mode.
+ * Pure functions — no module state or side effects.
+ */
+export function getBudgetAlertLevel(budgetPct) {
+    if (budgetPct >= 1.0)
+        return 100;
+    if (budgetPct >= 0.90)
+        return 90;
+    if (budgetPct >= 0.80)
+        return 80;
+    if (budgetPct >= 0.75)
+        return 75;
+    return 0;
+}
+export function getNewBudgetAlertLevel(previousLevel, budgetPct) {
+    const currentLevel = getBudgetAlertLevel(budgetPct);
+    if (currentLevel === 0 || currentLevel <= previousLevel)
+        return null;
+    return currentLevel;
+}
+export function getBudgetEnforcementAction(enforcement, budgetPct) {
+    if (budgetPct < 1.0)
+        return "none";
+    if (enforcement === "halt")
+        return "halt";
+    if (enforcement === "pause")
+        return "pause";
+    return "warn";
+}

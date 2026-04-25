@@ -1,0 +1,10 @@
+export declare const GSD_RTK_DISABLED_ENV = "GSD_RTK_DISABLED";
+export declare const GSD_RTK_PATH_ENV = "GSD_RTK_PATH";
+export declare const RTK_TELEMETRY_DISABLED_ENV = "RTK_TELEMETRY_DISABLED";
+export declare function isTruthy(value: string | undefined): boolean;
+export declare function isRtkEnabled(env?: NodeJS.ProcessEnv): boolean;
+export declare function getManagedRtkDir(env?: NodeJS.ProcessEnv): string;
+export declare function getRtkBinaryName(platform?: NodeJS.Platform): string;
+export declare function getPathValue(env: NodeJS.ProcessEnv): string | undefined;
+export declare function resolvePathCandidates(pathValue: string | undefined): string[];
+export declare function resolveSystemRtkPath(pathValue: string | undefined, platform?: NodeJS.Platform): string | null;
