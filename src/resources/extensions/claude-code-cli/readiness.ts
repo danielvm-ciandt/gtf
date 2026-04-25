@@ -74,6 +74,16 @@ function refreshCache(): void {
 		return;
 	}
 
+	// When CLAUDE_CODE_SKIP_AUTH_LOGIN is set, the user authenticates via an
+	// external proxy (e.g. CI&T Flow JWT) instead of Anthropic OAuth. In that
+	// case `claude auth status` will always report "not logged in", so we skip
+	// the check entirely and trust that the proxy credentials are correct.
+	const skipAuth = process.env["CLAUDE_CODE_SKIP_AUTH_LOGIN"];
+	if (skipAuth === "true" || skipAuth === "1") {
+		cachedAuthed = true;
+		return;
+	}
+
 	// Check auth status — exit code 0 with non-error output means authenticated
 	try {
 		const output = execClaude(["auth", "status"])
