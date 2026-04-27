@@ -1,0 +1,87 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::compileInterceptor::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::checkBashInterception::function"
+    }
+  ],
+  "contentHash": "40138e216c96d107339a07b1e2869fed3653df1181a589dfc556ffde658bad71",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::checkBashInterception::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::compileInterceptor::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 96,
+      "endOffset": 2974,
+      "kind": "function",
+      "name": "compileInterceptor",
+      "startLine": 72,
+      "startOffset": 2280,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::compileInterceptor::function"
+    },
+    {
+      "endLine": 114,
+      "endOffset": 3582,
+      "kind": "function",
+      "name": "checkBashInterception",
+      "startLine": 107,
+      "startOffset": 3301,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::checkBashInterception::function"
+    },
+    {
+      "endLine": 12,
+      "endOffset": 382,
+      "kind": "interface",
+      "name": "BashInterceptorRule",
+      "startLine": 7,
+      "startOffset": 274,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::BashInterceptorRule::interface"
+    },
+    {
+      "endLine": 59,
+      "endOffset": 1924,
+      "kind": "interface",
+      "name": "InterceptionResult",
+      "startLine": 55,
+      "startOffset": 1824,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::InterceptionResult::interface"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 2041,
+      "kind": "interface",
+      "name": "CompiledInterceptor",
+      "startLine": 61,
+      "startOffset": 1926,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::CompiledInterceptor::interface"
+    },
+    {
+      "endLine": 53,
+      "endOffset": 1821,
+      "kind": "variable",
+      "name": "DEFAULT_BASH_INTERCEPTOR_RULES",
+      "startLine": 14,
+      "startOffset": 397,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::DEFAULT_BASH_INTERCEPTOR_RULES::variable"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 20,
+      "symbolId": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/utils/oauth/openai-codex.ts::refreshOpenAICodexToken::function"
+    }
+  ],
+  "contentHash": "8d3a204dbce5a795b89ab9b2f408f5abc350b84462207fed17ccc85b01835e1c",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthLoginCallbacks::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthPrompt::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::createAuthorizationFlow::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::startLocalOAuthServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::parseAuthorizationInput::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::parseAuthorizationInput::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::parseAuthorizationInput::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::exchangeAuthorizationCode::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::getAccountId::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::refreshOpenAICodexToken::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::refreshAccessToken::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::refreshOpenAICodexToken::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::getAccountId::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthPrompt::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/openai-codex.ts::refreshOpenAICodexToken::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/oauth/openai-codex.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 419,
+      "endOffset": 11936,
+      "kind": "function",
+      "name": "loginOpenAICodex",
+      "startLine": 314,
+      "startOffset": 8970,
+      "symbolId": "packages/pi-ai/src/utils/oauth/openai-codex.ts::loginOpenAICodex::function"
+    },
+    {
+      "endLine": 441,
+      "endOffset": 12471,
+      "kind": "function",
+      "name": "refreshOpenAICodexToken",
+      "startLine": 424,
+      "startOffset": 11982,
+      "symbolId": "packages/pi-ai/src/utils/oauth/openai-codex.ts::refreshOpenAICodexToken::function"
+    },
+    {
+      "endLine": 471,
+      "endOffset": 13284,
+      "kind": "variable",
+      "name": "openaiCodexOAuthProvider",
+      "startLine": 443,
+      "startOffset": 12486,
+      "symbolId": "packages/pi-ai/src/utils/oauth/openai-codex.ts::openaiCodexOAuthProvider::variable"
+    }
+  ]
+}

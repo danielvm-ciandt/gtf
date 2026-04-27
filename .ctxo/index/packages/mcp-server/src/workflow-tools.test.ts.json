@@ -1,0 +1,43 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "5f351ded000ffde8a674966ca8eb9d0ea92ddf1b2c4137b50df1497356dae51e",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/workflow-tools.test.ts::workflow-tools.test::variable",
+      "kind": "imports",
+      "to": "src/resources/extensions/gsd/gsd-db.ts::_getAdapter::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.test.ts::workflow-tools.test::variable",
+      "kind": "imports",
+      "to": "src/resources/extensions/gsd/gsd-db.ts::closeDatabase::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.test.ts::workflow-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.test.ts::workflow-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/workflow-tools.ts::WORKFLOW_TOOL_NAMES::variable"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.test.ts::workflow-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/workflow-tools.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

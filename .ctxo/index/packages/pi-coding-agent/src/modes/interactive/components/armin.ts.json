@@ -1,0 +1,317 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.render::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.createEmptyGrid::method"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.initEffect::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.startAnimation::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.stopAnimation::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickTypewriter::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickScanline::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickRain::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickFade::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickCrt::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickGlitch::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickDissolve::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.updateDisplay::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.dispose::method"
+    }
+  ],
+  "contentHash": "69b6e4311cb6897387e63e89340f2d846221cbe81529e739fd4ffcf8d5e0d42f",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/armin.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.startAnimation::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.startAnimation::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.startAnimation::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.stopAnimation::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickTypewriter::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickScanline::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickRain::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickFade::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickCrt::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickGlitch::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickDissolve::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickRain::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.createEmptyGrid::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickCrt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.createEmptyGrid::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.dispose::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.stopAnimation::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 381,
+      "endOffset": 10835,
+      "kind": "class",
+      "name": "ArminComponent",
+      "startLine": 59,
+      "startOffset": 2338,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent::class"
+    },
+    {
+      "endLine": 83,
+      "endOffset": 3024,
+      "kind": "method",
+      "name": "ArminComponent.invalidate",
+      "startLine": 81,
+      "startOffset": 2977,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.invalidate::method"
+    },
+    {
+      "endLine": 109,
+      "endOffset": 3734,
+      "kind": "method",
+      "name": "ArminComponent.render",
+      "startLine": 85,
+      "startOffset": 3027,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.render::method"
+    },
+    {
+      "endLine": 113,
+      "endOffset": 3858,
+      "kind": "method",
+      "name": "ArminComponent.createEmptyGrid",
+      "startLine": 111,
+      "startOffset": 3737,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.createEmptyGrid::method"
+    },
+    {
+      "endLine": 177,
+      "endOffset": 5791,
+      "kind": "method",
+      "name": "ArminComponent.initEffect",
+      "startLine": 115,
+      "startOffset": 3861,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.initEffect::method"
+    },
+    {
+      "endLine": 189,
+      "endOffset": 6069,
+      "kind": "method",
+      "name": "ArminComponent.startAnimation",
+      "startLine": 179,
+      "startOffset": 5794,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.startAnimation::method"
+    },
+    {
+      "endLine": 196,
+      "endOffset": 6191,
+      "kind": "method",
+      "name": "ArminComponent.stopAnimation",
+      "startLine": 191,
+      "startOffset": 6072,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.stopAnimation::method"
+    },
+    {
+      "endLine": 217,
+      "endOffset": 6624,
+      "kind": "method",
+      "name": "ArminComponent.tickEffect",
+      "startLine": 198,
+      "startOffset": 6194,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickEffect::method"
+    },
+    {
+      "endLine": 231,
+      "endOffset": 7003,
+      "kind": "method",
+      "name": "ArminComponent.tickTypewriter",
+      "startLine": 219,
+      "startOffset": 6627,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickTypewriter::method"
+    },
+    {
+      "endLine": 243,
+      "endOffset": 7295,
+      "kind": "method",
+      "name": "ArminComponent.tickScanline",
+      "startLine": 233,
+      "startOffset": 7006,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickScanline::method"
+    },
+    {
+      "endLine": 294,
+      "endOffset": 8498,
+      "kind": "method",
+      "name": "ArminComponent.tickRain",
+      "startLine": 245,
+      "startOffset": 7298,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickRain::method"
+    },
+    {
+      "endLine": 307,
+      "endOffset": 8887,
+      "kind": "method",
+      "name": "ArminComponent.tickFade",
+      "startLine": 296,
+      "startOffset": 8501,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickFade::method"
+    },
+    {
+      "endLine": 327,
+      "endOffset": 9455,
+      "kind": "method",
+      "name": "ArminComponent.tickCrt",
+      "startLine": 309,
+      "startOffset": 8890,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickCrt::method"
+    },
+    {
+      "endLine": 359,
+      "endOffset": 10334,
+      "kind": "method",
+      "name": "ArminComponent.tickGlitch",
+      "startLine": 329,
+      "startOffset": 9458,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickGlitch::method"
+    },
+    {
+      "endLine": 372,
+      "endOffset": 10727,
+      "kind": "method",
+      "name": "ArminComponent.tickDissolve",
+      "startLine": 361,
+      "startOffset": 10337,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.tickDissolve::method"
+    },
+    {
+      "endLine": 376,
+      "endOffset": 10786,
+      "kind": "method",
+      "name": "ArminComponent.updateDisplay",
+      "startLine": 374,
+      "startOffset": 10730,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.updateDisplay::method"
+    },
+    {
+      "endLine": 380,
+      "endOffset": 10833,
+      "kind": "method",
+      "name": "ArminComponent.dispose",
+      "startLine": 378,
+      "startOffset": 10789,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent.dispose::method"
+    }
+  ]
+}

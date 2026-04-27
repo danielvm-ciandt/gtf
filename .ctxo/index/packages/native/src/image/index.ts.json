@@ -1,0 +1,59 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/image/index.ts::parseImage::function"
+    }
+  ],
+  "contentHash": "385b113cf69adc382edf038a5c213c15dcd559324ea7395dcd45ced920dd166c",
+  "edges": [
+    {
+      "from": "packages/native/src/image/index.ts::parseImage::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/image/index.ts::parseImage::function",
+      "kind": "imports",
+      "to": "packages/native/src/image/types.ts::NativeImageHandle::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/image/index.ts::parseImage::function",
+      "kind": "imports",
+      "to": "packages/native/src/image/types.ts::ImageFormat::class"
+    },
+    {
+      "from": "packages/native/src/image/index.ts::parseImage::function",
+      "kind": "imports",
+      "to": "packages/native/src/image/types.ts::SamplingFilter::class"
+    },
+    {
+      "from": "packages/native/src/image/index.ts::parseImage::function",
+      "kind": "uses",
+      "to": "packages/native/src/image/types.ts::NativeImageHandle::interface"
+    }
+  ],
+  "file": "packages/native/src/image/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 27,
+      "endOffset": 815,
+      "kind": "function",
+      "name": "parseImage",
+      "startLine": 25,
+      "startOffset": 698,
+      "symbolId": "packages/native/src/image/index.ts::parseImage::function"
+    }
+  ]
+}

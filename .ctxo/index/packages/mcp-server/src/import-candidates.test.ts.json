@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "7321eca449ac2b3a8bf201f0f4aaf714d18cb7d5635d838dc779acc6da81557f",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/import-candidates.test.ts::import-candidates.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/workflow-tools.ts::_buildImportCandidates::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/import-candidates.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

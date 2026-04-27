@@ -1,0 +1,182 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "db90f3e47bbf331c593378877d8e496e061180dd1f14c9087e94ad12bf5b6562",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamFunction::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ThinkingBudgets::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ThinkingContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ThinkingLevel::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::convertTools::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::mapStopReasonString::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::mapToolChoice::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::retainThoughtSignature::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/simple-options.ts::buildBaseOptions::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/simple-options.ts::clampReasoning::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/google-gemini-cli.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 57,
+      "endOffset": 1768,
+      "kind": "interface",
+      "name": "GoogleGeminiCliOptions",
+      "startLine": 40,
+      "startOffset": 1100,
+      "symbolId": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleGeminiCliOptions::interface"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1098,
+      "kind": "type",
+      "name": "GoogleThinkingLevel",
+      "startLine": 38,
+      "startOffset": 995,
+      "symbolId": "packages/pi-ai/src/providers/google-gemini-cli.ts::GoogleThinkingLevel::type"
+    },
+    {
+      "endLine": 810,
+      "endOffset": 25580,
+      "kind": "variable",
+      "name": "streamGoogleGeminiCli",
+      "startLine": 319,
+      "startOffset": 9895,
+      "symbolId": "packages/pi-ai/src/providers/google-gemini-cli.ts::streamGoogleGeminiCli::variable"
+    },
+    {
+      "endLine": 865,
+      "endOffset": 27091,
+      "kind": "variable",
+      "name": "streamSimpleGoogleGeminiCli",
+      "startLine": 812,
+      "startOffset": 25596,
+      "symbolId": "packages/pi-ai/src/providers/google-gemini-cli.ts::streamSimpleGoogleGeminiCli::variable"
+    }
+  ]
+}

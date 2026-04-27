@@ -1,0 +1,228 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 21,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function"
+    }
+  ],
+  "contentHash": "5fb450aae1ce82fda5c6a23c7f95ae70b5b58c423ce732166ef6073a68823bc2",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::detectLineEnding::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::fuzzyFindText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::generateDiffString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeForFuzzyMatch::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::restoreLineEndings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::stripBom::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/client.ts::notifyFileChanged::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::stripBom::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::detectLineEnding::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::fuzzyFindText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeForFuzzyMatch::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeForFuzzyMatch::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::restoreLineEndings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/client.ts::notifyFileChanged::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::generateDiffString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::stripBom::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::detectLineEnding::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::fuzzyFindText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeForFuzzyMatch::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::restoreLineEndings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/client.ts::notifyFileChanged::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::generateDiffString::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/edit.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 226,
+      "endOffset": 6970,
+      "kind": "function",
+      "name": "createEditTool",
+      "startLine": 55,
+      "startOffset": 1900,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 1064,
+      "kind": "interface",
+      "name": "EditToolDetails",
+      "startLine": 24,
+      "startOffset": 864,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/edit.ts::EditToolDetails::interface"
+    },
+    {
+      "endLine": 42,
+      "endOffset": 1533,
+      "kind": "interface",
+      "name": "EditOperations",
+      "startLine": 35,
+      "startOffset": 1191,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/edit.ts::EditOperations::interface"
+    },
+    {
+      "endLine": 53,
+      "endOffset": 1898,
+      "kind": "interface",
+      "name": "EditToolOptions",
+      "startLine": 50,
+      "startOffset": 1762,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/edit.ts::EditToolOptions::interface"
+    },
+    {
+      "endLine": 22,
+      "endOffset": 862,
+      "kind": "type",
+      "name": "EditToolInput",
+      "startLine": 22,
+      "startOffset": 808,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/edit.ts::EditToolInput::type"
+    },
+    {
+      "endLine": 229,
+      "endOffset": 7100,
+      "kind": "variable",
+      "name": "editTool",
+      "startLine": 229,
+      "startOffset": 7060,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/edit.ts::editTool::variable"
+    }
+  ]
+}

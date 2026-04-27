@@ -1,0 +1,108 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runStartup::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::getMemorySummary::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::getFullMemory::function"
+    }
+  ],
+  "contentHash": "461b3dc8b7999b1c18dbcfae541d105d9787f7da49ee3323d6fbe4a9cc5ef44c",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runStartup::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runStartup::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::scanSessionFiles::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runStartup::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runPhase1::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runStartup::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runPhase2::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::getMemorySummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::getPrompt::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runStartup::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 528,
+      "endOffset": 14795,
+      "kind": "function",
+      "name": "runStartup",
+      "startLine": 484,
+      "startOffset": 13508,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::runStartup::function"
+    },
+    {
+      "endLine": 550,
+      "endOffset": 15303,
+      "kind": "function",
+      "name": "getMemorySummary",
+      "startLine": 533,
+      "startOffset": 14869,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::getMemorySummary::function"
+    },
+    {
+      "endLine": 566,
+      "endOffset": 15596,
+      "kind": "function",
+      "name": "getFullMemory",
+      "startLine": 555,
+      "startOffset": 15348,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::getFullMemory::function"
+    },
+    {
+      "endLine": 81,
+      "endOffset": 2487,
+      "kind": "interface",
+      "name": "PipelineConfig",
+      "startLine": 73,
+      "startOffset": 2278,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::PipelineConfig::interface"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 2276,
+      "kind": "type",
+      "name": "LLMCallFn",
+      "startLine": 67,
+      "startOffset": 2162,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/pipeline.ts::LLMCallFn::type"
+    }
+  ]
+}

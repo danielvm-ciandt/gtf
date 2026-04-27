@@ -1,0 +1,199 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.setOnDimensionsResolved::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.getImageId::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.getDimensions::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.invalidate::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.render::method"
+    }
+  ],
+  "contentHash": "4be902ba885a13d9e973eaf5b9a8135c99c789a9ed1fa1731749783a619d4050",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::getImageDimensions::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::ImageDimensions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::imageFallback::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::renderImage::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::renderImage::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::imageFallback::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::imageFallback::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::ImageDimensions::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::getImageDimensions::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::renderImage::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/image.ts::Image::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::imageFallback::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/image.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 130,
+      "endOffset": 3470,
+      "kind": "class",
+      "name": "Image",
+      "startLine": 21,
+      "startOffset": 454,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image::class"
+    },
+    {
+      "endLine": 67,
+      "endOffset": 1696,
+      "kind": "method",
+      "name": "Image.setOnDimensionsResolved",
+      "startLine": 65,
+      "startOffset": 1612,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.setOnDimensionsResolved::method"
+    },
+    {
+      "endLine": 72,
+      "endOffset": 1819,
+      "kind": "method",
+      "name": "Image.getImageId",
+      "startLine": 70,
+      "startOffset": 1759,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.getImageId::method"
+    },
+    {
+      "endLine": 77,
+      "endOffset": 2011,
+      "kind": "method",
+      "name": "Image.getDimensions",
+      "startLine": 75,
+      "startOffset": 1898,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.getDimensions::method"
+    },
+    {
+      "endLine": 82,
+      "endOffset": 2101,
+      "kind": "method",
+      "name": "Image.invalidate",
+      "startLine": 79,
+      "startOffset": 2014,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.invalidate::method"
+    },
+    {
+      "endLine": 129,
+      "endOffset": 3468,
+      "kind": "method",
+      "name": "Image.render",
+      "startLine": 84,
+      "startOffset": 2104,
+      "symbolId": "packages/pi-tui/src/components/image.ts::Image.render::method"
+    },
+    {
+      "endLine": 11,
+      "endOffset": 249,
+      "kind": "interface",
+      "name": "ImageTheme",
+      "startLine": 9,
+      "startOffset": 177,
+      "symbolId": "packages/pi-tui/src/components/image.ts::ImageTheme::interface"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 452,
+      "kind": "interface",
+      "name": "ImageOptions",
+      "startLine": 13,
+      "startOffset": 251,
+      "symbolId": "packages/pi-tui/src/components/image.ts::ImageOptions::interface"
+    }
+  ]
+}

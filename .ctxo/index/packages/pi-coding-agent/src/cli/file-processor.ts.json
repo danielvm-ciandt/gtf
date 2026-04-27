@@ -1,0 +1,111 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function"
+    }
+  ],
+  "contentHash": "dff6a4277c5579aa05f6bcc0b72295ed04dbaeae1836764d10a13971b491b292",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/mime.ts::detectSupportedImageMimeTypeFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/mime.ts::detectSupportedImageMimeTypeFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/mime.ts::detectSupportedImageMimeTypeFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/cli/file-processor.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 95,
+      "endOffset": 2844,
+      "kind": "function",
+      "name": "processFileArguments",
+      "startLine": 23,
+      "startOffset": 748,
+      "symbolId": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function"
+    },
+    {
+      "endLine": 15,
+      "endOffset": 535,
+      "kind": "interface",
+      "name": "ProcessedFiles",
+      "startLine": 12,
+      "startOffset": 460,
+      "symbolId": "packages/pi-coding-agent/src/cli/file-processor.ts::ProcessedFiles::interface"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 675,
+      "kind": "interface",
+      "name": "ProcessFileOptions",
+      "startLine": 17,
+      "startOffset": 537,
+      "symbolId": "packages/pi-coding-agent/src/cli/file-processor.ts::ProcessFileOptions::interface"
+    }
+  ]
+}

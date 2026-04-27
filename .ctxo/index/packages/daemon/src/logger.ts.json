@@ -1,0 +1,158 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.debug::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.info::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.warn::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.error::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.close::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.write::method"
+    }
+  ],
+  "contentHash": "777453180c44c12f791e93f49384a7f8572d5717b879eb083a3e0d6067c86215",
+  "edges": [
+    {
+      "from": "packages/daemon/src/logger.ts::Logger::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::LogLevel::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/logger.ts::Logger::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::LogEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/logger.ts::Logger.debug::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/logger.ts::Logger.write::method"
+    },
+    {
+      "from": "packages/daemon/src/logger.ts::Logger.info::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/logger.ts::Logger.write::method"
+    },
+    {
+      "from": "packages/daemon/src/logger.ts::Logger.warn::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/logger.ts::Logger.write::method"
+    },
+    {
+      "from": "packages/daemon/src/logger.ts::Logger.error::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/logger.ts::Logger.write::method"
+    },
+    {
+      "from": "packages/daemon/src/logger.ts::Logger::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::LogLevel::type"
+    },
+    {
+      "from": "packages/daemon/src/logger.ts::Logger::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::LogEntry::interface"
+    }
+  ],
+  "file": "packages/daemon/src/logger.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 88,
+      "endOffset": 2600,
+      "kind": "class",
+      "name": "Logger",
+      "startLine": 22,
+      "startOffset": 539,
+      "symbolId": "packages/daemon/src/logger.ts::Logger::class"
+    },
+    {
+      "endLine": 44,
+      "endOffset": 1291,
+      "kind": "method",
+      "name": "Logger.debug",
+      "startLine": 42,
+      "startOffset": 1193,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.debug::method"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1391,
+      "kind": "method",
+      "name": "Logger.info",
+      "startLine": 46,
+      "startOffset": 1295,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.info::method"
+    },
+    {
+      "endLine": 52,
+      "endOffset": 1491,
+      "kind": "method",
+      "name": "Logger.warn",
+      "startLine": 50,
+      "startOffset": 1395,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.warn::method"
+    },
+    {
+      "endLine": 56,
+      "endOffset": 1593,
+      "kind": "method",
+      "name": "Logger.error",
+      "startLine": 54,
+      "startOffset": 1495,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.error::method"
+    },
+    {
+      "endLine": 67,
+      "endOffset": 2023,
+      "kind": "method",
+      "name": "Logger.close",
+      "startLine": 59,
+      "startOffset": 1671,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.close::method"
+    },
+    {
+      "endLine": 87,
+      "endOffset": 2598,
+      "kind": "method",
+      "name": "Logger.write",
+      "startLine": 69,
+      "startOffset": 2027,
+      "symbolId": "packages/daemon/src/logger.ts::Logger.write::method"
+    },
+    {
+      "endLine": 15,
+      "endOffset": 358,
+      "kind": "interface",
+      "name": "LoggerOptions",
+      "startLine": 11,
+      "startOffset": 264,
+      "symbolId": "packages/daemon/src/logger.ts::LoggerOptions::interface"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "1550179f3fd87e590f6871c918b2d7b777cd556acf17e57fee2f8eb6cb1f693f",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/think-tag-parser.test.ts::think-tag-parser.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser::class"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/think-tag-parser.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": []
+}

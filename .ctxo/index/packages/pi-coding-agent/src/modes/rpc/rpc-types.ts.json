@@ -1,0 +1,145 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "83e2fa17d443bec4d8870a6ed3837268a99663c4145677a42681ea88e49c0603",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSlashCommand::interface",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::SessionStats::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSlashCommand::interface",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::BashResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSlashCommand::interface",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionResult::class",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 101,
+      "endOffset": 3910,
+      "kind": "interface",
+      "name": "RpcSlashCommand",
+      "startLine": 90,
+      "startOffset": 3510,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSlashCommand::interface"
+    },
+    {
+      "endLine": 125,
+      "endOffset": 4666,
+      "kind": "interface",
+      "name": "RpcSessionState",
+      "startLine": 107,
+      "startOffset": 4086,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSessionState::interface"
+    },
+    {
+      "endLine": 250,
+      "endOffset": 9010,
+      "kind": "interface",
+      "name": "RpcInitResult",
+      "startLine": 243,
+      "startOffset": 8872,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcInitResult::interface"
+    },
+    {
+      "endLine": 259,
+      "endOffset": 9273,
+      "kind": "interface",
+      "name": "RpcExecutionCompleteEvent",
+      "startLine": 253,
+      "startOffset": 9096,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcExecutionCompleteEvent::interface"
+    },
+    {
+      "endLine": 273,
+      "endOffset": 9559,
+      "kind": "interface",
+      "name": "RpcCostUpdateEvent",
+      "startLine": 262,
+      "startOffset": 9345,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcCostUpdateEvent::interface"
+    },
+    {
+      "endLine": 18,
+      "endOffset": 813,
+      "kind": "type",
+      "name": "RpcProtocolVersion",
+      "startLine": 18,
+      "startOffset": 774,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcProtocolVersion::type"
+    },
+    {
+      "endLine": 83,
+      "endOffset": 3245,
+      "kind": "type",
+      "name": "RpcCommand",
+      "startLine": 24,
+      "startOffset": 1000,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcCommand::type"
+    },
+    {
+      "endLine": 236,
+      "endOffset": 8642,
+      "kind": "type",
+      "name": "RpcResponse",
+      "startLine": 132,
+      "startOffset": 4886,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcResponse::type"
+    },
+    {
+      "endLine": 276,
+      "endOffset": 9687,
+      "kind": "type",
+      "name": "RpcV2Event",
+      "startLine": 276,
+      "startOffset": 9615,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcV2Event::type"
+    },
+    {
+      "endLine": 319,
+      "endOffset": 11140,
+      "kind": "type",
+      "name": "RpcExtensionUIRequest",
+      "startLine": 283,
+      "startOffset": 9932,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcExtensionUIRequest::type"
+    },
+    {
+      "endLine": 330,
+      "endOffset": 11682,
+      "kind": "type",
+      "name": "RpcExtensionUIResponse",
+      "startLine": 326,
+      "startOffset": 11379,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcExtensionUIResponse::type"
+    },
+    {
+      "endLine": 336,
+      "endOffset": 11937,
+      "kind": "type",
+      "name": "RpcCommandType",
+      "startLine": 336,
+      "startOffset": 11889,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcCommandType::type"
+    }
+  ]
+}

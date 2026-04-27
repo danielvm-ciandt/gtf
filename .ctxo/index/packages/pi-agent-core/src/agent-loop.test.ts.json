@@ -1,0 +1,58 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "c438779172027cf5aa1c0c127a435fa12e2a1013c2932752fbad3c60d13f9515",
+  "edges": [
+    {
+      "from": "packages/pi-agent-core/src/agent-loop.test.ts::agent-loop.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::agentLoop::function"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent-loop.test.ts::agent-loop.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::MAX_CONSECUTIVE_VALIDATION_FAILURES::variable"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent-loop.test.ts::agent-loop.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentContext::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent-loop.test.ts::agent-loop.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentLoopConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent-loop.test.ts::agent-loop.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentTool::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent-loop.test.ts::agent-loop.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent-loop.test.ts::agent-loop.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentMessage::type",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-agent-core/src/agent-loop.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

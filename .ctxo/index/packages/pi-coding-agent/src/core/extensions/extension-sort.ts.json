@@ -1,0 +1,76 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 31,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::sortExtensionPaths::function"
+    }
+  ],
+  "contentHash": "2d4c33a1dd91cde10f987fb5cdf4baf3de11a51a2391c89170138f51020af4bc",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::sortExtensionPaths::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::sortExtensionPaths::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::sortExtensionPaths::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::sortExtensionPaths::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::sortExtensionPaths::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 136,
+      "endOffset": 4041,
+      "kind": "function",
+      "name": "sortExtensionPaths",
+      "startLine": 24,
+      "startOffset": 743,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::sortExtensionPaths::function"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 283,
+      "kind": "interface",
+      "name": "SortWarning",
+      "startLine": 5,
+      "startOffset": 191,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::SortWarning::interface"
+    },
+    {
+      "endLine": 14,
+      "endOffset": 366,
+      "kind": "interface",
+      "name": "SortResult",
+      "startLine": 11,
+      "startOffset": 285,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-sort.ts::SortResult::interface"
+    }
+  ]
+}

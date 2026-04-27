@@ -1,0 +1,194 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 24,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    }
+  ],
+  "contentHash": "31a95f804c9d6ce9be3f6462a48173c7d6bda6bee41cac99a2a294e8910ba64a",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/mime.ts::detectSupportedImageMimeTypeFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/read.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 228,
+      "endOffset": 8837,
+      "kind": "function",
+      "name": "createReadTool",
+      "startLine": 48,
+      "startOffset": 1992,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 1043,
+      "kind": "interface",
+      "name": "ReadToolDetails",
+      "startLine": 18,
+      "startOffset": 975,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/read.ts::ReadToolDetails::interface"
+    },
+    {
+      "endLine": 33,
+      "endOffset": 1551,
+      "kind": "interface",
+      "name": "ReadOperations",
+      "startLine": 26,
+      "startOffset": 1170,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/read.ts::ReadOperations::interface"
+    },
+    {
+      "endLine": 46,
+      "endOffset": 1990,
+      "kind": "interface",
+      "name": "ReadToolOptions",
+      "startLine": 41,
+      "startOffset": 1755,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/read.ts::ReadToolOptions::interface"
+    },
+    {
+      "endLine": 16,
+      "endOffset": 973,
+      "kind": "type",
+      "name": "ReadToolInput",
+      "startLine": 16,
+      "startOffset": 919,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/read.ts::ReadToolInput::type"
+    },
+    {
+      "endLine": 231,
+      "endOffset": 8967,
+      "kind": "variable",
+      "name": "readTool",
+      "startLine": 231,
+      "startOffset": 8927,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/read.ts::readTool::variable"
+    }
+  ]
+}

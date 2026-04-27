@@ -1,0 +1,170 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeyForDisplay::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKeyHint::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    }
+  ],
+  "contentHash": "f303e8d8982b152ec1b06797ef9af9b3fd28e71531ea41db4b68a563b5110aa1",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeyForDisplay::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeyForDisplay::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeyForDisplay::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeys::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeys::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKeyHint::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKeyHint::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKeyHint::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKeyHint::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 17,
+      "endOffset": 580,
+      "kind": "function",
+      "name": "formatKeyForDisplay",
+      "startLine": 14,
+      "startOffset": 456,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeyForDisplay::function"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 1110,
+      "kind": "function",
+      "name": "editorKey",
+      "startLine": 32,
+      "startOffset": 991,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "endLine": 41,
+      "endOffset": 1296,
+      "kind": "function",
+      "name": "appKey",
+      "startLine": 39,
+      "startOffset": 1161,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "endLine": 53,
+      "endOffset": 1822,
+      "kind": "function",
+      "name": "keyHint",
+      "startLine": 51,
+      "startOffset": 1661,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "endLine": 66,
+      "endOffset": 2365,
+      "kind": "function",
+      "name": "appKeyHint",
+      "startLine": 64,
+      "startOffset": 2161,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKeyHint::function"
+    },
+    {
+      "endLine": 77,
+      "endOffset": 2736,
+      "kind": "function",
+      "name": "rawKeyHint",
+      "startLine": 75,
+      "startOffset": 2595,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    }
+  ]
+}

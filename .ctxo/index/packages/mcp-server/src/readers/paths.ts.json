@@ -1,0 +1,185 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::milestonesDir::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveSliceDir::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveSliceFile::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function"
+    }
+  ],
+  "contentHash": "fa6049205e00b1b56ac7c7af7169d83322857723558dceb08919ff438483e115",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::milestonesDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::milestonesDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/paths.ts::resolveSliceDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/paths.ts::resolveSliceFile::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveSliceDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveSliceDir::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/paths.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 52,
+      "endOffset": 1484,
+      "kind": "function",
+      "name": "resolveGsdRoot",
+      "startLine": 16,
+      "startOffset": 524,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "endLine": 57,
+      "endOffset": 1662,
+      "kind": "function",
+      "name": "resolveRootFile",
+      "startLine": 55,
+      "startOffset": 1558,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "endLine": 62,
+      "endOffset": 1804,
+      "kind": "function",
+      "name": "milestonesDir",
+      "startLine": 60,
+      "startOffset": 1708,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::milestonesDir::function"
+    },
+    {
+      "endLine": 82,
+      "endOffset": 2349,
+      "kind": "function",
+      "name": "findMilestoneIds",
+      "startLine": 68,
+      "startOffset": 1941,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "endLine": 105,
+      "endOffset": 3022,
+      "kind": "function",
+      "name": "resolveMilestoneDir",
+      "startLine": 88,
+      "startOffset": 2470,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "endLine": 128,
+      "endOffset": 3662,
+      "kind": "function",
+      "name": "resolveMilestoneFile",
+      "startLine": 111,
+      "startOffset": 3147,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "endLine": 148,
+      "endOffset": 4250,
+      "kind": "function",
+      "name": "findSliceIds",
+      "startLine": 131,
+      "startOffset": 3726,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "endLine": 168,
+      "endOffset": 4923,
+      "kind": "function",
+      "name": "resolveSliceDir",
+      "startLine": 151,
+      "startOffset": 4300,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveSliceDir::function"
+    },
+    {
+      "endLine": 188,
+      "endOffset": 5461,
+      "kind": "function",
+      "name": "resolveSliceFile",
+      "startLine": 171,
+      "startOffset": 4979,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::resolveSliceFile::function"
+    },
+    {
+      "endLine": 216,
+      "endOffset": 6489,
+      "kind": "function",
+      "name": "findTaskFiles",
+      "startLine": 191,
+      "startOffset": 5520,
+      "symbolId": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function"
+    }
+  ]
+}

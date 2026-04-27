@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d9e626f89171df0a98eac6ad953d098d5eb122819d1c72cc41a7d3be6e0c73a0",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/tests/json-parse.test.ts::json-parse.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/tests/json-parse.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": []
+}

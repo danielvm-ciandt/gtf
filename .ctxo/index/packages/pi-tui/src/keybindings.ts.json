@@ -1,0 +1,165 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::setEditorKeybindings::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.buildMaps::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.matches::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.getKeys::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.setConfig::method"
+    }
+  ],
+  "contentHash": "3bd601d446f52ee3ace503fcdc41197cf317963a94f0d3127b6d7a56232af439",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::KeyId::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.matches::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.setConfig::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.buildMaps::method"
+    },
+    {
+      "from": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::KeyId::type"
+    },
+    {
+      "from": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/keybindings.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 184,
+      "endOffset": 4266,
+      "kind": "function",
+      "name": "getEditorKeybindings",
+      "startLine": 179,
+      "startOffset": 4069,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "endLine": 188,
+      "endOffset": 4385,
+      "kind": "function",
+      "name": "setEditorKeybindings",
+      "startLine": 186,
+      "startOffset": 4268,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::setEditorKeybindings::function"
+    },
+    {
+      "endLine": 174,
+      "endOffset": 3978,
+      "kind": "class",
+      "name": "EditorKeybindingsManager",
+      "startLine": 124,
+      "startOffset": 2668,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager::class"
+    },
+    {
+      "endLine": 147,
+      "endOffset": 3443,
+      "kind": "method",
+      "name": "EditorKeybindingsManager.buildMaps",
+      "startLine": 132,
+      "startOffset": 2877,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.buildMaps::method"
+    },
+    {
+      "endLine": 159,
+      "endOffset": 3723,
+      "kind": "method",
+      "name": "EditorKeybindingsManager.matches",
+      "startLine": 152,
+      "startOffset": 3502,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.matches::method"
+    },
+    {
+      "endLine": 166,
+      "endOffset": 3858,
+      "kind": "method",
+      "name": "EditorKeybindingsManager.getKeys",
+      "startLine": 164,
+      "startOffset": 3769,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.getKeys::method"
+    },
+    {
+      "endLine": 173,
+      "endOffset": 3976,
+      "kind": "method",
+      "name": "EditorKeybindingsManager.setConfig",
+      "startLine": 171,
+      "startOffset": 3897,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsManager.setConfig::method"
+    },
+    {
+      "endLine": 54,
+      "endOffset": 989,
+      "kind": "type",
+      "name": "EditorAction",
+      "startLine": 5,
+      "startOffset": 106,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorAction::type"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 1174,
+      "kind": "type",
+      "name": "EditorKeybindingsConfig",
+      "startLine": 62,
+      "startOffset": 1092,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::EditorKeybindingsConfig::type"
+    },
+    {
+      "endLine": 119,
+      "endOffset": 2618,
+      "kind": "variable",
+      "name": "DEFAULT_EDITOR_KEYBINDINGS",
+      "startLine": 69,
+      "startOffset": 1228,
+      "symbolId": "packages/pi-tui/src/keybindings.ts::DEFAULT_EDITOR_KEYBINDINGS::variable"
+    }
+  ]
+}

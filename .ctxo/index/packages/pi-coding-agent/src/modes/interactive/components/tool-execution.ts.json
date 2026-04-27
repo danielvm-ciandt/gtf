@@ -1,0 +1,1049 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.shouldUseBuiltInRenderer::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.dispose::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateArgs::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.highlightSingleLine::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.refreshWriteHighlightPrefix::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setArgsComplete::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeComputeEditDiff::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateResult::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.markHistoricalNoResult::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.completeWithError::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeConvertImagesForKitty::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setExpanded::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setShowImages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.render::method"
+    },
+    {
+      "cyclomatic": 33,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "cyclomatic": 146,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method"
+    }
+  ],
+  "contentHash": "26f3972cc4530fc1da887656c3811ba8a20643ff3b586afa70b748ee28e4725f",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolDefinition::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::computeEditDiff::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::EditDiffError::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::EditDiffResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::allTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/image-convert.ts::convertToPng::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/shell.ts::sanitizeBinaryOutput::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/diff.ts::renderDiff::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateArgs::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateArgs::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.highlightSingleLine::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.refreshWriteHighlightPrefix::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.refreshWriteHighlightPrefix::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.highlightSingleLine::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::normalizeDisplayText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::replaceTabs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::normalizeDisplayText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::replaceTabs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.highlightSingleLine::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.highlightSingleLine::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.refreshWriteHighlightPrefix::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setArgsComplete::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setArgsComplete::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setArgsComplete::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setArgsComplete::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeComputeEditDiff::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeComputeEditDiff::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::computeEditDiff::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeComputeEditDiff::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateResult::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateResult::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateResult::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateResult::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateResult::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeConvertImagesForKitty::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.markHistoricalNoResult::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.completeWithError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeConvertImagesForKitty::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-convert.ts::convertToPng::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeConvertImagesForKitty::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setExpanded::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setShowImages::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::parseMcpToolName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::prettifyToolName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::renderToolFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.shouldUseBuiltInRenderer::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::prettifyToolName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::prettifyToolName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/shell.ts::sanitizeBinaryOutput::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::replaceTabs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::replaceTabs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::replaceTabs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::normalizeDisplayText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::replaceTabs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::normalizeDisplayText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::replaceTabs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/diff.ts::renderDiff::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/diff.ts::renderDiff::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::str::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::parseMcpToolName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::prettifyToolName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::formatCompactArgs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolDefinition::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::EditDiffResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::EditDiffError::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::allTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::computeEditDiff::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/image-convert.ts::convertToPng::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/shell.ts::sanitizeBinaryOutput::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/diff.ts::renderDiff::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 1197,
+      "endOffset": 41575,
+      "kind": "class",
+      "name": "ToolExecutionComponent",
+      "startLine": 189,
+      "startOffset": 6515,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "endLine": 267,
+      "endOffset": 9670,
+      "kind": "method",
+      "name": "ToolExecutionComponent.shouldUseBuiltInRenderer",
+      "startLine": 262,
+      "startOffset": 9366,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.shouldUseBuiltInRenderer::method"
+    },
+    {
+      "endLine": 276,
+      "endOffset": 9883,
+      "kind": "method",
+      "name": "ToolExecutionComponent.dispose",
+      "startLine": 269,
+      "startOffset": 9673,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.dispose::method"
+    },
+    {
+      "endLine": 284,
+      "endOffset": 10077,
+      "kind": "method",
+      "name": "ToolExecutionComponent.updateArgs",
+      "startLine": 278,
+      "startOffset": 9886,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateArgs::method"
+    },
+    {
+      "endLine": 289,
+      "endOffset": 10228,
+      "kind": "method",
+      "name": "ToolExecutionComponent.highlightSingleLine",
+      "startLine": 286,
+      "startOffset": 10080,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.highlightSingleLine::method"
+    },
+    {
+      "endLine": 301,
+      "endOffset": 10760,
+      "kind": "method",
+      "name": "ToolExecutionComponent.refreshWriteHighlightPrefix",
+      "startLine": 291,
+      "startOffset": 10231,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.refreshWriteHighlightPrefix::method"
+    },
+    {
+      "endLine": 319,
+      "endOffset": 11289,
+      "kind": "method",
+      "name": "ToolExecutionComponent.rebuildWriteHighlightCacheFull",
+      "startLine": 303,
+      "startOffset": 10763,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.rebuildWriteHighlightCacheFull::method"
+    },
+    {
+      "endLine": 376,
+      "endOffset": 13009,
+      "kind": "method",
+      "name": "ToolExecutionComponent.updateWriteHighlightCacheIncremental",
+      "startLine": 321,
+      "startOffset": 11292,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateWriteHighlightCacheIncremental::method"
+    },
+    {
+      "endLine": 391,
+      "endOffset": 13464,
+      "kind": "method",
+      "name": "ToolExecutionComponent.setArgsComplete",
+      "startLine": 382,
+      "startOffset": 13134,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setArgsComplete::method"
+    },
+    {
+      "endLine": 424,
+      "endOffset": 14453,
+      "kind": "method",
+      "name": "ToolExecutionComponent.maybeComputeEditDiff",
+      "startLine": 397,
+      "startOffset": 13586,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeComputeEditDiff::method"
+    },
+    {
+      "endLine": 446,
+      "endOffset": 15118,
+      "kind": "method",
+      "name": "ToolExecutionComponent.updateResult",
+      "startLine": 426,
+      "startOffset": 14456,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateResult::method"
+    },
+    {
+      "endLine": 463,
+      "endOffset": 15699,
+      "kind": "method",
+      "name": "ToolExecutionComponent.markHistoricalNoResult",
+      "startLine": 455,
+      "startOffset": 15487,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.markHistoricalNoResult::method"
+    },
+    {
+      "endLine": 486,
+      "endOffset": 16376,
+      "kind": "method",
+      "name": "ToolExecutionComponent.completeWithError",
+      "startLine": 468,
+      "startOffset": 15813,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.completeWithError::method"
+    },
+    {
+      "endLine": 517,
+      "endOffset": 17310,
+      "kind": "method",
+      "name": "ToolExecutionComponent.maybeConvertImagesForKitty",
+      "startLine": 492,
+      "startOffset": 16523,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.maybeConvertImagesForKitty::method"
+    },
+    {
+      "endLine": 522,
+      "endOffset": 17406,
+      "kind": "method",
+      "name": "ToolExecutionComponent.setExpanded",
+      "startLine": 519,
+      "startOffset": 17313,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setExpanded::method"
+    },
+    {
+      "endLine": 527,
+      "endOffset": 17498,
+      "kind": "method",
+      "name": "ToolExecutionComponent.setShowImages",
+      "startLine": 524,
+      "startOffset": 17409,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.setShowImages::method"
+    },
+    {
+      "endLine": 532,
+      "endOffset": 17579,
+      "kind": "method",
+      "name": "ToolExecutionComponent.invalidate",
+      "startLine": 529,
+      "startOffset": 17501,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.invalidate::method"
+    },
+    {
+      "endLine": 554,
+      "endOffset": 18437,
+      "kind": "method",
+      "name": "ToolExecutionComponent.render",
+      "startLine": 534,
+      "startOffset": 17582,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.render::method"
+    },
+    {
+      "endLine": 713,
+      "endOffset": 23678,
+      "kind": "method",
+      "name": "ToolExecutionComponent.updateDisplay",
+      "startLine": 556,
+      "startOffset": 18440,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.updateDisplay::method"
+    },
+    {
+      "endLine": 795,
+      "endOffset": 26529,
+      "kind": "method",
+      "name": "ToolExecutionComponent.renderBashContent",
+      "startLine": 718,
+      "startOffset": 23769,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.renderBashContent::method"
+    },
+    {
+      "endLine": 821,
+      "endOffset": 27332,
+      "kind": "method",
+      "name": "ToolExecutionComponent.getTextOutput",
+      "startLine": 797,
+      "startOffset": 26532,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.getTextOutput::method"
+    },
+    {
+      "endLine": 1196,
+      "endOffset": 41573,
+      "kind": "method",
+      "name": "ToolExecutionComponent.formatToolExecution",
+      "startLine": 823,
+      "startOffset": 27335,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent.formatToolExecution::method"
+    },
+    {
+      "endLine": 176,
+      "endOffset": 6287,
+      "kind": "interface",
+      "name": "ToolExecutionOptions",
+      "startLine": 174,
+      "startOffset": 6166,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionOptions::interface"
+    }
+  ]
+}

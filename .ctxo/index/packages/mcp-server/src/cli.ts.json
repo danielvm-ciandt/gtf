@@ -1,0 +1,33 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "0766d2200f155e22e8c8c58a41014b2d598e9a816e861c7b0bb45e4e2f9703dc",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/cli.ts::cli::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/mcp-server/src/cli.ts::cli::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/server.ts::createMcpServer::function"
+    },
+    {
+      "from": "packages/mcp-server/src/cli.ts::cli::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/tool-credentials.ts::loadStoredCredentialEnvKeys::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/cli.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

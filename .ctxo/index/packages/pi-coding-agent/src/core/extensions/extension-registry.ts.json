@@ -1,0 +1,252 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::getRegistryPath::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::saveRegistry::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::isExtensionEnabled::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::enableExtension::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::disableExtension::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifest::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifestFromEntryPath::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::discoverAllManifests::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ensureRegistryEntries::function"
+    }
+  ],
+  "contentHash": "a45b7dea0258af6a0b2635756bced0234fe0a9f6bb8ee98aeff0a7f01cce5989",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::getRegistryPath::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::getRegistryPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::getRegistryPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::defaultRegistry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::isRegistry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::defaultRegistry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::defaultRegistry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::saveRegistry::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::getRegistryPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifest::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::isManifest::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifestFromEntryPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifest::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::discoverAllManifests::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifest::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ensureRegistryEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::discoverAllManifests::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ensureRegistryEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ensureRegistryEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::saveRegistry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::getRegistryPath::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 72,
+      "endOffset": 2385,
+      "kind": "function",
+      "name": "getRegistryPath",
+      "startLine": 70,
+      "startOffset": 2270,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::getRegistryPath::function"
+    },
+    {
+      "endLine": 90,
+      "endOffset": 2904,
+      "kind": "function",
+      "name": "loadRegistry",
+      "startLine": 80,
+      "startOffset": 2557,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::loadRegistry::function"
+    },
+    {
+      "endLine": 102,
+      "endOffset": 3290,
+      "kind": "function",
+      "name": "saveRegistry",
+      "startLine": 92,
+      "startOffset": 2906,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::saveRegistry::function"
+    },
+    {
+      "endLine": 111,
+      "endOffset": 3636,
+      "kind": "function",
+      "name": "isExtensionEnabled",
+      "startLine": 107,
+      "startOffset": 3459,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::isExtensionEnabled::function"
+    },
+    {
+      "endLine": 124,
+      "endOffset": 4026,
+      "kind": "function",
+      "name": "enableExtension",
+      "startLine": 115,
+      "startOffset": 3719,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::enableExtension::function"
+    },
+    {
+      "endLine": 154,
+      "endOffset": 4770,
+      "kind": "function",
+      "name": "disableExtension",
+      "startLine": 130,
+      "startOffset": 4151,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::disableExtension::function"
+    },
+    {
+      "endLine": 168,
+      "endOffset": 5286,
+      "kind": "function",
+      "name": "readManifest",
+      "startLine": 159,
+      "startOffset": 4943,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifest::function"
+    },
+    {
+      "endLine": 177,
+      "endOffset": 5574,
+      "kind": "function",
+      "name": "readManifestFromEntryPath",
+      "startLine": 174,
+      "startOffset": 5422,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::readManifestFromEntryPath::function"
+    },
+    {
+      "endLine": 194,
+      "endOffset": 6234,
+      "kind": "function",
+      "name": "discoverAllManifests",
+      "startLine": 182,
+      "startOffset": 5749,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::discoverAllManifests::function"
+    },
+    {
+      "endLine": 221,
+      "endOffset": 6853,
+      "kind": "function",
+      "name": "ensureRegistryEntries",
+      "startLine": 200,
+      "startOffset": 6369,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ensureRegistryEntries::function"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 996,
+      "kind": "interface",
+      "name": "ExtensionManifest",
+      "startLine": 14,
+      "startOffset": 620,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ExtensionManifest::interface"
+    },
+    {
+      "endLine": 42,
+      "endOffset": 1402,
+      "kind": "interface",
+      "name": "ExtensionRegistryEntry",
+      "startLine": 33,
+      "startOffset": 998,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ExtensionRegistryEntry::interface"
+    },
+    {
+      "endLine": 47,
+      "endOffset": 1507,
+      "kind": "interface",
+      "name": "ExtensionRegistry",
+      "startLine": 44,
+      "startOffset": 1404,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-registry.ts::ExtensionRegistry::interface"
+    }
+  ]
+}

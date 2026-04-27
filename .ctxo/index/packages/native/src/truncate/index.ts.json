@@ -1,0 +1,97 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/truncate/index.ts::truncateTail::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/truncate/index.ts::truncateHead::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/truncate/index.ts::truncateOutput::function"
+    }
+  ],
+  "contentHash": "1a6e8bcfcbf682ded7bdc084e72f302656836242d3c8a46073b59460520af089",
+  "edges": [
+    {
+      "from": "packages/native/src/truncate/index.ts::truncateTail::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/truncate/index.ts::truncateTail::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/truncate/index.ts::truncateHead::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/truncate/index.ts::truncateOutput::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/truncate/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 27,
+      "endOffset": 711,
+      "kind": "function",
+      "name": "truncateTail",
+      "startLine": 25,
+      "startOffset": 537,
+      "symbolId": "packages/native/src/truncate/index.ts::truncateTail::function"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 948,
+      "kind": "function",
+      "name": "truncateHead",
+      "startLine": 32,
+      "startOffset": 774,
+      "symbolId": "packages/native/src/truncate/index.ts::truncateHead::function"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1264,
+      "kind": "function",
+      "name": "truncateOutput",
+      "startLine": 39,
+      "startOffset": 1027,
+      "symbolId": "packages/native/src/truncate/index.ts::truncateOutput::function"
+    },
+    {
+      "endLine": 14,
+      "endOffset": 372,
+      "kind": "interface",
+      "name": "TruncateResult",
+      "startLine": 9,
+      "startOffset": 253,
+      "symbolId": "packages/native/src/truncate/index.ts::TruncateResult::interface"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 473,
+      "kind": "interface",
+      "name": "TruncateOutputResult",
+      "startLine": 16,
+      "startOffset": 374,
+      "symbolId": "packages/native/src/truncate/index.ts::TruncateOutputResult::interface"
+    }
+  ]
+}

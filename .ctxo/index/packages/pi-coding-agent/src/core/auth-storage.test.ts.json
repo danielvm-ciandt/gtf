@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "91c59f3c1ed22629d8b7f12a7b133080fb71fa3c0ad6e8142916fea2069acee2",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.test.ts::auth-storage.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/auth-storage.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": []
+}

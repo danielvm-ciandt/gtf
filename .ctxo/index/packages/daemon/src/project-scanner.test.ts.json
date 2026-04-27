@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "a8fed04fc4d196c2f3b52c8509c4298a0624af0d12ddcd5f3b7e8f20790f50fd",
+  "edges": [
+    {
+      "from": "packages/daemon/src/project-scanner.test.ts::project-scanner.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/project-scanner.ts::scanForProjects::function"
+    }
+  ],
+  "file": "packages/daemon/src/project-scanner.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

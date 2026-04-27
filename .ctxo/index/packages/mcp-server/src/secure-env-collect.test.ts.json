@@ -1,0 +1,29 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "5f63e6b6612be67b0d31db5d3f94425208faa84367c7f8e91fad46a3b5a436d2",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/secure-env-collect.test.ts::secure-env-collect.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function"
+    },
+    {
+      "from": "packages/mcp-server/src/secure-env-collect.test.ts::secure-env-collect.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/server.ts::ElicitInputFn::type",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/mcp-server/src/secure-env-collect.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

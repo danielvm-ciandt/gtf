@@ -1,0 +1,172 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.create::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.inMemory::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.loadFromFile::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.buildMaps::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.matches::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.getKeys::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.getEffectiveConfig::method"
+    }
+  ],
+  "contentHash": "b50240ffa07ca2c0b783cc6ef2e2039020371e8f161609e7150371abb628561a",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.create::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.create::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::isAppAction::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.buildMaps::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::isAppAction::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/keybindings.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 207,
+      "endOffset": 4928,
+      "kind": "class",
+      "name": "KeybindingsManager",
+      "startLine": 112,
+      "startOffset": 2259,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "endLine": 141,
+      "endOffset": 3261,
+      "kind": "method",
+      "name": "KeybindingsManager.create",
+      "startLine": 125,
+      "startOffset": 2585,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.create::method"
+    },
+    {
+      "endLine": 148,
+      "endOffset": 3409,
+      "kind": "method",
+      "name": "KeybindingsManager.inMemory",
+      "startLine": 146,
+      "startOffset": 3296,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.inMemory::method"
+    },
+    {
+      "endLine": 157,
+      "endOffset": 3602,
+      "kind": "method",
+      "name": "KeybindingsManager.loadFromFile",
+      "startLine": 150,
+      "startOffset": 3412,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.loadFromFile::method"
+    },
+    {
+      "endLine": 174,
+      "endOffset": 4184,
+      "kind": "method",
+      "name": "KeybindingsManager.buildMaps",
+      "startLine": 159,
+      "startOffset": 3605,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.buildMaps::method"
+    },
+    {
+      "endLine": 186,
+      "endOffset": 4460,
+      "kind": "method",
+      "name": "KeybindingsManager.matches",
+      "startLine": 179,
+      "startOffset": 4239,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.matches::method"
+    },
+    {
+      "endLine": 193,
+      "endOffset": 4599,
+      "kind": "method",
+      "name": "KeybindingsManager.getKeys",
+      "startLine": 191,
+      "startOffset": 4510,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.getKeys::method"
+    },
+    {
+      "endLine": 206,
+      "endOffset": 4926,
+      "kind": "method",
+      "name": "KeybindingsManager.getEffectiveConfig",
+      "startLine": 198,
+      "startOffset": 4647,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager.getEffectiveConfig::method"
+    },
+    {
+      "endLine": 35,
+      "endOffset": 709,
+      "kind": "type",
+      "name": "AppAction",
+      "startLine": 16,
+      "startOffset": 370,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 797,
+      "kind": "type",
+      "name": "KeyAction",
+      "startLine": 40,
+      "startOffset": 748,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeyAction::type"
+    },
+    {
+      "endLine": 47,
+      "endOffset": 938,
+      "kind": "type",
+      "name": "KeybindingsConfig",
+      "startLine": 45,
+      "startOffset": 865,
+      "symbolId": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsConfig::type"
+    }
+  ]
+}

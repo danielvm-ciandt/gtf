@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    }
+  ],
+  "contentHash": "abb997df8e4f4ab1cb3aba9f05113325db7464155dec3f06c8ac727dc3661a6c",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/utils/error.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 5,
+      "endOffset": 189,
+      "kind": "function",
+      "name": "getErrorMessage",
+      "startLine": 3,
+      "startOffset": 74,
+      "symbolId": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.setAutoRetryEnabled::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.createRetryPromiseForAgentEnd::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleSuccessfulResponse::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.isRetryableError::method"
+    },
+    {
+      "cyclomatic": 24,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.abortRetry::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.waitForRetry::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.resolveRetry::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._findLastAssistantInMessages::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._classifyErrorType::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryAffordableMaxTokensRetry::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryLongContextDowngrade::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._isThirdPartyBlock::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryClaudeCodeFallback::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    }
+  ],
+  "contentHash": "202b82db30de0a77d14984106fbfc40b97ccbc4ef01a712c49313302be2994f0",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::UsageLimitErrorType::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/sleep.ts::sleep::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSessionEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/retryable-error-regex.ts::RETRYABLE_ERROR_RE::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.createRetryPromiseForAgentEnd::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._findLastAssistantInMessages::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.createRetryPromiseForAgentEnd::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.isRetryableError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleSuccessfulResponse::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._isThirdPartyBlock::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryClaudeCodeFallback::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._classifyErrorType::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryAffordableMaxTokensRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryLongContextDowngrade::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/sleep.ts::sleep::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.abortRetry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.resolveRetry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryAffordableMaxTokensRetry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryAffordableMaxTokensRetry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryLongContextDowngrade::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryLongContextDowngrade::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryClaudeCodeFallback::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryClaudeCodeFallback::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/retryable-error-regex.ts::RETRYABLE_ERROR_RE::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/sleep.ts::sleep::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::UsageLimitErrorType::type"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/retry-handler.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 575,
+      "endOffset": 20092,
+      "kind": "class",
+      "name": "RetryHandler",
+      "startLine": 38,
+      "startOffset": 1664,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class"
+    },
+    {
+      "endLine": 66,
+      "endOffset": 2602,
+      "kind": "method",
+      "name": "RetryHandler.setAutoRetryEnabled",
+      "startLine": 64,
+      "startOffset": 2499,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.setAutoRetryEnabled::method"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 3290,
+      "kind": "method",
+      "name": "RetryHandler.createRetryPromiseForAgentEnd",
+      "startLine": 73,
+      "startOffset": 2828,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.createRetryPromiseForAgentEnd::method"
+    },
+    {
+      "endLine": 101,
+      "endOffset": 3670,
+      "kind": "method",
+      "name": "RetryHandler.handleSuccessfulResponse",
+      "startLine": 91,
+      "startOffset": 3437,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleSuccessfulResponse::method"
+    },
+    {
+      "endLine": 115,
+      "endOffset": 4218,
+      "kind": "method",
+      "name": "RetryHandler.isRetryableError",
+      "startLine": 107,
+      "startOffset": 3838,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.isRetryableError::method"
+    },
+    {
+      "endLine": 325,
+      "endOffset": 11264,
+      "kind": "method",
+      "name": "RetryHandler.handleRetryableError",
+      "startLine": 123,
+      "startOffset": 4504,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.handleRetryableError::method"
+    },
+    {
+      "endLine": 353,
+      "endOffset": 11991,
+      "kind": "method",
+      "name": "RetryHandler.abortRetry",
+      "startLine": 328,
+      "startOffset": 11300,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.abortRetry::method"
+    },
+    {
+      "endLine": 363,
+      "endOffset": 12205,
+      "kind": "method",
+      "name": "RetryHandler.waitForRetry",
+      "startLine": 359,
+      "startOffset": 12104,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.waitForRetry::method"
+    },
+    {
+      "endLine": 368,
+      "endOffset": 12299,
+      "kind": "method",
+      "name": "RetryHandler.resolveRetry",
+      "startLine": 366,
+      "startOffset": 12250,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler.resolveRetry::method"
+    },
+    {
+      "endLine": 380,
+      "endOffset": 12640,
+      "kind": "method",
+      "name": "RetryHandler._resolveRetry",
+      "startLine": 374,
+      "startOffset": 12479,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._resolveRetry::method"
+    },
+    {
+      "endLine": 391,
+      "endOffset": 12977,
+      "kind": "method",
+      "name": "RetryHandler._scheduleContinue",
+      "startLine": 382,
+      "startOffset": 12643,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._scheduleContinue::method"
+    },
+    {
+      "endLine": 403,
+      "endOffset": 13305,
+      "kind": "method",
+      "name": "RetryHandler._findLastAssistantInMessages",
+      "startLine": 393,
+      "startOffset": 12980,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._findLastAssistantInMessages::method"
+    },
+    {
+      "endLine": 419,
+      "endOffset": 14191,
+      "kind": "method",
+      "name": "RetryHandler._classifyErrorType",
+      "startLine": 408,
+      "startOffset": 13402,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._classifyErrorType::method"
+    },
+    {
+      "endLine": 468,
+      "endOffset": 16066,
+      "kind": "method",
+      "name": "RetryHandler._tryAffordableMaxTokensRetry",
+      "startLine": 425,
+      "startOffset": 14335,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryAffordableMaxTokensRetry::method"
+    },
+    {
+      "endLine": 510,
+      "endOffset": 17489,
+      "kind": "method",
+      "name": "RetryHandler._tryLongContextDowngrade",
+      "startLine": 475,
+      "startOffset": 16302,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryLongContextDowngrade::method"
+    },
+    {
+      "endLine": 520,
+      "endOffset": 18008,
+      "kind": "method",
+      "name": "RetryHandler._isThirdPartyBlock",
+      "startLine": 518,
+      "startOffset": 17781,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._isThirdPartyBlock::method"
+    },
+    {
+      "endLine": 566,
+      "endOffset": 19777,
+      "kind": "method",
+      "name": "RetryHandler._tryClaudeCodeFallback",
+      "startLine": 527,
+      "startOffset": 18222,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._tryClaudeCodeFallback::method"
+    },
+    {
+      "endLine": 574,
+      "endOffset": 20090,
+      "kind": "method",
+      "name": "RetryHandler._removeLastAssistantError",
+      "startLine": 569,
+      "startOffset": 19845,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler._removeLastAssistantError::method"
+    },
+    {
+      "endLine": 36,
+      "endOffset": 1662,
+      "kind": "interface",
+      "name": "RetryHandlerDeps",
+      "startLine": 23,
+      "startOffset": 1061,
+      "symbolId": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandlerDeps::interface"
+    }
+  ]
+}

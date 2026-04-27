@@ -1,0 +1,290 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::getCellDimensions::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::setCellDimensions::function"
+    },
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::detectCapabilities::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::resetCapabilitiesCache::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::allocateImageId::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::encodeKitty::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::deleteKittyImage::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::deleteAllKittyImages::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::encodeITerm2::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::calculateImageRows::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::getImageDimensions::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::renderImage::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::imageFallback::function"
+    }
+  ],
+  "contentHash": "2150f7d041f14807947c7b85ca83c446dd2132ffc4827eb9f5b29607aeb574fb",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::detectCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal-image.ts::renderImage::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal-image.ts::renderImage::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::calculateImageRows::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal-image.ts::renderImage::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCellDimensions::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal-image.ts::renderImage::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::encodeKitty::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal-image.ts::renderImage::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::encodeITerm2::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/terminal-image.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 33,
+      "endOffset": 824,
+      "kind": "function",
+      "name": "getCellDimensions",
+      "startLine": 31,
+      "startOffset": 745,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::getCellDimensions::function"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 915,
+      "kind": "function",
+      "name": "setCellDimensions",
+      "startLine": 35,
+      "startOffset": 826,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::setCellDimensions::function"
+    },
+    {
+      "endLine": 75,
+      "endOffset": 2231,
+      "kind": "function",
+      "name": "detectCapabilities",
+      "startLine": 39,
+      "startOffset": 917,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::detectCapabilities::function"
+    },
+    {
+      "endLine": 82,
+      "endOffset": 2396,
+      "kind": "function",
+      "name": "getCapabilities",
+      "startLine": 77,
+      "startOffset": 2233,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "endLine": 86,
+      "endOffset": 2476,
+      "kind": "function",
+      "name": "resetCapabilitiesCache",
+      "startLine": 84,
+      "startOffset": 2398,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::resetCapabilitiesCache::function"
+    },
+    {
+      "endLine": 98,
+      "endOffset": 2897,
+      "kind": "function",
+      "name": "isImageLine",
+      "startLine": 91,
+      "startOffset": 2551,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "endLine": 108,
+      "endOffset": 3235,
+      "kind": "function",
+      "name": "allocateImageId",
+      "startLine": 105,
+      "startOffset": 3075,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::allocateImageId::function"
+    },
+    {
+      "endLine": 151,
+      "endOffset": 4242,
+      "kind": "function",
+      "name": "encodeKitty",
+      "startLine": 110,
+      "startOffset": 3237,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::encodeKitty::function"
+    },
+    {
+      "endLine": 159,
+      "endOffset": 4448,
+      "kind": "function",
+      "name": "deleteKittyImage",
+      "startLine": 157,
+      "startOffset": 4343,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::deleteKittyImage::function"
+    },
+    {
+      "endLine": 167,
+      "endOffset": 4635,
+      "kind": "function",
+      "name": "deleteAllKittyImages",
+      "startLine": 165,
+      "startOffset": 4554,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::deleteAllKittyImages::function"
+    },
+    {
+      "endLine": 192,
+      "endOffset": 5353,
+      "kind": "function",
+      "name": "encodeITerm2",
+      "startLine": 169,
+      "startOffset": 4637,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::encodeITerm2::function"
+    },
+    {
+      "endLine": 204,
+      "endOffset": 5804,
+      "kind": "function",
+      "name": "calculateImageRows",
+      "startLine": 194,
+      "startOffset": 5355,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::calculateImageRows::function"
+    },
+    {
+      "endLine": 219,
+      "endOffset": 6305,
+      "kind": "function",
+      "name": "getImageDimensions",
+      "startLine": 210,
+      "startOffset": 5941,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::getImageDimensions::function"
+    },
+    {
+      "endLine": 251,
+      "endOffset": 7195,
+      "kind": "function",
+      "name": "renderImage",
+      "startLine": 221,
+      "startOffset": 6307,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::renderImage::function"
+    },
+    {
+      "endLine": 259,
+      "endOffset": 7517,
+      "kind": "function",
+      "name": "imageFallback",
+      "startLine": 253,
+      "startOffset": 7197,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::imageFallback::function"
+    },
+    {
+      "endLine": 6,
+      "endOffset": 164,
+      "kind": "interface",
+      "name": "TerminalCapabilities",
+      "startLine": 2,
+      "startOffset": 56,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::TerminalCapabilities::interface"
+    },
+    {
+      "endLine": 11,
+      "endOffset": 238,
+      "kind": "interface",
+      "name": "CellDimensions",
+      "startLine": 8,
+      "startOffset": 166,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::CellDimensions::interface"
+    },
+    {
+      "endLine": 16,
+      "endOffset": 313,
+      "kind": "interface",
+      "name": "ImageDimensions",
+      "startLine": 13,
+      "startOffset": 240,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::ImageDimensions::interface"
+    },
+    {
+      "endLine": 24,
+      "endOffset": 538,
+      "kind": "interface",
+      "name": "ImageRenderOptions",
+      "startLine": 18,
+      "startOffset": 315,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::ImageRenderOptions::interface"
+    },
+    {
+      "endLine": 0,
+      "endOffset": 54,
+      "kind": "type",
+      "name": "ImageProtocol",
+      "startLine": 0,
+      "startOffset": 0,
+      "symbolId": "packages/pi-tui/src/terminal-image.ts::ImageProtocol::type"
+    }
+  ]
+}

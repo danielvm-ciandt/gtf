@@ -1,0 +1,251 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::buildInitialOutput::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::assertStreamSuccess::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::finalizeStream::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::handleStreamError::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::clampReasoningForModel::function"
+    }
+  ],
+  "contentHash": "f3db8dcea055f92fc6b617fd1eadb00e76fdd09532104b6fab10fff3e1c9eef8",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/github-copilot-headers.ts::buildCopilotDynamicHeaders::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/github-copilot-headers.ts::hasCopilotVisionInput::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/github-copilot-headers.ts::hasCopilotVisionInput::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/github-copilot-headers.ts::buildCopilotDynamicHeaders::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/providers/github-copilot-headers.ts::hasCopilotVisionInput::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/providers/github-copilot-headers.ts::buildCopilotDynamicHeaders::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::buildInitialOutput::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::buildInitialOutput::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::buildInitialOutput::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::assertStreamSuccess::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::finalizeStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::finalizeStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::finalizeStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::handleStreamError::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-shared.ts::handleStreamError::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/openai-shared.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 36,
+      "endOffset": 1202,
+      "kind": "function",
+      "name": "getOpenAIClass",
+      "startLine": 30,
+      "startOffset": 1021,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::getOpenAIClass::function"
+    },
+    {
+      "endLine": 96,
+      "endOffset": 2938,
+      "kind": "function",
+      "name": "createOpenAIClient",
+      "startLine": 58,
+      "startOffset": 1879,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function"
+    },
+    {
+      "endLine": 124,
+      "endOffset": 3721,
+      "kind": "function",
+      "name": "buildInitialOutput",
+      "startLine": 106,
+      "startOffset": 3288,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::buildInitialOutput::function"
+    },
+    {
+      "endLine": 143,
+      "endOffset": 4418,
+      "kind": "function",
+      "name": "assertStreamSuccess",
+      "startLine": 136,
+      "startOffset": 4132,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::assertStreamSuccess::function"
+    },
+    {
+      "endLine": 154,
+      "endOffset": 4728,
+      "kind": "function",
+      "name": "finalizeStream",
+      "startLine": 148,
+      "startOffset": 4475,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::finalizeStream::function"
+    },
+    {
+      "endLine": 176,
+      "endOffset": 5554,
+      "kind": "function",
+      "name": "handleStreamError",
+      "startLine": 162,
+      "startOffset": 4927,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::handleStreamError::function"
+    },
+    {
+      "endLine": 192,
+      "endOffset": 6196,
+      "kind": "function",
+      "name": "clampReasoningForModel",
+      "startLine": 188,
+      "startOffset": 5945,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::clampReasoningForModel::function"
+    },
+    {
+      "endLine": 47,
+      "endOffset": 1686,
+      "kind": "interface",
+      "name": "CreateClientOptions",
+      "startLine": 42,
+      "startOffset": 1386,
+      "symbolId": "packages/pi-ai/src/providers/openai-shared.ts::CreateClientOptions::interface"
+    }
+  ]
+}

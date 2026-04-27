@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    }
+  ],
+  "contentHash": "f8ef2c957f9f13a77df45ebf344f1b852dfe8f2e3d164d815127ea7290c12e22",
+  "edges": [],
+  "file": "packages/pi-ai/src/utils/sanitize-unicode.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 24,
+      "endOffset": 1162,
+      "kind": "function",
+      "name": "sanitizeSurrogates",
+      "startLine": 20,
+      "startOffset": 835,
+      "symbolId": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    }
+  ]
+}

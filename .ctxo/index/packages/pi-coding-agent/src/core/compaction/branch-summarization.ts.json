@@ -1,0 +1,317 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function"
+    },
+    {
+      "cyclomatic": 16,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function"
+    }
+  ],
+  "contentHash": "c1f7923e2de604be506f302d736c2344c97dda1cca24d19d715a547d13bf09b0",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_RESERVE_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::ReadonlySessionManager::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::computeFileLists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createFileOps::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createSummarizationMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractFileOpsFromMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractTextContent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::FileOperations::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::formatFileOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::getMessageFromEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::SUMMARIZATION_SYSTEM_PROMPT::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::serializeConversation::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createFileOps::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::getMessageFromEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractFileOpsFromMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::serializeConversation::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createSummarizationMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractTextContent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::computeFileLists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::formatFileOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::ReadonlySessionManager::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createFileOps::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::getMessageFromEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractFileOpsFromMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_RESERVE_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::serializeConversation::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::SUMMARIZATION_SYSTEM_PROMPT::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createSummarizationMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractTextContent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::computeFileLists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::formatFileOperations::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 132,
+      "endOffset": 4311,
+      "kind": "function",
+      "name": "collectEntriesForBranchSummary",
+      "startLine": 94,
+      "startOffset": 3171,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::collectEntriesForBranchSummary::function"
+    },
+    {
+      "endLine": 199,
+      "endOffset": 6702,
+      "kind": "function",
+      "name": "prepareBranchEntries",
+      "startLine": 147,
+      "startOffset": 4815,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::prepareBranchEntries::function"
+    },
+    {
+      "endLine": 306,
+      "endOffset": 10068,
+      "kind": "function",
+      "name": "generateBranchSummary",
+      "startLine": 245,
+      "startOffset": 7923,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::generateBranchSummary::function"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 1158,
+      "kind": "interface",
+      "name": "BranchSummaryResult",
+      "startLine": 31,
+      "startOffset": 1012,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::BranchSummaryResult::interface"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 1319,
+      "kind": "interface",
+      "name": "BranchSummaryDetails",
+      "startLine": 40,
+      "startOffset": 1230,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::BranchSummaryDetails::interface"
+    },
+    {
+      "endLine": 54,
+      "endOffset": 1647,
+      "kind": "interface",
+      "name": "BranchPreparation",
+      "startLine": 47,
+      "startOffset": 1372,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::BranchPreparation::interface"
+    },
+    {
+      "endLine": 61,
+      "endOffset": 1864,
+      "kind": "interface",
+      "name": "CollectEntriesResult",
+      "startLine": 56,
+      "startOffset": 1649,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::CollectEntriesResult::interface"
+    },
+    {
+      "endLine": 76,
+      "endOffset": 2434,
+      "kind": "interface",
+      "name": "GenerateBranchSummaryOptions",
+      "startLine": 63,
+      "startOffset": 1866,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/branch-summarization.ts::GenerateBranchSummaryOptions::interface"
+    }
+  ]
+}

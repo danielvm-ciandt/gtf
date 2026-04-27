@@ -1,0 +1,117 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "b28b6c42b5ca10b43c3a20cc720d8d9df7c9a728b752a3732d9c5a39427919d5",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/constants.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 12,
+      "endOffset": 492,
+      "kind": "variable",
+      "name": "COMMAND_EXECUTION_TIMEOUT_MS",
+      "startLine": 12,
+      "startOffset": 455,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::COMMAND_EXECUTION_TIMEOUT_MS::variable"
+    },
+    {
+      "endLine": 15,
+      "endOffset": 590,
+      "kind": "variable",
+      "name": "LSP_LIVENESS_TIMEOUT_MS",
+      "startLine": 15,
+      "startOffset": 559,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::LSP_LIVENESS_TIMEOUT_MS::variable"
+    },
+    {
+      "endLine": 18,
+      "endOffset": 698,
+      "kind": "variable",
+      "name": "AUTH_LOCK_STALE_MS",
+      "startLine": 18,
+      "startOffset": 671,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::AUTH_LOCK_STALE_MS::variable"
+    },
+    {
+      "endLine": 25,
+      "endOffset": 983,
+      "kind": "variable",
+      "name": "LSP_STATE_CACHE_TTL_MS",
+      "startLine": 25,
+      "startOffset": 944,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::LSP_STATE_CACHE_TTL_MS::variable"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1323,
+      "kind": "variable",
+      "name": "COMPACTION_RESERVE_TOKENS",
+      "startLine": 32,
+      "startOffset": 1289,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_RESERVE_TOKENS::variable"
+    },
+    {
+      "endLine": 35,
+      "endOffset": 1457,
+      "kind": "variable",
+      "name": "COMPACTION_KEEP_RECENT_TOKENS",
+      "startLine": 35,
+      "startOffset": 1419,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_KEEP_RECENT_TOKENS::variable"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1587,
+      "kind": "variable",
+      "name": "TOOL_RESULT_MAX_CHARS",
+      "startLine": 38,
+      "startOffset": 1558,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::TOOL_RESULT_MAX_CHARS::variable"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 1874,
+      "kind": "variable",
+      "name": "RETRY_BASE_DELAY_MS",
+      "startLine": 45,
+      "startOffset": 1847,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::RETRY_BASE_DELAY_MS::variable"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1988,
+      "kind": "variable",
+      "name": "RETRY_MAX_DELAY_MS",
+      "startLine": 48,
+      "startOffset": 1960,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::RETRY_MAX_DELAY_MS::variable"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 2266,
+      "kind": "variable",
+      "name": "FIND_DEFAULT_LIMIT",
+      "startLine": 55,
+      "startOffset": 2240,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::FIND_DEFAULT_LIMIT::variable"
+    },
+    {
+      "endLine": 58,
+      "endOffset": 2374,
+      "kind": "variable",
+      "name": "TRUNCATE_DEFAULT_MAX_LINES",
+      "startLine": 58,
+      "startOffset": 2340,
+      "symbolId": "packages/pi-coding-agent/src/core/constants.ts::TRUNCATE_DEFAULT_MAX_LINES::variable"
+    }
+  ]
+}

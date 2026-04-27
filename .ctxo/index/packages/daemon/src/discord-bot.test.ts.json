@@ -1,0 +1,81 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "da098011d4279607cfbea9e83cb10ecbdd3ace0a47a6cc9b2ef231b5261c799c",
+  "edges": [
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/discord-bot.ts::validateDiscordConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/channel-manager.ts::sanitizeChannelName::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/commands.ts::buildCommands::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/commands.ts::formatSessionStatus::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/daemon.ts::Daemon::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/config.ts::validateConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::LogEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.test.ts::discord-bot.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ManagedSession::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/daemon/src/discord-bot.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": []
+}

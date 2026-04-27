@@ -1,0 +1,89 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/native/src/json-parse/index.ts::parseJson::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/native/src/json-parse/index.ts::parsePartialJson::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/native/src/json-parse/index.ts::parseStreamingJson::function"
+    }
+  ],
+  "contentHash": "5dba05cc9be533e888ae98daa6177da2e9204d93d7cff1de07267f1a0b33fee0",
+  "edges": [
+    {
+      "from": "packages/native/src/json-parse/index.ts::parseJson::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/json-parse/index.ts::parsePartialJson::function",
+      "kind": "calls",
+      "to": "packages/native/src/json-parse/index.ts::jsFallbackStreamingJson::function"
+    },
+    {
+      "from": "packages/native/src/json-parse/index.ts::parseStreamingJson::function",
+      "kind": "calls",
+      "to": "packages/native/src/json-parse/index.ts::jsFallbackStreamingJson::function"
+    },
+    {
+      "from": "packages/native/src/json-parse/index.ts::parseJson::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/json-parse/index.ts::parsePartialJson::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/json-parse/index.ts::parseStreamingJson::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/json-parse/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 50,
+      "endOffset": 1550,
+      "kind": "function",
+      "name": "parseJson",
+      "startLine": 45,
+      "startOffset": 1392,
+      "symbolId": "packages/native/src/json-parse/index.ts::parseJson::function"
+    },
+    {
+      "endLine": 61,
+      "endOffset": 1899,
+      "kind": "function",
+      "name": "parsePartialJson",
+      "startLine": 56,
+      "startOffset": 1716,
+      "symbolId": "packages/native/src/json-parse/index.ts::parsePartialJson::function"
+    },
+    {
+      "endLine": 75,
+      "endOffset": 2310,
+      "kind": "function",
+      "name": "parseStreamingJson",
+      "startLine": 67,
+      "startOffset": 2050,
+      "symbolId": "packages/native/src/json-parse/index.ts::parseStreamingJson::function"
+    }
+  ]
+}

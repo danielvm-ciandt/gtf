@@ -1,0 +1,34 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "73335b51d3bb2a9422186fff2aa91b694a66996f46976ae2311689a99c9c57b5",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/models/generated/vercel-ai-gateway.ts::VERCEL_AI_GATEWAY_MODELS::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-ai/src/models/generated/vercel-ai-gateway.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 2607,
+      "endOffset": 65969,
+      "kind": "variable",
+      "name": "VERCEL_AI_GATEWAY_MODELS",
+      "startLine": 5,
+      "startOffset": 187,
+      "symbolId": "packages/pi-ai/src/models/generated/vercel-ai-gateway.ts::VERCEL_AI_GATEWAY_MODELS::variable"
+    }
+  ]
+}

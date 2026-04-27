@@ -1,0 +1,54 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "3c0651e89459a93e2503dad95896c3ffae3e2d9ddd5613da69a3fb984c5fa0dd",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/graph.test.ts::graph.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::buildGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.test.ts::graph.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.test.ts::graph.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.test.ts::graph.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphStatus::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.test.ts::graph.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphQuery::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.test.ts::graph.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphDiff::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.test.ts::graph.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::KnowledgeGraph::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/graph.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

@@ -1,0 +1,59 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "e3d68e8a25187b8f6f5c87ddf523b245155553b7882913dfd528397a1be68575",
+  "edges": [
+    {
+      "from": "packages/daemon/src/event-bridge.test.ts::event-bridge.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.test.ts::event-bridge.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridgeOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.test.ts::event-bridge.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-bridge.ts::BridgeClient::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.test.ts::event-bridge.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::PendingBlocker::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.test.ts::event-bridge.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ManagedSession::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.test.ts::event-bridge.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.test.ts::event-bridge.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::SessionStatus::type",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/daemon/src/event-bridge.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": []
+}

@@ -1,0 +1,199 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.get::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.set::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.isStale::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.clear::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.getAll::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.load::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.save::method"
+    }
+  ],
+  "contentHash": "d9111a90ae93e3bdf86c76f2622e4bf89b2ccc99d389c8882c53496b9cdfb1ad",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::DiscoveredModel::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.load::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.save::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.clear::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.load::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.clear::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.save::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.getAll::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.isStale::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::DiscoveredModel::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/discovery-cache.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 103,
+      "endOffset": 2813,
+      "kind": "class",
+      "name": "ModelDiscoveryCache",
+      "startLine": 21,
+      "startOffset": 580,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 974,
+      "kind": "method",
+      "name": "ModelDiscoveryCache.get",
+      "startLine": 31,
+      "startOffset": 854,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.get::method"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 1266,
+      "kind": "method",
+      "name": "ModelDiscoveryCache.set",
+      "startLine": 36,
+      "startOffset": 977,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.set::method"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1433,
+      "kind": "method",
+      "name": "ModelDiscoveryCache.isStale",
+      "startLine": 47,
+      "startOffset": 1269,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.isStale::method"
+    },
+    {
+      "endLine": 62,
+      "endOffset": 1664,
+      "kind": "method",
+      "name": "ModelDiscoveryCache.clear",
+      "startLine": 53,
+      "startOffset": 1436,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.clear::method"
+    },
+    {
+      "endLine": 72,
+      "endOffset": 1971,
+      "kind": "method",
+      "name": "ModelDiscoveryCache.getAll",
+      "startLine": 64,
+      "startOffset": 1667,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.getAll::method"
+    },
+    {
+      "endLine": 87,
+      "endOffset": 2353,
+      "kind": "method",
+      "name": "ModelDiscoveryCache.load",
+      "startLine": 74,
+      "startOffset": 1974,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.load::method"
+    },
+    {
+      "endLine": 102,
+      "endOffset": 2811,
+      "kind": "method",
+      "name": "ModelDiscoveryCache.save",
+      "startLine": 89,
+      "startOffset": 2356,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache.save::method"
+    },
+    {
+      "endLine": 14,
+      "endOffset": 477,
+      "kind": "interface",
+      "name": "DiscoveryCacheEntry",
+      "startLine": 10,
+      "startOffset": 373,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::DiscoveryCacheEntry::interface"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 578,
+      "kind": "interface",
+      "name": "DiscoveryCacheData",
+      "startLine": 16,
+      "startOffset": 479,
+      "symbolId": "packages/pi-coding-agent/src/core/discovery-cache.ts::DiscoveryCacheData::interface"
+    }
+  ]
+}

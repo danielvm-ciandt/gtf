@@ -1,0 +1,85 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips.recordBashIncluded::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips.evaluate::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips.reset::method"
+    }
+  ],
+  "contentHash": "9c249abc0f88ae9b44af7cb8e527ba09b7b06f926bc4272197905f6f2ea368b8",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/contextual-tips.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 231,
+      "endOffset": 6062,
+      "kind": "class",
+      "name": "ContextualTips",
+      "startLine": 187,
+      "startOffset": 4911,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips::class"
+    },
+    {
+      "endLine": 196,
+      "endOffset": 5284,
+      "kind": "method",
+      "name": "ContextualTips.recordBashIncluded",
+      "startLine": 194,
+      "startOffset": 5224,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips.recordBashIncluded::method"
+    },
+    {
+      "endLine": 224,
+      "endOffset": 5931,
+      "kind": "method",
+      "name": "ContextualTips.evaluate",
+      "startLine": 206,
+      "startOffset": 5494,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips.evaluate::method"
+    },
+    {
+      "endLine": 230,
+      "endOffset": 6060,
+      "kind": "method",
+      "name": "ContextualTips.reset",
+      "startLine": 227,
+      "startOffset": 5984,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips.reset::method"
+    },
+    {
+      "endLine": 21,
+      "endOffset": 799,
+      "kind": "interface",
+      "name": "TipContext",
+      "startLine": 10,
+      "startOffset": 360,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::TipContext::interface"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 1028,
+      "kind": "interface",
+      "name": "Tip",
+      "startLine": 23,
+      "startOffset": 801,
+      "symbolId": "packages/pi-coding-agent/src/core/contextual-tips.ts::Tip::interface"
+    }
+  ]
+}

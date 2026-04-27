@@ -1,0 +1,252 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.start::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.stop::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.drainInput::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.pushInput::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.resize::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.moveBy::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.hideCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.showCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearLine::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearFromCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearScreen::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.setTitle::method"
+    }
+  ],
+  "contentHash": "78d7d4b5e03aec297928f937e23111d5dd28da1588c8c904b55a26e79e86de1e",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::Terminal::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.moveBy::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.moveBy::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.hideCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.showCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearLine::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearFromCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearScreen::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.setTitle::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 108,
+      "endOffset": 2420,
+      "kind": "class",
+      "name": "RemoteTerminal",
+      "startLine": 13,
+      "startOffset": 379,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal::class"
+    },
+    {
+      "endLine": 27,
+      "endOffset": 887,
+      "kind": "method",
+      "name": "RemoteTerminal.start",
+      "startLine": 24,
+      "startOffset": 752,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.start::method"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 974,
+      "kind": "method",
+      "name": "RemoteTerminal.stop",
+      "startLine": 29,
+      "startOffset": 890,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.stop::method"
+    },
+    {
+      "endLine": 36,
+      "endOffset": 1074,
+      "kind": "method",
+      "name": "RemoteTerminal.drainInput",
+      "startLine": 34,
+      "startOffset": 977,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.drainInput::method"
+    },
+    {
+      "endLine": 41,
+      "endOffset": 1158,
+      "kind": "method",
+      "name": "RemoteTerminal.write",
+      "startLine": 38,
+      "startOffset": 1077,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.write::method"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 1588,
+      "kind": "method",
+      "name": "RemoteTerminal.pushInput",
+      "startLine": 61,
+      "startOffset": 1504,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.pushInput::method"
+    },
+    {
+      "endLine": 75,
+      "endOffset": 1925,
+      "kind": "method",
+      "name": "RemoteTerminal.resize",
+      "startLine": 66,
+      "startOffset": 1591,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.resize::method"
+    },
+    {
+      "endLine": 83,
+      "endOffset": 2076,
+      "kind": "method",
+      "name": "RemoteTerminal.moveBy",
+      "startLine": 77,
+      "startOffset": 1928,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.moveBy::method"
+    },
+    {
+      "endLine": 87,
+      "endOffset": 2129,
+      "kind": "method",
+      "name": "RemoteTerminal.hideCursor",
+      "startLine": 85,
+      "startOffset": 2079,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.hideCursor::method"
+    },
+    {
+      "endLine": 91,
+      "endOffset": 2182,
+      "kind": "method",
+      "name": "RemoteTerminal.showCursor",
+      "startLine": 89,
+      "startOffset": 2132,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.showCursor::method"
+    },
+    {
+      "endLine": 95,
+      "endOffset": 2231,
+      "kind": "method",
+      "name": "RemoteTerminal.clearLine",
+      "startLine": 93,
+      "startOffset": 2185,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearLine::method"
+    },
+    {
+      "endLine": 99,
+      "endOffset": 2286,
+      "kind": "method",
+      "name": "RemoteTerminal.clearFromCursor",
+      "startLine": 97,
+      "startOffset": 2234,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearFromCursor::method"
+    },
+    {
+      "endLine": 103,
+      "endOffset": 2344,
+      "kind": "method",
+      "name": "RemoteTerminal.clearScreen",
+      "startLine": 101,
+      "startOffset": 2289,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.clearScreen::method"
+    },
+    {
+      "endLine": 107,
+      "endOffset": 2418,
+      "kind": "method",
+      "name": "RemoteTerminal.setTitle",
+      "startLine": 105,
+      "startOffset": 2347,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal.setTitle::method"
+    },
+    {
+      "endLine": 6,
+      "endOffset": 171,
+      "kind": "interface",
+      "name": "RemoteTerminalOptions",
+      "startLine": 2,
+      "startOffset": 46,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminalOptions::interface"
+    }
+  ]
+}

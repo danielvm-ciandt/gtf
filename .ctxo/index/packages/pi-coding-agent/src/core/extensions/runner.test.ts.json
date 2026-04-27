@@ -1,0 +1,56 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "2099a9913a13e2cfd4e27bd0868de2c1ee4a1d810b563a018b5d6ddf1fd92ca7",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/runner.test.ts::runner.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/runner.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/runner.test.ts::runner.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::Extension::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/runner.test.ts::runner.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionRuntime::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/runner.test.ts::runner.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolCallEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/runner.test.ts::runner.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/runner.test.ts::runner.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/runner.test.ts::runner.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/runner.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": []
+}

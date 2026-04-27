@@ -1,0 +1,17 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "7b84698e78f2645d11c5f3ada186d1250aaa520d7b4c090e00938c2836cfffc0",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/extensions/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": []
+}

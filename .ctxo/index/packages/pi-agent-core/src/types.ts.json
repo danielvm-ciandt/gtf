@@ -1,0 +1,189 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d21a783e9223148a575c02e29d50aa8ea40ed8e11ff76ee01e042a0550bb3d98",
+  "edges": [],
+  "file": "packages/pi-agent-core/src/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 40,
+      "endOffset": 1404,
+      "kind": "interface",
+      "name": "BeforeToolCallResult",
+      "startLine": 37,
+      "startOffset": 1327,
+      "symbolId": "packages/pi-agent-core/src/types.ts::BeforeToolCallResult::interface"
+    },
+    {
+      "endLine": 56,
+      "endOffset": 1915,
+      "kind": "interface",
+      "name": "AfterToolCallResult",
+      "startLine": 52,
+      "startOffset": 1792,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AfterToolCallResult::interface"
+    },
+    {
+      "endLine": 68,
+      "endOffset": 2360,
+      "kind": "interface",
+      "name": "BeforeToolCallContext",
+      "startLine": 59,
+      "startOffset": 1960,
+      "symbolId": "packages/pi-agent-core/src/types.ts::BeforeToolCallContext::interface"
+    },
+    {
+      "endLine": 84,
+      "endOffset": 3012,
+      "kind": "interface",
+      "name": "AfterToolCallContext",
+      "startLine": 71,
+      "startOffset": 2404,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AfterToolCallContext::interface"
+    },
+    {
+      "endLine": 222,
+      "endOffset": 8001,
+      "kind": "interface",
+      "name": "AgentLoopConfig",
+      "startLine": 89,
+      "startOffset": 3059,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentLoopConfig::interface"
+    },
+    {
+      "endLine": 230,
+      "endOffset": 8144,
+      "kind": "interface",
+      "name": "RetryContext",
+      "startLine": 225,
+      "startOffset": 8039,
+      "symbolId": "packages/pi-agent-core/src/types.ts::RetryContext::interface"
+    },
+    {
+      "endLine": 239,
+      "endOffset": 8432,
+      "kind": "interface",
+      "name": "StreamErrorContext",
+      "startLine": 233,
+      "startOffset": 8188,
+      "symbolId": "packages/pi-agent-core/src/types.ts::StreamErrorContext::interface"
+    },
+    {
+      "endLine": 263,
+      "endOffset": 9113,
+      "kind": "interface",
+      "name": "CustomAgentMessages",
+      "startLine": 261,
+      "startOffset": 9014,
+      "symbolId": "packages/pi-agent-core/src/types.ts::CustomAgentMessages::interface"
+    },
+    {
+      "endLine": 291,
+      "endOffset": 10073,
+      "kind": "interface",
+      "name": "AgentState",
+      "startLine": 275,
+      "startOffset": 9481,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentState::interface"
+    },
+    {
+      "endLine": 298,
+      "endOffset": 10261,
+      "kind": "interface",
+      "name": "AgentToolResult",
+      "startLine": 293,
+      "startOffset": 10075,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentToolResult::interface"
+    },
+    {
+      "endLine": 313,
+      "endOffset": 10829,
+      "kind": "interface",
+      "name": "AgentTool",
+      "startLine": 304,
+      "startOffset": 10461,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentTool::interface"
+    },
+    {
+      "endLine": 320,
+      "endOffset": 10992,
+      "kind": "interface",
+      "name": "AgentContext",
+      "startLine": 316,
+      "startOffset": 10882,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentContext::interface"
+    },
+    {
+      "endLine": 17,
+      "endOffset": 471,
+      "kind": "type",
+      "name": "StreamFn",
+      "startLine": 15,
+      "startOffset": 324,
+      "symbolId": "packages/pi-agent-core/src/types.ts::StreamFn::type"
+    },
+    {
+      "endLine": 26,
+      "endOffset": 888,
+      "kind": "type",
+      "name": "ToolExecutionMode",
+      "startLine": 26,
+      "startOffset": 830,
+      "symbolId": "packages/pi-agent-core/src/types.ts::ToolExecutionMode::type"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 1058,
+      "kind": "type",
+      "name": "AgentToolCall",
+      "startLine": 29,
+      "startOffset": 963,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentToolCall::type"
+    },
+    {
+      "endLine": 245,
+      "endOffset": 8705,
+      "kind": "type",
+      "name": "ThinkingLevel",
+      "startLine": 245,
+      "startOffset": 8621,
+      "symbolId": "packages/pi-agent-core/src/types.ts::ThinkingLevel::type"
+    },
+    {
+      "endLine": 270,
+      "endOffset": 9404,
+      "kind": "type",
+      "name": "AgentMessage",
+      "startLine": 270,
+      "startOffset": 9320,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentMessage::type"
+    },
+    {
+      "endLine": 301,
+      "endOffset": 10403,
+      "kind": "type",
+      "name": "AgentToolUpdateCallback",
+      "startLine": 301,
+      "startOffset": 10312,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentToolUpdateCallback::type"
+    },
+    {
+      "endLine": 341,
+      "endOffset": 12117,
+      "kind": "type",
+      "name": "AgentEvent",
+      "startLine": 326,
+      "startOffset": 11150,
+      "symbolId": "packages/pi-agent-core/src/types.ts::AgentEvent::type"
+    }
+  ]
+}

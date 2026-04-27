@@ -1,0 +1,113 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::createBranchSummaryMessage::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::createCompactionSummaryMessage::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::createCustomMessage::function"
+    },
+    {
+      "cyclomatic": 16,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    }
+  ],
+  "contentHash": "1b3b109b965fb9cafc32de7bfff24020883655d6ebb0d279b759bd732aa89a7e",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::bashExecutionToText::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/messages.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 112,
+      "endOffset": 3121,
+      "kind": "function",
+      "name": "createBranchSummaryMessage",
+      "startLine": 105,
+      "startOffset": 2897,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::createBranchSummaryMessage::function"
+    },
+    {
+      "endLine": 125,
+      "endOffset": 3386,
+      "kind": "function",
+      "name": "createCompactionSummaryMessage",
+      "startLine": 114,
+      "startOffset": 3123,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::createCompactionSummaryMessage::function"
+    },
+    {
+      "endLine": 143,
+      "endOffset": 3767,
+      "kind": "function",
+      "name": "createCustomMessage",
+      "startLine": 128,
+      "startOffset": 3445,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::createCustomMessage::function"
+    },
+    {
+      "endLine": 221,
+      "endOffset": 6360,
+      "kind": "function",
+      "name": "convertToLlm",
+      "startLine": 153,
+      "startOffset": 4040,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 1380,
+      "kind": "interface",
+      "name": "BashExecutionMessage",
+      "startLine": 34,
+      "startOffset": 1059,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::BashExecutionMessage::interface"
+    },
+    {
+      "endLine": 58,
+      "endOffset": 1725,
+      "kind": "interface",
+      "name": "CustomMessage",
+      "startLine": 51,
+      "startOffset": 1536,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface"
+    },
+    {
+      "endLine": 65,
+      "endOffset": 1847,
+      "kind": "interface",
+      "name": "BranchSummaryMessage",
+      "startLine": 60,
+      "startOffset": 1727,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::BranchSummaryMessage::interface"
+    },
+    {
+      "endLine": 72,
+      "endOffset": 1983,
+      "kind": "interface",
+      "name": "CompactionSummaryMessage",
+      "startLine": 67,
+      "startOffset": 1849,
+      "symbolId": "packages/pi-coding-agent/src/core/messages.ts::CompactionSummaryMessage::interface"
+    }
+  ]
+}

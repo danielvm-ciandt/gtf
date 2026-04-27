@@ -1,0 +1,17 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "ed04bcd233ee6a4b16d19041012ea92fbed53ef4aa8c30851ac4c5a4cc9c97fb",
+  "edges": [],
+  "file": "packages/pi-ai/src/oauth.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": []
+}

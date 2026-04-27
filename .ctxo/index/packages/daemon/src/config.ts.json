@@ -1,0 +1,116 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/config.ts::resolveConfigPath::function"
+    },
+    {
+      "cyclomatic": 28,
+      "symbolId": "packages/daemon/src/config.ts::validateConfig::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/daemon/src/config.ts::loadConfig::function"
+    }
+  ],
+  "contentHash": "b1b356d5f0c648d5a07aceff2546e578d0c0627cdc0529bde68fd2b686ee2203",
+  "edges": [
+    {
+      "from": "packages/daemon/src/config.ts::resolveConfigPath::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/config.ts::resolveConfigPath::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::LogLevel::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/config.ts::resolveConfigPath::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/config.ts::expandTilde::function"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::resolveConfigPath::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/config.ts::expandTilde::function"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::validateConfig::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/config.ts::defaults::function"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::validateConfig::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/config.ts::expandTilde::function"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/config.ts::validateConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/config.ts::validateConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::validateConfig::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::validateConfig::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::LogLevel::type"
+    },
+    {
+      "from": "packages/daemon/src/config.ts::loadConfig::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface"
+    }
+  ],
+  "file": "packages/daemon/src/config.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 38,
+      "endOffset": 1200,
+      "kind": "function",
+      "name": "resolveConfigPath",
+      "startLine": 33,
+      "startOffset": 945,
+      "symbolId": "packages/daemon/src/config.ts::resolveConfigPath::function"
+    },
+    {
+      "endLine": 114,
+      "endOffset": 3983,
+      "kind": "function",
+      "name": "validateConfig",
+      "startLine": 44,
+      "startOffset": 1369,
+      "symbolId": "packages/daemon/src/config.ts::validateConfig::function"
+    },
+    {
+      "endLine": 136,
+      "endOffset": 4649,
+      "kind": "function",
+      "name": "loadConfig",
+      "startLine": 120,
+      "startOffset": 4134,
+      "symbolId": "packages/daemon/src/config.ts::loadConfig::function"
+    }
+  ]
+}

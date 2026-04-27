@@ -1,0 +1,1 @@
+phase: "bootstrap"\nrequire_layer1: true\nrequire_layer2: true\nrequire_layer2_superpowers: true\nrequire_layer3: true\nrequire_layer4_rtk: true\nrequire_layer4_context_mode: true\nrequire_layer5_gitsurface: true\nrequire_layer5_gsd: false\n

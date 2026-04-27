@@ -1,0 +1,111 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::registerToolCompatibility::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::getToolCompatibility::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::getAllToolCompatibility::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::registerMcpToolCompatibility::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::resetToolCompatibilityRegistry::function"
+    }
+  ],
+  "contentHash": "f809aa0787ba7ad33b938f3491afdebd39ff8533135ceaf5d24e0d9f0cef7678",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::registerToolCompatibility::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCompatibility::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::registerToolCompatibility::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCompatibility::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::getToolCompatibility::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCompatibility::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::getAllToolCompatibility::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCompatibility::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::registerMcpToolCompatibility::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCompatibility::interface"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 48,
+      "endOffset": 1629,
+      "kind": "function",
+      "name": "registerToolCompatibility",
+      "startLine": 46,
+      "startOffset": 1485,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::registerToolCompatibility::function"
+    },
+    {
+      "endLine": 57,
+      "endOffset": 1946,
+      "kind": "function",
+      "name": "getToolCompatibility",
+      "startLine": 55,
+      "startOffset": 1824,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::getToolCompatibility::function"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 2110,
+      "kind": "function",
+      "name": "getAllToolCompatibility",
+      "startLine": 62,
+      "startOffset": 2006,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::getAllToolCompatibility::function"
+    },
+    {
+      "endLine": 72,
+      "endOffset": 2431,
+      "kind": "function",
+      "name": "registerMcpToolCompatibility",
+      "startLine": 70,
+      "startOffset": 2253,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::registerMcpToolCompatibility::function"
+    },
+    {
+      "endLine": 82,
+      "endOffset": 2667,
+      "kind": "function",
+      "name": "resetToolCompatibilityRegistry",
+      "startLine": 77,
+      "startOffset": 2489,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/tool-compatibility-registry.ts::resetToolCompatibilityRegistry::function"
+    }
+  ]
+}

@@ -1,0 +1,2423 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.create::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.fromStorage::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.inMemory::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.loadFromStorage::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.tryLoadFromStorage::method"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.migrateSettings::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getGlobalSettings::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getProjectSettings::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBashInterceptorEnabled::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBashInterceptorRules::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.reload::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.applyOverrides::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markProjectModified::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.recordError::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.hasProjectSettings::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.clearModifiedScope::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.enqueueWrite::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.cloneModifiedNestedFields::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.persistScopedSettings::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.flush::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.drainErrors::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getLastChangelogVersion::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setLastChangelogVersion::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDefaultProvider::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDefaultModel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultProvider::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModel::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getSteeringMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSteeringMode::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFollowUpMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFollowUpMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTheme::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTheme::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDefaultThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTransport::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTransport::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionEnabled::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setCompactionEnabled::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionReserveTokens::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionKeepRecentTokens::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionSettings::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBranchSummarySettings::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBranchSummarySkipPrompt::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRetryEnabled::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setRetryEnabled::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRetrySettings::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getHideThinkingBlock::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setHideThinkingBlock::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShellPath::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShellPath::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getQuietStartup::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setQuietStartup::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShellCommandPrefix::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShellCommandPrefix::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCollapseChangelog::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setCollapseChangelog::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getPackages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setPackages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectPackages::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getExtensionPaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setExtensionPaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectExtensionPaths::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getSkillPaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSkillPaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSkillPaths::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getPromptTemplatePaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setPromptTemplatePaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectPromptTemplatePaths::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getThemePaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setThemePaths::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectThemePaths::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEnableSkillCommands::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEnableSkillCommands::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getThinkingBudgets::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShowImages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShowImages::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getClearOnShrink::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setClearOnShrink::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getImageAutoResize::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setImageAutoResize::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBlockImages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setBlockImages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEnabledModels::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEnabledModels::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDoubleEscapeAction::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDoubleEscapeAction::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTreeFilterMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTreeFilterMode::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShowHardwareCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShowHardwareCursor::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEditorPaddingX::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEditorPaddingX::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAutocompleteMaxVisible::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setAutocompleteMaxVisible::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRespectGitignoreInPicker::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setRespectGitignoreInPicker::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getSearchExcludeDirs::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSearchExcludeDirs::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCodeBlockIndent::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getMemorySettings::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAsyncEnabled::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAsyncMaxJobs::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTaskIsolationMode::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTaskIsolationMerge::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackEnabled::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFallbackEnabled::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackChains::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackChain::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFallbackChain::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.removeFallbackChain::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackSettings::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getModelDiscoverySettings::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setModelDiscoveryEnabled::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEditMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEditMode::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTimestampFormat::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTimestampFormat::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAllowedCommandPrefixes::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setAllowedCommandPrefixes::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFetchAllowedUrls::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFetchAllowedUrls::method"
+    }
+  ],
+  "contentHash": "9f5fb5c36ea15da40b347da1d6c39b49a95f0f664401d53849d87f9421617a32",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_KEEP_RECENT_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_RESERVE_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::RETRY_BASE_DELAY_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::RETRY_MAX_DELAY_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::BashInterceptorRule::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.create::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::stripGlobalOnlyKeys::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::deepMergeSettings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.applyOverrides::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::deepMergeSettings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.enqueueWrite::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.clearModifiedScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.enqueueWrite::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::deepMergeSettings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.cloneModifiedNestedFields::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.enqueueWrite::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.persistScopedSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::stripGlobalOnlyKeys::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::deepMergeSettings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.cloneModifiedNestedFields::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.enqueueWrite::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.persistScopedSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.hasProjectSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markProjectModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markProjectModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setLastChangelogVersion::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.hasProjectSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markProjectModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markProjectModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSteeringMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFollowUpMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTheme::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTransport::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setCompactionEnabled::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionEnabled::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionReserveTokens::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionKeepRecentTokens::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setRetryEnabled::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRetrySettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRetryEnabled::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setHideThinkingBlock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShellPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setQuietStartup::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShellCommandPrefix::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setCollapseChangelog::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setPackages::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectPackages::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setExtensionPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectExtensionPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSkillPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSkillPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setPromptTemplatePaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectPromptTemplatePaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setThemePaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectThemePaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEnableSkillCommands::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShowImages::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setClearOnShrink::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setImageAutoResize::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setBlockImages::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEnabledModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDoubleEscapeAction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTreeFilterMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShowHardwareCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEditorPaddingX::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setAutocompleteMaxVisible::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setRespectGitignoreInPicker::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSearchExcludeDirs::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFallbackEnabled::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFallbackChain::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFallbackChain::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.removeFallbackChain::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.removeFallbackChain::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackEnabled::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackChains::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setModelDiscoveryEnabled::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEditMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTimestampFormat::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setAllowedCommandPrefixes::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFetchAllowedUrls::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/bash-interceptor.ts::BashInterceptorRule::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_RESERVE_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_KEEP_RECENT_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::RETRY_BASE_DELAY_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::RETRY_MAX_DELAY_MS::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/settings-manager.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 1196,
+      "endOffset": 38246,
+      "kind": "class",
+      "name": "SettingsManager",
+      "startLine": 356,
+      "startOffset": 12381,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "endLine": 391,
+      "endOffset": 14134,
+      "kind": "method",
+      "name": "SettingsManager.create",
+      "startLine": 388,
+      "startOffset": 13931,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.create::method"
+    },
+    {
+      "endLine": 413,
+      "endOffset": 14828,
+      "kind": "method",
+      "name": "SettingsManager.fromStorage",
+      "startLine": 394,
+      "startOffset": 14204,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.fromStorage::method"
+    },
+    {
+      "endLine": 419,
+      "endOffset": 15062,
+      "kind": "method",
+      "name": "SettingsManager.inMemory",
+      "startLine": 416,
+      "startOffset": 14889,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.inMemory::method"
+    },
+    {
+      "endLine": 433,
+      "endOffset": 15412,
+      "kind": "method",
+      "name": "SettingsManager.loadFromStorage",
+      "startLine": 421,
+      "startOffset": 15065,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.loadFromStorage::method"
+    },
+    {
+      "endLine": 444,
+      "endOffset": 15723,
+      "kind": "method",
+      "name": "SettingsManager.tryLoadFromStorage",
+      "startLine": 435,
+      "startOffset": 15415,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.tryLoadFromStorage::method"
+    },
+    {
+      "endLine": 482,
+      "endOffset": 17033,
+      "kind": "method",
+      "name": "SettingsManager.migrateSettings",
+      "startLine": 447,
+      "startOffset": 15776,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.migrateSettings::method"
+    },
+    {
+      "endLine": 486,
+      "endOffset": 17117,
+      "kind": "method",
+      "name": "SettingsManager.getGlobalSettings",
+      "startLine": 484,
+      "startOffset": 17036,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getGlobalSettings::method"
+    },
+    {
+      "endLine": 490,
+      "endOffset": 17203,
+      "kind": "method",
+      "name": "SettingsManager.getProjectSettings",
+      "startLine": 488,
+      "startOffset": 17120,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getProjectSettings::method"
+    },
+    {
+      "endLine": 494,
+      "endOffset": 17304,
+      "kind": "method",
+      "name": "SettingsManager.getBashInterceptorEnabled",
+      "startLine": 492,
+      "startOffset": 17206,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBashInterceptorEnabled::method"
+    },
+    {
+      "endLine": 498,
+      "endOffset": 17419,
+      "kind": "method",
+      "name": "SettingsManager.getBashInterceptorRules",
+      "startLine": 496,
+      "startOffset": 17307,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBashInterceptorRules::method"
+    },
+    {
+      "endLine": 525,
+      "endOffset": 18325,
+      "kind": "method",
+      "name": "SettingsManager.reload",
+      "startLine": 500,
+      "startOffset": 17422,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.reload::method"
+    },
+    {
+      "endLine": 530,
+      "endOffset": 18508,
+      "kind": "method",
+      "name": "SettingsManager.applyOverrides",
+      "startLine": 528,
+      "startOffset": 18390,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.applyOverrides::method"
+    },
+    {
+      "endLine": 541,
+      "endOffset": 18865,
+      "kind": "method",
+      "name": "SettingsManager.markModified",
+      "startLine": 533,
+      "startOffset": 18571,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markModified::method"
+    },
+    {
+      "endLine": 552,
+      "endOffset": 19258,
+      "kind": "method",
+      "name": "SettingsManager.markProjectModified",
+      "startLine": 544,
+      "startOffset": 18929,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.markProjectModified::method"
+    },
+    {
+      "endLine": 557,
+      "endOffset": 19469,
+      "kind": "method",
+      "name": "SettingsManager.recordError",
+      "startLine": 554,
+      "startOffset": 19261,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.recordError::method"
+    },
+    {
+      "endLine": 567,
+      "endOffset": 19901,
+      "kind": "method",
+      "name": "SettingsManager.hasProjectSettings",
+      "startLine": 564,
+      "startOffset": 19688,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.hasProjectSettings::method"
+    },
+    {
+      "endLine": 578,
+      "endOffset": 20159,
+      "kind": "method",
+      "name": "SettingsManager.clearModifiedScope",
+      "startLine": 569,
+      "startOffset": 19904,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.clearModifiedScope::method"
+    },
+    {
+      "endLine": 589,
+      "endOffset": 20406,
+      "kind": "method",
+      "name": "SettingsManager.enqueueWrite",
+      "startLine": 580,
+      "startOffset": 20162,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.enqueueWrite::method"
+    },
+    {
+      "endLine": 597,
+      "endOffset": 20692,
+      "kind": "method",
+      "name": "SettingsManager.cloneModifiedNestedFields",
+      "startLine": 591,
+      "startOffset": 20409,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.cloneModifiedNestedFields::method"
+    },
+    {
+      "endLine": 628,
+      "endOffset": 21897,
+      "kind": "method",
+      "name": "SettingsManager.persistScopedSettings",
+      "startLine": 599,
+      "startOffset": 20695,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.persistScopedSettings::method"
+    },
+    {
+      "endLine": 644,
+      "endOffset": 22424,
+      "kind": "method",
+      "name": "SettingsManager.save",
+      "startLine": 630,
+      "startOffset": 21900,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.save::method"
+    },
+    {
+      "endLine": 660,
+      "endOffset": 23076,
+      "kind": "method",
+      "name": "SettingsManager.saveProjectSettings",
+      "startLine": 646,
+      "startOffset": 22427,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.saveProjectSettings::method"
+    },
+    {
+      "endLine": 664,
+      "endOffset": 23137,
+      "kind": "method",
+      "name": "SettingsManager.flush",
+      "startLine": 662,
+      "startOffset": 23079,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.flush::method"
+    },
+    {
+      "endLine": 670,
+      "endOffset": 23249,
+      "kind": "method",
+      "name": "SettingsManager.drainErrors",
+      "startLine": 666,
+      "startOffset": 23140,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.drainErrors::method"
+    },
+    {
+      "endLine": 679,
+      "endOffset": 23563,
+      "kind": "method",
+      "name": "SettingsManager.setGlobalSetting",
+      "startLine": 675,
+      "startOffset": 23397,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setGlobalSetting::method"
+    },
+    {
+      "endLine": 690,
+      "endOffset": 23951,
+      "kind": "method",
+      "name": "SettingsManager.setScopedSetting",
+      "startLine": 682,
+      "startOffset": 23651,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setScopedSetting::method"
+    },
+    {
+      "endLine": 704,
+      "endOffset": 24459,
+      "kind": "method",
+      "name": "SettingsManager.setNestedGlobalSetting",
+      "startLine": 693,
+      "startOffset": 24040,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setNestedGlobalSetting::method"
+    },
+    {
+      "endLine": 712,
+      "endOffset": 24802,
+      "kind": "method",
+      "name": "SettingsManager.setProjectSetting",
+      "startLine": 707,
+      "startOffset": 24537,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSetting::method"
+    },
+    {
+      "endLine": 718,
+      "endOffset": 24974,
+      "kind": "method",
+      "name": "SettingsManager.getLastChangelogVersion",
+      "startLine": 716,
+      "startOffset": 24879,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getLastChangelogVersion::method"
+    },
+    {
+      "endLine": 722,
+      "endOffset": 25086,
+      "kind": "method",
+      "name": "SettingsManager.setLastChangelogVersion",
+      "startLine": 720,
+      "startOffset": 24977,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setLastChangelogVersion::method"
+    },
+    {
+      "endLine": 726,
+      "endOffset": 25174,
+      "kind": "method",
+      "name": "SettingsManager.getDefaultProvider",
+      "startLine": 724,
+      "startOffset": 25089,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDefaultProvider::method"
+    },
+    {
+      "endLine": 730,
+      "endOffset": 25256,
+      "kind": "method",
+      "name": "SettingsManager.getDefaultModel",
+      "startLine": 728,
+      "startOffset": 25177,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDefaultModel::method"
+    },
+    {
+      "endLine": 734,
+      "endOffset": 25360,
+      "kind": "method",
+      "name": "SettingsManager.setDefaultProvider",
+      "startLine": 732,
+      "startOffset": 25259,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultProvider::method"
+    },
+    {
+      "endLine": 738,
+      "endOffset": 25456,
+      "kind": "method",
+      "name": "SettingsManager.setDefaultModel",
+      "startLine": 736,
+      "startOffset": 25363,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModel::method"
+    },
+    {
+      "endLine": 754,
+      "endOffset": 26018,
+      "kind": "method",
+      "name": "SettingsManager.setDefaultModelAndProvider",
+      "startLine": 740,
+      "startOffset": 25459,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultModelAndProvider::method"
+    },
+    {
+      "endLine": 758,
+      "endOffset": 26124,
+      "kind": "method",
+      "name": "SettingsManager.getSteeringMode",
+      "startLine": 756,
+      "startOffset": 26021,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getSteeringMode::method"
+    },
+    {
+      "endLine": 762,
+      "endOffset": 26231,
+      "kind": "method",
+      "name": "SettingsManager.setSteeringMode",
+      "startLine": 760,
+      "startOffset": 26127,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSteeringMode::method"
+    },
+    {
+      "endLine": 766,
+      "endOffset": 26337,
+      "kind": "method",
+      "name": "SettingsManager.getFollowUpMode",
+      "startLine": 764,
+      "startOffset": 26234,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFollowUpMode::method"
+    },
+    {
+      "endLine": 770,
+      "endOffset": 26444,
+      "kind": "method",
+      "name": "SettingsManager.setFollowUpMode",
+      "startLine": 768,
+      "startOffset": 26340,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFollowUpMode::method"
+    },
+    {
+      "endLine": 774,
+      "endOffset": 26512,
+      "kind": "method",
+      "name": "SettingsManager.getTheme",
+      "startLine": 772,
+      "startOffset": 26447,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTheme::method"
+    },
+    {
+      "endLine": 778,
+      "endOffset": 26590,
+      "kind": "method",
+      "name": "SettingsManager.setTheme",
+      "startLine": 776,
+      "startOffset": 26515,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTheme::method"
+    },
+    {
+      "endLine": 782,
+      "endOffset": 26737,
+      "kind": "method",
+      "name": "SettingsManager.getDefaultThinkingLevel",
+      "startLine": 780,
+      "startOffset": 26593,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDefaultThinkingLevel::method"
+    },
+    {
+      "endLine": 786,
+      "endOffset": 26894,
+      "kind": "method",
+      "name": "SettingsManager.setDefaultThinkingLevel",
+      "startLine": 784,
+      "startOffset": 26740,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDefaultThinkingLevel::method"
+    },
+    {
+      "endLine": 790,
+      "endOffset": 26977,
+      "kind": "method",
+      "name": "SettingsManager.getTransport",
+      "startLine": 788,
+      "startOffset": 26897,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTransport::method"
+    },
+    {
+      "endLine": 794,
+      "endOffset": 27081,
+      "kind": "method",
+      "name": "SettingsManager.setTransport",
+      "startLine": 792,
+      "startOffset": 26980,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTransport::method"
+    },
+    {
+      "endLine": 798,
+      "endOffset": 27172,
+      "kind": "method",
+      "name": "SettingsManager.getCompactionEnabled",
+      "startLine": 796,
+      "startOffset": 27084,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionEnabled::method"
+    },
+    {
+      "endLine": 802,
+      "endOffset": 27289,
+      "kind": "method",
+      "name": "SettingsManager.setCompactionEnabled",
+      "startLine": 800,
+      "startOffset": 27175,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setCompactionEnabled::method"
+    },
+    {
+      "endLine": 806,
+      "endOffset": 27412,
+      "kind": "method",
+      "name": "SettingsManager.getCompactionReserveTokens",
+      "startLine": 804,
+      "startOffset": 27292,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionReserveTokens::method"
+    },
+    {
+      "endLine": 810,
+      "endOffset": 27545,
+      "kind": "method",
+      "name": "SettingsManager.getCompactionKeepRecentTokens",
+      "startLine": 808,
+      "startOffset": 27415,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionKeepRecentTokens::method"
+    },
+    {
+      "endLine": 818,
+      "endOffset": 27816,
+      "kind": "method",
+      "name": "SettingsManager.getCompactionSettings",
+      "startLine": 812,
+      "startOffset": 27548,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCompactionSettings::method"
+    },
+    {
+      "endLine": 825,
+      "endOffset": 28070,
+      "kind": "method",
+      "name": "SettingsManager.getBranchSummarySettings",
+      "startLine": 820,
+      "startOffset": 27819,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBranchSummarySettings::method"
+    },
+    {
+      "endLine": 829,
+      "endOffset": 28174,
+      "kind": "method",
+      "name": "SettingsManager.getBranchSummarySkipPrompt",
+      "startLine": 827,
+      "startOffset": 28073,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBranchSummarySkipPrompt::method"
+    },
+    {
+      "endLine": 833,
+      "endOffset": 28255,
+      "kind": "method",
+      "name": "SettingsManager.getRetryEnabled",
+      "startLine": 831,
+      "startOffset": 28177,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRetryEnabled::method"
+    },
+    {
+      "endLine": 837,
+      "endOffset": 28362,
+      "kind": "method",
+      "name": "SettingsManager.setRetryEnabled",
+      "startLine": 835,
+      "startOffset": 28258,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setRetryEnabled::method"
+    },
+    {
+      "endLine": 846,
+      "endOffset": 28719,
+      "kind": "method",
+      "name": "SettingsManager.getRetrySettings",
+      "startLine": 839,
+      "startOffset": 28365,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRetrySettings::method"
+    },
+    {
+      "endLine": 850,
+      "endOffset": 28809,
+      "kind": "method",
+      "name": "SettingsManager.getHideThinkingBlock",
+      "startLine": 848,
+      "startOffset": 28722,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getHideThinkingBlock::method"
+    },
+    {
+      "endLine": 854,
+      "endOffset": 28910,
+      "kind": "method",
+      "name": "SettingsManager.setHideThinkingBlock",
+      "startLine": 852,
+      "startOffset": 28812,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setHideThinkingBlock::method"
+    },
+    {
+      "endLine": 858,
+      "endOffset": 28986,
+      "kind": "method",
+      "name": "SettingsManager.getShellPath",
+      "startLine": 856,
+      "startOffset": 28913,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShellPath::method"
+    },
+    {
+      "endLine": 862,
+      "endOffset": 29082,
+      "kind": "method",
+      "name": "SettingsManager.setShellPath",
+      "startLine": 860,
+      "startOffset": 28989,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShellPath::method"
+    },
+    {
+      "endLine": 866,
+      "endOffset": 29162,
+      "kind": "method",
+      "name": "SettingsManager.getQuietStartup",
+      "startLine": 864,
+      "startOffset": 29085,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getQuietStartup::method"
+    },
+    {
+      "endLine": 870,
+      "endOffset": 29255,
+      "kind": "method",
+      "name": "SettingsManager.setQuietStartup",
+      "startLine": 868,
+      "startOffset": 29165,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setQuietStartup::method"
+    },
+    {
+      "endLine": 874,
+      "endOffset": 29349,
+      "kind": "method",
+      "name": "SettingsManager.getShellCommandPrefix",
+      "startLine": 872,
+      "startOffset": 29258,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShellCommandPrefix::method"
+    },
+    {
+      "endLine": 878,
+      "endOffset": 29467,
+      "kind": "method",
+      "name": "SettingsManager.setShellCommandPrefix",
+      "startLine": 876,
+      "startOffset": 29352,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShellCommandPrefix::method"
+    },
+    {
+      "endLine": 882,
+      "endOffset": 29557,
+      "kind": "method",
+      "name": "SettingsManager.getCollapseChangelog",
+      "startLine": 880,
+      "startOffset": 29470,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCollapseChangelog::method"
+    },
+    {
+      "endLine": 886,
+      "endOffset": 29666,
+      "kind": "method",
+      "name": "SettingsManager.setCollapseChangelog",
+      "startLine": 884,
+      "startOffset": 29560,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setCollapseChangelog::method"
+    },
+    {
+      "endLine": 890,
+      "endOffset": 29750,
+      "kind": "method",
+      "name": "SettingsManager.getPackages",
+      "startLine": 888,
+      "startOffset": 29669,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getPackages::method"
+    },
+    {
+      "endLine": 894,
+      "endOffset": 29849,
+      "kind": "method",
+      "name": "SettingsManager.setPackages",
+      "startLine": 892,
+      "startOffset": 29753,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setPackages::method"
+    },
+    {
+      "endLine": 898,
+      "endOffset": 29956,
+      "kind": "method",
+      "name": "SettingsManager.setProjectPackages",
+      "startLine": 896,
+      "startOffset": 29852,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectPackages::method"
+    },
+    {
+      "endLine": 902,
+      "endOffset": 30041,
+      "kind": "method",
+      "name": "SettingsManager.getExtensionPaths",
+      "startLine": 900,
+      "startOffset": 29959,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getExtensionPaths::method"
+    },
+    {
+      "endLine": 906,
+      "endOffset": 30135,
+      "kind": "method",
+      "name": "SettingsManager.setExtensionPaths",
+      "startLine": 904,
+      "startOffset": 30044,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setExtensionPaths::method"
+    },
+    {
+      "endLine": 910,
+      "endOffset": 30237,
+      "kind": "method",
+      "name": "SettingsManager.setProjectExtensionPaths",
+      "startLine": 908,
+      "startOffset": 30138,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectExtensionPaths::method"
+    },
+    {
+      "endLine": 914,
+      "endOffset": 30314,
+      "kind": "method",
+      "name": "SettingsManager.getSkillPaths",
+      "startLine": 912,
+      "startOffset": 30240,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getSkillPaths::method"
+    },
+    {
+      "endLine": 918,
+      "endOffset": 30400,
+      "kind": "method",
+      "name": "SettingsManager.setSkillPaths",
+      "startLine": 916,
+      "startOffset": 30317,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSkillPaths::method"
+    },
+    {
+      "endLine": 922,
+      "endOffset": 30494,
+      "kind": "method",
+      "name": "SettingsManager.setProjectSkillPaths",
+      "startLine": 920,
+      "startOffset": 30403,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectSkillPaths::method"
+    },
+    {
+      "endLine": 926,
+      "endOffset": 30581,
+      "kind": "method",
+      "name": "SettingsManager.getPromptTemplatePaths",
+      "startLine": 924,
+      "startOffset": 30497,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getPromptTemplatePaths::method"
+    },
+    {
+      "endLine": 930,
+      "endOffset": 30677,
+      "kind": "method",
+      "name": "SettingsManager.setPromptTemplatePaths",
+      "startLine": 928,
+      "startOffset": 30584,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setPromptTemplatePaths::method"
+    },
+    {
+      "endLine": 934,
+      "endOffset": 30781,
+      "kind": "method",
+      "name": "SettingsManager.setProjectPromptTemplatePaths",
+      "startLine": 932,
+      "startOffset": 30680,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectPromptTemplatePaths::method"
+    },
+    {
+      "endLine": 938,
+      "endOffset": 30858,
+      "kind": "method",
+      "name": "SettingsManager.getThemePaths",
+      "startLine": 936,
+      "startOffset": 30784,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getThemePaths::method"
+    },
+    {
+      "endLine": 942,
+      "endOffset": 30944,
+      "kind": "method",
+      "name": "SettingsManager.setThemePaths",
+      "startLine": 940,
+      "startOffset": 30861,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setThemePaths::method"
+    },
+    {
+      "endLine": 946,
+      "endOffset": 31038,
+      "kind": "method",
+      "name": "SettingsManager.setProjectThemePaths",
+      "startLine": 944,
+      "startOffset": 30947,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setProjectThemePaths::method"
+    },
+    {
+      "endLine": 950,
+      "endOffset": 31131,
+      "kind": "method",
+      "name": "SettingsManager.getEnableSkillCommands",
+      "startLine": 948,
+      "startOffset": 31041,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEnableSkillCommands::method"
+    },
+    {
+      "endLine": 954,
+      "endOffset": 31242,
+      "kind": "method",
+      "name": "SettingsManager.setEnableSkillCommands",
+      "startLine": 952,
+      "startOffset": 31134,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEnableSkillCommands::method"
+    },
+    {
+      "endLine": 958,
+      "endOffset": 31347,
+      "kind": "method",
+      "name": "SettingsManager.getThinkingBudgets",
+      "startLine": 956,
+      "startOffset": 31245,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getThinkingBudgets::method"
+    },
+    {
+      "endLine": 962,
+      "endOffset": 31432,
+      "kind": "method",
+      "name": "SettingsManager.getShowImages",
+      "startLine": 960,
+      "startOffset": 31350,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShowImages::method"
+    },
+    {
+      "endLine": 966,
+      "endOffset": 31537,
+      "kind": "method",
+      "name": "SettingsManager.setShowImages",
+      "startLine": 964,
+      "startOffset": 31435,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShowImages::method"
+    },
+    {
+      "endLine": 974,
+      "endOffset": 31799,
+      "kind": "method",
+      "name": "SettingsManager.getClearOnShrink",
+      "startLine": 968,
+      "startOffset": 31540,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getClearOnShrink::method"
+    },
+    {
+      "endLine": 978,
+      "endOffset": 31916,
+      "kind": "method",
+      "name": "SettingsManager.setClearOnShrink",
+      "startLine": 976,
+      "startOffset": 31802,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setClearOnShrink::method"
+    },
+    {
+      "endLine": 982,
+      "endOffset": 32004,
+      "kind": "method",
+      "name": "SettingsManager.getImageAutoResize",
+      "startLine": 980,
+      "startOffset": 31919,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getImageAutoResize::method"
+    },
+    {
+      "endLine": 986,
+      "endOffset": 32118,
+      "kind": "method",
+      "name": "SettingsManager.setImageAutoResize",
+      "startLine": 984,
+      "startOffset": 32007,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setImageAutoResize::method"
+    },
+    {
+      "endLine": 990,
+      "endOffset": 32204,
+      "kind": "method",
+      "name": "SettingsManager.getBlockImages",
+      "startLine": 988,
+      "startOffset": 32121,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getBlockImages::method"
+    },
+    {
+      "endLine": 994,
+      "endOffset": 32315,
+      "kind": "method",
+      "name": "SettingsManager.setBlockImages",
+      "startLine": 992,
+      "startOffset": 32207,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setBlockImages::method"
+    },
+    {
+      "endLine": 998,
+      "endOffset": 32401,
+      "kind": "method",
+      "name": "SettingsManager.getEnabledModels",
+      "startLine": 996,
+      "startOffset": 32318,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEnabledModels::method"
+    },
+    {
+      "endLine": 1002,
+      "endOffset": 32515,
+      "kind": "method",
+      "name": "SettingsManager.setEnabledModels",
+      "startLine": 1000,
+      "startOffset": 32404,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEnabledModels::method"
+    },
+    {
+      "endLine": 1006,
+      "endOffset": 32625,
+      "kind": "method",
+      "name": "SettingsManager.getDoubleEscapeAction",
+      "startLine": 1004,
+      "startOffset": 32518,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getDoubleEscapeAction::method"
+    },
+    {
+      "endLine": 1010,
+      "endOffset": 32749,
+      "kind": "method",
+      "name": "SettingsManager.setDoubleEscapeAction",
+      "startLine": 1008,
+      "startOffset": 32628,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setDoubleEscapeAction::method"
+    },
+    {
+      "endLine": 1016,
+      "endOffset": 33019,
+      "kind": "method",
+      "name": "SettingsManager.getTreeFilterMode",
+      "startLine": 1012,
+      "startOffset": 32752,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTreeFilterMode::method"
+    },
+    {
+      "endLine": 1020,
+      "endOffset": 33168,
+      "kind": "method",
+      "name": "SettingsManager.setTreeFilterMode",
+      "startLine": 1018,
+      "startOffset": 33022,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTreeFilterMode::method"
+    },
+    {
+      "endLine": 1024,
+      "endOffset": 33293,
+      "kind": "method",
+      "name": "SettingsManager.getShowHardwareCursor",
+      "startLine": 1022,
+      "startOffset": 33171,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getShowHardwareCursor::method"
+    },
+    {
+      "endLine": 1028,
+      "endOffset": 33402,
+      "kind": "method",
+      "name": "SettingsManager.setShowHardwareCursor",
+      "startLine": 1026,
+      "startOffset": 33296,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setShowHardwareCursor::method"
+    },
+    {
+      "endLine": 1032,
+      "endOffset": 33481,
+      "kind": "method",
+      "name": "SettingsManager.getEditorPaddingX",
+      "startLine": 1030,
+      "startOffset": 33405,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEditorPaddingX::method"
+    },
+    {
+      "endLine": 1036,
+      "endOffset": 33619,
+      "kind": "method",
+      "name": "SettingsManager.setEditorPaddingX",
+      "startLine": 1034,
+      "startOffset": 33484,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEditorPaddingX::method"
+    },
+    {
+      "endLine": 1040,
+      "endOffset": 33714,
+      "kind": "method",
+      "name": "SettingsManager.getAutocompleteMaxVisible",
+      "startLine": 1038,
+      "startOffset": 33622,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAutocompleteMaxVisible::method"
+    },
+    {
+      "endLine": 1044,
+      "endOffset": 33875,
+      "kind": "method",
+      "name": "SettingsManager.setAutocompleteMaxVisible",
+      "startLine": 1042,
+      "startOffset": 33717,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setAutocompleteMaxVisible::method"
+    },
+    {
+      "endLine": 1048,
+      "endOffset": 33978,
+      "kind": "method",
+      "name": "SettingsManager.getRespectGitignoreInPicker",
+      "startLine": 1046,
+      "startOffset": 33878,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getRespectGitignoreInPicker::method"
+    },
+    {
+      "endLine": 1052,
+      "endOffset": 34095,
+      "kind": "method",
+      "name": "SettingsManager.setRespectGitignoreInPicker",
+      "startLine": 1050,
+      "startOffset": 33981,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setRespectGitignoreInPicker::method"
+    },
+    {
+      "endLine": 1056,
+      "endOffset": 34183,
+      "kind": "method",
+      "name": "SettingsManager.getSearchExcludeDirs",
+      "startLine": 1054,
+      "startOffset": 34098,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getSearchExcludeDirs::method"
+    },
+    {
+      "endLine": 1060,
+      "endOffset": 34301,
+      "kind": "method",
+      "name": "SettingsManager.setSearchExcludeDirs",
+      "startLine": 1058,
+      "startOffset": 34186,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setSearchExcludeDirs::method"
+    },
+    {
+      "endLine": 1064,
+      "endOffset": 34395,
+      "kind": "method",
+      "name": "SettingsManager.getCodeBlockIndent",
+      "startLine": 1062,
+      "startOffset": 34304,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getCodeBlockIndent::method"
+    },
+    {
+      "endLine": 1082,
+      "endOffset": 35052,
+      "kind": "method",
+      "name": "SettingsManager.getMemorySettings",
+      "startLine": 1066,
+      "startOffset": 34398,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getMemorySettings::method"
+    },
+    {
+      "endLine": 1086,
+      "endOffset": 35134,
+      "kind": "method",
+      "name": "SettingsManager.getAsyncEnabled",
+      "startLine": 1084,
+      "startOffset": 35055,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAsyncEnabled::method"
+    },
+    {
+      "endLine": 1090,
+      "endOffset": 35213,
+      "kind": "method",
+      "name": "SettingsManager.getAsyncMaxJobs",
+      "startLine": 1088,
+      "startOffset": 35137,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAsyncMaxJobs::method"
+    },
+    {
+      "endLine": 1094,
+      "endOffset": 35335,
+      "kind": "method",
+      "name": "SettingsManager.getTaskIsolationMode",
+      "startLine": 1092,
+      "startOffset": 35216,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTaskIsolationMode::method"
+    },
+    {
+      "endLine": 1098,
+      "endOffset": 35442,
+      "kind": "method",
+      "name": "SettingsManager.getTaskIsolationMerge",
+      "startLine": 1096,
+      "startOffset": 35338,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTaskIsolationMerge::method"
+    },
+    {
+      "endLine": 1102,
+      "endOffset": 35530,
+      "kind": "method",
+      "name": "SettingsManager.getFallbackEnabled",
+      "startLine": 1100,
+      "startOffset": 35445,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackEnabled::method"
+    },
+    {
+      "endLine": 1106,
+      "endOffset": 35643,
+      "kind": "method",
+      "name": "SettingsManager.setFallbackEnabled",
+      "startLine": 1104,
+      "startOffset": 35533,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFallbackEnabled::method"
+    },
+    {
+      "endLine": 1110,
+      "endOffset": 35755,
+      "kind": "method",
+      "name": "SettingsManager.getFallbackChains",
+      "startLine": 1108,
+      "startOffset": 35646,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackChains::method"
+    },
+    {
+      "endLine": 1114,
+      "endOffset": 35876,
+      "kind": "method",
+      "name": "SettingsManager.getFallbackChain",
+      "startLine": 1112,
+      "startOffset": 35758,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackChain::method"
+    },
+    {
+      "endLine": 1127,
+      "endOffset": 36297,
+      "kind": "method",
+      "name": "SettingsManager.setFallbackChain",
+      "startLine": 1116,
+      "startOffset": 35879,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFallbackChain::method"
+    },
+    {
+      "endLine": 1140,
+      "endOffset": 36660,
+      "kind": "method",
+      "name": "SettingsManager.removeFallbackChain",
+      "startLine": 1129,
+      "startOffset": 36300,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.removeFallbackChain::method"
+    },
+    {
+      "endLine": 1147,
+      "endOffset": 36849,
+      "kind": "method",
+      "name": "SettingsManager.getFallbackSettings",
+      "startLine": 1142,
+      "startOffset": 36663,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFallbackSettings::method"
+    },
+    {
+      "endLine": 1151,
+      "endOffset": 36953,
+      "kind": "method",
+      "name": "SettingsManager.getModelDiscoverySettings",
+      "startLine": 1149,
+      "startOffset": 36852,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getModelDiscoverySettings::method"
+    },
+    {
+      "endLine": 1155,
+      "endOffset": 37078,
+      "kind": "method",
+      "name": "SettingsManager.setModelDiscoveryEnabled",
+      "startLine": 1153,
+      "startOffset": 36956,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setModelDiscoveryEnabled::method"
+    },
+    {
+      "endLine": 1159,
+      "endOffset": 37171,
+      "kind": "method",
+      "name": "SettingsManager.getEditMode",
+      "startLine": 1157,
+      "startOffset": 37081,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getEditMode::method"
+    },
+    {
+      "endLine": 1163,
+      "endOffset": 37270,
+      "kind": "method",
+      "name": "SettingsManager.setEditMode",
+      "startLine": 1161,
+      "startOffset": 37174,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setEditMode::method"
+    },
+    {
+      "endLine": 1167,
+      "endOffset": 37391,
+      "kind": "method",
+      "name": "SettingsManager.getTimestampFormat",
+      "startLine": 1165,
+      "startOffset": 37273,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getTimestampFormat::method"
+    },
+    {
+      "endLine": 1171,
+      "endOffset": 37517,
+      "kind": "method",
+      "name": "SettingsManager.setTimestampFormat",
+      "startLine": 1169,
+      "startOffset": 37394,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setTimestampFormat::method"
+    },
+    {
+      "endLine": 1179,
+      "endOffset": 37780,
+      "kind": "method",
+      "name": "SettingsManager.getAllowedCommandPrefixes",
+      "startLine": 1177,
+      "startOffset": 37673,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getAllowedCommandPrefixes::method"
+    },
+    {
+      "endLine": 1183,
+      "endOffset": 37900,
+      "kind": "method",
+      "name": "SettingsManager.setAllowedCommandPrefixes",
+      "startLine": 1181,
+      "startOffset": 37783,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setAllowedCommandPrefixes::method"
+    },
+    {
+      "endLine": 1191,
+      "endOffset": 38144,
+      "kind": "method",
+      "name": "SettingsManager.getFetchAllowedUrls",
+      "startLine": 1189,
+      "startOffset": 38049,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.getFetchAllowedUrls::method"
+    },
+    {
+      "endLine": 1195,
+      "endOffset": 38244,
+      "kind": "method",
+      "name": "SettingsManager.setFetchAllowedUrls",
+      "startLine": 1193,
+      "startOffset": 38147,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager.setFetchAllowedUrls::method"
+    },
+    {
+      "endLine": 17,
+      "endOffset": 632,
+      "kind": "interface",
+      "name": "CompactionSettings",
+      "startLine": 13,
+      "startOffset": 467,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::CompactionSettings::interface"
+    },
+    {
+      "endLine": 22,
+      "endOffset": 877,
+      "kind": "interface",
+      "name": "BranchSummarySettings",
+      "startLine": 19,
+      "startOffset": 634,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::BranchSummarySettings::interface"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 1145,
+      "kind": "interface",
+      "name": "RetrySettings",
+      "startLine": 24,
+      "startOffset": 879,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::RetrySettings::interface"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 1352,
+      "kind": "interface",
+      "name": "TerminalSettings",
+      "startLine": 31,
+      "startOffset": 1147,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::TerminalSettings::interface"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1600,
+      "kind": "interface",
+      "name": "ImageSettings",
+      "startLine": 36,
+      "startOffset": 1354,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::ImageSettings::interface"
+    },
+    {
+      "endLine": 46,
+      "endOffset": 1714,
+      "kind": "interface",
+      "name": "ThinkingBudgetsSettings",
+      "startLine": 41,
+      "startOffset": 1602,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::ThinkingBudgetsSettings::interface"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1855,
+      "kind": "interface",
+      "name": "BashInterceptorSettings",
+      "startLine": 48,
+      "startOffset": 1716,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::BashInterceptorSettings::interface"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 1938,
+      "kind": "interface",
+      "name": "MarkdownSettings",
+      "startLine": 53,
+      "startOffset": 1857,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::MarkdownSettings::interface"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 2249,
+      "kind": "interface",
+      "name": "MemorySettings",
+      "startLine": 57,
+      "startOffset": 1940,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::MemorySettings::interface"
+    },
+    {
+      "endLine": 69,
+      "endOffset": 2361,
+      "kind": "interface",
+      "name": "AsyncSettings",
+      "startLine": 66,
+      "startOffset": 2251,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::AsyncSettings::interface"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 2519,
+      "kind": "interface",
+      "name": "TaskIsolationSettings",
+      "startLine": 71,
+      "startOffset": 2363,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::TaskIsolationSettings::interface"
+    },
+    {
+      "endLine": 80,
+      "endOffset": 2614,
+      "kind": "interface",
+      "name": "FallbackChainEntry",
+      "startLine": 76,
+      "startOffset": 2521,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::FallbackChainEntry::interface"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 2762,
+      "kind": "interface",
+      "name": "FallbackSettings",
+      "startLine": 82,
+      "startOffset": 2616,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::FallbackSettings::interface"
+    },
+    {
+      "endLine": 92,
+      "endOffset": 3072,
+      "kind": "interface",
+      "name": "ModelDiscoverySettings",
+      "startLine": 87,
+      "startOffset": 2764,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::ModelDiscoverySettings::interface"
+    },
+    {
+      "endLine": 116,
+      "endOffset": 3906,
+      "kind": "interface",
+      "name": "HookEntry",
+      "startLine": 102,
+      "startOffset": 3407,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::HookEntry::interface"
+    },
+    {
+      "endLine": 148,
+      "endOffset": 4756,
+      "kind": "interface",
+      "name": "HooksSettings",
+      "startLine": 124,
+      "startOffset": 4109,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::HooksSettings::interface"
+    },
+    {
+      "endLine": 213,
+      "endOffset": 8226,
+      "kind": "interface",
+      "name": "Settings",
+      "startLine": 167,
+      "startOffset": 5114,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::Settings::interface"
+    },
+    {
+      "endLine": 265,
+      "endOffset": 9813,
+      "kind": "interface",
+      "name": "SettingsStorage",
+      "startLine": 263,
+      "startOffset": 9681,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsStorage::interface"
+    },
+    {
+      "endLine": 270,
+      "endOffset": 9887,
+      "kind": "interface",
+      "name": "SettingsError",
+      "startLine": 267,
+      "startOffset": 9815,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsError::interface"
+    },
+    {
+      "endLine": 150,
+      "endOffset": 4799,
+      "kind": "type",
+      "name": "TransportSetting",
+      "startLine": 150,
+      "startOffset": 4758,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::TransportSetting::type"
+    },
+    {
+      "endLine": 165,
+      "endOffset": 5112,
+      "kind": "type",
+      "name": "PackageSource",
+      "startLine": 157,
+      "startOffset": 4952,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::PackageSource::type"
+    },
+    {
+      "endLine": 261,
+      "endOffset": 9679,
+      "kind": "type",
+      "name": "SettingsScope",
+      "startLine": 261,
+      "startOffset": 9630,
+      "symbolId": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsScope::type"
+    }
+  ]
+}

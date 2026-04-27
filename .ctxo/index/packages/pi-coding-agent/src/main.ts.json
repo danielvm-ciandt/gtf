@@ -1,0 +1,542 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 65,
+      "symbolId": "packages/pi-coding-agent/src/main.ts::main::function"
+    }
+  ],
+  "contentHash": "6bf6cade7e72273954cef7dd9f6c655bbe16e20bf03ea8d339f0b9b1f6c6c7c7",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::Args::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::parseArgs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::printHelp::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/config-selector.ts::selectConfig::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/file-processor.ts::processFileArguments::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::discoverAndPrintModels::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/cli/session-picker.ts::selectSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::APP_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getModelsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::VERSION::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::LoadExtensionsResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::resolveCliModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::resolveModelScope::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::ScopedModel::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::CreateAgentSessionOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::printTimings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::time::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::allTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/migrations.ts::runMigrations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/migrations.ts::showDeprecationWarnings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::InteractiveMode::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::runPrintMode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::runRpcMode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::stopThemeWatcher::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::isTruthyEnvFlag::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::handleConfigCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/migrations.ts::runMigrations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::parseArgs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::reportSettingsErrors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getModelsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::time::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::parseArgs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::printHelp::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::discoverAndPrintModels::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::readPipedStdin::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::prepareInitialMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/migrations.ts::showDeprecationWarnings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::resolveModelScope::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::createSessionManager::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::callSessionDirectoryHook::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/session-picker.ts::selectSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::stopThemeWatcher::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/main.ts::buildSessionOptions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getModelsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::runRpcMode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::printTimings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::runPrintMode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::stopThemeWatcher::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::InteractiveMode::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::APP_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/migrations.ts::runMigrations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::parseArgs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getModelsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::time::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::LoadExtensionsResult::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::VERSION::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/cli/args.ts::printHelp::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::discoverAndPrintModels::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/migrations.ts::showDeprecationWarnings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::ScopedModel::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::resolveModelScope::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/cli/session-picker.ts::selectSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::stopThemeWatcher::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::runRpcMode::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::printTimings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::InteractiveMode::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/main.ts::main::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/index.ts::runPrintMode::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/main.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 648,
+      "endOffset": 22152,
+      "kind": "function",
+      "name": "main",
+      "startLine": 352,
+      "startOffset": 11861,
+      "symbolId": "packages/pi-coding-agent/src/main.ts::main::function"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.start::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.scanProjects::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.getSessionManager::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.getEventBridge::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.getOrchestrator::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.shutdown::method"
+    }
+  ],
+  "contentHash": "34e48043879c44441230dd69f8a1d3aeb94d195ed241cdc82ab4998faa41df4a",
+  "edges": [
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/project-scanner.ts::scanForProjects::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/discord-bot.ts::DiscordBot::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/discord-bot.ts::validateDiscordConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::validateDiscordConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/daemon.ts::Daemon.scanProjects::method"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/daemon.ts::Daemon.scanProjects::method"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::DiscordBot::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon.scanProjects::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/project-scanner.ts::scanForProjects::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/discord-bot.ts::DiscordBot::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/logger.ts::Logger::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/discord-bot.ts::validateDiscordConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface"
+    },
+    {
+      "from": "packages/daemon/src/daemon.ts::Daemon::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/project-scanner.ts::scanForProjects::function"
+    }
+  ],
+  "file": "packages/daemon/src/daemon.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 198,
+      "endOffset": 7228,
+      "kind": "class",
+      "name": "Daemon",
+      "startLine": 12,
+      "startOffset": 530,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon::class"
+    },
+    {
+      "endLine": 124,
+      "endOffset": 5069,
+      "kind": "method",
+      "name": "Daemon.start",
+      "startLine": 33,
+      "startOffset": 1353,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.start::method"
+    },
+    {
+      "endLine": 129,
+      "endOffset": 5248,
+      "kind": "method",
+      "name": "Daemon.scanProjects",
+      "startLine": 127,
+      "startOffset": 5137,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.scanProjects::method"
+    },
+    {
+      "endLine": 137,
+      "endOffset": 5529,
+      "kind": "method",
+      "name": "Daemon.getSessionManager",
+      "startLine": 132,
+      "startOffset": 5321,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.getSessionManager::method"
+    },
+    {
+      "endLine": 142,
+      "endOffset": 5699,
+      "kind": "method",
+      "name": "Daemon.getEventBridge",
+      "startLine": 140,
+      "startOffset": 5623,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.getEventBridge::method"
+    },
+    {
+      "endLine": 147,
+      "endOffset": 5883,
+      "kind": "method",
+      "name": "Daemon.getOrchestrator",
+      "startLine": 145,
+      "startOffset": 5804,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.getOrchestrator::method"
+    },
+    {
+      "endLine": 197,
+      "endOffset": 7226,
+      "kind": "method",
+      "name": "Daemon.shutdown",
+      "startLine": 150,
+      "startOffset": 5960,
+      "symbolId": "packages/daemon/src/daemon.ts::Daemon.shutdown::method"
+    }
+  ]
+}

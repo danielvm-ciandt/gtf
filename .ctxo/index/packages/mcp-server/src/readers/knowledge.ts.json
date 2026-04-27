@@ -1,0 +1,95 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function"
+    }
+  ],
+  "contentHash": "6e6b476583fed13d12ab39c33317d2029c19fa6585ce9ba1f8e8b996cee48da4",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/knowledge.ts::parseKnowledgeMarkdown::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/knowledge.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 110,
+      "endOffset": 3531,
+      "kind": "function",
+      "name": "readKnowledge",
+      "startLine": 91,
+      "startOffset": 2886,
+      "symbolId": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function"
+    },
+    {
+      "endLine": 18,
+      "endOffset": 574,
+      "kind": "interface",
+      "name": "KnowledgeEntry",
+      "startLine": 12,
+      "startOffset": 447,
+      "symbolId": "packages/mcp-server/src/readers/knowledge.ts::KnowledgeEntry::interface"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 705,
+      "kind": "interface",
+      "name": "KnowledgeResult",
+      "startLine": 20,
+      "startOffset": 576,
+      "symbolId": "packages/mcp-server/src/readers/knowledge.ts::KnowledgeResult::interface"
+    },
+    {
+      "endLine": 10,
+      "endOffset": 445,
+      "kind": "type",
+      "name": "KnowledgeType",
+      "startLine": 10,
+      "startOffset": 387,
+      "symbolId": "packages/mcp-server/src/readers/knowledge.ts::KnowledgeType::type"
+    }
+  ]
+}

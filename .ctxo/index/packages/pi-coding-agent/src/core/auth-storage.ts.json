@@ -1,0 +1,1053 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureParentDir::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureFileExists::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLock::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLockAsync::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::InMemoryAuthStorageBackend.withLock::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::InMemoryAuthStorageBackend.withLockAsync::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.create::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.fromStorage::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.inMemory::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.setRuntimeApiKey::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.removeRuntimeApiKey::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.setFallbackResolver::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.onCredentialChange::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.notifyCredentialChange::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.recordError::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.parseStorageData::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.reload::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.remove::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.list::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.has::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.hasAuth::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.hasLegacyOAuthCredential::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.removeLegacyOAuthCredential::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getAll::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.drainErrors::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.login::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.logout::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.areAllCredentialsBackedOff::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markProviderExhausted::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isProviderAvailable::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getProviderBackoffRemaining::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getEarliestBackoffExpiry::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isCredentialBackedOff::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.refreshOAuthTokenWithLock::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getOAuthProviders::method"
+    }
+  ],
+  "contentHash": "518b283de22aa1a41584a936a53090f1ed944c790f8cd5cd32ff96cfbf1c8aac",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::AUTH_LOCK_STALE_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockAsync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockSyncWithRetry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorageBackend::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::InMemoryAuthStorageBackend::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorageBackend::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureParentDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureFileExists::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockSyncWithRetry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLockAsync::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureParentDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLockAsync::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureFileExists::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLockAsync::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockAsync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.create::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.setRuntimeApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.parseStorageData::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.parseStorageData::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::validateNotGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.remove::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.hasAuth::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.has::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.hasLegacyOAuthCredential::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.removeLegacyOAuthCredential::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.removeLegacyOAuthCredential::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.removeLegacyOAuthCredential::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.login::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.logout::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.remove::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.areAllCredentialsBackedOff::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.areAllCredentialsBackedOff::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isCredentialBackedOff::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markProviderExhausted::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::getBackoffDuration::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markProviderExhausted::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isProviderAvailable::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getProviderBackoffRemaining::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getEarliestBackoffExpiry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isCredentialBackedOff::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isCredentialBackedOff::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::hashString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isCredentialBackedOff::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::getBackoffDuration::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::hashString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isCredentialBackedOff::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.refreshOAuthTokenWithLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.parseStorageData::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.refreshOAuthTokenWithLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.refreshOAuthTokenWithLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.notifyCredentialChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.refreshOAuthTokenWithLock::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.reload::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.recordError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockSyncWithRetry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockAsync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::AUTH_LOCK_STALE_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/auth-storage.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 56,
+      "endOffset": 2004,
+      "kind": "function",
+      "name": "isGoogleOAuthToken",
+      "startLine": 54,
+      "startOffset": 1911,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::isGoogleOAuthToken::function"
+    },
+    {
+      "endLine": 172,
+      "endOffset": 5566,
+      "kind": "class",
+      "name": "FileAuthStorageBackend",
+      "startLine": 92,
+      "startOffset": 3386,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend::class"
+    },
+    {
+      "endLine": 100,
+      "endOffset": 3690,
+      "kind": "method",
+      "name": "FileAuthStorageBackend.ensureParentDir",
+      "startLine": 95,
+      "startOffset": 3533,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureParentDir::method"
+    },
+    {
+      "endLine": 107,
+      "endOffset": 3854,
+      "kind": "method",
+      "name": "FileAuthStorageBackend.ensureFileExists",
+      "startLine": 102,
+      "startOffset": 3693,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.ensureFileExists::method"
+    },
+    {
+      "endLine": 128,
+      "endOffset": 4417,
+      "kind": "method",
+      "name": "FileAuthStorageBackend.withLock",
+      "startLine": 109,
+      "startOffset": 3857,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLock::method"
+    },
+    {
+      "endLine": 171,
+      "endOffset": 5564,
+      "kind": "method",
+      "name": "FileAuthStorageBackend.withLockAsync",
+      "startLine": 130,
+      "startOffset": 4420,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::FileAuthStorageBackend.withLockAsync::method"
+    },
+    {
+      "endLine": 192,
+      "endOffset": 6088,
+      "kind": "class",
+      "name": "InMemoryAuthStorageBackend",
+      "startLine": 174,
+      "startOffset": 5568,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::InMemoryAuthStorageBackend::class"
+    },
+    {
+      "endLine": 183,
+      "endOffset": 5863,
+      "kind": "method",
+      "name": "InMemoryAuthStorageBackend.withLock",
+      "startLine": 177,
+      "startOffset": 5678,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::InMemoryAuthStorageBackend.withLock::method"
+    },
+    {
+      "endLine": 191,
+      "endOffset": 6086,
+      "kind": "method",
+      "name": "InMemoryAuthStorageBackend.withLockAsync",
+      "startLine": 185,
+      "startOffset": 5866,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::InMemoryAuthStorageBackend.withLockAsync::method"
+    },
+    {
+      "endLine": 924,
+      "endOffset": 29655,
+      "kind": "class",
+      "name": "AuthStorage",
+      "startLine": 238,
+      "startOffset": 7497,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "endLine": 271,
+      "endOffset": 8650,
+      "kind": "method",
+      "name": "AuthStorage.create",
+      "startLine": 269,
+      "startOffset": 8500,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.create::method"
+    },
+    {
+      "endLine": 275,
+      "endOffset": 8753,
+      "kind": "method",
+      "name": "AuthStorage.fromStorage",
+      "startLine": 273,
+      "startOffset": 8653,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.fromStorage::method"
+    },
+    {
+      "endLine": 281,
+      "endOffset": 9000,
+      "kind": "method",
+      "name": "AuthStorage.inMemory",
+      "startLine": 277,
+      "startOffset": 8756,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.inMemory::method"
+    },
+    {
+      "endLine": 289,
+      "endOffset": 9214,
+      "kind": "method",
+      "name": "AuthStorage.setRuntimeApiKey",
+      "startLine": 287,
+      "startOffset": 9106,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.setRuntimeApiKey::method"
+    },
+    {
+      "endLine": 296,
+      "endOffset": 9356,
+      "kind": "method",
+      "name": "AuthStorage.removeRuntimeApiKey",
+      "startLine": 294,
+      "startOffset": 9266,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.removeRuntimeApiKey::method"
+    },
+    {
+      "endLine": 304,
+      "endOffset": 9616,
+      "kind": "method",
+      "name": "AuthStorage.setFallbackResolver",
+      "startLine": 302,
+      "startOffset": 9498,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.setFallbackResolver::method"
+    },
+    {
+      "endLine": 313,
+      "endOffset": 9947,
+      "kind": "method",
+      "name": "AuthStorage.onCredentialChange",
+      "startLine": 310,
+      "startOffset": 9778,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.onCredentialChange::method"
+    },
+    {
+      "endLine": 323,
+      "endOffset": 10155,
+      "kind": "method",
+      "name": "AuthStorage.notifyCredentialChange",
+      "startLine": 315,
+      "startOffset": 9950,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.notifyCredentialChange::method"
+    },
+    {
+      "endLine": 328,
+      "endOffset": 10326,
+      "kind": "method",
+      "name": "AuthStorage.recordError",
+      "startLine": 325,
+      "startOffset": 10158,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.recordError::method"
+    },
+    {
+      "endLine": 335,
+      "endOffset": 10489,
+      "kind": "method",
+      "name": "AuthStorage.parseStorageData",
+      "startLine": 330,
+      "startOffset": 10329,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.parseStorageData::method"
+    },
+    {
+      "endLine": 346,
+      "endOffset": 10820,
+      "kind": "method",
+      "name": "AuthStorage.getCredentialsForProvider",
+      "startLine": 341,
+      "startOffset": 10632,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getCredentialsForProvider::method"
+    },
+    {
+      "endLine": 364,
+      "endOffset": 11197,
+      "kind": "method",
+      "name": "AuthStorage.reload",
+      "startLine": 351,
+      "startOffset": 10870,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.reload::method"
+    },
+    {
+      "endLine": 385,
+      "endOffset": 11756,
+      "kind": "method",
+      "name": "AuthStorage.persistProviderChange",
+      "startLine": 366,
+      "startOffset": 11200,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.persistProviderChange::method"
+    },
+    {
+      "endLine": 393,
+      "endOffset": 11980,
+      "kind": "method",
+      "name": "AuthStorage.get",
+      "startLine": 390,
+      "startOffset": 11836,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.get::method"
+    },
+    {
+      "endLine": 428,
+      "endOffset": 13370,
+      "kind": "method",
+      "name": "AuthStorage.set",
+      "startLine": 400,
+      "startOffset": 12197,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.set::method"
+    },
+    {
+      "endLine": 439,
+      "endOffset": 13675,
+      "kind": "method",
+      "name": "AuthStorage.remove",
+      "startLine": 433,
+      "startOffset": 13426,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.remove::method"
+    },
+    {
+      "endLine": 446,
+      "endOffset": 13783,
+      "kind": "method",
+      "name": "AuthStorage.list",
+      "startLine": 444,
+      "startOffset": 13729,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.list::method"
+    },
+    {
+      "endLine": 453,
+      "endOffset": 13923,
+      "kind": "method",
+      "name": "AuthStorage.has",
+      "startLine": 451,
+      "startOffset": 13856,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.has::method"
+    },
+    {
+      "endLine": 465,
+      "endOffset": 14303,
+      "kind": "method",
+      "name": "AuthStorage.hasAuth",
+      "startLine": 459,
+      "startOffset": 14055,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.hasAuth::method"
+    },
+    {
+      "endLine": 475,
+      "endOffset": 14739,
+      "kind": "method",
+      "name": "AuthStorage.hasLegacyOAuthCredential",
+      "startLine": 473,
+      "startOffset": 14600,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.hasLegacyOAuthCredential::method"
+    },
+    {
+      "endLine": 500,
+      "endOffset": 15726,
+      "kind": "method",
+      "name": "AuthStorage.removeLegacyOAuthCredential",
+      "startLine": 483,
+      "startOffset": 15060,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.removeLegacyOAuthCredential::method"
+    },
+    {
+      "endLine": 517,
+      "endOffset": 16415,
+      "kind": "method",
+      "name": "AuthStorage.getAll",
+      "startLine": 511,
+      "startOffset": 16170,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getAll::method"
+    },
+    {
+      "endLine": 523,
+      "endOffset": 16519,
+      "kind": "method",
+      "name": "AuthStorage.drainErrors",
+      "startLine": 519,
+      "startOffset": 16418,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.drainErrors::method"
+    },
+    {
+      "endLine": 536,
+      "endOffset": 16904,
+      "kind": "method",
+      "name": "AuthStorage.login",
+      "startLine": 528,
+      "startOffset": 16564,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.login::method"
+    },
+    {
+      "endLine": 543,
+      "endOffset": 17005,
+      "kind": "method",
+      "name": "AuthStorage.logout",
+      "startLine": 541,
+      "startOffset": 16945,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.logout::method"
+    },
+    {
+      "endLine": 557,
+      "endOffset": 17551,
+      "kind": "method",
+      "name": "AuthStorage.areAllCredentialsBackedOff",
+      "startLine": 550,
+      "startOffset": 17252,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.areAllCredentialsBackedOff::method"
+    },
+    {
+      "endLine": 566,
+      "endOffset": 17864,
+      "kind": "method",
+      "name": "AuthStorage.markProviderExhausted",
+      "startLine": 563,
+      "startOffset": 17669,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markProviderExhausted::method"
+    },
+    {
+      "endLine": 579,
+      "endOffset": 18222,
+      "kind": "method",
+      "name": "AuthStorage.isProviderAvailable",
+      "startLine": 571,
+      "startOffset": 17960,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isProviderAvailable::method"
+    },
+    {
+      "endLine": 594,
+      "endOffset": 18640,
+      "kind": "method",
+      "name": "AuthStorage.getProviderBackoffRemaining",
+      "startLine": 585,
+      "startOffset": 18338,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getProviderBackoffRemaining::method"
+    },
+    {
+      "endLine": 624,
+      "endOffset": 19559,
+      "kind": "method",
+      "name": "AuthStorage.getEarliestBackoffExpiry",
+      "startLine": 605,
+      "startOffset": 19031,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getEarliestBackoffExpiry::method"
+    },
+    {
+      "endLine": 639,
+      "endOffset": 20003,
+      "kind": "method",
+      "name": "AuthStorage.isCredentialBackedOff",
+      "startLine": 629,
+      "startOffset": 19629,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.isCredentialBackedOff::method"
+    },
+    {
+      "endLine": 673,
+      "endOffset": 21181,
+      "kind": "method",
+      "name": "AuthStorage.selectCredentialIndex",
+      "startLine": 648,
+      "startOffset": 20316,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.selectCredentialIndex::method"
+    },
+    {
+      "endLine": 734,
+      "endOffset": 23508,
+      "kind": "method",
+      "name": "AuthStorage.markUsageLimitReached",
+      "startLine": 682,
+      "startOffset": 21482,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.markUsageLimitReached::method"
+    },
+    {
+      "endLine": 803,
+      "endOffset": 25695,
+      "kind": "method",
+      "name": "AuthStorage.refreshOAuthTokenWithLock",
+      "startLine": 740,
+      "startOffset": 23674,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.refreshOAuthTokenWithLock::method"
+    },
+    {
+      "endLine": 841,
+      "endOffset": 26724,
+      "kind": "method",
+      "name": "AuthStorage.resolveCredentialApiKey",
+      "startLine": 808,
+      "startOffset": 25757,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.resolveCredentialApiKey::method"
+    },
+    {
+      "endLine": 916,
+      "endOffset": 29547,
+      "kind": "method",
+      "name": "AuthStorage.getApiKey",
+      "startLine": 854,
+      "startOffset": 27127,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getApiKey::method"
+    },
+    {
+      "endLine": 923,
+      "endOffset": 29653,
+      "kind": "method",
+      "name": "AuthStorage.getOAuthProviders",
+      "startLine": 921,
+      "startOffset": 29599,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage.getOAuthProviders::method"
+    },
+    {
+      "endLine": 90,
+      "endOffset": 3384,
+      "kind": "interface",
+      "name": "AuthStorageBackend",
+      "startLine": 87,
+      "startOffset": 3184,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorageBackend::interface"
+    },
+    {
+      "endLine": 28,
+      "endOffset": 1027,
+      "kind": "type",
+      "name": "ApiKeyCredential",
+      "startLine": 25,
+      "startOffset": 960,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::ApiKeyCredential::type"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1098,
+      "kind": "type",
+      "name": "OAuthCredential",
+      "startLine": 30,
+      "startOffset": 1029,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::OAuthCredential::type"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 1164,
+      "kind": "type",
+      "name": "AuthCredential",
+      "startLine": 34,
+      "startOffset": 1100,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthCredential::type"
+    },
+    {
+      "endLine": 80,
+      "endOffset": 3127,
+      "kind": "type",
+      "name": "AuthStorageData",
+      "startLine": 80,
+      "startOffset": 3047,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorageData::type"
+    },
+    {
+      "endLine": 203,
+      "endOffset": 6673,
+      "kind": "type",
+      "name": "UsageLimitErrorType",
+      "startLine": 203,
+      "startOffset": 6577,
+      "symbolId": "packages/pi-coding-agent/src/core/auth-storage.ts::UsageLimitErrorType::type"
+    }
+  ]
+}

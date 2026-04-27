@@ -1,0 +1,41 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    }
+  ],
+  "contentHash": "134a5c87cb62e61e8574c500fb514a112b4473d58be2301b947e21e18af359b4",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 49,
+      "endOffset": 1705,
+      "kind": "function",
+      "name": "truncateToVisualLines",
+      "startLine": 26,
+      "startOffset": 1005,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    },
+    {
+      "endLine": 12,
+      "endOffset": 395,
+      "kind": "interface",
+      "name": "VisualTruncateResult",
+      "startLine": 7,
+      "startOffset": 213,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::VisualTruncateResult::interface"
+    }
+  ]
+}

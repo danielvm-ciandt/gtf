@@ -1,0 +1,65 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifest::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function"
+    }
+  ],
+  "contentHash": "722bf0ca1ad33c4b6bbadcd404b467cf0aa6e42d6e99765bb68a4b9c47240408",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifest::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::isManifest::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifest::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 52,
+      "endOffset": 1579,
+      "kind": "function",
+      "name": "readManifest",
+      "startLine": 43,
+      "startOffset": 1247,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifest::function"
+    },
+    {
+      "endLine": 61,
+      "endOffset": 1865,
+      "kind": "function",
+      "name": "readManifestFromEntryPath",
+      "startLine": 58,
+      "startOffset": 1715,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::readManifestFromEntryPath::function"
+    },
+    {
+      "endLine": 25,
+      "endOffset": 670,
+      "kind": "interface",
+      "name": "ExtensionManifest",
+      "startLine": 8,
+      "startOffset": 316,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/extension-manifest.ts::ExtensionManifest::interface"
+    }
+  ]
+}

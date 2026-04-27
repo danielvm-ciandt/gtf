@@ -1,0 +1,485 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatToolStart::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatToolEnd::function"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatMessage::function"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatBlocker::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatCompletion::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatError::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatSessionStarted::function"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatTaskTransition::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatGenericEvent::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatEvent::function"
+    }
+  ],
+  "contentHash": "7566dbf1c2092c821a6784e9997b9d60218d5e3ae00c25223e4300f7763d72de",
+  "edges": [
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolStart::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolStart::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::PendingBlocker::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolStart::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolStart::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolStart::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolStart::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolEnd::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolEnd::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolEnd::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolEnd::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolEnd::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::num::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatMessage::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatMessage::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatMessage::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::chunkArray::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCompletion::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCompletion::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCompletion::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCompletion::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatCost::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCompletion::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::num::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCompletion::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::num::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatError::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatError::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::num::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatCost::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::num::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::num::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatCost::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatSessionStarted::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatTaskTransition::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatTaskTransition::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatTaskTransition::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatGenericEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatGenericEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatGenericEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::truncate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::str::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatToolStart::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatToolEnd::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatMessage::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatCompletion::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatTaskTransition::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatGenericEvent::function"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolStart::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatToolEnd::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatMessage::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::PendingBlocker::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatBlocker::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCompletion::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatError::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatSessionStarted::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatTaskTransition::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatGenericEvent::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-formatter.ts::formatEvent::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    }
+  ],
+  "file": "packages/daemon/src/event-formatter.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 75,
+      "endOffset": 2627,
+      "kind": "function",
+      "name": "formatToolStart",
+      "startLine": 62,
+      "startOffset": 2170,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatToolStart::function"
+    },
+    {
+      "endLine": 99,
+      "endOffset": 3408,
+      "kind": "function",
+      "name": "formatToolEnd",
+      "startLine": 77,
+      "startOffset": 2629,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatToolEnd::function"
+    },
+    {
+      "endLine": 157,
+      "endOffset": 5176,
+      "kind": "function",
+      "name": "formatMessage",
+      "startLine": 101,
+      "startOffset": 3410,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatMessage::function"
+    },
+    {
+      "endLine": 260,
+      "endOffset": 8402,
+      "kind": "function",
+      "name": "formatBlocker",
+      "startLine": 164,
+      "startOffset": 5373,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatBlocker::function"
+    },
+    {
+      "endLine": 288,
+      "endOffset": 9429,
+      "kind": "function",
+      "name": "formatCompletion",
+      "startLine": 262,
+      "startOffset": 8404,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatCompletion::function"
+    },
+    {
+      "endLine": 299,
+      "endOffset": 9808,
+      "kind": "function",
+      "name": "formatError",
+      "startLine": 290,
+      "startOffset": 9431,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatError::function"
+    },
+    {
+      "endLine": 323,
+      "endOffset": 10579,
+      "kind": "function",
+      "name": "formatCostUpdate",
+      "startLine": 301,
+      "startOffset": 9810,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatCostUpdate::function"
+    },
+    {
+      "endLine": 333,
+      "endOffset": 10910,
+      "kind": "function",
+      "name": "formatSessionStarted",
+      "startLine": 325,
+      "startOffset": 10581,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatSessionStarted::function"
+    },
+    {
+      "endLine": 353,
+      "endOffset": 11725,
+      "kind": "function",
+      "name": "formatTaskTransition",
+      "startLine": 335,
+      "startOffset": 10912,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatTaskTransition::function"
+    },
+    {
+      "endLine": 370,
+      "endOffset": 12294,
+      "kind": "function",
+      "name": "formatGenericEvent",
+      "startLine": 355,
+      "startOffset": 11727,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatGenericEvent::function"
+    },
+    {
+      "endLine": 401,
+      "endOffset": 13249,
+      "kind": "function",
+      "name": "formatEvent",
+      "startLine": 380,
+      "startOffset": 12612,
+      "symbolId": "packages/daemon/src/event-formatter.ts::formatEvent::function"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/spacer.ts::Spacer.setLines::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/spacer.ts::Spacer.invalidate::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/spacer.ts::Spacer.render::method"
+    }
+  ],
+  "contentHash": "5fda071cd8c8585e138353fcd461fd5029bf29640431c89f1965a416bc271c1b",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/spacer.ts::Spacer::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/spacer.ts::Spacer::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/spacer.ts::Spacer::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/spacer.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 27,
+      "endOffset": 509,
+      "kind": "class",
+      "name": "Spacer",
+      "startLine": 5,
+      "startOffset": 98,
+      "symbolId": "packages/pi-tui/src/components/spacer.ts::Spacer::class"
+    },
+    {
+      "endLine": 14,
+      "endOffset": 283,
+      "kind": "method",
+      "name": "Spacer.setLines",
+      "startLine": 12,
+      "startOffset": 227,
+      "symbolId": "packages/pi-tui/src/components/spacer.ts::Spacer.setLines::method"
+    },
+    {
+      "endLine": 18,
+      "endOffset": 354,
+      "kind": "method",
+      "name": "Spacer.invalidate",
+      "startLine": 16,
+      "startOffset": 286,
+      "symbolId": "packages/pi-tui/src/components/spacer.ts::Spacer.invalidate::method"
+    },
+    {
+      "endLine": 26,
+      "endOffset": 507,
+      "kind": "method",
+      "name": "Spacer.render",
+      "startLine": 20,
+      "startOffset": 357,
+      "symbolId": "packages/pi-tui/src/components/spacer.ts::Spacer.render::method"
+    }
+  ]
+}

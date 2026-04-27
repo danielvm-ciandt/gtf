@@ -1,0 +1,125 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.setExpanded::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.rebuild::method"
+    }
+  ],
+  "contentHash": "29cac081c7bad69e32160b5e2055b2eed8f17f5a5effd38928f055a2444a2cb4",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::MessageRenderer::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.setExpanded::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.rebuild::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.rebuild::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::MessageRenderer::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 98,
+      "endOffset": 2801,
+      "kind": "class",
+      "name": "CustomMessageComponent",
+      "startLine": 11,
+      "startOffset": 519,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent::class"
+    },
+    {
+      "endLine": 42,
+      "endOffset": 1367,
+      "kind": "method",
+      "name": "CustomMessageComponent.setExpanded",
+      "startLine": 37,
+      "startOffset": 1236,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.setExpanded::method"
+    },
+    {
+      "endLine": 47,
+      "endOffset": 1442,
+      "kind": "method",
+      "name": "CustomMessageComponent.invalidate",
+      "startLine": 44,
+      "startOffset": 1370,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.invalidate::method"
+    },
+    {
+      "endLine": 97,
+      "endOffset": 2799,
+      "kind": "method",
+      "name": "CustomMessageComponent.rebuild",
+      "startLine": 49,
+      "startOffset": 1445,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-message.ts::CustomMessageComponent.rebuild::method"
+    }
+  ]
+}

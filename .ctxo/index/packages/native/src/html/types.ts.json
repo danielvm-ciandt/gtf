@@ -1,0 +1,27 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "80a0eaac9e86cbdd3eb51e7d0f56d0c8a257c77d54b31bb21bbd63282883cbe3",
+  "edges": [],
+  "file": "packages/native/src/html/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 6,
+      "endOffset": 242,
+      "kind": "interface",
+      "name": "HtmlToMarkdownOptions",
+      "startLine": 1,
+      "startOffset": 48,
+      "symbolId": "packages/native/src/html/types.ts::HtmlToMarkdownOptions::interface"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ast/index.ts::astGrep::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ast/index.ts::astEdit::function"
+    }
+  ],
+  "contentHash": "e0a8e97fca54925d868495d84ae332f8448fba7b6f66b7039713b33e0517a4c6",
+  "edges": [
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/ast/types.ts::AstFindOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/ast/types.ts::AstFindResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/ast/types.ts::AstReplaceOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/ast/types.ts::AstReplaceResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/ast/types.ts::AstFindMatch::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/ast/types.ts::AstReplaceChange::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "imports",
+      "to": "packages/native/src/ast/types.ts::AstReplaceFileChange::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "uses",
+      "to": "packages/native/src/ast/types.ts::AstFindOptions::interface"
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "uses",
+      "to": "packages/native/src/ast/types.ts::AstFindResult::interface"
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astGrep::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astEdit::function",
+      "kind": "uses",
+      "to": "packages/native/src/ast/types.ts::AstReplaceOptions::interface"
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astEdit::function",
+      "kind": "uses",
+      "to": "packages/native/src/ast/types.ts::AstReplaceResult::interface"
+    },
+    {
+      "from": "packages/native/src/ast/index.ts::astEdit::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/ast/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 7,
+      "endOffset": 483,
+      "kind": "function",
+      "name": "astGrep",
+      "startLine": 5,
+      "startOffset": 335,
+      "symbolId": "packages/native/src/ast/index.ts::astGrep::function"
+    },
+    {
+      "endLine": 11,
+      "endOffset": 642,
+      "kind": "function",
+      "name": "astEdit",
+      "startLine": 9,
+      "startOffset": 485,
+      "symbolId": "packages/native/src/ast/index.ts::astEdit::function"
+    }
+  ]
+}

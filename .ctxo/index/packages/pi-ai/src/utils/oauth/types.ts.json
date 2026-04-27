@@ -1,0 +1,85 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "6a1b0b1f8eea75a27a4584110801e9c8f7146d3c0446cca7a5eaca7c98b39cf5",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/oauth/types.ts::OAuthLoginCallbacks::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/types.ts::OAuthLoginCallbacks::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/oauth/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 28,
+      "endOffset": 614,
+      "kind": "interface",
+      "name": "OAuthLoginCallbacks",
+      "startLine": 22,
+      "startOffset": 373,
+      "symbolId": "packages/pi-ai/src/utils/oauth/types.ts::OAuthLoginCallbacks::interface"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1376,
+      "kind": "interface",
+      "name": "OAuthProviderInterface",
+      "startLine": 30,
+      "startOffset": 616,
+      "symbolId": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface"
+    },
+    {
+      "endLine": 7,
+      "endOffset": 164,
+      "kind": "type",
+      "name": "OAuthCredentials",
+      "startLine": 2,
+      "startOffset": 51,
+      "symbolId": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 203,
+      "kind": "type",
+      "name": "OAuthProviderId",
+      "startLine": 9,
+      "startOffset": 166,
+      "symbolId": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderId::type"
+    },
+    {
+      "endLine": 15,
+      "endOffset": 299,
+      "kind": "type",
+      "name": "OAuthPrompt",
+      "startLine": 11,
+      "startOffset": 205,
+      "symbolId": "packages/pi-ai/src/utils/oauth/types.ts::OAuthPrompt::type"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 371,
+      "kind": "type",
+      "name": "OAuthAuthInfo",
+      "startLine": 17,
+      "startOffset": 301,
+      "symbolId": "packages/pi-ai/src/utils/oauth/types.ts::OAuthAuthInfo::type"
+    }
+  ]
+}

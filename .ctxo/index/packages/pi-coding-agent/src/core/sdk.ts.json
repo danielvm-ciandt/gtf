@@ -1,0 +1,424 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function"
+    },
+    {
+      "cyclomatic": 76,
+      "symbolId": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function"
+    }
+  ],
+  "contentHash": "bd46824b11d076b8c680c2b8ea063889fa8b79fd320f5ca32a96f94626e75acf",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/defaults.ts::DEFAULT_THINKING_LEVEL::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionRunner::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::LoadExtensionsResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolDefinition::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::findInitialModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::ResourceLoader::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::time::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::allTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::bashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::codingTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createFindTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createGrepTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createLsTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createWriteTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::editTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::findTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::grepTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::hashlineCodingTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::hashlineEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::hashlineReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::lsTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::readOnlyTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::readTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::Tool::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::ToolName::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::writeTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::CredentialCooldownError::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/core/sdk.ts::Error::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::getDefaultAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::time::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::findInitialModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::isClaudeCodeBinaryInPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/timings.ts::time::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-resolver.ts::findInitialModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/defaults.ts::DEFAULT_THINKING_LEVEL::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::ToolName::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::allTools::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/sdk.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 39,
+      "endOffset": 1504,
+      "kind": "function",
+      "name": "canRestoreSessionModel",
+      "startLine": 34,
+      "startOffset": 1305,
+      "symbolId": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function"
+    },
+    {
+      "endLine": 565,
+      "endOffset": 21262,
+      "kind": "function",
+      "name": "createAgentSession",
+      "startLine": 230,
+      "startOffset": 7086,
+      "symbolId": "packages/pi-coding-agent/src/core/sdk.ts::createAgentSession::function"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1303,
+      "kind": "class",
+      "name": "CredentialCooldownError",
+      "startLine": 19,
+      "startOffset": 770,
+      "symbolId": "packages/pi-coding-agent/src/core/sdk.ts::CredentialCooldownError::class"
+    },
+    {
+      "endLine": 130,
+      "endOffset": 4801,
+      "kind": "interface",
+      "name": "CreateAgentSessionOptions",
+      "startLine": 85,
+      "startOffset": 2857,
+      "symbolId": "packages/pi-coding-agent/src/core/sdk.ts::CreateAgentSessionOptions::interface"
+    },
+    {
+      "endLine": 140,
+      "endOffset": 5154,
+      "kind": "interface",
+      "name": "CreateAgentSessionResult",
+      "startLine": 133,
+      "startOffset": 4841,
+      "symbolId": "packages/pi-coding-agent/src/core/sdk.ts::CreateAgentSessionResult::interface"
+    }
+  ]
+}

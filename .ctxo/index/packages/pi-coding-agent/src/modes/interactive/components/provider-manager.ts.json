@@ -1,0 +1,276 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.loadProviders::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.clampSelectedIndex::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateList::method"
+    },
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method"
+    }
+  ],
+  "contentHash": "73da8b14fca9fcf4a6106af3876792f8c365aa99482db2e8df6b8460822baae7",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.loadProviders::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.loadProviders::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.loadProviders::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.clampSelectedIndex::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.loadProviders::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 227,
+      "endOffset": 6917,
+      "kind": "class",
+      "name": "ProviderManagerComponent",
+      "startLine": 28,
+      "startOffset": 821,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent::class"
+    },
+    {
+      "endLine": 120,
+      "endOffset": 3455,
+      "kind": "method",
+      "name": "ProviderManagerComponent.loadProviders",
+      "startLine": 86,
+      "startOffset": 2372,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.loadProviders::method"
+    },
+    {
+      "endLine": 128,
+      "endOffset": 3656,
+      "kind": "method",
+      "name": "ProviderManagerComponent.clampSelectedIndex",
+      "startLine": 122,
+      "startOffset": 3458,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.clampSelectedIndex::method"
+    },
+    {
+      "endLine": 147,
+      "endOffset": 4165,
+      "kind": "method",
+      "name": "ProviderManagerComponent.updateHints",
+      "startLine": 130,
+      "startOffset": 3659,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateHints::method"
+    },
+    {
+      "endLine": 173,
+      "endOffset": 5143,
+      "kind": "method",
+      "name": "ProviderManagerComponent.updateList",
+      "startLine": 149,
+      "startOffset": 4168,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.updateList::method"
+    },
+    {
+      "endLine": 226,
+      "endOffset": 6915,
+      "kind": "method",
+      "name": "ProviderManagerComponent.handleInput",
+      "startLine": 175,
+      "startOffset": 5146,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/provider-manager.ts::ProviderManagerComponent.handleInput::method"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/fd/index.ts::fuzzyFind::function"
+    }
+  ],
+  "contentHash": "a8f059cd8e3c8df123315b1f88a583a8d3a1db5afb2dc9d38afd6faf8f878eac",
+  "edges": [
+    {
+      "from": "packages/native/src/fd/index.ts::fuzzyFind::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/fd/index.ts::fuzzyFind::function",
+      "kind": "imports",
+      "to": "packages/native/src/fd/types.ts::FuzzyFindMatch::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/fd/index.ts::fuzzyFind::function",
+      "kind": "imports",
+      "to": "packages/native/src/fd/types.ts::FuzzyFindOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/fd/index.ts::fuzzyFind::function",
+      "kind": "imports",
+      "to": "packages/native/src/fd/types.ts::FuzzyFindResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/fd/index.ts::fuzzyFind::function",
+      "kind": "uses",
+      "to": "packages/native/src/fd/types.ts::FuzzyFindOptions::interface"
+    },
+    {
+      "from": "packages/native/src/fd/index.ts::fuzzyFind::function",
+      "kind": "uses",
+      "to": "packages/native/src/fd/types.ts::FuzzyFindResult::interface"
+    },
+    {
+      "from": "packages/native/src/fd/index.ts::fuzzyFind::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/fd/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 35,
+      "endOffset": 1127,
+      "kind": "function",
+      "name": "fuzzyFind",
+      "startLine": 33,
+      "startOffset": 999,
+      "symbolId": "packages/native/src/fd/index.ts::fuzzyFind::function"
+    }
+  ]
+}

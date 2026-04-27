@@ -1,0 +1,43 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    }
+  ],
+  "contentHash": "33835111577490103dbb7509b7687db1643691d7b425845428f3cbeb873fe9cf",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::base64urlEncode::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::base64urlEncode::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/oauth/pkce.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 33,
+      "endOffset": 996,
+      "kind": "function",
+      "name": "generatePKCE",
+      "startLine": 20,
+      "startOffset": 474,
+      "symbolId": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/mcp-server/src/readers/captures.ts::readCaptures::function"
+    }
+  ],
+  "contentHash": "d7c6625bfab4f239db929a0fdab95247b7a415976882f7fe22da88a5d71bb715",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/captures.ts::readCaptures::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/captures.ts::readCaptures::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/captures.ts::readCaptures::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/captures.ts::readCaptures::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/captures.ts::readCaptures::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/captures.ts::parseCapturesMarkdown::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/captures.ts::readCaptures::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/captures.ts::readCaptures::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/captures.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 118,
+      "endOffset": 3690,
+      "kind": "function",
+      "name": "readCaptures",
+      "startLine": 84,
+      "startOffset": 2541,
+      "symbolId": "packages/mcp-server/src/readers/captures.ts::readCaptures::function"
+    },
+    {
+      "endLine": 25,
+      "endOffset": 862,
+      "kind": "interface",
+      "name": "CaptureEntry",
+      "startLine": 14,
+      "startOffset": 564,
+      "symbolId": "packages/mcp-server/src/readers/captures.ts::CaptureEntry::interface"
+    },
+    {
+      "endLine": 35,
+      "endOffset": 1030,
+      "kind": "interface",
+      "name": "CapturesResult",
+      "startLine": 27,
+      "startOffset": 864,
+      "symbolId": "packages/mcp-server/src/readers/captures.ts::CapturesResult::interface"
+    },
+    {
+      "endLine": 10,
+      "endOffset": 444,
+      "kind": "type",
+      "name": "CaptureStatus",
+      "startLine": 10,
+      "startOffset": 381,
+      "symbolId": "packages/mcp-server/src/readers/captures.ts::CaptureStatus::type"
+    },
+    {
+      "endLine": 12,
+      "endOffset": 562,
+      "kind": "type",
+      "name": "CaptureClassification",
+      "startLine": 11,
+      "startOffset": 445,
+      "symbolId": "packages/mcp-server/src/readers/captures.ts::CaptureClassification::type"
+    }
+  ]
+}

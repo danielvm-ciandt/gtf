@@ -1,0 +1,141 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu.handleInput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsSelectorComponent.getSettingsList::method"
+    }
+  ],
+  "contentHash": "69bd6200c8efc6531eb936fda9770f1c729b3b68460e63a8f666256016720f8b",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSelectListTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSettingsListTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSelectListTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSettingsListTheme::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 136,
+      "endOffset": 4278,
+      "kind": "class",
+      "name": "SelectSubmenu",
+      "startLine": 79,
+      "startOffset": 2912,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class"
+    },
+    {
+      "endLine": 135,
+      "endOffset": 4276,
+      "kind": "method",
+      "name": "SelectSubmenu.handleInput",
+      "startLine": 133,
+      "startOffset": 4203,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu.handleInput::method"
+    },
+    {
+      "endLine": 450,
+      "endOffset": 14764,
+      "kind": "class",
+      "name": "SettingsSelectorComponent",
+      "startLine": 141,
+      "startOffset": 4325,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsSelectorComponent::class"
+    },
+    {
+      "endLine": 449,
+      "endOffset": 14762,
+      "kind": "method",
+      "name": "SettingsSelectorComponent.getSettingsList",
+      "startLine": 447,
+      "startOffset": 14698,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsSelectorComponent.getSettingsList::method"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1490,
+      "kind": "interface",
+      "name": "SettingsConfig",
+      "startLine": 24,
+      "startOffset": 690,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsConfig::interface"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 2841,
+      "kind": "interface",
+      "name": "SettingsCallbacks",
+      "startLine": 50,
+      "startOffset": 1492,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SettingsCallbacks::interface"
+    },
+    {
+      "endLine": 22,
+      "endOffset": 687,
+      "kind": "variable",
+      "name": "THINKING_DESCRIPTIONS",
+      "startLine": 15,
+      "startOffset": 396,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::THINKING_DESCRIPTIONS::variable"
+    }
+  ]
+}

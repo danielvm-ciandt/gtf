@@ -1,0 +1,99 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    }
+  ],
+  "contentHash": "66453773f4a5873f09bef27a5c96c78123bc62bcf720b4ef54ec2bbab635fdc3",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/client.ts::notifyFileChanged::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/client.ts::notifyFileChanged::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/client.ts::notifyFileChanged::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/write.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 117,
+      "endOffset": 3359,
+      "kind": "function",
+      "name": "createWriteTool",
+      "startLine": 35,
+      "startOffset": 1249,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 918,
+      "kind": "interface",
+      "name": "WriteOperations",
+      "startLine": 18,
+      "startOffset": 701,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/write.ts::WriteOperations::interface"
+    },
+    {
+      "endLine": 33,
+      "endOffset": 1247,
+      "kind": "interface",
+      "name": "WriteToolOptions",
+      "startLine": 30,
+      "startOffset": 1109,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/write.ts::WriteToolOptions::interface"
+    },
+    {
+      "endLine": 12,
+      "endOffset": 573,
+      "kind": "type",
+      "name": "WriteToolInput",
+      "startLine": 12,
+      "startOffset": 517,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/write.ts::WriteToolInput::type"
+    },
+    {
+      "endLine": 120,
+      "endOffset": 3492,
+      "kind": "variable",
+      "name": "writeTool",
+      "startLine": 120,
+      "startOffset": 3450,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/write.ts::writeTool::variable"
+    }
+  ]
+}

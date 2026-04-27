@@ -1,0 +1,181 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.setAutoCompactEnabled::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.dispose::method"
+    },
+    {
+      "cyclomatic": 45,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method"
+    }
+  ],
+  "contentHash": "24ec819ae2610ed35e155fbc876d53d1f3778ece62c1945d1beae64aea6ddcef",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/footer-data-provider.ts::ReadonlyFooterDataProvider::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/footer.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::sanitizeStatusText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/footer-data-provider.ts::ReadonlyFooterDataProvider::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 39,
+      "endOffset": 1458,
+      "kind": "function",
+      "name": "formatPromptCost",
+      "startLine": 34,
+      "startOffset": 1227,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::formatPromptCost::function"
+    },
+    {
+      "endLine": 276,
+      "endOffset": 10796,
+      "kind": "class",
+      "name": "FooterComponent",
+      "startLine": 45,
+      "startOffset": 1636,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent::class"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 1917,
+      "kind": "method",
+      "name": "FooterComponent.setAutoCompactEnabled",
+      "startLine": 53,
+      "startOffset": 1830,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.setAutoCompactEnabled::method"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 2138,
+      "kind": "method",
+      "name": "FooterComponent.invalidate",
+      "startLine": 61,
+      "startOffset": 2058,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.invalidate::method"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 2289,
+      "kind": "method",
+      "name": "FooterComponent.dispose",
+      "startLine": 69,
+      "startOffset": 2224,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.dispose::method"
+    },
+    {
+      "endLine": 275,
+      "endOffset": 10794,
+      "kind": "method",
+      "name": "FooterComponent.render",
+      "startLine": 73,
+      "startOffset": 2292,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/footer.ts::FooterComponent.render::method"
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setTransport::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setBeforeToolCall::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setAfterToolCall::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.subscribe::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setSystemPrompt::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setModel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setSteeringMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.getSteeringMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setFollowUpMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.getFollowUpMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setTools::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.replaceMessages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.appendMessage::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.steer::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.followUp::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearSteeringQueue::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearFollowUpQueue::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearAllQueues::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.drainUserMessages::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.hasQueuedMessages::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.dequeueSteeringMessages::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.dequeueFollowUpMessages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearMessages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.abort::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.waitForIdle::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.reset::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.prompt::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.continue::method"
+    },
+    {
+      "cyclomatic": 32,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent._updatePendingToolCalls::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.emit::method"
+    }
+  ],
+  "contentHash": "3c87629076898624a3e85cea3738a76a71cbfb8eab05ed69b77ea47b434e7c8e",
+  "edges": [
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::agentLoop::function"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::agentLoopContinue::function"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::ZERO_USAGE::variable"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentContext::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentLoopConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentMessage::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentState::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AgentTool::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::BeforeToolCallContext::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::BeforeToolCallResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AfterToolCallContext::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::AfterToolCallResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::StreamFn::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/types.ts::ThinkingLevel::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent.continue::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.dequeueSteeringMessages::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent.continue::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent.continue::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.dequeueFollowUpMessages::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent.continue::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent.continue::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.dequeueSteeringMessages::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.dequeueFollowUpMessages::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::agentLoop::function"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::agentLoopContinue::function"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.appendMessage::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent._updatePendingToolCalls::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent._updatePendingToolCalls::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.emit::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.appendMessage::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.appendMessage::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method",
+      "kind": "calls",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent.emit::method"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::AgentState::interface"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::AgentEvent::type"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::AgentMessage::type"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::StreamFn::type"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::AgentLoopConfig::interface"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::ThinkingLevel::type"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::AgentTool::interface"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/types.ts::AgentContext::interface"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::agentLoop::function"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::agentLoopContinue::function"
+    },
+    {
+      "from": "packages/pi-agent-core/src/agent.ts::Agent::class",
+      "kind": "uses",
+      "to": "packages/pi-agent-core/src/agent-loop.ts::ZERO_USAGE::variable"
+    }
+  ],
+  "file": "packages/pi-agent-core/src/agent.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 626,
+      "endOffset": 18011,
+      "kind": "class",
+      "name": "Agent",
+      "startLine": 129,
+      "startOffset": 3817,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent::class"
+    },
+    {
+      "endLine": 222,
+      "endOffset": 6854,
+      "kind": "method",
+      "name": "Agent.setTransport",
+      "startLine": 220,
+      "startOffset": 6792,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setTransport::method"
+    },
+    {
+      "endLine": 245,
+      "endOffset": 7432,
+      "kind": "method",
+      "name": "Agent.setBeforeToolCall",
+      "startLine": 243,
+      "startOffset": 7336,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setBeforeToolCall::method"
+    },
+    {
+      "endLine": 253,
+      "endOffset": 7674,
+      "kind": "method",
+      "name": "Agent.setAfterToolCall",
+      "startLine": 251,
+      "startOffset": 7581,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setAfterToolCall::method"
+    },
+    {
+      "endLine": 262,
+      "endOffset": 7853,
+      "kind": "method",
+      "name": "Agent.subscribe",
+      "startLine": 259,
+      "startOffset": 7730,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.subscribe::method"
+    },
+    {
+      "endLine": 267,
+      "endOffset": 7938,
+      "kind": "method",
+      "name": "Agent.setSystemPrompt",
+      "startLine": 265,
+      "startOffset": 7875,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setSystemPrompt::method"
+    },
+    {
+      "endLine": 271,
+      "endOffset": 7994,
+      "kind": "method",
+      "name": "Agent.setModel",
+      "startLine": 269,
+      "startOffset": 7941,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setModel::method"
+    },
+    {
+      "endLine": 275,
+      "endOffset": 8069,
+      "kind": "method",
+      "name": "Agent.setThinkingLevel",
+      "startLine": 273,
+      "startOffset": 7997,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setThinkingLevel::method"
+    },
+    {
+      "endLine": 279,
+      "endOffset": 8151,
+      "kind": "method",
+      "name": "Agent.setSteeringMode",
+      "startLine": 277,
+      "startOffset": 8072,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setSteeringMode::method"
+    },
+    {
+      "endLine": 283,
+      "endOffset": 8229,
+      "kind": "method",
+      "name": "Agent.getSteeringMode",
+      "startLine": 281,
+      "startOffset": 8154,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.getSteeringMode::method"
+    },
+    {
+      "endLine": 287,
+      "endOffset": 8311,
+      "kind": "method",
+      "name": "Agent.setFollowUpMode",
+      "startLine": 285,
+      "startOffset": 8232,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setFollowUpMode::method"
+    },
+    {
+      "endLine": 291,
+      "endOffset": 8389,
+      "kind": "method",
+      "name": "Agent.getFollowUpMode",
+      "startLine": 289,
+      "startOffset": 8314,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.getFollowUpMode::method"
+    },
+    {
+      "endLine": 295,
+      "endOffset": 8451,
+      "kind": "method",
+      "name": "Agent.setTools",
+      "startLine": 293,
+      "startOffset": 8392,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.setTools::method"
+    },
+    {
+      "endLine": 299,
+      "endOffset": 8531,
+      "kind": "method",
+      "name": "Agent.replaceMessages",
+      "startLine": 297,
+      "startOffset": 8454,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.replaceMessages::method"
+    },
+    {
+      "endLine": 303,
+      "endOffset": 8624,
+      "kind": "method",
+      "name": "Agent.appendMessage",
+      "startLine": 301,
+      "startOffset": 8534,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.appendMessage::method"
+    },
+    {
+      "endLine": 311,
+      "endOffset": 8881,
+      "kind": "method",
+      "name": "Agent.steer",
+      "startLine": 309,
+      "startOffset": 8765,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.steer::method"
+    },
+    {
+      "endLine": 319,
+      "endOffset": 9160,
+      "kind": "method",
+      "name": "Agent.followUp",
+      "startLine": 317,
+      "startOffset": 9041,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.followUp::method"
+    },
+    {
+      "endLine": 323,
+      "endOffset": 9215,
+      "kind": "method",
+      "name": "Agent.clearSteeringQueue",
+      "startLine": 321,
+      "startOffset": 9163,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearSteeringQueue::method"
+    },
+    {
+      "endLine": 327,
+      "endOffset": 9270,
+      "kind": "method",
+      "name": "Agent.clearFollowUpQueue",
+      "startLine": 325,
+      "startOffset": 9218,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearFollowUpQueue::method"
+    },
+    {
+      "endLine": 332,
+      "endOffset": 9348,
+      "kind": "method",
+      "name": "Agent.clearAllQueues",
+      "startLine": 329,
+      "startOffset": 9273,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearAllQueues::method"
+    },
+    {
+      "endLine": 344,
+      "endOffset": 10006,
+      "kind": "method",
+      "name": "Agent.drainUserMessages",
+      "startLine": 338,
+      "startOffset": 9509,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.drainUserMessages::method"
+    },
+    {
+      "endLine": 348,
+      "endOffset": 10115,
+      "kind": "method",
+      "name": "Agent.hasQueuedMessages",
+      "startLine": 346,
+      "startOffset": 10009,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.hasQueuedMessages::method"
+    },
+    {
+      "endLine": 363,
+      "endOffset": 10513,
+      "kind": "method",
+      "name": "Agent.dequeueSteeringMessages",
+      "startLine": 350,
+      "startOffset": 10118,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.dequeueSteeringMessages::method"
+    },
+    {
+      "endLine": 378,
+      "endOffset": 10911,
+      "kind": "method",
+      "name": "Agent.dequeueFollowUpMessages",
+      "startLine": 365,
+      "startOffset": 10516,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.dequeueFollowUpMessages::method"
+    },
+    {
+      "endLine": 382,
+      "endOffset": 10963,
+      "kind": "method",
+      "name": "Agent.clearMessages",
+      "startLine": 380,
+      "startOffset": 10914,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.clearMessages::method"
+    },
+    {
+      "endLine": 386,
+      "endOffset": 11011,
+      "kind": "method",
+      "name": "Agent.abort",
+      "startLine": 384,
+      "startOffset": 10966,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.abort::method"
+    },
+    {
+      "endLine": 390,
+      "endOffset": 11097,
+      "kind": "method",
+      "name": "Agent.waitForIdle",
+      "startLine": 388,
+      "startOffset": 11014,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.waitForIdle::method"
+    },
+    {
+      "endLine": 400,
+      "endOffset": 11351,
+      "kind": "method",
+      "name": "Agent.reset",
+      "startLine": 392,
+      "startOffset": 11100,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.reset::method"
+    },
+    {
+      "endLine": 436,
+      "endOffset": 12327,
+      "kind": "method",
+      "name": "Agent.prompt",
+      "startLine": 405,
+      "startOffset": 11537,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.prompt::method"
+    },
+    {
+      "endLine": 467,
+      "endOffset": 13209,
+      "kind": "method",
+      "name": "Agent.continue",
+      "startLine": 441,
+      "startOffset": 12423,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.continue::method"
+    },
+    {
+      "endLine": 613,
+      "endOffset": 17724,
+      "kind": "method",
+      "name": "Agent._runLoop",
+      "startLine": 474,
+      "startOffset": 13376,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent._runLoop::method"
+    },
+    {
+      "endLine": 619,
+      "endOffset": 17911,
+      "kind": "method",
+      "name": "Agent._updatePendingToolCalls",
+      "startLine": 615,
+      "startOffset": 17727,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent._updatePendingToolCalls::method"
+    },
+    {
+      "endLine": 625,
+      "endOffset": 18009,
+      "kind": "method",
+      "name": "Agent.emit",
+      "startLine": 621,
+      "startOffset": 17914,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::Agent.emit::method"
+    },
+    {
+      "endLine": 118,
+      "endOffset": 3562,
+      "kind": "interface",
+      "name": "AgentOptions",
+      "startLine": 39,
+      "startOffset": 893,
+      "symbolId": "packages/pi-agent-core/src/agent.ts::AgentOptions::interface"
+    }
+  ]
+}

@@ -1,0 +1,1786 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.setProgressCallback::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addSourceToSettings::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeSourceFromSettings::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledPath::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.emitProgress::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveExtensionSources::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.install::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.remove::method"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.update::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalExtensionSource::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installParsedSource::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageSourceString::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForInput::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForSettings::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.packageSourcesMatch::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.normalizePackageSourceForSettings::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.npmNeedsUpdate::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledNpmVersion::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getLatestNpmVersion::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.dedupePackages::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseNpmSpec::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.uninstallNpm::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.refreshTemporaryGitSource::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeGit::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.pruneEmptyGitParents::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureNpmProject::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureGitIgnore::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallRoot::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGlobalNpmRoot::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallPath::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallRoot::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTemporaryDir::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getBaseDirForScope::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePath::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePathFromBase::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectDefaultResources::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.applyPackageFilter::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectManifestFiles::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.readPiManifest::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addManifestEntries::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromManifestEntries::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.discoverResourceSubdirs::method"
+    },
+    {
+      "cyclomatic": 22,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromPaths::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTargetMap::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.createAccumulator::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.toResolvedPaths::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommandSync::method"
+    }
+  ],
+  "contentHash": "7adc3de3f3b03cd1cf7d8081b82573ea16e26bbd45027db01cfa0d55b99a7c99",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/git.ts::GitSource::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/git.ts::parseGitUrl::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/path-display.ts::toPosixPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::PackageSource::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/core/package-manager.ts::PackageManager::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addSourceToSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.normalizePackageSourceForSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addSourceToSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.packageSourcesMatch::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeSourceFromSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.packageSourcesMatch::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getBaseDirForScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePathFromBase::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.emitProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.emitProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.emitProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.createAccumulator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.dedupePackages::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTargetMap::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.toResolvedPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveExtensionSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.createAccumulator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveExtensionSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveExtensionSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.toResolvedPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.install::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.install::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.install::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.install::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.install::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.remove::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.remove::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.remove::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.uninstallNpm::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.remove::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeGit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.update::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.update::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.update::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.update::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.update::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::isOfflineModeEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getBaseDirForScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalExtensionSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::isOfflineModeEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installParsedSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installParsedSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.npmNeedsUpdate::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::isOfflineModeEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.refreshTemporaryGitSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalExtensionSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePathFromBase::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalExtensionSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalExtensionSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalExtensionSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installParsedSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installParsedSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getBaseDirForScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePathFromBase::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.packageSourcesMatch::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForSettings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.packageSourcesMatch::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageSourceString::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.packageSourcesMatch::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForInput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.normalizePackageSourceForSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.normalizePackageSourceForSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getBaseDirForScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.normalizePackageSourceForSettings::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseNpmSpec::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/git.ts::parseGitUrl::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.npmNeedsUpdate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::isOfflineModeEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.npmNeedsUpdate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledNpmVersion::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.npmNeedsUpdate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseNpmSpec::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.npmNeedsUpdate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getLatestNpmVersion::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getBaseDirForScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePathFromBase::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.dedupePackages::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallRoot::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureNpmProject::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.uninstallNpm::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.uninstallNpm::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallRoot::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.uninstallNpm::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallRoot::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureGitIgnore::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.refreshTemporaryGitSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::isOfflineModeEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.refreshTemporaryGitSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.refreshTemporaryGitSource::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.pruneEmptyGitParents::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeGit::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallRoot::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureNpmProject::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureGitIgnore::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallRoot::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTemporaryDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallRoot::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGlobalNpmRoot::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGlobalNpmRoot::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommandSync::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTemporaryDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGlobalNpmRoot::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTemporaryDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTargetMap::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.applyPackageFilter::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectDefaultResources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.readPiManifest::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addManifestEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTargetMap::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectResourceFiles::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTargetMap::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectDefaultResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.readPiManifest::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectDefaultResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addManifestEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectDefaultResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectResourceFiles::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectDefaultResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.applyPackageFilter::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectManifestFiles::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.applyPackageFilter::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.applyPackageFilter::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::applyPatterns::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.applyPackageFilter::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectManifestFiles::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.readPiManifest::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectManifestFiles::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromManifestEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectManifestFiles::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::applyPatterns::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectManifestFiles::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectResourceFiles::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addManifestEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromManifestEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addManifestEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::applyPatterns::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addManifestEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromManifestEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::isPattern::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromManifestEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::splitPatterns::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePathFromBase::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::applyPatterns::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.discoverResourceSubdirs::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.discoverResourceSubdirs::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAncestorAgentsSkillDirs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTargetMap::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::isEnabledByOverrides::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoExtensionEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoSkillEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoSkillEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoPromptEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoThemeEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoExtensionEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoSkillEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoSkillEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoPromptEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectAutoThemeEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::collectResourceFiles::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::PackageSource::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/git.ts::parseGitUrl::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/git.ts::GitSource::type"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/package-manager.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 1844,
+      "endOffset": 56513,
+      "kind": "class",
+      "name": "DefaultPackageManager",
+      "startLine": 635,
+      "startOffset": 17775,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class"
+    },
+    {
+      "endLine": 650,
+      "endOffset": 18302,
+      "kind": "method",
+      "name": "DefaultPackageManager.setProgressCallback",
+      "startLine": 648,
+      "startOffset": 18196,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.setProgressCallback::method"
+    },
+    {
+      "endLine": 669,
+      "endOffset": 19100,
+      "kind": "method",
+      "name": "DefaultPackageManager.addSourceToSettings",
+      "startLine": 652,
+      "startOffset": 18305,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addSourceToSettings::method"
+    },
+    {
+      "endLine": 687,
+      "endOffset": 19835,
+      "kind": "method",
+      "name": "DefaultPackageManager.removeSourceFromSettings",
+      "startLine": 671,
+      "startOffset": 19103,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeSourceFromSettings::method"
+    },
+    {
+      "endLine": 705,
+      "endOffset": 20458,
+      "kind": "method",
+      "name": "DefaultPackageManager.getInstalledPath",
+      "startLine": 689,
+      "startOffset": 19838,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledPath::method"
+    },
+    {
+      "endLine": 709,
+      "endOffset": 20548,
+      "kind": "method",
+      "name": "DefaultPackageManager.emitProgress",
+      "startLine": 707,
+      "startOffset": 20461,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.emitProgress::method"
+    },
+    {
+      "endLine": 726,
+      "endOffset": 21062,
+      "kind": "method",
+      "name": "DefaultPackageManager.withProgress",
+      "startLine": 711,
+      "startOffset": 20551,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.withProgress::method"
+    },
+    {
+      "endLine": 780,
+      "endOffset": 22827,
+      "kind": "method",
+      "name": "DefaultPackageManager.resolve",
+      "startLine": 728,
+      "startOffset": 21065,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolve::method"
+    },
+    {
+      "endLine": 791,
+      "endOffset": 23318,
+      "kind": "method",
+      "name": "DefaultPackageManager.resolveExtensionSources",
+      "startLine": 782,
+      "startOffset": 22830,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveExtensionSources::method"
+    },
+    {
+      "endLine": 814,
+      "endOffset": 24052,
+      "kind": "method",
+      "name": "DefaultPackageManager.install",
+      "startLine": 793,
+      "startOffset": 23321,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.install::method"
+    },
+    {
+      "endLine": 833,
+      "endOffset": 24626,
+      "kind": "method",
+      "name": "DefaultPackageManager.remove",
+      "startLine": 816,
+      "startOffset": 24055,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.remove::method"
+    },
+    {
+      "endLine": 850,
+      "endOffset": 25421,
+      "kind": "method",
+      "name": "DefaultPackageManager.update",
+      "startLine": 835,
+      "startOffset": 24629,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.update::method"
+    },
+    {
+      "endLine": 871,
+      "endOffset": 26028,
+      "kind": "method",
+      "name": "DefaultPackageManager.updateSourceForScope",
+      "startLine": 852,
+      "startOffset": 25424,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateSourceForScope::method"
+    },
+    {
+      "endLine": 929,
+      "endOffset": 28141,
+      "kind": "method",
+      "name": "DefaultPackageManager.resolvePackageSources",
+      "startLine": 873,
+      "startOffset": 26031,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePackageSources::method"
+    },
+    {
+      "endLine": 960,
+      "endOffset": 28939,
+      "kind": "method",
+      "name": "DefaultPackageManager.resolveLocalExtensionSource",
+      "startLine": 931,
+      "startOffset": 28144,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalExtensionSource::method"
+    },
+    {
+      "endLine": 971,
+      "endOffset": 29234,
+      "kind": "method",
+      "name": "DefaultPackageManager.installParsedSource",
+      "startLine": 962,
+      "startOffset": 28942,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installParsedSource::method"
+    },
+    {
+      "endLine": 975,
+      "endOffset": 29353,
+      "kind": "method",
+      "name": "DefaultPackageManager.getPackageSourceString",
+      "startLine": 973,
+      "startOffset": 29237,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageSourceString::method"
+    },
+    {
+      "endLine": 986,
+      "endOffset": 29661,
+      "kind": "method",
+      "name": "DefaultPackageManager.getSourceMatchKeyForInput",
+      "startLine": 977,
+      "startOffset": 29356,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForInput::method"
+    },
+    {
+      "endLine": 998,
+      "endOffset": 30059,
+      "kind": "method",
+      "name": "DefaultPackageManager.getSourceMatchKeyForSettings",
+      "startLine": 988,
+      "startOffset": 29664,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getSourceMatchKeyForSettings::method"
+    },
+    {
+      "endLine": 1004,
+      "endOffset": 30351,
+      "kind": "method",
+      "name": "DefaultPackageManager.packageSourcesMatch",
+      "startLine": 1000,
+      "startOffset": 30062,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.packageSourcesMatch::method"
+    },
+    {
+      "endLine": 1015,
+      "endOffset": 30706,
+      "kind": "method",
+      "name": "DefaultPackageManager.normalizePackageSourceForSettings",
+      "startLine": 1006,
+      "startOffset": 30354,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.normalizePackageSourceForSettings::method"
+    },
+    {
+      "endLine": 1048,
+      "endOffset": 31492,
+      "kind": "method",
+      "name": "DefaultPackageManager.parseSource",
+      "startLine": 1017,
+      "startOffset": 30709,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseSource::method"
+    },
+    {
+      "endLine": 1077,
+      "endOffset": 32429,
+      "kind": "method",
+      "name": "DefaultPackageManager.npmNeedsUpdate",
+      "startLine": 1055,
+      "startOffset": 31702,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.npmNeedsUpdate::method"
+    },
+    {
+      "endLine": 1089,
+      "endOffset": 32814,
+      "kind": "method",
+      "name": "DefaultPackageManager.getInstalledNpmVersion",
+      "startLine": 1079,
+      "startOffset": 32432,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getInstalledNpmVersion::method"
+    },
+    {
+      "endLine": 1098,
+      "endOffset": 33211,
+      "kind": "method",
+      "name": "DefaultPackageManager.getLatestNpmVersion",
+      "startLine": 1091,
+      "startOffset": 32817,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getLatestNpmVersion::method"
+    },
+    {
+      "endLine": 1120,
+      "endOffset": 34017,
+      "kind": "method",
+      "name": "DefaultPackageManager.getPackageIdentity",
+      "startLine": 1106,
+      "startOffset": 33499,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getPackageIdentity::method"
+    },
+    {
+      "endLine": 1147,
+      "endOffset": 34956,
+      "kind": "method",
+      "name": "DefaultPackageManager.dedupePackages",
+      "startLine": 1126,
+      "startOffset": 34158,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.dedupePackages::method"
+    },
+    {
+      "endLine": 1157,
+      "endOffset": 35234,
+      "kind": "method",
+      "name": "DefaultPackageManager.parseNpmSpec",
+      "startLine": 1149,
+      "startOffset": 34959,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.parseNpmSpec::method"
+    },
+    {
+      "endLine": 1167,
+      "endOffset": 35645,
+      "kind": "method",
+      "name": "DefaultPackageManager.installNpm",
+      "startLine": 1159,
+      "startOffset": 35237,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installNpm::method"
+    },
+    {
+      "endLine": 1179,
+      "endOffset": 36035,
+      "kind": "method",
+      "name": "DefaultPackageManager.uninstallNpm",
+      "startLine": 1169,
+      "startOffset": 35648,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.uninstallNpm::method"
+    },
+    {
+      "endLine": 1200,
+      "endOffset": 36721,
+      "kind": "method",
+      "name": "DefaultPackageManager.installGit",
+      "startLine": 1181,
+      "startOffset": 36038,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.installGit::method"
+    },
+    {
+      "endLine": 1227,
+      "endOffset": 37810,
+      "kind": "method",
+      "name": "DefaultPackageManager.updateGit",
+      "startLine": 1202,
+      "startOffset": 36724,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.updateGit::method"
+    },
+    {
+      "endLine": 1240,
+      "endOffset": 38180,
+      "kind": "method",
+      "name": "DefaultPackageManager.refreshTemporaryGitSource",
+      "startLine": 1229,
+      "startOffset": 37813,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.refreshTemporaryGitSource::method"
+    },
+    {
+      "endLine": 1247,
+      "endOffset": 38488,
+      "kind": "method",
+      "name": "DefaultPackageManager.removeGit",
+      "startLine": 1242,
+      "startOffset": 38183,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.removeGit::method"
+    },
+    {
+      "endLine": 1269,
+      "endOffset": 39060,
+      "kind": "method",
+      "name": "DefaultPackageManager.pruneEmptyGitParents",
+      "startLine": 1249,
+      "startOffset": 38491,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.pruneEmptyGitParents::method"
+    },
+    {
+      "endLine": 1281,
+      "endOffset": 39484,
+      "kind": "method",
+      "name": "DefaultPackageManager.ensureNpmProject",
+      "startLine": 1271,
+      "startOffset": 39063,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureNpmProject::method"
+    },
+    {
+      "endLine": 1291,
+      "endOffset": 39746,
+      "kind": "method",
+      "name": "DefaultPackageManager.ensureGitIgnore",
+      "startLine": 1283,
+      "startOffset": 39487,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.ensureGitIgnore::method"
+    },
+    {
+      "endLine": 1301,
+      "endOffset": 40018,
+      "kind": "method",
+      "name": "DefaultPackageManager.getNpmInstallRoot",
+      "startLine": 1293,
+      "startOffset": 39749,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallRoot::method"
+    },
+    {
+      "endLine": 1310,
+      "endOffset": 40250,
+      "kind": "method",
+      "name": "DefaultPackageManager.getGlobalNpmRoot",
+      "startLine": 1303,
+      "startOffset": 40021,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGlobalNpmRoot::method"
+    },
+    {
+      "endLine": 1320,
+      "endOffset": 40604,
+      "kind": "method",
+      "name": "DefaultPackageManager.getNpmInstallPath",
+      "startLine": 1312,
+      "startOffset": 40253,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getNpmInstallPath::method"
+    },
+    {
+      "endLine": 1330,
+      "endOffset": 40958,
+      "kind": "method",
+      "name": "DefaultPackageManager.getGitInstallPath",
+      "startLine": 1322,
+      "startOffset": 40607,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallPath::method"
+    },
+    {
+      "endLine": 1340,
+      "endOffset": 41207,
+      "kind": "method",
+      "name": "DefaultPackageManager.getGitInstallRoot",
+      "startLine": 1332,
+      "startOffset": 40961,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getGitInstallRoot::method"
+    },
+    {
+      "endLine": 1348,
+      "endOffset": 41460,
+      "kind": "method",
+      "name": "DefaultPackageManager.getTemporaryDir",
+      "startLine": 1342,
+      "startOffset": 41210,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTemporaryDir::method"
+    },
+    {
+      "endLine": 1358,
+      "endOffset": 41672,
+      "kind": "method",
+      "name": "DefaultPackageManager.getBaseDirForScope",
+      "startLine": 1350,
+      "startOffset": 41463,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getBaseDirForScope::method"
+    },
+    {
+      "endLine": 1366,
+      "endOffset": 41979,
+      "kind": "method",
+      "name": "DefaultPackageManager.resolvePath",
+      "startLine": 1360,
+      "startOffset": 41675,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePath::method"
+    },
+    {
+      "endLine": 1374,
+      "endOffset": 42310,
+      "kind": "method",
+      "name": "DefaultPackageManager.resolvePathFromBase",
+      "startLine": 1368,
+      "startOffset": 41982,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolvePathFromBase::method"
+    },
+    {
+      "endLine": 1423,
+      "endOffset": 43733,
+      "kind": "method",
+      "name": "DefaultPackageManager.collectPackageResources",
+      "startLine": 1376,
+      "startOffset": 42313,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectPackageResources::method"
+    },
+    {
+      "endLine": 1445,
+      "endOffset": 44445,
+      "kind": "method",
+      "name": "DefaultPackageManager.collectDefaultResources",
+      "startLine": 1425,
+      "startOffset": 43736,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectDefaultResources::method"
+    },
+    {
+      "endLine": 1471,
+      "endOffset": 45171,
+      "kind": "method",
+      "name": "DefaultPackageManager.applyPackageFilter",
+      "startLine": 1447,
+      "startOffset": 44448,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.applyPackageFilter::method"
+    },
+    {
+      "endLine": 1498,
+      "endOffset": 46356,
+      "kind": "method",
+      "name": "DefaultPackageManager.collectManifestFiles",
+      "startLine": 1478,
+      "startOffset": 45401,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectManifestFiles::method"
+    },
+    {
+      "endLine": 1513,
+      "endOffset": 46730,
+      "kind": "method",
+      "name": "DefaultPackageManager.readPiManifest",
+      "startLine": 1500,
+      "startOffset": 46359,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.readPiManifest::method"
+    },
+    {
+      "endLine": 1533,
+      "endOffset": 47288,
+      "kind": "method",
+      "name": "DefaultPackageManager.addManifestEntries",
+      "startLine": 1515,
+      "startOffset": 46733,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addManifestEntries::method"
+    },
+    {
+      "endLine": 1539,
+      "endOffset": 47592,
+      "kind": "method",
+      "name": "DefaultPackageManager.collectFilesFromManifestEntries",
+      "startLine": 1535,
+      "startOffset": 47291,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromManifestEntries::method"
+    },
+    {
+      "endLine": 1562,
+      "endOffset": 48380,
+      "kind": "method",
+      "name": "DefaultPackageManager.resolveLocalEntries",
+      "startLine": 1541,
+      "startOffset": 47595,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.resolveLocalEntries::method"
+    },
+    {
+      "endLine": 1582,
+      "endOffset": 48914,
+      "kind": "method",
+      "name": "DefaultPackageManager.discoverResourceSubdirs",
+      "startLine": 1569,
+      "startOffset": 48570,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.discoverResourceSubdirs::method"
+    },
+    {
+      "endLine": 1738,
+      "endOffset": 53749,
+      "kind": "method",
+      "name": "DefaultPackageManager.addAutoDiscoveredResources",
+      "startLine": 1584,
+      "startOffset": 48917,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addAutoDiscoveredResources::method"
+    },
+    {
+      "endLine": 1757,
+      "endOffset": 54180,
+      "kind": "method",
+      "name": "DefaultPackageManager.collectFilesFromPaths",
+      "startLine": 1740,
+      "startOffset": 53752,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.collectFilesFromPaths::method"
+    },
+    {
+      "endLine": 1775,
+      "endOffset": 54648,
+      "kind": "method",
+      "name": "DefaultPackageManager.getTargetMap",
+      "startLine": 1759,
+      "startOffset": 54183,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.getTargetMap::method"
+    },
+    {
+      "endLine": 1787,
+      "endOffset": 54903,
+      "kind": "method",
+      "name": "DefaultPackageManager.addResource",
+      "startLine": 1777,
+      "startOffset": 54651,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.addResource::method"
+    },
+    {
+      "endLine": 1796,
+      "endOffset": 55068,
+      "kind": "method",
+      "name": "DefaultPackageManager.createAccumulator",
+      "startLine": 1789,
+      "startOffset": 54906,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.createAccumulator::method"
+    },
+    {
+      "endLine": 1813,
+      "endOffset": 55594,
+      "kind": "method",
+      "name": "DefaultPackageManager.toResolvedPaths",
+      "startLine": 1798,
+      "startOffset": 55071,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.toResolvedPaths::method"
+    },
+    {
+      "endLine": 1831,
+      "endOffset": 56100,
+      "kind": "method",
+      "name": "DefaultPackageManager.runCommand",
+      "startLine": 1815,
+      "startOffset": 55597,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommand::method"
+    },
+    {
+      "endLine": 1843,
+      "endOffset": 56511,
+      "kind": "method",
+      "name": "DefaultPackageManager.runCommandSync",
+      "startLine": 1833,
+      "startOffset": 56103,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager.runCommandSync::method"
+    },
+    {
+      "endLine": 25,
+      "endOffset": 1000,
+      "kind": "interface",
+      "name": "PathMetadata",
+      "startLine": 20,
+      "startOffset": 876,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::PathMetadata::interface"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 1098,
+      "kind": "interface",
+      "name": "ResolvedResource",
+      "startLine": 27,
+      "startOffset": 1002,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::ResolvedResource::interface"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1255,
+      "kind": "interface",
+      "name": "ResolvedPaths",
+      "startLine": 33,
+      "startOffset": 1100,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::ResolvedPaths::interface"
+    },
+    {
+      "endLine": 47,
+      "endOffset": 1505,
+      "kind": "interface",
+      "name": "ProgressEvent",
+      "startLine": 42,
+      "startOffset": 1322,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::ProgressEvent::interface"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 2326,
+      "kind": "interface",
+      "name": "PackageManager",
+      "startLine": 51,
+      "startOffset": 1571,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::PackageManager::interface"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 1320,
+      "kind": "type",
+      "name": "MissingSourceAction",
+      "startLine": 40,
+      "startOffset": 1257,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::MissingSourceAction::type"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1569,
+      "kind": "type",
+      "name": "ProgressCallback",
+      "startLine": 49,
+      "startOffset": 1507,
+      "symbolId": "packages/pi-coding-agent/src/core/package-manager.ts::ProgressCallback::type"
+    }
+  ]
+}

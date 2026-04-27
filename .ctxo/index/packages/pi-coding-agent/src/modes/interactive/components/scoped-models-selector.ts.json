@@ -1,0 +1,285 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.buildItems::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.getFooterText::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.updateList::method"
+    },
+    {
+      "cyclomatic": 30,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.getSearchInput::method"
+    }
+  ],
+  "contentHash": "337ebca10882f51c698aeea6559d3112a9e8156e6878f1359469a72c1b9736f6",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.buildItems::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::getSortedIds::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.buildItems::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::isEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.buildItems::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.getFooterText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.updateList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::isEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::move::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::toggle::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::isEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::enableAll::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::clearAll::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::isEnabled::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::clearAll::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::enableAll::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.getFooterText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 341,
+      "endOffset": 11836,
+      "kind": "class",
+      "name": "ScopedModelsSelectorComponent",
+      "startLine": 96,
+      "startOffset": 3293,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent::class"
+    },
+    {
+      "endLine": 166,
+      "endOffset": 5487,
+      "kind": "method",
+      "name": "ScopedModelsSelectorComponent.buildItems",
+      "startLine": 157,
+      "startOffset": 5145,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.buildItems::method"
+    },
+    {
+      "endLine": 176,
+      "endOffset": 6050,
+      "kind": "method",
+      "name": "ScopedModelsSelectorComponent.getFooterText",
+      "startLine": 168,
+      "startOffset": 5490,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.getFooterText::method"
+    },
+    {
+      "endLine": 185,
+      "endOffset": 6438,
+      "kind": "method",
+      "name": "ScopedModelsSelectorComponent.refresh",
+      "startLine": 178,
+      "startOffset": 6053,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.refresh::method"
+    },
+    {
+      "endLine": 224,
+      "endOffset": 8024,
+      "kind": "method",
+      "name": "ScopedModelsSelectorComponent.updateList",
+      "startLine": 187,
+      "startOffset": 6441,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.updateList::method"
+    },
+    {
+      "endLine": 336,
+      "endOffset": 11776,
+      "kind": "method",
+      "name": "ScopedModelsSelectorComponent.handleInput",
+      "startLine": 226,
+      "startOffset": 8027,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.handleInput::method"
+    },
+    {
+      "endLine": 340,
+      "endOffset": 11834,
+      "kind": "method",
+      "name": "ScopedModelsSelectorComponent.getSearchInput",
+      "startLine": 338,
+      "startOffset": 11779,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ScopedModelsSelectorComponent.getSearchInput::method"
+    },
+    {
+      "endLine": 76,
+      "endOffset": 2479,
+      "kind": "interface",
+      "name": "ModelsConfig",
+      "startLine": 71,
+      "startOffset": 2284,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ModelsConfig::interface"
+    },
+    {
+      "endLine": 90,
+      "endOffset": 3152,
+      "kind": "interface",
+      "name": "ModelsCallbacks",
+      "startLine": 78,
+      "startOffset": 2481,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/scoped-models-selector.ts::ModelsCallbacks::interface"
+    }
+  ]
+}

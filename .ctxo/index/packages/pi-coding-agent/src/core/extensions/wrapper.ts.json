@@ -1,0 +1,135 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTools::function"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolWithExtensions::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolsWithExtensions::function"
+    }
+  ],
+  "contentHash": "a3cc51dbe26960656c16962341fc8bb4ee09698c7859ae28165a6df8bab2d2a6",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/runner.ts::ExtensionRunner::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::RegisteredTool::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolsWithExtensions::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolWithExtensions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::RegisteredTool::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/runner.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::RegisteredTool::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/runner.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolWithExtensions::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/runner.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolWithExtensions::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolsWithExtensions::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/runner.ts::ExtensionRunner::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/wrapper.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 22,
+      "endOffset": 815,
+      "kind": "function",
+      "name": "wrapRegisteredTool",
+      "startLine": 12,
+      "startOffset": 389,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTool::function"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 1145,
+      "kind": "function",
+      "name": "wrapRegisteredTools",
+      "startLine": 28,
+      "startOffset": 964,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapRegisteredTools::function"
+    },
+    {
+      "endLine": 119,
+      "endOffset": 3747,
+      "kind": "function",
+      "name": "wrapToolWithExtensions",
+      "startLine": 37,
+      "startOffset": 1334,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolWithExtensions::function"
+    },
+    {
+      "endLine": 126,
+      "endOffset": 3988,
+      "kind": "function",
+      "name": "wrapToolsWithExtensions",
+      "startLine": 124,
+      "startOffset": 3801,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/wrapper.ts::wrapToolsWithExtensions::function"
+    }
+  ]
+}

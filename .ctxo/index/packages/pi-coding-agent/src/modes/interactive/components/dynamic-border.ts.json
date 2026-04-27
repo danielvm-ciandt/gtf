@@ -1,0 +1,114 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.setLabel::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.startSpinner::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.stopSpinner::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.invalidate::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.render::method"
+    }
+  ],
+  "contentHash": "e75a1d0ec9cc0c35e65a3ffe4687d9be07091c7e0a5911b68f44a52fac32c244",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.startSpinner::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.stopSpinner::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 88,
+      "endOffset": 2972,
+      "kind": "class",
+      "name": "DynamicBorder",
+      "startLine": 12,
+      "startOffset": 516,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 1137,
+      "kind": "method",
+      "name": "DynamicBorder.setLabel",
+      "startLine": 28,
+      "startOffset": 1069,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.setLabel::method"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1816,
+      "kind": "method",
+      "name": "DynamicBorder.startSpinner",
+      "startLine": 36,
+      "startOffset": 1282,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.startSpinner::method"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 2064,
+      "kind": "method",
+      "name": "DynamicBorder.stopSpinner",
+      "startLine": 54,
+      "startOffset": 1899,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.stopSpinner::method"
+    },
+    {
+      "endLine": 68,
+      "endOffset": 2208,
+      "kind": "method",
+      "name": "DynamicBorder.invalidate",
+      "startLine": 66,
+      "startOffset": 2140,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.invalidate::method"
+    },
+    {
+      "endLine": 87,
+      "endOffset": 2970,
+      "kind": "method",
+      "name": "DynamicBorder.render",
+      "startLine": 70,
+      "startOffset": 2211,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder.render::method"
+    }
+  ]
+}

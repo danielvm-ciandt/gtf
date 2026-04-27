@@ -1,0 +1,459 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "e5cad301f2a5963995ac727166eb297d310eadbf520a025a1557e14f3ad8fd6c",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/lsp/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 61,
+      "endOffset": 2104,
+      "kind": "interface",
+      "name": "LspToolDetails",
+      "startLine": 56,
+      "startOffset": 1989,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LspToolDetails::interface"
+    },
+    {
+      "endLine": 70,
+      "endOffset": 2360,
+      "kind": "interface",
+      "name": "Position",
+      "startLine": 67,
+      "startOffset": 2296,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::Position::interface"
+    },
+    {
+      "endLine": 75,
+      "endOffset": 2422,
+      "kind": "interface",
+      "name": "Range",
+      "startLine": 72,
+      "startOffset": 2362,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::Range::interface"
+    },
+    {
+      "endLine": 80,
+      "endOffset": 2482,
+      "kind": "interface",
+      "name": "Location",
+      "startLine": 77,
+      "startOffset": 2424,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::Location::interface"
+    },
+    {
+      "endLine": 87,
+      "endOffset": 2619,
+      "kind": "interface",
+      "name": "LocationLink",
+      "startLine": 82,
+      "startOffset": 2484,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LocationLink::interface"
+    },
+    {
+      "endLine": 98,
+      "endOffset": 2966,
+      "kind": "interface",
+      "name": "DiagnosticRelatedInformation",
+      "startLine": 95,
+      "startOffset": 2878,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::DiagnosticRelatedInformation::interface"
+    },
+    {
+      "endLine": 110,
+      "endOffset": 3233,
+      "kind": "interface",
+      "name": "Diagnostic",
+      "startLine": 100,
+      "startOffset": 2968,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::Diagnostic::interface"
+    },
+    {
+      "endLine": 119,
+      "endOffset": 3474,
+      "kind": "interface",
+      "name": "TextEdit",
+      "startLine": 116,
+      "startOffset": 3412,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::TextEdit::interface"
+    },
+    {
+      "endLine": 123,
+      "endOffset": 3555,
+      "kind": "interface",
+      "name": "AnnotatedTextEdit",
+      "startLine": 121,
+      "startOffset": 3476,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::AnnotatedTextEdit::interface"
+    },
+    {
+      "endLine": 127,
+      "endOffset": 3614,
+      "kind": "interface",
+      "name": "TextDocumentIdentifier",
+      "startLine": 125,
+      "startOffset": 3557,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::TextDocumentIdentifier::interface"
+    },
+    {
+      "endLine": 131,
+      "endOffset": 3724,
+      "kind": "interface",
+      "name": "VersionedTextDocumentIdentifier",
+      "startLine": 129,
+      "startOffset": 3616,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::VersionedTextDocumentIdentifier::interface"
+    },
+    {
+      "endLine": 135,
+      "endOffset": 3843,
+      "kind": "interface",
+      "name": "OptionalVersionedTextDocumentIdentifier",
+      "startLine": 133,
+      "startOffset": 3726,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::OptionalVersionedTextDocumentIdentifier::interface"
+    },
+    {
+      "endLine": 140,
+      "endOffset": 3980,
+      "kind": "interface",
+      "name": "TextDocumentEdit",
+      "startLine": 137,
+      "startOffset": 3845,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::TextDocumentEdit::interface"
+    },
+    {
+      "endLine": 149,
+      "endOffset": 4255,
+      "kind": "interface",
+      "name": "CreateFileOptions",
+      "startLine": 146,
+      "startOffset": 4168,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CreateFileOptions::interface"
+    },
+    {
+      "endLine": 155,
+      "endOffset": 4349,
+      "kind": "interface",
+      "name": "CreateFile",
+      "startLine": 151,
+      "startOffset": 4257,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CreateFile::interface"
+    },
+    {
+      "endLine": 160,
+      "endOffset": 4438,
+      "kind": "interface",
+      "name": "RenameFileOptions",
+      "startLine": 157,
+      "startOffset": 4351,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::RenameFileOptions::interface"
+    },
+    {
+      "endLine": 167,
+      "endOffset": 4552,
+      "kind": "interface",
+      "name": "RenameFile",
+      "startLine": 162,
+      "startOffset": 4440,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::RenameFile::interface"
+    },
+    {
+      "endLine": 172,
+      "endOffset": 4644,
+      "kind": "interface",
+      "name": "DeleteFileOptions",
+      "startLine": 169,
+      "startOffset": 4554,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::DeleteFileOptions::interface"
+    },
+    {
+      "endLine": 178,
+      "endOffset": 4738,
+      "kind": "interface",
+      "name": "DeleteFile",
+      "startLine": 174,
+      "startOffset": 4646,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::DeleteFile::interface"
+    },
+    {
+      "endLine": 186,
+      "endOffset": 5044,
+      "kind": "interface",
+      "name": "WorkspaceEdit",
+      "startLine": 182,
+      "startOffset": 4827,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::WorkspaceEdit::interface"
+    },
+    {
+      "endLine": 207,
+      "endOffset": 5504,
+      "kind": "interface",
+      "name": "Command",
+      "startLine": 203,
+      "startOffset": 5418,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::Command::interface"
+    },
+    {
+      "endLine": 218,
+      "endOffset": 5722,
+      "kind": "interface",
+      "name": "CodeAction",
+      "startLine": 209,
+      "startOffset": 5506,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CodeAction::interface"
+    },
+    {
+      "endLine": 224,
+      "endOffset": 5868,
+      "kind": "interface",
+      "name": "CodeActionContext",
+      "startLine": 220,
+      "startOffset": 5724,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CodeActionContext::interface"
+    },
+    {
+      "endLine": 267,
+      "endOffset": 6696,
+      "kind": "interface",
+      "name": "DocumentSymbol",
+      "startLine": 258,
+      "startOffset": 6499,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::DocumentSymbol::interface"
+    },
+    {
+      "endLine": 276,
+      "endOffset": 6857,
+      "kind": "interface",
+      "name": "SymbolInformation",
+      "startLine": 269,
+      "startOffset": 6698,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolInformation::interface"
+    },
+    {
+      "endLine": 285,
+      "endOffset": 7114,
+      "kind": "interface",
+      "name": "MarkupContent",
+      "startLine": 282,
+      "startOffset": 7031,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::MarkupContent::interface"
+    },
+    {
+      "endLine": 292,
+      "endOffset": 7290,
+      "kind": "interface",
+      "name": "Hover",
+      "startLine": 289,
+      "startOffset": 7190,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::Hover::interface"
+    },
+    {
+      "endLine": 304,
+      "endOffset": 7626,
+      "kind": "interface",
+      "name": "ServerCapabilities",
+      "startLine": 298,
+      "startOffset": 7479,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::ServerCapabilities::interface"
+    },
+    {
+      "endLine": 321,
+      "endOffset": 8194,
+      "kind": "interface",
+      "name": "ServerConfig",
+      "startLine": 306,
+      "startOffset": 7628,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::ServerConfig::interface"
+    },
+    {
+      "endLine": 330,
+      "endOffset": 8443,
+      "kind": "interface",
+      "name": "OpenFile",
+      "startLine": 327,
+      "startOffset": 8375,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::OpenFile::interface"
+    },
+    {
+      "endLine": 336,
+      "endOffset": 8567,
+      "kind": "interface",
+      "name": "PendingRequest",
+      "startLine": 332,
+      "startOffset": 8445,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::PendingRequest::interface"
+    },
+    {
+      "endLine": 348,
+      "endOffset": 8956,
+      "kind": "interface",
+      "name": "LspServerCapabilities",
+      "startLine": 338,
+      "startOffset": 8569,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LspServerCapabilities::interface"
+    },
+    {
+      "endLine": 373,
+      "endOffset": 9561,
+      "kind": "interface",
+      "name": "LspClient",
+      "startLine": 350,
+      "startOffset": 8958,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LspClient::interface"
+    },
+    {
+      "endLine": 384,
+      "endOffset": 9856,
+      "kind": "interface",
+      "name": "LspJsonRpcRequest",
+      "startLine": 379,
+      "startOffset": 9753,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LspJsonRpcRequest::interface"
+    },
+    {
+      "endLine": 391,
+      "endOffset": 10007,
+      "kind": "interface",
+      "name": "LspJsonRpcResponse",
+      "startLine": 386,
+      "startOffset": 9858,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LspJsonRpcResponse::interface"
+    },
+    {
+      "endLine": 397,
+      "endOffset": 10105,
+      "kind": "interface",
+      "name": "LspJsonRpcNotification",
+      "startLine": 393,
+      "startOffset": 10009,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LspJsonRpcNotification::interface"
+    },
+    {
+      "endLine": 412,
+      "endOffset": 10466,
+      "kind": "interface",
+      "name": "CallHierarchyItem",
+      "startLine": 403,
+      "startOffset": 10288,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CallHierarchyItem::interface"
+    },
+    {
+      "endLine": 417,
+      "endOffset": 10562,
+      "kind": "interface",
+      "name": "CallHierarchyIncomingCall",
+      "startLine": 414,
+      "startOffset": 10468,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CallHierarchyIncomingCall::interface"
+    },
+    {
+      "endLine": 422,
+      "endOffset": 10656,
+      "kind": "interface",
+      "name": "CallHierarchyOutgoingCall",
+      "startLine": 419,
+      "startOffset": 10564,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CallHierarchyOutgoingCall::interface"
+    },
+    {
+      "endLine": 431,
+      "endOffset": 10956,
+      "kind": "interface",
+      "name": "ParameterInformation",
+      "startLine": 428,
+      "startOffset": 10839,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::ParameterInformation::interface"
+    },
+    {
+      "endLine": 438,
+      "endOffset": 11121,
+      "kind": "interface",
+      "name": "SignatureInformation",
+      "startLine": 433,
+      "startOffset": 10958,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::SignatureInformation::interface"
+    },
+    {
+      "endLine": 444,
+      "endOffset": 11248,
+      "kind": "interface",
+      "name": "SignatureHelp",
+      "startLine": 440,
+      "startOffset": 11123,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::SignatureHelp::interface"
+    },
+    {
+      "endLine": 54,
+      "endOffset": 1987,
+      "kind": "type",
+      "name": "LspParams",
+      "startLine": 54,
+      "startOffset": 1938,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::LspParams::type"
+    },
+    {
+      "endLine": 93,
+      "endOffset": 2846,
+      "kind": "type",
+      "name": "DiagnosticSeverity",
+      "startLine": 93,
+      "startOffset": 2799,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::DiagnosticSeverity::type"
+    },
+    {
+      "endLine": 180,
+      "endOffset": 4825,
+      "kind": "type",
+      "name": "DocumentChange",
+      "startLine": 180,
+      "startOffset": 4740,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::DocumentChange::type"
+    },
+    {
+      "endLine": 201,
+      "endOffset": 5416,
+      "kind": "type",
+      "name": "CodeActionKind",
+      "startLine": 192,
+      "startOffset": 5225,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::CodeActionKind::type"
+    },
+    {
+      "endLine": 256,
+      "endOffset": 6480,
+      "kind": "type",
+      "name": "SymbolKind",
+      "startLine": 230,
+      "startOffset": 6044,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolKind::type"
+    },
+    {
+      "endLine": 287,
+      "endOffset": 7188,
+      "kind": "type",
+      "name": "MarkedString",
+      "startLine": 287,
+      "startOffset": 7116,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::MarkedString::type"
+    },
+    {
+      "endLine": 52,
+      "endOffset": 1935,
+      "kind": "variable",
+      "name": "lspSchema",
+      "startLine": 19,
+      "startOffset": 669,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/types.ts::lspSchema::variable"
+    }
+  ]
+}

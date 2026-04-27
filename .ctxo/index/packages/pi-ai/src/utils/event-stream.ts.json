@@ -1,0 +1,140 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::createAssistantMessageEventStream::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.push::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.end::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.[Symbol.asyncIterator]::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.result::method"
+    }
+  ],
+  "contentHash": "8cc21efa6dcb347835a8a3f497eaac2718cf5b076059960d335d3f74fa34dd81",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/event-stream.ts::createAssistantMessageEventStream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/event-stream.ts::createAssistantMessageEventStream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessageEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/event-stream.ts::EventStream::class",
+      "kind": "implements",
+      "to": "/packages/pi-ai/src/utils/event-stream.ts::AsyncIterable::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class",
+      "kind": "extends",
+      "to": "/packages/pi-ai/src/utils/event-stream.ts::EventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/event-stream.ts::EventStream.[Symbol.asyncIterator]::method",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::EventStream.push::method"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessageEvent::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/event-stream.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 86,
+      "endOffset": 2307,
+      "kind": "function",
+      "name": "createAssistantMessageEventStream",
+      "startLine": 84,
+      "startOffset": 2180,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::createAssistantMessageEventStream::function"
+    },
+    {
+      "endLine": 65,
+      "endOffset": 1669,
+      "kind": "class",
+      "name": "EventStream",
+      "startLine": 3,
+      "startOffset": 127,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream::class"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 955,
+      "kind": "method",
+      "name": "EventStream.push",
+      "startLine": 19,
+      "startOffset": 607,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.push::method"
+    },
+    {
+      "endLine": 46,
+      "endOffset": 1257,
+      "kind": "method",
+      "name": "EventStream.end",
+      "startLine": 36,
+      "startOffset": 958,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.end::method"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 1605,
+      "kind": "method",
+      "name": "EventStream.[Symbol.asyncIterator]",
+      "startLine": 48,
+      "startOffset": 1260,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.[Symbol.asyncIterator]::method"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 1667,
+      "kind": "method",
+      "name": "EventStream.result",
+      "startLine": 62,
+      "startOffset": 1608,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::EventStream.result::method"
+    },
+    {
+      "endLine": 81,
+      "endOffset": 2090,
+      "kind": "class",
+      "name": "AssistantMessageEventStream",
+      "startLine": 67,
+      "startOffset": 1671,
+      "symbolId": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    }
+  ]
+}

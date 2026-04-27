@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "a8b920356ecd684f59d22b8d6888fdfc29fb76cc2c4dbea2fb2b4b4855a611ff",
+  "edges": [
+    {
+      "from": "packages/pi-agent-core/src/agent.test.ts::agent.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-agent-core/src/agent.ts::Agent::class"
+    }
+  ],
+  "file": "packages/pi-agent-core/src/agent.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

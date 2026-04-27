@@ -1,0 +1,219 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 24,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function"
+    }
+  ],
+  "contentHash": "b072069c1e7e86d3ef93b7aaad7df9acfdfa489f945b114b4121f0bf601a5a0f",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/mime.ts::detectSupportedImageMimeTypeFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/hashline-read.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 200,
+      "endOffset": 7907,
+      "kind": "function",
+      "name": "createHashlineReadTool",
+      "startLine": 53,
+      "startOffset": 1977,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 1358,
+      "kind": "interface",
+      "name": "HashlineReadToolDetails",
+      "startLine": 29,
+      "startOffset": 1282,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::HashlineReadToolDetails::interface"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 1652,
+      "kind": "interface",
+      "name": "HashlineReadOperations",
+      "startLine": 36,
+      "startOffset": 1420,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::HashlineReadOperations::interface"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1975,
+      "kind": "interface",
+      "name": "HashlineReadToolOptions",
+      "startLine": 48,
+      "startOffset": 1864,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::HashlineReadToolOptions::interface"
+    },
+    {
+      "endLine": 27,
+      "endOffset": 1280,
+      "kind": "type",
+      "name": "HashlineReadToolInput",
+      "startLine": 27,
+      "startOffset": 1218,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::HashlineReadToolInput::type"
+    },
+    {
+      "endLine": 203,
+      "endOffset": 8032,
+      "kind": "variable",
+      "name": "hashlineReadTool",
+      "startLine": 203,
+      "startOffset": 7976,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::hashlineReadTool::variable"
+    }
+  ]
+}

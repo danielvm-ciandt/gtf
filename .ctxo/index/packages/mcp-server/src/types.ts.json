@@ -1,0 +1,81 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "f435fcbe8ba3e4ad40eabbaa174c9404fc7050680ba8b1a8845408882b99aa37",
+  "edges": [],
+  "file": "packages/mcp-server/src/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 46,
+      "endOffset": 1438,
+      "kind": "interface",
+      "name": "ManagedSession",
+      "startLine": 16,
+      "startOffset": 641,
+      "symbolId": "packages/mcp-server/src/types.ts::ManagedSession::interface"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 1924,
+      "kind": "interface",
+      "name": "PendingBlocker",
+      "startLine": 52,
+      "startOffset": 1618,
+      "symbolId": "packages/mcp-server/src/types.ts::PendingBlocker::interface"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2289,
+      "kind": "interface",
+      "name": "CostAccumulator",
+      "startLine": 70,
+      "startOffset": 2129,
+      "symbolId": "packages/mcp-server/src/types.ts::CostAccumulator::interface"
+    },
+    {
+      "endLine": 96,
+      "endOffset": 2788,
+      "kind": "interface",
+      "name": "ExecuteOptions",
+      "startLine": 84,
+      "startOffset": 2469,
+      "symbolId": "packages/mcp-server/src/types.ts::ExecuteOptions::interface"
+    },
+    {
+      "endLine": 10,
+      "endOffset": 461,
+      "kind": "type",
+      "name": "SessionStatus",
+      "startLine": 10,
+      "startOffset": 360,
+      "symbolId": "packages/mcp-server/src/types.ts::SessionStatus::type"
+    },
+    {
+      "endLine": 103,
+      "endOffset": 3046,
+      "kind": "variable",
+      "name": "MAX_EVENTS",
+      "startLine": 103,
+      "startOffset": 3031,
+      "symbolId": "packages/mcp-server/src/types.ts::MAX_EVENTS::variable"
+    },
+    {
+      "endLine": 106,
+      "endOffset": 3135,
+      "kind": "variable",
+      "name": "INIT_TIMEOUT_MS",
+      "startLine": 106,
+      "startOffset": 3111,
+      "symbolId": "packages/mcp-server/src/types.ts::INIT_TIMEOUT_MS::variable"
+    }
+  ]
+}

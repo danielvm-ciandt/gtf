@@ -1,0 +1,159 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::extractSection::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::extractAllSections::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::batchParseGsdFiles::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::parseRoadmapFile::function"
+    }
+  ],
+  "contentHash": "04265387e71a9be3a651b6733fcdc67d9dc1b8337a67d96cf78466d4ce6cc574",
+  "edges": [
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function",
+      "kind": "imports",
+      "to": "packages/native/src/gsd-parser/types.ts::BatchParseResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function",
+      "kind": "imports",
+      "to": "packages/native/src/gsd-parser/types.ts::FrontmatterResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function",
+      "kind": "imports",
+      "to": "packages/native/src/gsd-parser/types.ts::NativeRoadmap::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function",
+      "kind": "imports",
+      "to": "packages/native/src/gsd-parser/types.ts::SectionResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function",
+      "kind": "uses",
+      "to": "packages/native/src/gsd-parser/types.ts::FrontmatterResult::interface"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::extractSection::function",
+      "kind": "uses",
+      "to": "packages/native/src/gsd-parser/types.ts::SectionResult::interface"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::extractSection::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::extractAllSections::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::batchParseGsdFiles::function",
+      "kind": "uses",
+      "to": "packages/native/src/gsd-parser/types.ts::BatchParseResult::interface"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::batchParseGsdFiles::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseRoadmapFile::function",
+      "kind": "uses",
+      "to": "packages/native/src/gsd-parser/types.ts::NativeRoadmap::interface"
+    },
+    {
+      "from": "packages/native/src/gsd-parser/index.ts::parseRoadmapFile::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/gsd-parser/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 36,
+      "endOffset": 954,
+      "kind": "function",
+      "name": "parseFrontmatter",
+      "startLine": 32,
+      "startOffset": 779,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::parseFrontmatter::function"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 1425,
+      "kind": "function",
+      "name": "extractSection",
+      "startLine": 45,
+      "startOffset": 1196,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::extractSection::function"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 1774,
+      "kind": "function",
+      "name": "extractAllSections",
+      "startLine": 63,
+      "startOffset": 1583,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::extractAllSections::function"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 2161,
+      "kind": "function",
+      "name": "batchParseGsdFiles",
+      "startLine": 79,
+      "startOffset": 1975,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::batchParseGsdFiles::function"
+    },
+    {
+      "endLine": 97,
+      "endOffset": 2499,
+      "kind": "function",
+      "name": "parseRoadmapFile",
+      "startLine": 93,
+      "startOffset": 2332,
+      "symbolId": "packages/native/src/gsd-parser/index.ts::parseRoadmapFile::function"
+    }
+  ]
+}

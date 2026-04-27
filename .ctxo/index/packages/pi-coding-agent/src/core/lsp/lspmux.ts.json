@@ -1,0 +1,118 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::isLspmuxSupported::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::getLspmuxCommand::function"
+    }
+  ],
+  "contentHash": "666c114a53c3c67a8bb966c2cf6611a2708f5ce8b1e2d582ee6be2a3ed9b13ce",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::LSP_LIVENESS_TIMEOUT_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::LSP_STATE_CACHE_TTL_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::which::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::which::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::parseConfig::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::checkServerRunning::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::getLspmuxCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::getLspmuxCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::wrapWithLspmux::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::LSP_STATE_CACHE_TTL_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::which::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/lsp/lspmux.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 140,
+      "endOffset": 4306,
+      "kind": "function",
+      "name": "detectLspmux",
+      "startLine": 115,
+      "startOffset": 3501,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::detectLspmux::function"
+    },
+    {
+      "endLine": 149,
+      "endOffset": 4658,
+      "kind": "function",
+      "name": "isLspmuxSupported",
+      "startLine": 146,
+      "startOffset": 4491,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::isLspmuxSupported::function"
+    },
+    {
+      "endLine": 189,
+      "endOffset": 5835,
+      "kind": "function",
+      "name": "getLspmuxCommand",
+      "startLine": 186,
+      "startOffset": 5645,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::getLspmuxCommand::function"
+    },
+    {
+      "endLine": 155,
+      "endOffset": 4767,
+      "kind": "interface",
+      "name": "LspmuxWrappedCommand",
+      "startLine": 151,
+      "startOffset": 4660,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/lspmux.ts::LspmuxWrappedCommand::interface"
+    }
+  ]
+}

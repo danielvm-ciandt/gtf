@@ -1,0 +1,38 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "0d00456c3b57eb6ad5f1bb0ae9b0f69b19474e0de32756f1eb9ca23d507b9baf",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit-diff.test.ts::edit-diff.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::computeEditDiff::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit-diff.test.ts::edit-diff.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::fuzzyFindText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit-diff.test.ts::edit-diff.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::generateDiffString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/edit-diff.test.ts::edit-diff.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeForFuzzyMatch::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/edit-diff.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": []
+}

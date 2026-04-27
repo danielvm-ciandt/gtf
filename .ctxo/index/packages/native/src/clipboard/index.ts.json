@@ -1,0 +1,90 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/clipboard/index.ts::copyToClipboard::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/clipboard/index.ts::readTextFromClipboard::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/clipboard/index.ts::readImageFromClipboard::function"
+    }
+  ],
+  "contentHash": "e2405a3b457dd69ff46b7a6c9f8755125000bf3dd3c4f92d9b23d4bdf5854d36",
+  "edges": [
+    {
+      "from": "packages/native/src/clipboard/index.ts::copyToClipboard::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/clipboard/index.ts::copyToClipboard::function",
+      "kind": "imports",
+      "to": "packages/native/src/clipboard/types.ts::ClipboardImage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/clipboard/index.ts::copyToClipboard::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/clipboard/index.ts::readTextFromClipboard::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/clipboard/index.ts::readImageFromClipboard::function",
+      "kind": "uses",
+      "to": "packages/native/src/clipboard/types.ts::ClipboardImage::interface"
+    },
+    {
+      "from": "packages/native/src/clipboard/index.ts::readImageFromClipboard::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/clipboard/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 20,
+      "endOffset": 546,
+      "kind": "function",
+      "name": "copyToClipboard",
+      "startLine": 18,
+      "startOffset": 459,
+      "symbolId": "packages/native/src/clipboard/index.ts::copyToClipboard::function"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 771,
+      "kind": "function",
+      "name": "readTextFromClipboard",
+      "startLine": 27,
+      "startOffset": 655,
+      "symbolId": "packages/native/src/clipboard/index.ts::readTextFromClipboard::function"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1103,
+      "kind": "function",
+      "name": "readImageFromClipboard",
+      "startLine": 37,
+      "startOffset": 951,
+      "symbolId": "packages/native/src/clipboard/index.ts::readImageFromClipboard::function"
+    }
+  ]
+}

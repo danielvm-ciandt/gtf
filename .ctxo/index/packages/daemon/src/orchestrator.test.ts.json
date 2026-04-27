@@ -1,0 +1,70 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "dfa42f9ee179a74fc2fced574238de867f8eb1274d53c31e6d867904eacc367c",
+  "edges": [
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator::class"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/orchestrator.ts::OrchestratorConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/orchestrator.ts::OrchestratorDeps::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/orchestrator.ts::DiscordMessageLike::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ManagedSession::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::SessionStatus::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.test.ts::orchestrator.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::CostAccumulator::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/daemon/src/orchestrator.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": []
+}

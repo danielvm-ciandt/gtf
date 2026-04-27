@@ -1,0 +1,2775 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._createRetryPromiseForAgentEnd::method"
+    },
+    {
+      "cyclomatic": 31,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._installAgentToolHooks::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getUserMessageText::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._findLastAssistantMessage::method"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitExtensionEvent::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.subscribe::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._disconnectFromAgent::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._reconnectToAgent::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.dispose::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAllTools::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setActiveToolsByName::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setEditMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setScopedModels::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._normalizePromptSnippet::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._normalizePromptGuidelines::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._findSkillByName::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._formatMissingSkillMessage::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSkillExpansionError::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._renderSkillInvocation::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._formatSkillInvocation::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._rebuildSystemPrompt::method"
+    },
+    {
+      "cyclomatic": 26,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._tryExecuteExtensionCommand::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillCommand::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._createBuiltInSkillTool::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolNames::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinTools::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getRegisteredToolDefinitions::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolDefinitions::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getRenderableToolDefinition::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueSteer::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueFollowUp::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._throwIfExtensionCommand::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendUserMessage::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.clearQueue::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getSteeringMessages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getFollowUpMessages::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abort::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitModelSelect::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleModel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getReadyScopedModels::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleScopedModel::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleAvailableModel::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAvailableThinkingLevels::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsXhighThinking::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsThinking::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getThinkingLevelForModelSwitch::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._clampThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setSteeringMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setFollowUpMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.compact::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortCompaction::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortBranchSummary::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setAutoCompactionEnabled::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.bindExtensions::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.buildExtensionResourcePaths::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getExtensionSourceLabel::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyExtensionBindings::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.reload::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortRetry::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setAutoRetryEnabled::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.executeBash::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.recordBashResult::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortBash::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._flushPendingBashMessages::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setSessionName::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.fork::method"
+    },
+    {
+      "cyclomatic": 34,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.navigateTree::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getUserMessagesForForking::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._extractUserMessageText::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getSessionStats::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getLastTurnCost::method"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getContextUsage::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.exportToHtml::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getLastAssistantText::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.hasExtensionHandlers::method"
+    }
+  ],
+  "contentHash": "de0455649802c55fca64e36d3cac497a2cc959d8e73d7622842f51347caa2d11",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/frontmatter.ts::stripFrontmatter::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::BashResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::executeBash::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::executeBashWithOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::calculateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::collectEntriesForBranchSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::estimateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::generateBranchSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/defaults.ts::DEFAULT_THINKING_LEVEL::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::ToolHtmlRenderer::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ContextUsage::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionCommandContextActions::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionErrorListener::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionUIContext::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::InputSource::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::MessageEndEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::MessageStartEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::MessageUpdateEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeForkResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeSwitchResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeTreeResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ShutdownHandler::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolDefinition::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolExecutionEndEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolExecutionStartEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolExecutionUpdateEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolInfo::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::TreePreparation::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::TurnEndEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::TurnStartEvent::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::wrapRegisteredTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::BashExecutionMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::expandPromptTemplate::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::PromptTemplate::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::ResourceExtensionPaths::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::ResourceLoader::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::isImageDimensionError::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::downsizeConversationImages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::BranchSummaryEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/slash-commands.ts::BUILTIN_SLASH_COMMANDS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandLocation::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/system-prompt.ts::buildSystemPrompt::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::BashOperations::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getUserMessageText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitExtensionEvent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::isImageDimensionError::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::downsizeConversationImages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._reconnectToAgent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.subscribe::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.dispose::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._disconnectFromAgent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setActiveToolsByName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setActiveToolsByName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._rebuildSystemPrompt::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setEditMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setActiveToolsByName::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSkillExpansionError::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._renderSkillInvocation::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/frontmatter.ts::stripFrontmatter::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._findSkillByName::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._formatMissingSkillMessage::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._renderSkillInvocation::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSkillExpansionError::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._formatSkillInvocation::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._rebuildSystemPrompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/system-prompt.ts::buildSystemPrompt::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._tryExecuteExtensionCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::expandPromptTemplate::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueFollowUp::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueSteer::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._flushPendingBashMessages::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._findLastAssistantMessage::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._tryExecuteExtensionCommand::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillCommand::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._findSkillByName::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillCommand::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._formatSkillInvocation::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._createBuiltInSkillTool::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._createBuiltInSkillTool::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolNames::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinTools::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinTools::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._createBuiltInSkillTool::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolDefinitions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinTools::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getRenderableToolDefinition::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolDefinitions::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getRenderableToolDefinition::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getRegisteredToolDefinitions::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._throwIfExtensionCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::expandPromptTemplate::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueSteer::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._throwIfExtensionCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillCommand::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::expandPromptTemplate::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueFollowUp::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueSteer::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueFollowUp::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendUserMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abort::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abort::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._disconnectFromAgent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._reconnectToAgent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitModelSelect::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getThinkingLevelForModelSwitch::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleScopedModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleAvailableModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleScopedModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getReadyScopedModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleScopedModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getThinkingLevelForModelSwitch::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleScopedModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleAvailableModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getThinkingLevelForModelSwitch::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleAvailableModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAvailableThinkingLevels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._clampThinkingLevel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsThinking::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsThinking::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAvailableThinkingLevels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAvailableThinkingLevels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsThinking::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAvailableThinkingLevels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsXhighThinking::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getThinkingLevelForModelSwitch::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsThinking::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setSteeringMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setFollowUpMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setAutoCompactionEnabled::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.bindExtensions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyExtensionBindings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.bindExtensions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.buildExtensionResourcePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.buildExtensionResourcePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.buildExtensionResourcePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._rebuildSystemPrompt::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.buildExtensionResourcePaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getExtensionSourceLabel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendUserMessage::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::isImageDimensionError::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::downsizeConversationImages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAllTools::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setActiveToolsByName::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abort::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getContextUsage::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.compact::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._normalizePromptSnippet::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._normalizePromptGuidelines::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::wrapRegisteredTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinTools::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setActiveToolsByName::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyExtensionBindings::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortRetry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setAutoRetryEnabled::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.executeBash::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::executeBashWithOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.executeBash::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.recordBashResult::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortBash::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abort::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abort::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._disconnectFromAgent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitModelSelect::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAvailableThinkingLevels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._clampThinkingLevel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._reconnectToAgent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setSessionName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.fork::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._extractUserMessageText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.fork::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.fork::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.navigateTree::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::collectEntriesForBranchSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.navigateTree::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::generateBranchSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.navigateTree::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._extractUserMessageText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getUserMessagesForForking::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._extractUserMessageText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getContextUsage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getContextUsage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::calculateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getContextUsage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::estimateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.exportToHtml::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.exportToHtml::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getRenderableToolDefinition::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.exportToHtml::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/retry-handler.ts::RetryHandler::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::BashExecutionMessage::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionRunner::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::ResourceLoader::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolDefinition::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionUIContext::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionCommandContextActions::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ShutdownHandler::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionErrorListener::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::isImageDimensionError::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::downsizeConversationImages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::TurnStartEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::TurnEndEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::MessageStartEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::MessageUpdateEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::MessageEndEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolExecutionStartEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolExecutionUpdateEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolExecutionEndEvent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ToolInfo::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::PromptTemplate::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/frontmatter.ts::stripFrontmatter::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/system-prompt.ts::buildSystemPrompt::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::expandPromptTemplate::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeSwitchResult::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/defaults.ts::DEFAULT_THINKING_LEVEL::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionResult::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::ResourceExtensionPaths::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandLocation::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/slash-commands.ts::BUILTIN_SLASH_COMMANDS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandInfo::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::wrapRegisteredTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::executeBash::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::BashOperations::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::BashResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::executeBashWithOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeForkResult::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::BranchSummaryEntry::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::collectEntriesForBranchSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::TreePreparation::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeTreeResult::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::generateBranchSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ContextUsage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::calculateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::estimateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/agent-session.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 108,
+      "endOffset": 4071,
+      "kind": "function",
+      "name": "parseSkillBlock",
+      "startLine": 99,
+      "startOffset": 3735,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::parseSkillBlock::function"
+    },
+    {
+      "endLine": 2987,
+      "endOffset": 102370,
+      "kind": "class",
+      "name": "AgentSession",
+      "startLine": 233,
+      "startOffset": 8595,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    },
+    {
+      "endLine": 380,
+      "endOffset": 14135,
+      "kind": "method",
+      "name": "AgentSession._emit",
+      "startLine": 376,
+      "startOffset": 14026,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emit::method"
+    },
+    {
+      "endLine": 384,
+      "endOffset": 14272,
+      "kind": "method",
+      "name": "AgentSession._emitSessionStateChanged",
+      "startLine": 382,
+      "startOffset": 14138,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSessionStateChanged::method"
+    },
+    {
+      "endLine": 410,
+      "endOffset": 15390,
+      "kind": "method",
+      "name": "AgentSession._createRetryPromiseForAgentEnd",
+      "startLine": 407,
+      "startOffset": 15212,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._createRetryPromiseForAgentEnd::method"
+    },
+    {
+      "endLine": 527,
+      "endOffset": 19712,
+      "kind": "method",
+      "name": "AgentSession._processAgentEvent",
+      "startLine": 412,
+      "startOffset": 15393,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._processAgentEvent::method"
+    },
+    {
+      "endLine": 591,
+      "endOffset": 21652,
+      "kind": "method",
+      "name": "AgentSession._installAgentToolHooks",
+      "startLine": 538,
+      "startOffset": 20118,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._installAgentToolHooks::method"
+    },
+    {
+      "endLine": 600,
+      "endOffset": 22014,
+      "kind": "method",
+      "name": "AgentSession._getUserMessageText",
+      "startLine": 594,
+      "startOffset": 21699,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getUserMessageText::method"
+    },
+    {
+      "endLine": 612,
+      "endOffset": 22392,
+      "kind": "method",
+      "name": "AgentSession._findLastAssistantMessage",
+      "startLine": 603,
+      "startOffset": 22097,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._findLastAssistantMessage::method"
+    },
+    {
+      "endLine": 698,
+      "endOffset": 25541,
+      "kind": "method",
+      "name": "AgentSession._emitExtensionEvent",
+      "startLine": 615,
+      "startOffset": 22447,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitExtensionEvent::method"
+    },
+    {
+      "endLine": 715,
+      "endOffset": 26062,
+      "kind": "method",
+      "name": "AgentSession.subscribe",
+      "startLine": 705,
+      "startOffset": 25749,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.subscribe::method"
+    },
+    {
+      "endLine": 727,
+      "endOffset": 26425,
+      "kind": "method",
+      "name": "AgentSession._disconnectFromAgent",
+      "startLine": 722,
+      "startOffset": 26280,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._disconnectFromAgent::method"
+    },
+    {
+      "endLine": 736,
+      "endOffset": 26706,
+      "kind": "method",
+      "name": "AgentSession._reconnectToAgent",
+      "startLine": 733,
+      "startOffset": 26536,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._reconnectToAgent::method"
+    },
+    {
+      "endLine": 747,
+      "endOffset": 26992,
+      "kind": "method",
+      "name": "AgentSession.dispose",
+      "startLine": 742,
+      "startOffset": 26824,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.dispose::method"
+    },
+    {
+      "endLine": 789,
+      "endOffset": 28131,
+      "kind": "method",
+      "name": "AgentSession.getActiveToolNames",
+      "startLine": 787,
+      "startOffset": 28044,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getActiveToolNames::method"
+    },
+    {
+      "endLine": 800,
+      "endOffset": 28396,
+      "kind": "method",
+      "name": "AgentSession.getAllTools",
+      "startLine": 794,
+      "startOffset": 28219,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAllTools::method"
+    },
+    {
+      "endLine": 825,
+      "endOffset": 29218,
+      "kind": "method",
+      "name": "AgentSession.setActiveToolsByName",
+      "startLine": 808,
+      "startOffset": 28631,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setActiveToolsByName::method"
+    },
+    {
+      "endLine": 861,
+      "endOffset": 30251,
+      "kind": "method",
+      "name": "AgentSession.setEditMode",
+      "startLine": 836,
+      "startOffset": 29542,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setEditMode::method"
+    },
+    {
+      "endLine": 906,
+      "endOffset": 31520,
+      "kind": "method",
+      "name": "AgentSession.setScopedModels",
+      "startLine": 904,
+      "startOffset": 31382,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setScopedModels::method"
+    },
+    {
+      "endLine": 920,
+      "endOffset": 31924,
+      "kind": "method",
+      "name": "AgentSession._normalizePromptSnippet",
+      "startLine": 913,
+      "startOffset": 31671,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._normalizePromptSnippet::method"
+    },
+    {
+      "endLine": 935,
+      "endOffset": 32291,
+      "kind": "method",
+      "name": "AgentSession._normalizePromptGuidelines",
+      "startLine": 922,
+      "startOffset": 31927,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._normalizePromptGuidelines::method"
+    },
+    {
+      "endLine": 939,
+      "endOffset": 32433,
+      "kind": "method",
+      "name": "AgentSession._findSkillByName",
+      "startLine": 937,
+      "startOffset": 32294,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._findSkillByName::method"
+    },
+    {
+      "endLine": 944,
+      "endOffset": 32699,
+      "kind": "method",
+      "name": "AgentSession._formatMissingSkillMessage",
+      "startLine": 941,
+      "startOffset": 32436,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._formatMissingSkillMessage::method"
+    },
+    {
+      "endLine": 952,
+      "endOffset": 32919,
+      "kind": "method",
+      "name": "AgentSession._emitSkillExpansionError",
+      "startLine": 946,
+      "startOffset": 32702,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitSkillExpansionError::method"
+    },
+    {
+      "endLine": 959,
+      "endOffset": 33374,
+      "kind": "method",
+      "name": "AgentSession._renderSkillInvocation",
+      "startLine": 954,
+      "startOffset": 32922,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._renderSkillInvocation::method"
+    },
+    {
+      "endLine": 973,
+      "endOffset": 33736,
+      "kind": "method",
+      "name": "AgentSession._expandSkillByName",
+      "startLine": 961,
+      "startOffset": 33377,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillByName::method"
+    },
+    {
+      "endLine": 977,
+      "endOffset": 33867,
+      "kind": "method",
+      "name": "AgentSession._formatSkillInvocation",
+      "startLine": 975,
+      "startOffset": 33739,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._formatSkillInvocation::method"
+    },
+    {
+      "endLine": 1012,
+      "endOffset": 35068,
+      "kind": "method",
+      "name": "AgentSession._rebuildSystemPrompt",
+      "startLine": 979,
+      "startOffset": 33870,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._rebuildSystemPrompt::method"
+    },
+    {
+      "endLine": 1178,
+      "endOffset": 40871,
+      "kind": "method",
+      "name": "AgentSession.prompt",
+      "startLine": 1027,
+      "startOffset": 35752,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.prompt::method"
+    },
+    {
+      "endLine": 1209,
+      "endOffset": 41843,
+      "kind": "method",
+      "name": "AgentSession._tryExecuteExtensionCommand",
+      "startLine": 1183,
+      "startOffset": 40973,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._tryExecuteExtensionCommand::method"
+    },
+    {
+      "endLine": 1230,
+      "endOffset": 42530,
+      "kind": "method",
+      "name": "AgentSession._expandSkillCommand",
+      "startLine": 1216,
+      "startOffset": 42077,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._expandSkillCommand::method"
+    },
+    {
+      "endLine": 1264,
+      "endOffset": 43549,
+      "kind": "method",
+      "name": "AgentSession._createBuiltInSkillTool",
+      "startLine": 1232,
+      "startOffset": 42533,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._createBuiltInSkillTool::method"
+    },
+    {
+      "endLine": 1268,
+      "endOffset": 43656,
+      "kind": "method",
+      "name": "AgentSession._getBuiltinToolNames",
+      "startLine": 1266,
+      "startOffset": 43552,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolNames::method"
+    },
+    {
+      "endLine": 1272,
+      "endOffset": 43746,
+      "kind": "method",
+      "name": "AgentSession._getBuiltinTools",
+      "startLine": 1270,
+      "startOffset": 43659,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinTools::method"
+    },
+    {
+      "endLine": 1277,
+      "endOffset": 43948,
+      "kind": "method",
+      "name": "AgentSession._getRegisteredToolDefinitions",
+      "startLine": 1274,
+      "startOffset": 43749,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getRegisteredToolDefinitions::method"
+    },
+    {
+      "endLine": 1287,
+      "endOffset": 44238,
+      "kind": "method",
+      "name": "AgentSession._getBuiltinToolDefinitions",
+      "startLine": 1279,
+      "startOffset": 43951,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getBuiltinToolDefinitions::method"
+    },
+    {
+      "endLine": 1294,
+      "endOffset": 44533,
+      "kind": "method",
+      "name": "AgentSession.getRenderableToolDefinition",
+      "startLine": 1289,
+      "startOffset": 44241,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getRenderableToolDefinition::method"
+    },
+    {
+      "endLine": 1314,
+      "endOffset": 45304,
+      "kind": "method",
+      "name": "AgentSession.steer",
+      "startLine": 1303,
+      "startOffset": 44876,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.steer::method"
+    },
+    {
+      "endLine": 1334,
+      "endOffset": 46100,
+      "kind": "method",
+      "name": "AgentSession.followUp",
+      "startLine": 1323,
+      "startOffset": 45666,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.followUp::method"
+    },
+    {
+      "endLine": 1353,
+      "endOffset": 46550,
+      "kind": "method",
+      "name": "AgentSession._queueSteer",
+      "startLine": 1339,
+      "startOffset": 46200,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueSteer::method"
+    },
+    {
+      "endLine": 1372,
+      "endOffset": 47007,
+      "kind": "method",
+      "name": "AgentSession._queueFollowUp",
+      "startLine": 1358,
+      "startOffset": 46651,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._queueFollowUp::method"
+    },
+    {
+      "endLine": 1389,
+      "endOffset": 47527,
+      "kind": "method",
+      "name": "AgentSession._throwIfExtensionCommand",
+      "startLine": 1377,
+      "startOffset": 47076,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._throwIfExtensionCommand::method"
+    },
+    {
+      "endLine": 1436,
+      "endOffset": 49218,
+      "kind": "method",
+      "name": "AgentSession.sendCustomMessage",
+      "startLine": 1403,
+      "startOffset": 48098,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendCustomMessage::method"
+    },
+    {
+      "endLine": 1476,
+      "endOffset": 50386,
+      "kind": "method",
+      "name": "AgentSession.sendUserMessage",
+      "startLine": 1445,
+      "startOffset": 49528,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.sendUserMessage::method"
+    },
+    {
+      "endLine": 1508,
+      "endOffset": 51905,
+      "kind": "method",
+      "name": "AgentSession.clearQueue",
+      "startLine": 1483,
+      "startOffset": 50553,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.clearQueue::method"
+    },
+    {
+      "endLine": 1518,
+      "endOffset": 52223,
+      "kind": "method",
+      "name": "AgentSession.getSteeringMessages",
+      "startLine": 1516,
+      "startOffset": 52145,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getSteeringMessages::method"
+    },
+    {
+      "endLine": 1523,
+      "endOffset": 52355,
+      "kind": "method",
+      "name": "AgentSession.getFollowUpMessages",
+      "startLine": 1521,
+      "startOffset": 52277,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getFollowUpMessages::method"
+    },
+    {
+      "endLine": 1557,
+      "endOffset": 53490,
+      "kind": "method",
+      "name": "AgentSession.abort",
+      "startLine": 1532,
+      "startOffset": 52506,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abort::method"
+    },
+    {
+      "endLine": 1657,
+      "endOffset": 57292,
+      "kind": "method",
+      "name": "AgentSession.newSession",
+      "startLine": 1567,
+      "startOffset": 53928,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.newSession::method"
+    },
+    {
+      "endLine": 1676,
+      "endOffset": 57844,
+      "kind": "method",
+      "name": "AgentSession._emitModelSelect",
+      "startLine": 1663,
+      "startOffset": 57473,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._emitModelSelect::method"
+    },
+    {
+      "endLine": 1701,
+      "endOffset": 58843,
+      "kind": "method",
+      "name": "AgentSession._applyModelChange",
+      "startLine": 1682,
+      "startOffset": 58002,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyModelChange::method"
+    },
+    {
+      "endLine": 1715,
+      "endOffset": 59399,
+      "kind": "method",
+      "name": "AgentSession.setModel",
+      "startLine": 1708,
+      "startOffset": 59037,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setModel::method"
+    },
+    {
+      "endLine": 1728,
+      "endOffset": 59960,
+      "kind": "method",
+      "name": "AgentSession.cycleModel",
+      "startLine": 1723,
+      "startOffset": 59667,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleModel::method"
+    },
+    {
+      "endLine": 1734,
+      "endOffset": 60182,
+      "kind": "method",
+      "name": "AgentSession._getReadyScopedModels",
+      "startLine": 1730,
+      "startOffset": 59963,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getReadyScopedModels::method"
+    },
+    {
+      "endLine": 1754,
+      "endOffset": 61189,
+      "kind": "method",
+      "name": "AgentSession._cycleScopedModel",
+      "startLine": 1736,
+      "startOffset": 60185,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleScopedModel::method"
+    },
+    {
+      "endLine": 1772,
+      "endOffset": 62045,
+      "kind": "method",
+      "name": "AgentSession._cycleAvailableModel",
+      "startLine": 1756,
+      "startOffset": 61192,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._cycleAvailableModel::method"
+    },
+    {
+      "endLine": 1799,
+      "endOffset": 63075,
+      "kind": "method",
+      "name": "AgentSession.setThinkingLevel",
+      "startLine": 1783,
+      "startOffset": 62408,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setThinkingLevel::method"
+    },
+    {
+      "endLine": 1815,
+      "endOffset": 63559,
+      "kind": "method",
+      "name": "AgentSession.cycleThinkingLevel",
+      "startLine": 1805,
+      "startOffset": 63193,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.cycleThinkingLevel::method"
+    },
+    {
+      "endLine": 1824,
+      "endOffset": 63885,
+      "kind": "method",
+      "name": "AgentSession.getAvailableThinkingLevels",
+      "startLine": 1821,
+      "startOffset": 63701,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getAvailableThinkingLevels::method"
+    },
+    {
+      "endLine": 1831,
+      "endOffset": 64050,
+      "kind": "method",
+      "name": "AgentSession.supportsXhighThinking",
+      "startLine": 1829,
+      "startOffset": 63956,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsXhighThinking::method"
+    },
+    {
+      "endLine": 1838,
+      "endOffset": 64185,
+      "kind": "method",
+      "name": "AgentSession.supportsThinking",
+      "startLine": 1836,
+      "startOffset": 64119,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.supportsThinking::method"
+    },
+    {
+      "endLine": 1848,
+      "endOffset": 64495,
+      "kind": "method",
+      "name": "AgentSession._getThinkingLevelForModelSwitch",
+      "startLine": 1840,
+      "startOffset": 64188,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._getThinkingLevelForModelSwitch::method"
+    },
+    {
+      "endLine": 1866,
+      "endOffset": 65138,
+      "kind": "method",
+      "name": "AgentSession._clampThinkingLevel",
+      "startLine": 1850,
+      "startOffset": 64498,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._clampThinkingLevel::method"
+    },
+    {
+      "endLine": 1880,
+      "endOffset": 65581,
+      "kind": "method",
+      "name": "AgentSession.setSteeringMode",
+      "startLine": 1876,
+      "startOffset": 65388,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setSteeringMode::method"
+    },
+    {
+      "endLine": 1890,
+      "endOffset": 65843,
+      "kind": "method",
+      "name": "AgentSession.setFollowUpMode",
+      "startLine": 1886,
+      "startOffset": 65649,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setFollowUpMode::method"
+    },
+    {
+      "endLine": 1903,
+      "endOffset": 66332,
+      "kind": "method",
+      "name": "AgentSession.compact",
+      "startLine": 1901,
+      "startOffset": 66191,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.compact::method"
+    },
+    {
+      "endLine": 1908,
+      "endOffset": 66468,
+      "kind": "method",
+      "name": "AgentSession.abortCompaction",
+      "startLine": 1906,
+      "startOffset": 66390,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortCompaction::method"
+    },
+    {
+      "endLine": 1913,
+      "endOffset": 66603,
+      "kind": "method",
+      "name": "AgentSession.abortBranchSummary",
+      "startLine": 1911,
+      "startOffset": 66519,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortBranchSummary::method"
+    },
+    {
+      "endLine": 1919,
+      "endOffset": 66820,
+      "kind": "method",
+      "name": "AgentSession.setAutoCompactionEnabled",
+      "startLine": 1916,
+      "startOffset": 66645,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setAutoCompactionEnabled::method"
+    },
+    {
+      "endLine": 1945,
+      "endOffset": 67690,
+      "kind": "method",
+      "name": "AgentSession.bindExtensions",
+      "startLine": 1926,
+      "startOffset": 66971,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.bindExtensions::method"
+    },
+    {
+      "endLine": 1970,
+      "endOffset": 68538,
+      "kind": "method",
+      "name": "AgentSession.extendResourcesFromExtensions",
+      "startLine": 1947,
+      "startOffset": 67693,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.extendResourcesFromExtensions::method"
+    },
+    {
+      "endLine": 1989,
+      "endOffset": 69107,
+      "kind": "method",
+      "name": "AgentSession.buildExtensionResourcePaths",
+      "startLine": 1972,
+      "startOffset": 68541,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.buildExtensionResourcePaths::method"
+    },
+    {
+      "endLine": 1998,
+      "endOffset": 69398,
+      "kind": "method",
+      "name": "AgentSession.getExtensionSourceLabel",
+      "startLine": 1991,
+      "startOffset": 69110,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getExtensionSourceLabel::method"
+    },
+    {
+      "endLine": 2012,
+      "endOffset": 69829,
+      "kind": "method",
+      "name": "AgentSession._applyExtensionBindings",
+      "startLine": 2000,
+      "startOffset": 69401,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._applyExtensionBindings::method"
+    },
+    {
+      "endLine": 2141,
+      "endOffset": 74092,
+      "kind": "method",
+      "name": "AgentSession._bindExtensionCore",
+      "startLine": 2014,
+      "startOffset": 69832,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._bindExtensionCore::method"
+    },
+    {
+      "endLine": 2205,
+      "endOffset": 76567,
+      "kind": "method",
+      "name": "AgentSession._refreshToolRegistry",
+      "startLine": 2143,
+      "startOffset": 74095,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._refreshToolRegistry::method"
+    },
+    {
+      "endLine": 2265,
+      "endOffset": 78608,
+      "kind": "method",
+      "name": "AgentSession._buildRuntime",
+      "startLine": 2207,
+      "startOffset": 76570,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._buildRuntime::method"
+    },
+    {
+      "endLine": 2288,
+      "endOffset": 79358,
+      "kind": "method",
+      "name": "AgentSession.reload",
+      "startLine": 2267,
+      "startOffset": 78611,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.reload::method"
+    },
+    {
+      "endLine": 2301,
+      "endOffset": 79773,
+      "kind": "method",
+      "name": "AgentSession.abortRetry",
+      "startLine": 2295,
+      "startOffset": 79594,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortRetry::method"
+    },
+    {
+      "endLine": 2317,
+      "endOffset": 80208,
+      "kind": "method",
+      "name": "AgentSession.setAutoRetryEnabled",
+      "startLine": 2314,
+      "startOffset": 80058,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setAutoRetryEnabled::method"
+    },
+    {
+      "endLine": 2359,
+      "endOffset": 81725,
+      "kind": "method",
+      "name": "AgentSession.executeBash",
+      "startLine": 2331,
+      "startOffset": 80744,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.executeBash::method"
+    },
+    {
+      "endLine": 2389,
+      "endOffset": 82696,
+      "kind": "method",
+      "name": "AgentSession.recordBashResult",
+      "startLine": 2365,
+      "startOffset": 81874,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.recordBashResult::method"
+    },
+    {
+      "endLine": 2396,
+      "endOffset": 82802,
+      "kind": "method",
+      "name": "AgentSession.abortBash",
+      "startLine": 2394,
+      "startOffset": 82742,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.abortBash::method"
+    },
+    {
+      "endLine": 2424,
+      "endOffset": 83588,
+      "kind": "method",
+      "name": "AgentSession._flushPendingBashMessages",
+      "startLine": 2412,
+      "startOffset": 83250,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._flushPendingBashMessages::method"
+    },
+    {
+      "endLine": 2512,
+      "endOffset": 86696,
+      "kind": "method",
+      "name": "AgentSession.switchSession",
+      "startLine": 2436,
+      "startOffset": 84027,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.switchSession::method"
+    },
+    {
+      "endLine": 2520,
+      "endOffset": 86896,
+      "kind": "method",
+      "name": "AgentSession.setSessionName",
+      "startLine": 2517,
+      "startOffset": 86757,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.setSessionName::method"
+    },
+    {
+      "endLine": 2585,
+      "endOffset": 89066,
+      "kind": "method",
+      "name": "AgentSession.fork",
+      "startLine": 2531,
+      "startOffset": 87226,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.fork::method"
+    },
+    {
+      "endLine": 2782,
+      "endOffset": 96018,
+      "kind": "method",
+      "name": "AgentSession.navigateTree",
+      "startLine": 2602,
+      "startOffset": 89833,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.navigateTree::method"
+    },
+    {
+      "endLine": 2802,
+      "endOffset": 96561,
+      "kind": "method",
+      "name": "AgentSession.getUserMessagesForForking",
+      "startLine": 2787,
+      "startOffset": 96089,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getUserMessagesForForking::method"
+    },
+    {
+      "endLine": 2813,
+      "endOffset": 96898,
+      "kind": "method",
+      "name": "AgentSession._extractUserMessageText",
+      "startLine": 2804,
+      "startOffset": 96564,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession._extractUserMessageText::method"
+    },
+    {
+      "endLine": 2860,
+      "endOffset": 98511,
+      "kind": "method",
+      "name": "AgentSession.getSessionStats",
+      "startLine": 2818,
+      "startOffset": 96939,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getSessionStats::method"
+    },
+    {
+      "endLine": 2868,
+      "endOffset": 98700,
+      "kind": "method",
+      "name": "AgentSession.getLastTurnCost",
+      "startLine": 2866,
+      "startOffset": 98641,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getLastTurnCost::method"
+    },
+    {
+      "endLine": 2914,
+      "endOffset": 100291,
+      "kind": "method",
+      "name": "AgentSession.getContextUsage",
+      "startLine": 2870,
+      "startOffset": 98703,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getContextUsage::method"
+    },
+    {
+      "endLine": 2935,
+      "endOffset": 100889,
+      "kind": "method",
+      "name": "AgentSession.exportToHtml",
+      "startLine": 2921,
+      "startOffset": 100442,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.exportToHtml::method"
+    },
+    {
+      "endLine": 2968,
+      "endOffset": 101820,
+      "kind": "method",
+      "name": "AgentSession.getLastAssistantText",
+      "startLine": 2946,
+      "startOffset": 101222,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.getLastAssistantText::method"
+    },
+    {
+      "endLine": 2979,
+      "endOffset": 102194,
+      "kind": "method",
+      "name": "AgentSession.hasExtensionHandlers",
+      "startLine": 2977,
+      "startOffset": 102076,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession.hasExtensionHandlers::method"
+    },
+    {
+      "endLine": 93,
+      "endOffset": 3624,
+      "kind": "interface",
+      "name": "ParsedSkillBlock",
+      "startLine": 88,
+      "startOffset": 3501,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::ParsedSkillBlock::interface"
+    },
+    {
+      "endLine": 171,
+      "endOffset": 6647,
+      "kind": "interface",
+      "name": "AgentSessionConfig",
+      "startLine": 149,
+      "startOffset": 5525,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSessionConfig::interface"
+    },
+    {
+      "endLine": 178,
+      "endOffset": 6848,
+      "kind": "interface",
+      "name": "ExtensionBindings",
+      "startLine": 173,
+      "startOffset": 6649,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::ExtensionBindings::interface"
+    },
+    {
+      "endLine": 190,
+      "endOffset": 7349,
+      "kind": "interface",
+      "name": "PromptOptions",
+      "startLine": 181,
+      "startOffset": 6891,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::PromptOptions::interface"
+    },
+    {
+      "endLine": 198,
+      "endOffset": 7570,
+      "kind": "interface",
+      "name": "ModelCycleResult",
+      "startLine": 193,
+      "startOffset": 7383,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::ModelCycleResult::interface"
+    },
+    {
+      "endLine": 217,
+      "endOffset": 7948,
+      "kind": "interface",
+      "name": "SessionStats",
+      "startLine": 201,
+      "startOffset": 7619,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::SessionStats::interface"
+    },
+    {
+      "endLine": 122,
+      "endOffset": 4392,
+      "kind": "type",
+      "name": "SessionStateChangeReason",
+      "startLine": 111,
+      "startOffset": 4136,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::SessionStateChangeReason::type"
+    },
+    {
+      "endLine": 140,
+      "endOffset": 5226,
+      "kind": "type",
+      "name": "AgentSessionEvent",
+      "startLine": 124,
+      "startOffset": 4394,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSessionEvent::type"
+    },
+    {
+      "endLine": 143,
+      "endOffset": 5353,
+      "kind": "type",
+      "name": "AgentSessionEventListener",
+      "startLine": 143,
+      "startOffset": 5278,
+      "symbolId": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSessionEventListener::type"
+    }
+  ]
+}

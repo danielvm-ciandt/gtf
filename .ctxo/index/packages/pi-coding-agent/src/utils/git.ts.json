@@ -1,0 +1,52 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 27,
+      "symbolId": "packages/pi-coding-agent/src/utils/git.ts::parseGitUrl::function"
+    }
+  ],
+  "contentHash": "ac04200c9032900ad641f5580bd378c72d82be39f08660cb88c288ec7842cb93",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/utils/git.ts::parseGitUrl::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/git.ts::splitRef::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/utils/git.ts::parseGitUrl::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/git.ts::parseGenericGitUrl::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/utils/git.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 191,
+      "endOffset": 5368,
+      "kind": "function",
+      "name": "parseGitUrl",
+      "startLine": 133,
+      "startOffset": 3546,
+      "symbolId": "packages/pi-coding-agent/src/utils/git.ts::parseGitUrl::function"
+    },
+    {
+      "endLine": 18,
+      "endOffset": 515,
+      "kind": "type",
+      "name": "GitSource",
+      "startLine": 5,
+      "startOffset": 85,
+      "symbolId": "packages/pi-coding-agent/src/utils/git.ts::GitSource::type"
+    }
+  ]
+}

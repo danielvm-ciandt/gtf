@@ -1,0 +1,398 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorRow::function"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorCol::function"
+    },
+    {
+      "cyclomatic": 22,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::applyLineResets::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::isOverlayVisible::function"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function"
+    }
+  ],
+  "contentHash": "cf59dd9ab82a8ac91c7c474c1b9e4373e4ddcc7202313a4ff13d4afcebdaede9",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::OverlayAnchor::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::OverlayOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::SizeValue::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::extractSegments::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::sliceByColumn::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::sliceWithWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::CURSOR_MARKER::variable"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorRow::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorRow::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorCol::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorCol::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::applyLineResets::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::extractSegments::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::sliceWithWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::sliceByColumn::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::isOverlayVisible::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::sliceByColumn::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::SizeValue::type"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorRow::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::OverlayAnchor::type"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorCol::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::OverlayAnchor::type"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::OverlayOptions::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::applyLineResets::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::extractSegments::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::sliceWithWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::sliceByColumn::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::sliceByColumn::function"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::CURSOR_MARKER::variable"
+    },
+    {
+      "from": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/overlay-layout.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 24,
+      "endOffset": 1059,
+      "kind": "function",
+      "name": "parseSizeValue",
+      "startLine": 15,
+      "startOffset": 670,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::parseSizeValue::function"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1612,
+      "kind": "function",
+      "name": "resolveAnchorRow",
+      "startLine": 28,
+      "startOffset": 1142,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorRow::function"
+    },
+    {
+      "endLine": 70,
+      "endOffset": 2082,
+      "kind": "function",
+      "name": "resolveAnchorCol",
+      "startLine": 50,
+      "startOffset": 1614,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::resolveAnchorCol::function"
+    },
+    {
+      "endLine": 183,
+      "endOffset": 5714,
+      "kind": "function",
+      "name": "resolveOverlayLayout",
+      "startLine": 85,
+      "startOffset": 2382,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::resolveOverlayLayout::function"
+    },
+    {
+      "endLine": 198,
+      "endOffset": 6112,
+      "kind": "function",
+      "name": "applyLineResets",
+      "startLine": 190,
+      "startOffset": 5897,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::applyLineResets::function"
+    },
+    {
+      "endLine": 249,
+      "endOffset": 7970,
+      "kind": "function",
+      "name": "compositeLineAt",
+      "startLine": 201,
+      "startOffset": 6206,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::compositeLineAt::function"
+    },
+    {
+      "endLine": 271,
+      "endOffset": 8525,
+      "kind": "function",
+      "name": "isOverlayVisible",
+      "startLine": 261,
+      "startOffset": 8278,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::isOverlayVisible::function"
+    },
+    {
+      "endLine": 353,
+      "endOffset": 11669,
+      "kind": "function",
+      "name": "compositeOverlays",
+      "startLine": 277,
+      "startOffset": 8632,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function"
+    },
+    {
+      "endLine": 383,
+      "endOffset": 12891,
+      "kind": "function",
+      "name": "extractCursorPosition",
+      "startLine": 365,
+      "startOffset": 12167,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function"
+    },
+    {
+      "endLine": 79,
+      "endOffset": 2275,
+      "kind": "interface",
+      "name": "OverlayLayout",
+      "startLine": 74,
+      "startOffset": 2165,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::OverlayLayout::interface"
+    },
+    {
+      "endLine": 258,
+      "endOffset": 8222,
+      "kind": "interface",
+      "name": "OverlayEntry",
+      "startLine": 253,
+      "startOffset": 8053,
+      "symbolId": "packages/pi-tui/src/overlay-layout.ts::OverlayEntry::interface"
+    }
+  ]
+}

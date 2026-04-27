@@ -1,0 +1,114 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent.handleInput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent.dispose::method"
+    }
+  ],
+  "contentHash": "e73a87afa4824b12f7b934e2a05e8997a62fc3ca5e92c8d86cb4479ead1a482c",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts::CountdownTimer::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts::CountdownTimer::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 90,
+      "endOffset": 2549,
+      "kind": "class",
+      "name": "ExtensionInputComponent",
+      "startLine": 16,
+      "startOffset": 461,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent::class"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 2495,
+      "kind": "method",
+      "name": "ExtensionInputComponent.handleInput",
+      "startLine": 75,
+      "startOffset": 2121,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent.handleInput::method"
+    },
+    {
+      "endLine": 89,
+      "endOffset": 2547,
+      "kind": "method",
+      "name": "ExtensionInputComponent.dispose",
+      "startLine": 87,
+      "startOffset": 2498,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputComponent.dispose::method"
+    },
+    {
+      "endLine": 14,
+      "endOffset": 459,
+      "kind": "interface",
+      "name": "ExtensionInputOptions",
+      "startLine": 10,
+      "startOffset": 367,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-input.ts::ExtensionInputOptions::interface"
+    }
+  ]
+}

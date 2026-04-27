@@ -1,0 +1,106 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::getProviderCapabilities::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::getUnsupportedFeatures::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::mergeCapabilityOverrides::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::getRegisteredApis::function"
+    }
+  ],
+  "contentHash": "0a22e401f4a94ae863ff93eca43ffde615501d28b7798d6cc602421fc872bf84",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.ts::getProviderCapabilities::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.ts::getUnsupportedFeatures::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/provider-capabilities.ts::getProviderCapabilities::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.ts::mergeCapabilityOverrides::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/provider-capabilities.ts::getProviderCapabilities::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/provider-capabilities.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 176,
+      "endOffset": 6135,
+      "kind": "function",
+      "name": "getProviderCapabilities",
+      "startLine": 174,
+      "startOffset": 5996,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::getProviderCapabilities::function"
+    },
+    {
+      "endLine": 185,
+      "endOffset": 6498,
+      "kind": "function",
+      "name": "getUnsupportedFeatures",
+      "startLine": 182,
+      "startOffset": 6277,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::getUnsupportedFeatures::function"
+    },
+    {
+      "endLine": 205,
+      "endOffset": 7129,
+      "kind": "function",
+      "name": "mergeCapabilityOverrides",
+      "startLine": 191,
+      "startOffset": 6653,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::mergeCapabilityOverrides::function"
+    },
+    {
+      "endLine": 214,
+      "endOffset": 7405,
+      "kind": "function",
+      "name": "getRegisteredApis",
+      "startLine": 212,
+      "startOffset": 7311,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::getRegisteredApis::function"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 1269,
+      "kind": "interface",
+      "name": "ProviderCapabilities",
+      "startLine": 13,
+      "startOffset": 517,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::ProviderCapabilities::interface"
+    },
+    {
+      "endLine": 154,
+      "endOffset": 5397,
+      "kind": "variable",
+      "name": "PROVIDER_CAPABILITIES",
+      "startLine": 45,
+      "startOffset": 1866,
+      "symbolId": "packages/pi-ai/src/providers/provider-capabilities.ts::PROVIDER_CAPABILITIES::variable"
+    }
+  ]
+}

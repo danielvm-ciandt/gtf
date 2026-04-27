@@ -1,0 +1,41 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts::CountdownTimer.dispose::method"
+    }
+  ],
+  "contentHash": "d59a34d95e099bc11761fff0b253d23c7da55b1eeca0d8d5299c218d06143535",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 40,
+      "endOffset": 915,
+      "kind": "class",
+      "name": "CountdownTimer",
+      "startLine": 6,
+      "startOffset": 101,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts::CountdownTimer::class"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 913,
+      "kind": "method",
+      "name": "CountdownTimer.dispose",
+      "startLine": 33,
+      "startOffset": 772,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts::CountdownTimer.dispose::method"
+    }
+  ]
+}

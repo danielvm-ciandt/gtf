@@ -1,0 +1,91 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/mcp-server/src/readers/metrics.ts::readHistory::function"
+    }
+  ],
+  "contentHash": "c298fe98a685ec9860d22df16568354cfb850208ec7d5be52f7ba3ac5de2b6d6",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/metrics.ts::parseMetricsJson::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/metrics.ts::parseMetricsJson::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/metrics.ts::readHistory::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/metrics.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 117,
+      "endOffset": 3504,
+      "kind": "function",
+      "name": "readHistory",
+      "startLine": 73,
+      "startOffset": 2251,
+      "symbolId": "packages/mcp-server/src/readers/metrics.ts::readHistory::function"
+    },
+    {
+      "endLine": 26,
+      "endOffset": 692,
+      "kind": "interface",
+      "name": "MetricsUnit",
+      "startLine": 10,
+      "startOffset": 388,
+      "symbolId": "packages/mcp-server/src/readers/metrics.ts::MetricsUnit::interface"
+    },
+    {
+      "endLine": 36,
+      "endOffset": 894,
+      "kind": "interface",
+      "name": "HistoryResult",
+      "startLine": 28,
+      "startOffset": 694,
+      "symbolId": "packages/mcp-server/src/readers/metrics.ts::HistoryResult::interface"
+    }
+  ]
+}

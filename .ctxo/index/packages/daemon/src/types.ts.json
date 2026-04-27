@@ -1,0 +1,144 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d293fb6e239858d56435c4aa4234b39b29af7a877c3992bf4835f70109ecbc1b",
+  "edges": [],
+  "file": "packages/daemon/src/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 24,
+      "endOffset": 749,
+      "kind": "interface",
+      "name": "LogEntry",
+      "startLine": 18,
+      "startOffset": 610,
+      "symbolId": "packages/daemon/src/types.ts::LogEntry::interface"
+    },
+    {
+      "endLine": 52,
+      "endOffset": 1402,
+      "kind": "interface",
+      "name": "DaemonConfig",
+      "startLine": 29,
+      "startOffset": 812,
+      "symbolId": "packages/daemon/src/types.ts::DaemonConfig::interface"
+    },
+    {
+      "endLine": 100,
+      "endOffset": 2795,
+      "kind": "interface",
+      "name": "ManagedSession",
+      "startLine": 67,
+      "startOffset": 1912,
+      "symbolId": "packages/daemon/src/types.ts::ManagedSession::interface"
+    },
+    {
+      "endLine": 118,
+      "endOffset": 3281,
+      "kind": "interface",
+      "name": "PendingBlocker",
+      "startLine": 106,
+      "startOffset": 2975,
+      "symbolId": "packages/daemon/src/types.ts::PendingBlocker::interface"
+    },
+    {
+      "endLine": 132,
+      "endOffset": 3646,
+      "kind": "interface",
+      "name": "CostAccumulator",
+      "startLine": 124,
+      "startOffset": 3486,
+      "symbolId": "packages/daemon/src/types.ts::CostAccumulator::interface"
+    },
+    {
+      "endLine": 153,
+      "endOffset": 4275,
+      "kind": "interface",
+      "name": "ProjectInfo",
+      "startLine": 141,
+      "startOffset": 3974,
+      "symbolId": "packages/daemon/src/types.ts::ProjectInfo::interface"
+    },
+    {
+      "endLine": 174,
+      "endOffset": 4856,
+      "kind": "interface",
+      "name": "StartSessionOptions",
+      "startLine": 159,
+      "startOffset": 4461,
+      "symbolId": "packages/daemon/src/types.ts::StartSessionOptions::interface"
+    },
+    {
+      "endLine": 188,
+      "endOffset": 5395,
+      "kind": "interface",
+      "name": "FormattedEvent",
+      "startLine": 184,
+      "startOffset": 5204,
+      "symbolId": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    },
+    {
+      "endLine": 5,
+      "endOffset": 222,
+      "kind": "type",
+      "name": "LogLevel",
+      "startLine": 5,
+      "startOffset": 163,
+      "symbolId": "packages/daemon/src/types.ts::LogLevel::type"
+    },
+    {
+      "endLine": 13,
+      "endOffset": 544,
+      "kind": "type",
+      "name": "VerbosityLevel",
+      "startLine": 13,
+      "startOffset": 483,
+      "symbolId": "packages/daemon/src/types.ts::VerbosityLevel::type"
+    },
+    {
+      "endLine": 58,
+      "endOffset": 1682,
+      "kind": "type",
+      "name": "SessionStatus",
+      "startLine": 58,
+      "startOffset": 1581,
+      "symbolId": "packages/daemon/src/types.ts::SessionStatus::type"
+    },
+    {
+      "endLine": 139,
+      "endOffset": 3972,
+      "kind": "type",
+      "name": "ProjectMarker",
+      "startLine": 139,
+      "startOffset": 3894,
+      "symbolId": "packages/daemon/src/types.ts::ProjectMarker::type"
+    },
+    {
+      "endLine": 195,
+      "endOffset": 5720,
+      "kind": "variable",
+      "name": "MAX_EVENTS",
+      "startLine": 195,
+      "startOffset": 5704,
+      "symbolId": "packages/daemon/src/types.ts::MAX_EVENTS::variable"
+    },
+    {
+      "endLine": 198,
+      "endOffset": 5809,
+      "kind": "variable",
+      "name": "INIT_TIMEOUT_MS",
+      "startLine": 198,
+      "startOffset": 5785,
+      "symbolId": "packages/daemon/src/types.ts::INIT_TIMEOUT_MS::variable"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "2a0f18f0f7ff191a151d0b03313adb67d8b4ea8dff37b6edb45fcb2c3c1178f1",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/env-api-keys.ts::getEnvApiKey::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Message::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamFunction::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ThinkingContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Tool::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/hash.ts::shortHash::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/simple-options.ts::buildBaseOptions::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/simple-options.ts::clampReasoning::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/mistral.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 52,
+      "endOffset": 1712,
+      "kind": "interface",
+      "name": "MistralOptions",
+      "startLine": 49,
+      "startOffset": 1525,
+      "symbolId": "packages/pi-ai/src/providers/mistral.ts::MistralOptions::interface"
+    },
+    {
+      "endLine": 111,
+      "endOffset": 3753,
+      "kind": "variable",
+      "name": "streamMistral",
+      "startLine": 57,
+      "startOffset": 1789,
+      "symbolId": "packages/pi-ai/src/providers/mistral.ts::streamMistral::variable"
+    },
+    {
+      "endLine": 133,
+      "endOffset": 4472,
+      "kind": "variable",
+      "name": "streamSimpleMistral",
+      "startLine": 116,
+      "startOffset": 3845,
+      "symbolId": "packages/pi-ai/src/providers/mistral.ts::streamSimpleMistral::variable"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ttsr/index.ts::ttsrCheckBuffer::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ttsr/index.ts::ttsrFreeRules::function"
+    }
+  ],
+  "contentHash": "78f3bf77ac479b4ea8d92d2a374ea921d20b7a15aba590bbf5d0def925cf5c76",
+  "edges": [
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function",
+      "kind": "imports",
+      "to": "packages/native/src/ttsr/types.ts::TtsrHandle::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function",
+      "kind": "imports",
+      "to": "packages/native/src/ttsr/types.ts::TtsrRuleInput::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function",
+      "kind": "uses",
+      "to": "packages/native/src/ttsr/types.ts::TtsrRuleInput::interface"
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function",
+      "kind": "uses",
+      "to": "packages/native/src/ttsr/types.ts::TtsrHandle::type"
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCheckBuffer::function",
+      "kind": "uses",
+      "to": "packages/native/src/ttsr/types.ts::TtsrHandle::type"
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrCheckBuffer::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrFreeRules::function",
+      "kind": "uses",
+      "to": "packages/native/src/ttsr/types.ts::TtsrHandle::type"
+    },
+    {
+      "from": "packages/native/src/ttsr/index.ts::ttsrFreeRules::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/ttsr/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 19,
+      "endOffset": 621,
+      "kind": "function",
+      "name": "ttsrCompileRules",
+      "startLine": 17,
+      "startOffset": 494,
+      "symbolId": "packages/native/src/ttsr/index.ts::ttsrCompileRules::function"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 955,
+      "kind": "function",
+      "name": "ttsrCheckBuffer",
+      "startLine": 27,
+      "startOffset": 813,
+      "symbolId": "packages/native/src/ttsr/index.ts::ttsrCheckBuffer::function"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1179,
+      "kind": "function",
+      "name": "ttsrFreeRules",
+      "startLine": 36,
+      "startOffset": 1088,
+      "symbolId": "packages/native/src/ttsr/index.ts::ttsrFreeRules::function"
+    }
+  ]
+}

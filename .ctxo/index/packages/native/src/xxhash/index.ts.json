@@ -1,0 +1,56 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/xxhash/index.ts::xxHash32Fallback::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/xxhash/index.ts::xxHash32::function"
+    }
+  ],
+  "contentHash": "d516a314926c004f07abbce5eac7ac9b2639647c71fdb5d5ace85ddd08e61370",
+  "edges": [
+    {
+      "from": "packages/native/src/xxhash/index.ts::xxHash32Fallback::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/xxhash/index.ts::xxHash32Fallback::function",
+      "kind": "calls",
+      "to": "packages/native/src/xxhash/index.ts::xxHash32JS::function"
+    }
+  ],
+  "file": "packages/native/src/xxhash/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 76,
+      "endOffset": 2360,
+      "kind": "function",
+      "name": "xxHash32Fallback",
+      "startLine": 74,
+      "startOffset": 2253,
+      "symbolId": "packages/native/src/xxhash/index.ts::xxHash32Fallback::function"
+    },
+    {
+      "endLine": 97,
+      "endOffset": 3074,
+      "kind": "function",
+      "name": "xxHash32",
+      "startLine": 95,
+      "startOffset": 2972,
+      "symbolId": "packages/native/src/xxhash/index.ts::xxHash32::function"
+    }
+  ]
+}

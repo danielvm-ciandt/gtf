@@ -1,0 +1,29 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d204f6a3b57f2c1b63d37a1b9fa61c42a32f689ed90aabbac632276a5b3628ff",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/__tests__/markdown-maxlines.test.ts::markdown-maxlines.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/__tests__/markdown-maxlines.test.ts::markdown-maxlines.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/components/markdown.ts::MarkdownTheme::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-tui/src/components/__tests__/markdown-maxlines.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": []
+}

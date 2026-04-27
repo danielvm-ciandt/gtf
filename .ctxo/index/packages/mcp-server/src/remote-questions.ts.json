@@ -1,0 +1,129 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/remote-questions.ts::isRemoteConfigured::function"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function"
+    }
+  ],
+  "contentHash": "1535a16a5457b544917e03fe57881a3119cbd165b5e582f6ee9cb06e297a2e20",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::isRemoteConfigured::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::resolveRemoteConfig::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::resolveRemoteConfig::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::buildPrompt::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::discordValidate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::discordSend::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::slackValidate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::slackSend::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::telegramValidate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::telegramSend::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::pollUntilDone::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::discordAcknowledge::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::slackAcknowledge::function"
+    },
+    {
+      "from": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::formatForTool::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/remote-questions.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 213,
+      "endOffset": 6691,
+      "kind": "function",
+      "name": "isRemoteConfigured",
+      "startLine": 211,
+      "startOffset": 6601,
+      "symbolId": "packages/mcp-server/src/remote-questions.ts::isRemoteConfigured::function"
+    },
+    {
+      "endLine": 915,
+      "endOffset": 33451,
+      "kind": "function",
+      "name": "tryRemoteQuestions",
+      "startLine": 833,
+      "startOffset": 30744,
+      "symbolId": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function"
+    },
+    {
+      "endLine": 36,
+      "endOffset": 1155,
+      "kind": "interface",
+      "name": "RemoteQuestion",
+      "startLine": 30,
+      "startOffset": 1012,
+      "symbolId": "packages/mcp-server/src/remote-questions.ts::RemoteQuestion::interface"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 1733,
+      "kind": "interface",
+      "name": "RemoteToolResult",
+      "startLine": 61,
+      "startOffset": 1609,
+      "symbolId": "packages/mcp-server/src/remote-questions.ts::RemoteToolResult::interface"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockSyncWithRetry::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/lock-utils.ts::tryAcquireLockSync::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockAsync::function"
+    }
+  ],
+  "contentHash": "8c9aa07a74ba5693864772453c08dcd15df9b3b62f4d729bb6944fa9bc12f0d5",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/lock-utils.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 49,
+      "endOffset": 1464,
+      "kind": "function",
+      "name": "acquireLockSyncWithRetry",
+      "startLine": 22,
+      "startOffset": 669,
+      "symbolId": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockSyncWithRetry::function"
+    },
+    {
+      "endLine": 81,
+      "endOffset": 2456,
+      "kind": "function",
+      "name": "tryAcquireLockSync",
+      "startLine": 57,
+      "startOffset": 1688,
+      "symbolId": "packages/pi-coding-agent/src/core/lock-utils.ts::tryAcquireLockSync::function"
+    },
+    {
+      "endLine": 112,
+      "endOffset": 3231,
+      "kind": "function",
+      "name": "acquireLockAsync",
+      "startLine": 97,
+      "startOffset": 2891,
+      "symbolId": "packages/pi-coding-agent/src/core/lock-utils.ts::acquireLockAsync::function"
+    },
+    {
+      "endLine": 88,
+      "endOffset": 2676,
+      "kind": "interface",
+      "name": "AsyncLockOptions",
+      "startLine": 83,
+      "startOffset": 2458,
+      "symbolId": "packages/pi-coding-agent/src/core/lock-utils.ts::AsyncLockOptions::interface"
+    }
+  ]
+}

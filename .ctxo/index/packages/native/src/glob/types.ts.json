@@ -1,0 +1,45 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "a9b69169537fe1e3f8f81bafb6cddfb47fbb60c083984d944afbdd98d7576774",
+  "edges": [],
+  "file": "packages/native/src/glob/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 18,
+      "endOffset": 525,
+      "kind": "interface",
+      "name": "GlobMatch",
+      "startLine": 11,
+      "startOffset": 255,
+      "symbolId": "packages/native/src/glob/types.ts::GlobMatch::interface"
+    },
+    {
+      "endLine": 44,
+      "endOffset": 1474,
+      "kind": "interface",
+      "name": "GlobOptions",
+      "startLine": 21,
+      "startOffset": 566,
+      "symbolId": "packages/native/src/glob/types.ts::GlobOptions::interface"
+    },
+    {
+      "endLine": 52,
+      "endOffset": 1681,
+      "kind": "interface",
+      "name": "GlobResult",
+      "startLine": 47,
+      "startOffset": 1528,
+      "symbolId": "packages/native/src/glob/types.ts::GlobResult::interface"
+    }
+  ]
+}

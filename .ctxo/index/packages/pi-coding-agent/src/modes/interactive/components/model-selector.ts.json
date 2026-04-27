@@ -1,0 +1,547 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.loadModels::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.sortModelsWithinProvider::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.buildGroupedRows::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.jumpToCurrentModel::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getSelectedModel::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getScopeText::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getScopeHintText::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.filterModels::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.modelDetailLine::method"
+    },
+    {
+      "cyclomatic": 16,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveUp::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveDown::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleSelect::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getSearchInput::method"
+    }
+  ],
+  "contentHash": "94e62d8998f3b8980b7cf6d1a18ca86d42d20392b8506a029708390801d0fff1",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ProviderAuthMode::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.loadModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.sortModelsWithinProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.loadModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.sortModelsWithinProvider::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getScopeHintText::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.filterModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.buildGroupedRows::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.jumpToCurrentModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getScopeText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.filterModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::formatTokenCount::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.modelDetailLine::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::formatTokenCount::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getSelectedModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.modelDetailLine::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.modelDetailLine::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::formatTokenCount::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.modelDetailLine::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::formatTokenCount::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getScopeHintText::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveUp::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveDown::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getSelectedModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleSelect::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.buildGroupedRows::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.jumpToCurrentModel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.filterModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveUp::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveUp::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveDown::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveDown::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ProviderAuthMode::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 19,
+      "endOffset": 580,
+      "kind": "function",
+      "name": "providerDisplayName",
+      "startLine": 17,
+      "startOffset": 497,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 1045,
+      "kind": "function",
+      "name": "providerAuthBadge",
+      "startLine": 26,
+      "startOffset": 810,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "endLine": 689,
+      "endOffset": 20757,
+      "kind": "class",
+      "name": "ModelSelectorComponent",
+      "startLine": 79,
+      "startOffset": 2199,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent::class"
+    },
+    {
+      "endLine": 249,
+      "endOffset": 7570,
+      "kind": "method",
+      "name": "ModelSelectorComponent.loadModels",
+      "startLine": 204,
+      "startOffset": 6082,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.loadModels::method"
+    },
+    {
+      "endLine": 268,
+      "endOffset": 8301,
+      "kind": "method",
+      "name": "ModelSelectorComponent.sortModelsWithinProvider",
+      "startLine": 255,
+      "startOffset": 7728,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.sortModelsWithinProvider::method"
+    },
+    {
+      "endLine": 308,
+      "endOffset": 9484,
+      "kind": "method",
+      "name": "ModelSelectorComponent.buildGroupedRows",
+      "startLine": 274,
+      "startOffset": 8449,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.buildGroupedRows::method"
+    },
+    {
+      "endLine": 330,
+      "endOffset": 10103,
+      "kind": "method",
+      "name": "ModelSelectorComponent.jumpToCurrentModel",
+      "startLine": 313,
+      "startOffset": 9573,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.jumpToCurrentModel::method"
+    },
+    {
+      "endLine": 341,
+      "endOffset": 10446,
+      "kind": "method",
+      "name": "ModelSelectorComponent.getSelectedModel",
+      "startLine": 335,
+      "startOffset": 10181,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getSelectedModel::method"
+    },
+    {
+      "endLine": 347,
+      "endOffset": 10780,
+      "kind": "method",
+      "name": "ModelSelectorComponent.getScopeText",
+      "startLine": 343,
+      "startOffset": 10449,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getScopeText::method"
+    },
+    {
+      "endLine": 351,
+      "endOffset": 10893,
+      "kind": "method",
+      "name": "ModelSelectorComponent.getScopeHintText",
+      "startLine": 349,
+      "startOffset": 10783,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getScopeHintText::method"
+    },
+    {
+      "endLine": 370,
+      "endOffset": 11369,
+      "kind": "method",
+      "name": "ModelSelectorComponent.setScope",
+      "startLine": 353,
+      "startOffset": 10896,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.setScope::method"
+    },
+    {
+      "endLine": 378,
+      "endOffset": 11685,
+      "kind": "method",
+      "name": "ModelSelectorComponent.filterModels",
+      "startLine": 372,
+      "startOffset": 11372,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.filterModels::method"
+    },
+    {
+      "endLine": 396,
+      "endOffset": 12057,
+      "kind": "method",
+      "name": "ModelSelectorComponent.updateList",
+      "startLine": 380,
+      "startOffset": 11688,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.updateList::method"
+    },
+    {
+      "endLine": 456,
+      "endOffset": 14147,
+      "kind": "method",
+      "name": "ModelSelectorComponent.renderFlatList",
+      "startLine": 399,
+      "startOffset": 12122,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderFlatList::method"
+    },
+    {
+      "endLine": 545,
+      "endOffset": 17052,
+      "kind": "method",
+      "name": "ModelSelectorComponent.renderGroupedList",
+      "startLine": 462,
+      "startOffset": 14324,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.renderGroupedList::method"
+    },
+    {
+      "endLine": 557,
+      "endOffset": 17341,
+      "kind": "method",
+      "name": "ModelSelectorComponent.modelDetailLine",
+      "startLine": 547,
+      "startOffset": 17055,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.modelDetailLine::method"
+    },
+    {
+      "endLine": 622,
+      "endOffset": 18915,
+      "kind": "method",
+      "name": "ModelSelectorComponent.handleInput",
+      "startLine": 559,
+      "startOffset": 17344,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleInput::method"
+    },
+    {
+      "endLine": 650,
+      "endOffset": 19695,
+      "kind": "method",
+      "name": "ModelSelectorComponent.moveUp",
+      "startLine": 625,
+      "startOffset": 18978,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveUp::method"
+    },
+    {
+      "endLine": 678,
+      "endOffset": 20510,
+      "kind": "method",
+      "name": "ModelSelectorComponent.moveDown",
+      "startLine": 653,
+      "startOffset": 19760,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.moveDown::method"
+    },
+    {
+      "endLine": 684,
+      "endOffset": 20697,
+      "kind": "method",
+      "name": "ModelSelectorComponent.handleSelect",
+      "startLine": 680,
+      "startOffset": 20513,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.handleSelect::method"
+    },
+    {
+      "endLine": 688,
+      "endOffset": 20755,
+      "kind": "method",
+      "name": "ModelSelectorComponent.getSearchInput",
+      "startLine": 686,
+      "startOffset": 20700,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::ModelSelectorComponent.getSearchInput::method"
+    }
+  ]
+}

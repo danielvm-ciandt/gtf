@@ -1,0 +1,196 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.addModel::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.removeModel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.setProvider::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.removeProvider::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.listProviders::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.readConfig::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.writeConfig::method"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.acquireLockWithRetry::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method"
+    }
+  ],
+  "contentHash": "27ff14d25748cb3f29591b5be663e220284989d436a6dcfebf6bee93cd9912e7",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.addModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.removeModel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.setProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.removeProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.listProviders::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.readConfig::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.acquireLockWithRetry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.readConfig::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.writeConfig::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/models-json-writer.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 187,
+      "endOffset": 4877,
+      "kind": "class",
+      "name": "ModelsJsonWriter",
+      "startLine": 36,
+      "startOffset": 904,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter::class"
+    },
+    {
+      "endLine": 70,
+      "endOffset": 1852,
+      "kind": "method",
+      "name": "ModelsJsonWriter.addModel",
+      "startLine": 46,
+      "startOffset": 1176,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.addModel::method"
+    },
+    {
+      "endLine": 89,
+      "endOffset": 2416,
+      "kind": "method",
+      "name": "ModelsJsonWriter.removeModel",
+      "startLine": 75,
+      "startOffset": 1943,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.removeModel::method"
+    },
+    {
+      "endLine": 99,
+      "endOffset": 2655,
+      "kind": "method",
+      "name": "ModelsJsonWriter.setProvider",
+      "startLine": 94,
+      "startOffset": 2481,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.setProvider::method"
+    },
+    {
+      "endLine": 109,
+      "endOffset": 2845,
+      "kind": "method",
+      "name": "ModelsJsonWriter.removeProvider",
+      "startLine": 104,
+      "startOffset": 2710,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.removeProvider::method"
+    },
+    {
+      "endLine": 116,
+      "endOffset": 2969,
+      "kind": "method",
+      "name": "ModelsJsonWriter.listProviders",
+      "startLine": 114,
+      "startOffset": 2907,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.listProviders::method"
+    },
+    {
+      "endLine": 128,
+      "endOffset": 3249,
+      "kind": "method",
+      "name": "ModelsJsonWriter.readConfig",
+      "startLine": 118,
+      "startOffset": 2972,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.readConfig::method"
+    },
+    {
+      "endLine": 136,
+      "endOffset": 3498,
+      "kind": "method",
+      "name": "ModelsJsonWriter.writeConfig",
+      "startLine": 130,
+      "startOffset": 3252,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.writeConfig::method"
+    },
+    {
+      "endLine": 172,
+      "endOffset": 4556,
+      "kind": "method",
+      "name": "ModelsJsonWriter.acquireLockWithRetry",
+      "startLine": 138,
+      "startOffset": 3501,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.acquireLockWithRetry::method"
+    },
+    {
+      "endLine": 186,
+      "endOffset": 4875,
+      "kind": "method",
+      "name": "ModelsJsonWriter.withLock",
+      "startLine": 174,
+      "startOffset": 4559,
+      "symbolId": "packages/pi-coding-agent/src/core/models-json-writer.ts::ModelsJsonWriter.withLock::method"
+    }
+  ]
+}

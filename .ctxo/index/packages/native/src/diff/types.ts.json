@@ -1,0 +1,36 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "676570d87fa7fecdad19f1fee130976211a20a6f2aaeb52c4f9e619ae546e033",
+  "edges": [],
+  "file": "packages/native/src/diff/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 15,
+      "endOffset": 630,
+      "kind": "interface",
+      "name": "FuzzyMatchResult",
+      "startLine": 1,
+      "startOffset": 81,
+      "symbolId": "packages/native/src/diff/types.ts::FuzzyMatchResult::interface"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 897,
+      "kind": "interface",
+      "name": "DiffResult",
+      "startLine": 18,
+      "startOffset": 674,
+      "symbolId": "packages/native/src/diff/types.ts::DiffResult::interface"
+    }
+  ]
+}

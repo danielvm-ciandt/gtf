@@ -1,0 +1,195 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/launchd.ts::getPlistPath::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/daemon/src/launchd.ts::generatePlist::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/daemon/src/launchd.ts::install::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/launchd.ts::uninstall::function"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/daemon/src/launchd.ts::status::function"
+    }
+  ],
+  "contentHash": "b97276e4b62f8dfda29b744d4638b785dc225b8fe5864b75e5b685ab965bf1b7",
+  "edges": [
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::buildEnvPath::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::generatePlist::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::install::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::getPlistPath::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::install::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::generatePlist::function"
+    },
+    {
+      "from": "packages/daemon/src/launchd.ts::uninstall::function",
+      "kind": "calls",
+      "to": "packages/daemon/src/launchd.ts::getPlistPath::function"
+    }
+  ],
+  "file": "packages/daemon/src/launchd.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 49,
+      "endOffset": 1498,
+      "kind": "function",
+      "name": "escapeXml",
+      "startLine": 42,
+      "startOffset": 1294,
+      "symbolId": "packages/daemon/src/launchd.ts::escapeXml::function"
+    },
+    {
+      "endLine": 54,
+      "endOffset": 1684,
+      "kind": "function",
+      "name": "getPlistPath",
+      "startLine": 52,
+      "startOffset": 1570,
+      "symbolId": "packages/daemon/src/launchd.ts::getPlistPath::function"
+    },
+    {
+      "endLine": 127,
+      "endOffset": 3949,
+      "kind": "function",
+      "name": "generatePlist",
+      "startLine": 70,
+      "startOffset": 2231,
+      "symbolId": "packages/daemon/src/launchd.ts::generatePlist::function"
+    },
+    {
+      "endLine": 169,
+      "endOffset": 5062,
+      "kind": "function",
+      "name": "install",
+      "startLine": 140,
+      "startOffset": 4303,
+      "symbolId": "packages/daemon/src/launchd.ts::install::function"
+    },
+    {
+      "endLine": 187,
+      "endOffset": 5548,
+      "kind": "function",
+      "name": "uninstall",
+      "startLine": 175,
+      "startOffset": 5182,
+      "symbolId": "packages/daemon/src/launchd.ts::uninstall::function"
+    },
+    {
+      "endLine": 241,
+      "endOffset": 7517,
+      "kind": "function",
+      "name": "status",
+      "startLine": 197,
+      "startOffset": 5852,
+      "symbolId": "packages/daemon/src/launchd.ts::status::function"
+    },
+    {
+      "endLine": 21,
+      "endOffset": 736,
+      "kind": "interface",
+      "name": "PlistOptions",
+      "startLine": 8,
+      "startOffset": 275,
+      "symbolId": "packages/daemon/src/launchd.ts::PlistOptions::interface"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 1025,
+      "kind": "interface",
+      "name": "LaunchdStatus",
+      "startLine": 23,
+      "startOffset": 738,
+      "symbolId": "packages/daemon/src/launchd.ts::LaunchdStatus::interface"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1078,
+      "kind": "type",
+      "name": "RunCommandFn",
+      "startLine": 32,
+      "startOffset": 1027,
+      "symbolId": "packages/daemon/src/launchd.ts::RunCommandFn::type"
+    }
+  ]
+}

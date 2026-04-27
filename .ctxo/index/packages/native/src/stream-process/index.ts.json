@@ -1,0 +1,97 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/native/src/stream-process/index.ts::processStreamChunk::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/stream-process/index.ts::stripAnsiNative::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/stream-process/index.ts::sanitizeBinaryOutputNative::function"
+    }
+  ],
+  "contentHash": "9f8aaaeb4db06029bd01c0e4b56e2a6c2d66a529b46bdd75f4146c35435c01f5",
+  "edges": [
+    {
+      "from": "packages/native/src/stream-process/index.ts::processStreamChunk::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/stream-process/index.ts::processStreamChunk::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/stream-process/index.ts::stripAnsiNative::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/stream-process/index.ts::sanitizeBinaryOutputNative::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/stream-process/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 55,
+      "endOffset": 1469,
+      "kind": "function",
+      "name": "processStreamChunk",
+      "startLine": 28,
+      "startOffset": 773,
+      "symbolId": "packages/native/src/stream-process/index.ts::processStreamChunk::function"
+    },
+    {
+      "endLine": 62,
+      "endOffset": 1661,
+      "kind": "function",
+      "name": "stripAnsiNative",
+      "startLine": 60,
+      "startOffset": 1525,
+      "symbolId": "packages/native/src/stream-process/index.ts::stripAnsiNative::function"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 2052,
+      "kind": "function",
+      "name": "sanitizeBinaryOutputNative",
+      "startLine": 70,
+      "startOffset": 1885,
+      "symbolId": "packages/native/src/stream-process/index.ts::sanitizeBinaryOutputNative::function"
+    },
+    {
+      "endLine": 11,
+      "endOffset": 298,
+      "kind": "interface",
+      "name": "StreamState",
+      "startLine": 8,
+      "startOffset": 216,
+      "symbolId": "packages/native/src/stream-process/index.ts::StreamState::interface"
+    },
+    {
+      "endLine": 16,
+      "endOffset": 376,
+      "kind": "interface",
+      "name": "StreamChunkResult",
+      "startLine": 13,
+      "startOffset": 300,
+      "symbolId": "packages/native/src/stream-process/index.ts::StreamChunkResult::interface"
+    }
+  ]
+}

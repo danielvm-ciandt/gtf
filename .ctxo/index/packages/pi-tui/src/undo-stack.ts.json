@@ -1,0 +1,67 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/undo-stack.ts::UndoStack.push::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/undo-stack.ts::UndoStack.pop::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/undo-stack.ts::UndoStack.clear::method"
+    }
+  ],
+  "contentHash": "1373c1e0a1e2c58ac90c93d32a9e5c1226d7f53314c77dd3d0f8ec349d2b3627",
+  "edges": [],
+  "file": "packages/pi-tui/src/undo-stack.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320165,
+  "symbols": [
+    {
+      "endLine": 27,
+      "endOffset": 642,
+      "kind": "class",
+      "name": "UndoStack",
+      "startLine": 6,
+      "startOffset": 196,
+      "symbolId": "packages/pi-tui/src/undo-stack.ts::UndoStack::class"
+    },
+    {
+      "endLine": 12,
+      "endOffset": 381,
+      "kind": "method",
+      "name": "UndoStack.push",
+      "startLine": 10,
+      "startOffset": 313,
+      "symbolId": "packages/pi-tui/src/undo-stack.ts::UndoStack.push::method"
+    },
+    {
+      "endLine": 17,
+      "endOffset": 508,
+      "kind": "method",
+      "name": "UndoStack.pop",
+      "startLine": 15,
+      "startOffset": 456,
+      "symbolId": "packages/pi-tui/src/undo-stack.ts::UndoStack.pop::method"
+    },
+    {
+      "endLine": 22,
+      "endOffset": 584,
+      "kind": "method",
+      "name": "UndoStack.clear",
+      "startLine": 20,
+      "startOffset": 541,
+      "symbolId": "packages/pi-tui/src/undo-stack.ts::UndoStack.clear::method"
+    }
+  ]
+}

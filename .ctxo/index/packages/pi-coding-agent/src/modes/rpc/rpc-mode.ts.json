@@ -1,0 +1,250 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 110,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function"
+    }
+  ],
+  "contentHash": "84c25e3bb94b8f18137e6fa50d588d80e9cb8152ef2219a4d6a14a4082b795f9",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionUIContext::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionUIDialogOptions::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionWidgetOptions::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode.ts::InteractiveMode::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/shared/command-context-actions.ts::createDefaultCommandContextActions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/jsonl.ts::attachJsonlLineReader::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcCommand::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcExtensionUIRequest::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcExtensionUIResponse::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcInitResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcResponse::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSessionState::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSlashCommand::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/shared/command-context-actions.ts::createDefaultCommandContextActions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/jsonl.ts::attachJsonlLineReader::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode.ts::InteractiveMode::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcResponse::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcExtensionUIRequest::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcCommand::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/remote-terminal.ts::RemoteTerminal::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode.ts::InteractiveMode::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionWidgetOptions::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionUIContext::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionUIDialogOptions::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcExtensionUIResponse::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/shared/command-context-actions.ts::createDefaultCommandContextActions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSessionState::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcSlashCommand::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/rpc-types.ts::RpcInitResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/rpc/jsonl.ts::attachJsonlLineReader::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 890,
+      "endOffset": 28127,
+      "kind": "function",
+      "name": "runRpcMode",
+      "startLine": 51,
+      "startOffset": 1653,
+      "symbolId": "packages/pi-coding-agent/src/modes/rpc/rpc-mode.ts::runRpcMode::function"
+    }
+  ]
+}

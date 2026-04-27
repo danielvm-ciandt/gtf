@@ -1,0 +1,77 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent.getSelectList::method"
+    }
+  ],
+  "contentHash": "2f100f8254a48f00ed09eb4fd413fbcec2cdd21f8b28c9b3da4dfd4129ade35c",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSelectListTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSelectListTheme::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 61,
+      "endOffset": 1535,
+      "kind": "class",
+      "name": "ThemeSelectorComponent",
+      "startLine": 7,
+      "startOffset": 251,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent::class"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 1533,
+      "kind": "method",
+      "name": "ThemeSelectorComponent.getSelectList",
+      "startLine": 58,
+      "startOffset": 1475,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/theme-selector.ts::ThemeSelectorComponent.getSelectList::method"
+    }
+  ]
+}

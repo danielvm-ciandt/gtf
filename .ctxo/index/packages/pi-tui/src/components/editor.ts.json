@@ -1,0 +1,2238 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getPaddingX::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setPaddingX::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getAutocompleteMaxVisible::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setAutocompleteMaxVisible::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setAutocompleteProvider::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.clearLayoutCaches::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getLayoutLines::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.addToHistory::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isEditorEmpty::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isOnFirstVisualLine::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isOnLastVisualLine::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setTextInternal::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.invalidate::method"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.render::method"
+    },
+    {
+      "cyclomatic": 83,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.layoutText::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getText::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getExpandedText::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getLines::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getCursor::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setText::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursor::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.debouncedTriggerAutocomplete::method"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handlePaste::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.addNewLine::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.shouldSubmitOnBackslashEnter::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.submitValue::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveToVisualLine::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.computeVerticalMoveColumn::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineStart::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineEnd::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteToEndOfLine::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.findCurrentVisualLine::method"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.pageScroll::method"
+    },
+    {
+      "cyclomatic": 25,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.yank::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.yankPop::method"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertYankedText::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteYankedText::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.undo::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.jumpToChar::method"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isSlashMenuAllowed::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isAtStartOfMessage::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.shouldChainSlashArgumentAutocompleteOnTabSelection::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isBareCompletedSlashCommandAtCursor::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getBestAutocompleteMatchIndex::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleTabCompletion::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleSlashCommandCompletion::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.clearAutocompleteDebounce::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.dispose::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isShowingAutocomplete::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.debouncedUpdateAutocompleteSuggestions::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.applyAutocompleteSuggestions::method"
+    }
+  ],
+  "contentHash": "8b0f0fbb2c4558a781cbd387f90e86dc9371535822fc15de6484de4938224db6",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/autocomplete.ts::AutocompleteProvider::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/kill-ring.ts::KillRing::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::CURSOR_MARKER::variable"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Focusable::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::TUI::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/undo-stack.ts::UndoStack::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::getSegmenter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/components/select-list.ts::SelectList::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/components/select-list.ts::SelectListTheme::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.clearLayoutCaches::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.getText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.getLayoutLines::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.layoutText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.isOnFirstVisualLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.isOnFirstVisualLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.findCurrentVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.isOnLastVisualLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.isOnLastVisualLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.findCurrentVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setTextInternal::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setTextInternal::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.setTextInternal::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.setTextInternal::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.clearLayoutCaches::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.getLayoutLines::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.jumpToChar::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.handlePaste::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.undo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.shouldChainSlashArgumentAutocompleteOnTabSelection::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isBareCompletedSlashCommandAtCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.handleTabCompletion::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.deleteToEndOfLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.yank::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.yankPop::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineStart::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineEnd::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.shouldSubmitOnBackslashEnter::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.submitValue::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.addNewLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.addNewLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.submitValue::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isEditorEmpty::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isOnFirstVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isOnFirstVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineStart::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isOnLastVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isOnLastVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineEnd::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pageScroll::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pageScroll::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.layoutText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.layoutText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::wordWrapLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.setText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.getText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.setText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.setText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setTextInternal::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isAtStartOfMessage::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.debouncedTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.debouncedTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.debouncedTriggerAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handlePaste::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handlePaste::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handlePaste::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handlePaste::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.addNewLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.addNewLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.addNewLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.shouldSubmitOnBackslashEnter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.submitValue::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.debouncedTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveToVisualLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.computeVerticalMoveColumn::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineStart::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineEnd::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToEndOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToEndOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteToEndOfLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.debouncedTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::wordWrapLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.findCurrentVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveToVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.pageScroll::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.pageScroll::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.findCurrentVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.pageScroll::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.moveToVisualLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.yank::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.yank::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertYankedText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.yankPop::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.yankPop::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.deleteYankedText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.yankPop::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.insertYankedText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertYankedText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertYankedText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.insertYankedText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteYankedText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteYankedText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.deleteYankedText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.undo::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.jumpToChar::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.isAtStartOfMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isSlashMenuAllowed::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isSlashMenuAllowed::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.shouldChainSlashArgumentAutocompleteOnTabSelection::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.getBestAutocompleteMatchIndex::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/select-list.ts::SelectList::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleTabCompletion::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleTabCompletion::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.handleSlashCommandCompletion::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleTabCompletion::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.handleSlashCommandCompletion::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.getBestAutocompleteMatchIndex::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/select-list.ts::SelectList::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.clearAutocompleteDebounce::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.dispose::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.clearAutocompleteDebounce::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.debouncedUpdateAutocompleteSuggestions::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.applyAutocompleteSuggestions::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.debouncedUpdateAutocompleteSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.applyAutocompleteSuggestions::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.applyAutocompleteSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.getBestAutocompleteMatchIndex::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.applyAutocompleteSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor.applyAutocompleteSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/select-list.ts::SelectList::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::TUI::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/autocomplete.ts::AutocompleteProvider::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/components/select-list.ts::SelectList::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/kill-ring.ts::KillRing::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/undo-stack.ts::UndoStack::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::CURSOR_MARKER::variable"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/editor.ts::Editor::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider::class"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/editor.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 2185,
+      "endOffset": 72754,
+      "kind": "class",
+      "name": "Editor",
+      "startLine": 122,
+      "startOffset": 3650,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor::class"
+    },
+    {
+      "endLine": 214,
+      "endOffset": 6824,
+      "kind": "method",
+      "name": "Editor.getPaddingX",
+      "startLine": 212,
+      "startOffset": 6774,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getPaddingX::method"
+    },
+    {
+      "endLine": 222,
+      "endOffset": 7054,
+      "kind": "method",
+      "name": "Editor.setPaddingX",
+      "startLine": 216,
+      "startOffset": 6827,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setPaddingX::method"
+    },
+    {
+      "endLine": 226,
+      "endOffset": 7135,
+      "kind": "method",
+      "name": "Editor.getAutocompleteMaxVisible",
+      "startLine": 224,
+      "startOffset": 7057,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getAutocompleteMaxVisible::method"
+    },
+    {
+      "endLine": 234,
+      "endOffset": 7439,
+      "kind": "method",
+      "name": "Editor.setAutocompleteMaxVisible",
+      "startLine": 228,
+      "startOffset": 7138,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setAutocompleteMaxVisible::method"
+    },
+    {
+      "endLine": 238,
+      "endOffset": 7548,
+      "kind": "method",
+      "name": "Editor.setAutocompleteProvider",
+      "startLine": 236,
+      "startOffset": 7442,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setAutocompleteProvider::method"
+    },
+    {
+      "endLine": 243,
+      "endOffset": 7650,
+      "kind": "method",
+      "name": "Editor.clearLayoutCaches",
+      "startLine": 240,
+      "startOffset": 7551,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.clearLayoutCaches::method"
+    },
+    {
+      "endLine": 252,
+      "endOffset": 7824,
+      "kind": "method",
+      "name": "Editor.emitChange",
+      "startLine": 245,
+      "startOffset": 7653,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.emitChange::method"
+    },
+    {
+      "endLine": 265,
+      "endOffset": 8324,
+      "kind": "method",
+      "name": "Editor.getLayoutLines",
+      "startLine": 254,
+      "startOffset": 7827,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getLayoutLines::method"
+    },
+    {
+      "endLine": 281,
+      "endOffset": 8754,
+      "kind": "method",
+      "name": "Editor.addToHistory",
+      "startLine": 271,
+      "startOffset": 8435,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.addToHistory::method"
+    },
+    {
+      "endLine": 285,
+      "endOffset": 8864,
+      "kind": "method",
+      "name": "Editor.isEditorEmpty",
+      "startLine": 283,
+      "startOffset": 8757,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isEditorEmpty::method"
+    },
+    {
+      "endLine": 291,
+      "endOffset": 9076,
+      "kind": "method",
+      "name": "Editor.isOnFirstVisualLine",
+      "startLine": 287,
+      "startOffset": 8867,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isOnFirstVisualLine::method"
+    },
+    {
+      "endLine": 297,
+      "endOffset": 9308,
+      "kind": "method",
+      "name": "Editor.isOnLastVisualLine",
+      "startLine": 293,
+      "startOffset": 9079,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isOnLastVisualLine::method"
+    },
+    {
+      "endLine": 319,
+      "endOffset": 9961,
+      "kind": "method",
+      "name": "Editor.navigateHistory",
+      "startLine": 299,
+      "startOffset": 9311,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.navigateHistory::method"
+    },
+    {
+      "endLine": 330,
+      "endOffset": 10462,
+      "kind": "method",
+      "name": "Editor.setTextInternal",
+      "startLine": 322,
+      "startOffset": 10048,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setTextInternal::method"
+    },
+    {
+      "endLine": 334,
+      "endOffset": 10516,
+      "kind": "method",
+      "name": "Editor.invalidate",
+      "startLine": 332,
+      "startOffset": 10465,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.invalidate::method"
+    },
+    {
+      "endLine": 456,
+      "endOffset": 15439,
+      "kind": "method",
+      "name": "Editor.render",
+      "startLine": 336,
+      "startOffset": 10519,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.render::method"
+    },
+    {
+      "endLine": 761,
+      "endOffset": 23451,
+      "kind": "method",
+      "name": "Editor.handleInput",
+      "startLine": 458,
+      "startOffset": 15442,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleInput::method"
+    },
+    {
+      "endLine": 849,
+      "endOffset": 26007,
+      "kind": "method",
+      "name": "Editor.layoutText",
+      "startLine": 763,
+      "startOffset": 23454,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.layoutText::method"
+    },
+    {
+      "endLine": 856,
+      "endOffset": 26146,
+      "kind": "method",
+      "name": "Editor.getText",
+      "startLine": 851,
+      "startOffset": 26010,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getText::method"
+    },
+    {
+      "endLine": 869,
+      "endOffset": 26600,
+      "kind": "method",
+      "name": "Editor.getExpandedText",
+      "startLine": 862,
+      "startOffset": 26298,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getExpandedText::method"
+    },
+    {
+      "endLine": 873,
+      "endOffset": 26660,
+      "kind": "method",
+      "name": "Editor.getLines",
+      "startLine": 871,
+      "startOffset": 26603,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getLines::method"
+    },
+    {
+      "endLine": 877,
+      "endOffset": 26779,
+      "kind": "method",
+      "name": "Editor.getCursor",
+      "startLine": 875,
+      "startOffset": 26663,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getCursor::method"
+    },
+    {
+      "endLine": 887,
+      "endOffset": 27072,
+      "kind": "method",
+      "name": "Editor.setText",
+      "startLine": 879,
+      "startOffset": 26782,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setText::method"
+    },
+    {
+      "endLine": 900,
+      "endOffset": 27462,
+      "kind": "method",
+      "name": "Editor.insertTextAtCursor",
+      "startLine": 894,
+      "startOffset": 27278,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursor::method"
+    },
+    {
+      "endLine": 946,
+      "endOffset": 29055,
+      "kind": "method",
+      "name": "Editor.insertTextAtCursorInternal",
+      "startLine": 907,
+      "startOffset": 27696,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertTextAtCursorInternal::method"
+    },
+    {
+      "endLine": 1013,
+      "endOffset": 31883,
+      "kind": "method",
+      "name": "Editor.insertCharacter",
+      "startLine": 949,
+      "startOffset": 29100,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertCharacter::method"
+    },
+    {
+      "endLine": 1030,
+      "endOffset": 32447,
+      "kind": "method",
+      "name": "Editor.debouncedTriggerAutocomplete",
+      "startLine": 1019,
+      "startOffset": 32064,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.debouncedTriggerAutocomplete::method"
+    },
+    {
+      "endLine": 1109,
+      "endOffset": 35359,
+      "kind": "method",
+      "name": "Editor.handlePaste",
+      "startLine": 1046,
+      "startOffset": 33087,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handlePaste::method"
+    },
+    {
+      "endLine": 1131,
+      "endOffset": 35945,
+      "kind": "method",
+      "name": "Editor.addNewLine",
+      "startLine": 1111,
+      "startOffset": 35362,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.addNewLine::method"
+    },
+    {
+      "endLine": 1142,
+      "endOffset": 36478,
+      "kind": "method",
+      "name": "Editor.shouldSubmitOnBackslashEnter",
+      "startLine": 1133,
+      "startOffset": 35948,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.shouldSubmitOnBackslashEnter::method"
+    },
+    {
+      "endLine": 1161,
+      "endOffset": 37054,
+      "kind": "method",
+      "name": "Editor.submitValue",
+      "startLine": 1144,
+      "startOffset": 36481,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.submitValue::method"
+    },
+    {
+      "endLine": 1216,
+      "endOffset": 39087,
+      "kind": "method",
+      "name": "Editor.handleBackspace",
+      "startLine": 1163,
+      "startOffset": 37057,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleBackspace::method"
+    },
+    {
+      "endLine": 1225,
+      "endOffset": 39344,
+      "kind": "method",
+      "name": "Editor.setCursorCol",
+      "startLine": 1222,
+      "startOffset": 39236,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.setCursorCol::method"
+    },
+    {
+      "endLine": 1265,
+      "endOffset": 40872,
+      "kind": "method",
+      "name": "Editor.moveToVisualLine",
+      "startLine": 1231,
+      "startOffset": 39473,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveToVisualLine::method"
+    },
+    {
+      "endLine": 1318,
+      "endOffset": 43075,
+      "kind": "method",
+      "name": "Editor.computeVerticalMoveColumn",
+      "startLine": 1287,
+      "startOffset": 42180,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.computeVerticalMoveColumn::method"
+    },
+    {
+      "endLine": 1323,
+      "endOffset": 43164,
+      "kind": "method",
+      "name": "Editor.moveToLineStart",
+      "startLine": 1320,
+      "startOffset": 43078,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineStart::method"
+    },
+    {
+      "endLine": 1329,
+      "endOffset": 43337,
+      "kind": "method",
+      "name": "Editor.moveToLineEnd",
+      "startLine": 1325,
+      "startOffset": 43167,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveToLineEnd::method"
+    },
+    {
+      "endLine": 1362,
+      "endOffset": 44581,
+      "kind": "method",
+      "name": "Editor.deleteToStartOfLine",
+      "startLine": 1331,
+      "startOffset": 43340,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteToStartOfLine::method"
+    },
+    {
+      "endLine": 1392,
+      "endOffset": 45751,
+      "kind": "method",
+      "name": "Editor.deleteToEndOfLine",
+      "startLine": 1364,
+      "startOffset": 44584,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteToEndOfLine::method"
+    },
+    {
+      "endLine": 1435,
+      "endOffset": 47270,
+      "kind": "method",
+      "name": "Editor.deleteWordBackwards",
+      "startLine": 1394,
+      "startOffset": 45754,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordBackwards::method"
+    },
+    {
+      "endLine": 1475,
+      "endOffset": 48685,
+      "kind": "method",
+      "name": "Editor.deleteWordForward",
+      "startLine": 1437,
+      "startOffset": 47273,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteWordForward::method"
+    },
+    {
+      "endLine": 1523,
+      "endOffset": 50472,
+      "kind": "method",
+      "name": "Editor.handleForwardDelete",
+      "startLine": 1477,
+      "startOffset": 48688,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleForwardDelete::method"
+    },
+    {
+      "endLine": 1567,
+      "endOffset": 51840,
+      "kind": "method",
+      "name": "Editor.buildVisualLineMap",
+      "startLine": 1532,
+      "startOffset": 50764,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.buildVisualLineMap::method"
+    },
+    {
+      "endLine": 1591,
+      "endOffset": 52733,
+      "kind": "method",
+      "name": "Editor.findCurrentVisualLine",
+      "startLine": 1572,
+      "startOffset": 51917,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.findCurrentVisualLine::method"
+    },
+    {
+      "endLine": 1642,
+      "endOffset": 54837,
+      "kind": "method",
+      "name": "Editor.moveCursor",
+      "startLine": 1593,
+      "startOffset": 52736,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveCursor::method"
+    },
+    {
+      "endLine": 1658,
+      "endOffset": 55479,
+      "kind": "method",
+      "name": "Editor.pageScroll",
+      "startLine": 1648,
+      "startOffset": 54969,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.pageScroll::method"
+    },
+    {
+      "endLine": 1703,
+      "endOffset": 56920,
+      "kind": "method",
+      "name": "Editor.moveWordBackwards",
+      "startLine": 1660,
+      "startOffset": 55482,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveWordBackwards::method"
+    },
+    {
+      "endLine": 1717,
+      "endOffset": 57196,
+      "kind": "method",
+      "name": "Editor.yank",
+      "startLine": 1708,
+      "startOffset": 57002,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.yank::method"
+    },
+    {
+      "endLine": 1740,
+      "endOffset": 57885,
+      "kind": "method",
+      "name": "Editor.yankPop",
+      "startLine": 1723,
+      "startOffset": 57357,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.yankPop::method"
+    },
+    {
+      "endLine": 1780,
+      "endOffset": 59343,
+      "kind": "method",
+      "name": "Editor.insertYankedText",
+      "startLine": 1745,
+      "startOffset": 57960,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.insertYankedText::method"
+    },
+    {
+      "endLine": 1820,
+      "endOffset": 60875,
+      "kind": "method",
+      "name": "Editor.deleteYankedText",
+      "startLine": 1786,
+      "startOffset": 59498,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.deleteYankedText::method"
+    },
+    {
+      "endLine": 1824,
+      "endOffset": 60950,
+      "kind": "method",
+      "name": "Editor.pushUndoSnapshot",
+      "startLine": 1822,
+      "startOffset": 60878,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.pushUndoSnapshot::method"
+    },
+    {
+      "endLine": 1834,
+      "endOffset": 61220,
+      "kind": "method",
+      "name": "Editor.undo",
+      "startLine": 1826,
+      "startOffset": 60953,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.undo::method"
+    },
+    {
+      "endLine": 1868,
+      "endOffset": 62286,
+      "kind": "method",
+      "name": "Editor.jumpToChar",
+      "startLine": 1840,
+      "startOffset": 61383,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.jumpToChar::method"
+    },
+    {
+      "endLine": 1913,
+      "endOffset": 63601,
+      "kind": "method",
+      "name": "Editor.moveWordForwards",
+      "startLine": 1870,
+      "startOffset": 62289,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.moveWordForwards::method"
+    },
+    {
+      "endLine": 1918,
+      "endOffset": 63744,
+      "kind": "method",
+      "name": "Editor.isSlashMenuAllowed",
+      "startLine": 1916,
+      "startOffset": 63664,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isSlashMenuAllowed::method"
+    },
+    {
+      "endLine": 1926,
+      "endOffset": 64131,
+      "kind": "method",
+      "name": "Editor.isAtStartOfMessage",
+      "startLine": 1921,
+      "startOffset": 63837,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isAtStartOfMessage::method"
+    },
+    {
+      "endLine": 1930,
+      "endOffset": 64289,
+      "kind": "method",
+      "name": "Editor.isInSlashCommandContext",
+      "startLine": 1928,
+      "startOffset": 64134,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isInSlashCommandContext::method"
+    },
+    {
+      "endLine": 1940,
+      "endOffset": 64678,
+      "kind": "method",
+      "name": "Editor.shouldChainSlashArgumentAutocompleteOnTabSelection",
+      "startLine": 1932,
+      "startOffset": 64292,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.shouldChainSlashArgumentAutocompleteOnTabSelection::method"
+    },
+    {
+      "endLine": 1950,
+      "endOffset": 65011,
+      "kind": "method",
+      "name": "Editor.isBareCompletedSlashCommandAtCursor",
+      "startLine": 1942,
+      "startOffset": 64681,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isBareCompletedSlashCommandAtCursor::method"
+    },
+    {
+      "endLine": 1980,
+      "endOffset": 65857,
+      "kind": "method",
+      "name": "Editor.getBestAutocompleteMatchIndex",
+      "startLine": 1964,
+      "startOffset": 65411,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.getBestAutocompleteMatchIndex::method"
+    },
+    {
+      "endLine": 2016,
+      "endOffset": 67070,
+      "kind": "method",
+      "name": "Editor.tryTriggerAutocomplete",
+      "startLine": 1982,
+      "startOffset": 65860,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.tryTriggerAutocomplete::method"
+    },
+    {
+      "endLine": 2030,
+      "endOffset": 67527,
+      "kind": "method",
+      "name": "Editor.handleTabCompletion",
+      "startLine": 2018,
+      "startOffset": 67073,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleTabCompletion::method"
+    },
+    {
+      "endLine": 2034,
+      "endOffset": 67616,
+      "kind": "method",
+      "name": "Editor.handleSlashCommandCompletion",
+      "startLine": 2032,
+      "startOffset": 67530,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.handleSlashCommandCompletion::method"
+    },
+    {
+      "endLine": 2092,
+      "endOffset": 69571,
+      "kind": "method",
+      "name": "Editor.forceFileAutocomplete",
+      "startLine": 2041,
+      "startOffset": 67853,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.forceFileAutocomplete::method"
+    },
+    {
+      "endLine": 2099,
+      "endOffset": 69751,
+      "kind": "method",
+      "name": "Editor.cancelAutocomplete",
+      "startLine": 2094,
+      "startOffset": 69574,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.cancelAutocomplete::method"
+    },
+    {
+      "endLine": 2107,
+      "endOffset": 69979,
+      "kind": "method",
+      "name": "Editor.clearAutocompleteDebounce",
+      "startLine": 2101,
+      "startOffset": 69754,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.clearAutocompleteDebounce::method"
+    },
+    {
+      "endLine": 2111,
+      "endOffset": 70045,
+      "kind": "method",
+      "name": "Editor.dispose",
+      "startLine": 2109,
+      "startOffset": 69982,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.dispose::method"
+    },
+    {
+      "endLine": 2115,
+      "endOffset": 70134,
+      "kind": "method",
+      "name": "Editor.isShowingAutocomplete",
+      "startLine": 2113,
+      "startOffset": 70048,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.isShowingAutocomplete::method"
+    },
+    {
+      "endLine": 2136,
+      "endOffset": 70903,
+      "kind": "method",
+      "name": "Editor.updateAutocomplete",
+      "startLine": 2117,
+      "startOffset": 70137,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.updateAutocomplete::method"
+    },
+    {
+      "endLine": 2152,
+      "endOffset": 71478,
+      "kind": "method",
+      "name": "Editor.debouncedUpdateAutocompleteSuggestions",
+      "startLine": 2138,
+      "startOffset": 70906,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.debouncedUpdateAutocompleteSuggestions::method"
+    },
+    {
+      "endLine": 2184,
+      "endOffset": 72752,
+      "kind": "method",
+      "name": "Editor.applyAutocompleteSuggestions",
+      "startLine": 2154,
+      "startOffset": 71481,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::Editor.applyAutocompleteSuggestions::method"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 806,
+      "kind": "interface",
+      "name": "TextChunk",
+      "startLine": 15,
+      "startOffset": 721,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::TextChunk::interface"
+    },
+    {
+      "endLine": 115,
+      "endOffset": 3558,
+      "kind": "interface",
+      "name": "EditorTheme",
+      "startLine": 112,
+      "startOffset": 3457,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::EditorTheme::interface"
+    },
+    {
+      "endLine": 120,
+      "endOffset": 3648,
+      "kind": "interface",
+      "name": "EditorOptions",
+      "startLine": 117,
+      "startOffset": 3560,
+      "symbolId": "packages/pi-tui/src/components/editor.ts::EditorOptions::interface"
+    }
+  ]
+}

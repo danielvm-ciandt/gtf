@@ -1,0 +1,81 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d8aa5f9d65f0056390755ecb53e62aafdc5ab01afb0b10a4b546351fa5b6edbb",
+  "edges": [],
+  "file": "packages/native/src/ast/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 11,
+      "endOffset": 234,
+      "kind": "interface",
+      "name": "AstFindOptions",
+      "startLine": 0,
+      "startOffset": 0,
+      "symbolId": "packages/native/src/ast/types.ts::AstFindOptions::interface"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 467,
+      "kind": "interface",
+      "name": "AstFindMatch",
+      "startLine": 13,
+      "startOffset": 236,
+      "symbolId": "packages/native/src/ast/types.ts::AstFindMatch::interface"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 658,
+      "kind": "interface",
+      "name": "AstFindResult",
+      "startLine": 25,
+      "startOffset": 469,
+      "symbolId": "packages/native/src/ast/types.ts::AstFindResult::interface"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 928,
+      "kind": "interface",
+      "name": "AstReplaceOptions",
+      "startLine": 34,
+      "startOffset": 660,
+      "symbolId": "packages/native/src/ast/types.ts::AstReplaceOptions::interface"
+    },
+    {
+      "endLine": 58,
+      "endOffset": 1167,
+      "kind": "interface",
+      "name": "AstReplaceChange",
+      "startLine": 47,
+      "startOffset": 930,
+      "symbolId": "packages/native/src/ast/types.ts::AstReplaceChange::interface"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 1243,
+      "kind": "interface",
+      "name": "AstReplaceFileChange",
+      "startLine": 60,
+      "startOffset": 1169,
+      "symbolId": "packages/native/src/ast/types.ts::AstReplaceFileChange::interface"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 1501,
+      "kind": "interface",
+      "name": "AstReplaceResult",
+      "startLine": 65,
+      "startOffset": 1245,
+      "symbolId": "packages/native/src/ast/types.ts::AstReplaceResult::interface"
+    }
+  ]
+}

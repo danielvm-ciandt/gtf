@@ -1,0 +1,81 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "8dcf08c0445a7ad8e2d5ae2ec2fb518d3b56f419a94a8d131665ea2ca0470f7e",
+  "edges": [],
+  "file": "packages/native/src/grep/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 6,
+      "endOffset": 196,
+      "kind": "interface",
+      "name": "ContextLine",
+      "startLine": 1,
+      "startOffset": 43,
+      "symbolId": "packages/native/src/grep/types.ts::ContextLine::interface"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 613,
+      "kind": "interface",
+      "name": "SearchMatch",
+      "startLine": 9,
+      "startOffset": 251,
+      "symbolId": "packages/native/src/grep/types.ts::SearchMatch::interface"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 910,
+      "kind": "interface",
+      "name": "SearchResult",
+      "startLine": 23,
+      "startOffset": 661,
+      "symbolId": "packages/native/src/grep/types.ts::SearchResult::interface"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1448,
+      "kind": "interface",
+      "name": "SearchOptions",
+      "startLine": 33,
+      "startOffset": 957,
+      "symbolId": "packages/native/src/grep/types.ts::SearchOptions::interface"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 1908,
+      "kind": "interface",
+      "name": "GrepMatch",
+      "startLine": 51,
+      "startOffset": 1496,
+      "symbolId": "packages/native/src/grep/types.ts::GrepMatch::interface"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2312,
+      "kind": "interface",
+      "name": "GrepResult",
+      "startLine": 67,
+      "startOffset": 1948,
+      "symbolId": "packages/native/src/grep/types.ts::GrepResult::interface"
+    },
+    {
+      "endLine": 104,
+      "endOffset": 3104,
+      "kind": "interface",
+      "name": "GrepOptions",
+      "startLine": 81,
+      "startOffset": 2352,
+      "symbolId": "packages/native/src/grep/types.ts::GrepOptions::interface"
+    }
+  ]
+}

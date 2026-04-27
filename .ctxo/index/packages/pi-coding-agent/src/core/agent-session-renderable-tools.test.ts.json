@@ -1,0 +1,54 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "db4315c45e8f7aeca6fe26a07516cf6b3c81bcd45de8bf3881a940bad2117d15",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts::agent-session-renderable-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolDefinition::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts::agent-session-renderable-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts::agent-session-renderable-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts::agent-session-renderable-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts::agent-session-renderable-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts::agent-session-renderable-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts::agent-session-renderable-tools.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/agent-session-renderable-tools.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": []
+}

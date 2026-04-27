@@ -1,0 +1,125 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.render::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.start::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.stop::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.dispose::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.setMessage::method"
+    }
+  ],
+  "contentHash": "0baf6fd732a7d9fe1119d8689265a8de2670d08fcf84600c39d69c9f742020cc",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/loader.ts::Loader::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::TUI::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/loader.ts::Loader::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/components/text.ts::Text::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/loader.ts::Loader::class",
+      "kind": "extends",
+      "to": "packages/pi-tui/src/components/text.ts::Text::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/loader.ts::Loader.dispose::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/loader.ts::Loader.stop::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/loader.ts::Loader::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/components/text.ts::Text::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/loader.ts::Loader::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::TUI::class"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/loader.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 79,
+      "endOffset": 2043,
+      "kind": "class",
+      "name": "Loader",
+      "startLine": 8,
+      "startOffset": 291,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader::class"
+    },
+    {
+      "endLine": 42,
+      "endOffset": 1424,
+      "kind": "method",
+      "name": "Loader.render",
+      "startLine": 26,
+      "startOffset": 773,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.render::method"
+    },
+    {
+      "endLine": 59,
+      "endOffset": 1776,
+      "kind": "method",
+      "name": "Loader.start",
+      "startLine": 44,
+      "startOffset": 1427,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.start::method"
+    },
+    {
+      "endLine": 66,
+      "endOffset": 1881,
+      "kind": "method",
+      "name": "Loader.stop",
+      "startLine": 61,
+      "startOffset": 1779,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.stop::method"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 1931,
+      "kind": "method",
+      "name": "Loader.dispose",
+      "startLine": 68,
+      "startOffset": 1884,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.dispose::method"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2041,
+      "kind": "method",
+      "name": "Loader.setMessage",
+      "startLine": 73,
+      "startOffset": 1934,
+      "symbolId": "packages/pi-tui/src/components/loader.ts::Loader.setMessage::method"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "23567b763589589a02b07ad66fdab8ab118ed26d788944185b5927d9958a9c11",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/fs-utils.test.ts::fs-utils.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/fs-utils.ts::atomicWriteFileSync::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/fs-utils.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": []
+}

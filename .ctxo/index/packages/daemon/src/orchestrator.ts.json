@@ -1,0 +1,297 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.getClient::method"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.handleMessage::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.runAgentLoop::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolListProjects::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolStartSession::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolGetStatus::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolStopSession::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolGetSessionDetail::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.trimHistory::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.getHistory::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.stop::method"
+    }
+  ],
+  "contentHash": "7cbdc14597c1fb91b5f63b58ad2eb5e40777a6893f6ea391f56c3161171c4687",
+  "edges": [
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ManagedSession::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.getClient::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::resolveAnthropicApiKey::function"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.handleMessage::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.runAgentLoop::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.handleMessage::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.trimHistory::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.runAgentLoop::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.getClient::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.runAgentLoop::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.toolListProjects::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.toolStartSession::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.toolGetStatus::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.toolGetSessionDetail::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/orchestrator.ts::Orchestrator.toolStopSession::method"
+    },
+    {
+      "from": "packages/daemon/src/orchestrator.ts::Orchestrator::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::ManagedSession::interface"
+    }
+  ],
+  "file": "packages/daemon/src/orchestrator.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 450,
+      "endOffset": 15856,
+      "kind": "class",
+      "name": "Orchestrator",
+      "startLine": 165,
+      "startOffset": 5945,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator::class"
+    },
+    {
+      "endLine": 189,
+      "endOffset": 6847,
+      "kind": "method",
+      "name": "Orchestrator.getClient",
+      "startLine": 183,
+      "startOffset": 6565,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.getClient::method"
+    },
+    {
+      "endLine": 263,
+      "endOffset": 9347,
+      "kind": "method",
+      "name": "Orchestrator.handleMessage",
+      "startLine": 197,
+      "startOffset": 7087,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.handleMessage::method"
+    },
+    {
+      "endLine": 324,
+      "endOffset": 11509,
+      "kind": "method",
+      "name": "Orchestrator.runAgentLoop",
+      "startLine": 269,
+      "startOffset": 9518,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.runAgentLoop::method"
+    },
+    {
+      "endLine": 351,
+      "endOffset": 12481,
+      "kind": "method",
+      "name": "Orchestrator.executeTool",
+      "startLine": 330,
+      "startOffset": 11688,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.executeTool::method"
+    },
+    {
+      "endLine": 365,
+      "endOffset": 12978,
+      "kind": "method",
+      "name": "Orchestrator.toolListProjects",
+      "startLine": 357,
+      "startOffset": 12674,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolListProjects::method"
+    },
+    {
+      "endLine": 374,
+      "endOffset": 13333,
+      "kind": "method",
+      "name": "Orchestrator.toolStartSession",
+      "startLine": 367,
+      "startOffset": 12982,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolStartSession::method"
+    },
+    {
+      "endLine": 387,
+      "endOffset": 13790,
+      "kind": "method",
+      "name": "Orchestrator.toolGetStatus",
+      "startLine": 376,
+      "startOffset": 13337,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolGetStatus::method"
+    },
+    {
+      "endLine": 413,
+      "endOffset": 14750,
+      "kind": "method",
+      "name": "Orchestrator.toolStopSession",
+      "startLine": 389,
+      "startOffset": 13794,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolStopSession::method"
+    },
+    {
+      "endLine": 419,
+      "endOffset": 15000,
+      "kind": "method",
+      "name": "Orchestrator.toolGetSessionDetail",
+      "startLine": 415,
+      "startOffset": 14754,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.toolGetSessionDetail::method"
+    },
+    {
+      "endLine": 434,
+      "endOffset": 15541,
+      "kind": "method",
+      "name": "Orchestrator.trimHistory",
+      "startLine": 429,
+      "startOffset": 15340,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.trimHistory::method"
+    },
+    {
+      "endLine": 441,
+      "endOffset": 15701,
+      "kind": "method",
+      "name": "Orchestrator.getHistory",
+      "startLine": 439,
+      "startOffset": 15637,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.getHistory::method"
+    },
+    {
+      "endLine": 449,
+      "endOffset": 15854,
+      "kind": "method",
+      "name": "Orchestrator.stop",
+      "startLine": 446,
+      "startOffset": 15789,
+      "symbolId": "packages/daemon/src/orchestrator.ts::Orchestrator.stop::method"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1847,
+      "kind": "interface",
+      "name": "OrchestratorConfig",
+      "startLine": 47,
+      "startOffset": 1739,
+      "symbolId": "packages/daemon/src/orchestrator.ts::OrchestratorConfig::interface"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 2067,
+      "kind": "interface",
+      "name": "OrchestratorDeps",
+      "startLine": 53,
+      "startOffset": 1849,
+      "symbolId": "packages/daemon/src/orchestrator.ts::OrchestratorDeps::interface"
+    },
+    {
+      "endLine": 468,
+      "endOffset": 16457,
+      "kind": "interface",
+      "name": "DiscordMessageLike",
+      "startLine": 460,
+      "startOffset": 16231,
+      "symbolId": "packages/daemon/src/orchestrator.ts::DiscordMessageLike::interface"
+    }
+  ]
+}

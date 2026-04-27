@@ -1,0 +1,97 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ps/index.ts::killTree::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ps/index.ts::listDescendants::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ps/index.ts::processGroupId::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/ps/index.ts::killProcessGroup::function"
+    }
+  ],
+  "contentHash": "b352b94b393601eb7dda29396f68b822fd85009853626c9aec04129740de9862",
+  "edges": [
+    {
+      "from": "packages/native/src/ps/index.ts::killTree::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ps/index.ts::killTree::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ps/index.ts::listDescendants::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ps/index.ts::processGroupId::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/ps/index.ts::killProcessGroup::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/ps/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 20,
+      "endOffset": 689,
+      "kind": "function",
+      "name": "killTree",
+      "startLine": 18,
+      "startOffset": 585,
+      "symbolId": "packages/native/src/ps/index.ts::killTree::function"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 960,
+      "kind": "function",
+      "name": "listDescendants",
+      "startLine": 28,
+      "startOffset": 864,
+      "symbolId": "packages/native/src/ps/index.ts::listDescendants::function"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 1224,
+      "kind": "function",
+      "name": "processGroupId",
+      "startLine": 38,
+      "startOffset": 1125,
+      "symbolId": "packages/native/src/ps/index.ts::processGroupId::function"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1536,
+      "kind": "function",
+      "name": "killProcessGroup",
+      "startLine": 49,
+      "startOffset": 1413,
+      "symbolId": "packages/native/src/ps/index.ts::killProcessGroup::function"
+    }
+  ]
+}

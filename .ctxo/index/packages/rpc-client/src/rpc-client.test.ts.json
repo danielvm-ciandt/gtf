@@ -1,0 +1,75 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "9281999f9941d331d44f4e952e6730ca2518dc4008541a2efe77a6eefa8704a6",
+  "edges": [
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/jsonl.ts::attachJsonlLineReader::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcInitResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcExecutionCompleteEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcCostUpdateEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcProtocolVersion::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::SessionStats::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcV2Event::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient::class"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.test.ts::rpc-client.test::variable",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-client.ts::SdkAgentEvent::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/rpc-client/src/rpc-client.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320165,
+  "symbols": []
+}

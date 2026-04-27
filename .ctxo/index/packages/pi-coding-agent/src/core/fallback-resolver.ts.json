@@ -1,0 +1,178 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.findFallback::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.checkForRestoration::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.getBestAvailable::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.findChainsForModel::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver._findAvailableInChain::method"
+    }
+  ],
+  "contentHash": "7d8530d4263269d8fd3bc0b5cea6705be6bdb4e98628832850ebe9d32f1c4de7",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::UsageLimitErrorType::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::FallbackChainEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.findFallback::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver._findAvailableInChain::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.findFallback::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver._findAvailableInChain::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.checkForRestoration::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver._findAvailableInChain::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.getBestAvailable::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver._findAvailableInChain::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::UsageLimitErrorType::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::FallbackChainEntry::interface"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/fallback-resolver.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 163,
+      "endOffset": 5181,
+      "kind": "class",
+      "name": "FallbackResolver",
+      "startLine": 22,
+      "startOffset": 796,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver::class"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 2334,
+      "kind": "method",
+      "name": "FallbackResolver.findFallback",
+      "startLine": 36,
+      "startOffset": 1279,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.findFallback::method"
+    },
+    {
+      "endLine": 96,
+      "endOffset": 3414,
+      "kind": "method",
+      "name": "FallbackResolver.checkForRestoration",
+      "startLine": 72,
+      "startOffset": 2581,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.checkForRestoration::method"
+    },
+    {
+      "endLine": 110,
+      "endOffset": 3853,
+      "kind": "method",
+      "name": "FallbackResolver.getBestAvailable",
+      "startLine": 102,
+      "startOffset": 3520,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.getBestAvailable::method"
+    },
+    {
+      "endLine": 126,
+      "endOffset": 4269,
+      "kind": "method",
+      "name": "FallbackResolver.findChainsForModel",
+      "startLine": 115,
+      "startOffset": 3908,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver.findChainsForModel::method"
+    },
+    {
+      "endLine": 162,
+      "endOffset": 5179,
+      "kind": "method",
+      "name": "FallbackResolver._findAvailableInChain",
+      "startLine": 131,
+      "startOffset": 4357,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResolver._findAvailableInChain::method"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 794,
+      "kind": "interface",
+      "name": "FallbackResult",
+      "startLine": 16,
+      "startOffset": 702,
+      "symbolId": "packages/pi-coding-agent/src/core/fallback-resolver.ts::FallbackResult::interface"
+    }
+  ]
+}

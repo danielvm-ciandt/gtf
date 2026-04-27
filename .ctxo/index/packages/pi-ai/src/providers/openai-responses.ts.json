@@ -1,0 +1,158 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "ca7d553467b55cd389fe3676e0346e5e17b1c34775f71c92ee3a6814928494c7",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/env-api-keys.ts::getEnvApiKey::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::supportsXhigh::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::CacheRetention::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamFunction::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Usage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesTools::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-shared.ts::assertStreamSuccess::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-shared.ts::buildInitialOutput::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-shared.ts::clampReasoningForModel::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-shared.ts::createOpenAIClient::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-shared.ts::finalizeStream::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-shared.ts::handleStreamError::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/simple-options.ts::buildBaseOptions::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/simple-options.ts::clampReasoning::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/openai-responses.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 61,
+      "endOffset": 2025,
+      "kind": "interface",
+      "name": "OpenAIResponsesOptions",
+      "startLine": 57,
+      "startOffset": 1770,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses.ts::OpenAIResponsesOptions::interface"
+    },
+    {
+      "endLine": 107,
+      "endOffset": 3414,
+      "kind": "variable",
+      "name": "streamOpenAIResponses",
+      "startLine": 66,
+      "startOffset": 2094,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses.ts::streamOpenAIResponses::variable"
+    },
+    {
+      "endLine": 126,
+      "endOffset": 4070,
+      "kind": "variable",
+      "name": "streamSimpleOpenAIResponses",
+      "startLine": 109,
+      "startOffset": 3430,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses.ts::streamSimpleOpenAIResponses::variable"
+    }
+  ]
+}

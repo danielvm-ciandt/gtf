@@ -1,0 +1,87 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::handleModelCommand::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::findExactModelMatch::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::getModelCandidates::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::updateAvailableProviderCount::function"
+    }
+  ],
+  "contentHash": "6f65571721301f2ddfebf264654016fd717e7717a53744f1f7861e198c446713",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::handleModelCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::findExactModelMatch::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::findExactModelMatch::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::getModelCandidates::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::updateAvailableProviderCount::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::getModelCandidates::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 23,
+      "endOffset": 610,
+      "kind": "function",
+      "name": "handleModelCommand",
+      "startLine": 2,
+      "startOffset": 42,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::handleModelCommand::function"
+    },
+    {
+      "endLine": 50,
+      "endOffset": 1466,
+      "kind": "function",
+      "name": "findExactModelMatch",
+      "startLine": 25,
+      "startOffset": 612,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::findExactModelMatch::function"
+    },
+    {
+      "endLine": 68,
+      "endOffset": 2073,
+      "kind": "function",
+      "name": "getModelCandidates",
+      "startLine": 52,
+      "startOffset": 1468,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::getModelCandidates::function"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 2342,
+      "kind": "function",
+      "name": "updateAvailableProviderCount",
+      "startLine": 70,
+      "startOffset": 2075,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/model-controller.ts::updateAvailableProviderCount::function"
+    }
+  ]
+}

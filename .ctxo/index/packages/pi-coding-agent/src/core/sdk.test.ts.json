@@ -1,0 +1,28 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "60ff4bb6f0b8065df215c9d1f8faac2fd0d238b64474dccc506cfc3ea428bec1",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.test.ts::sdk.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::canRestoreSessionModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/sdk.test.ts::sdk.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/sdk.ts::CredentialCooldownError::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/sdk.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": []
+}

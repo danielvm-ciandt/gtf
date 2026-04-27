@@ -1,0 +1,299 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::buildGraph::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::writeGraph::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::graphStatus::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::graphQuery::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::graphDiff::function"
+    }
+  ],
+  "contentHash": "26b86ac8e3dfd8e4783e8dfd5d4948af177bc0948c06465d8263c8b7c4a089a6",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::buildGraph::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::buildGraph::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::buildGraph::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::buildGraph::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::buildGraph::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveSliceDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::buildGraph::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::writeGraph::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphsDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::writeGraph::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphTmpPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::writeGraph::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphJsonPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphJsonPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphsDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::snapshotPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphStatus::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphStatus::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphJsonPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphQuery::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphQuery::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphJsonPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphQuery::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::applyBudget::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphDiff::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphDiff::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphJsonPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphDiff::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::snapshotPath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::buildGraph::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphStatus::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphQuery::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/graph.ts::graphDiff::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/graph.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 585,
+      "endOffset": 16074,
+      "kind": "function",
+      "name": "buildGraph",
+      "startLine": 544,
+      "startOffset": 14966,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::buildGraph::function"
+    },
+    {
+      "endLine": 606,
+      "endOffset": 16799,
+      "kind": "function",
+      "name": "writeGraph",
+      "startLine": 597,
+      "startOffset": 16467,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::writeGraph::function"
+    },
+    {
+      "endLine": 633,
+      "endOffset": 17616,
+      "kind": "function",
+      "name": "writeSnapshot",
+      "startLine": 616,
+      "startOffset": 17090,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function"
+    },
+    {
+      "endLine": 671,
+      "endOffset": 18686,
+      "kind": "function",
+      "name": "graphStatus",
+      "startLine": 643,
+      "startOffset": 17931,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::graphStatus::function"
+    },
+    {
+      "endLine": 786,
+      "endOffset": 22287,
+      "kind": "function",
+      "name": "graphQuery",
+      "startLine": 742,
+      "startOffset": 21088,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::graphQuery::function"
+    },
+    {
+      "endLine": 854,
+      "endOffset": 24644,
+      "kind": "function",
+      "name": "graphDiff",
+      "startLine": 798,
+      "startOffset": 22655,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::graphDiff::function"
+    },
+    {
+      "endLine": 47,
+      "endOffset": 1360,
+      "kind": "interface",
+      "name": "GraphNode",
+      "startLine": 40,
+      "startOffset": 1204,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::GraphNode::interface"
+    },
+    {
+      "endLine": 54,
+      "endOffset": 1470,
+      "kind": "interface",
+      "name": "GraphEdge",
+      "startLine": 49,
+      "startOffset": 1362,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::GraphEdge::interface"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 1570,
+      "kind": "interface",
+      "name": "KnowledgeGraph",
+      "startLine": 56,
+      "startOffset": 1472,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::KnowledgeGraph::interface"
+    },
+    {
+      "endLine": 69,
+      "endOffset": 1735,
+      "kind": "interface",
+      "name": "GraphStatusResult",
+      "startLine": 62,
+      "startOffset": 1572,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::GraphStatusResult::interface"
+    },
+    {
+      "endLine": 76,
+      "endOffset": 1852,
+      "kind": "interface",
+      "name": "GraphQueryResult",
+      "startLine": 71,
+      "startOffset": 1737,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::GraphQueryResult::interface"
+    },
+    {
+      "endLine": 88,
+      "endOffset": 2033,
+      "kind": "interface",
+      "name": "GraphDiffResult",
+      "startLine": 78,
+      "startOffset": 1854,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::GraphDiffResult::interface"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 1041,
+      "kind": "type",
+      "name": "NodeType",
+      "startLine": 22,
+      "startOffset": 912,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::NodeType::type"
+    },
+    {
+      "endLine": 36,
+      "endOffset": 1132,
+      "kind": "type",
+      "name": "EdgeType",
+      "startLine": 32,
+      "startOffset": 1043,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::EdgeType::type"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1202,
+      "kind": "type",
+      "name": "ConfidenceTier",
+      "startLine": 38,
+      "startOffset": 1134,
+      "symbolId": "packages/mcp-server/src/readers/graph.ts::ConfidenceTier::type"
+    }
+  ]
+}

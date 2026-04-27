@@ -1,0 +1,157 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.setExpanded::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.rebuild::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.render::method"
+    }
+  ],
+  "contentHash": "850f9408a815cbb8377ae851c3e2042adc471ed7488e5e1b5bcebc60c80de1a9",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CompactionSummaryMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.setExpanded::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.rebuild::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.rebuild::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.rebuild::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CompactionSummaryMessage::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 79,
+      "endOffset": 2254,
+      "kind": "class",
+      "name": "CompactionSummaryMessageComponent",
+      "startLine": 12,
+      "startOffset": 606,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent::class"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1120,
+      "kind": "method",
+      "name": "CompactionSummaryMessageComponent.setExpanded",
+      "startLine": 27,
+      "startOffset": 991,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.setExpanded::method"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 1195,
+      "kind": "method",
+      "name": "CompactionSummaryMessageComponent.invalidate",
+      "startLine": 34,
+      "startOffset": 1123,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.invalidate::method"
+    },
+    {
+      "endLine": 65,
+      "endOffset": 1842,
+      "kind": "method",
+      "name": "CompactionSummaryMessageComponent.rebuild",
+      "startLine": 39,
+      "startOffset": 1198,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.rebuild::method"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2252,
+      "kind": "method",
+      "name": "CompactionSummaryMessageComponent.render",
+      "startLine": 67,
+      "startOffset": 1845,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/compaction-summary-message.ts::CompactionSummaryMessageComponent.render::method"
+    }
+  ]
+}

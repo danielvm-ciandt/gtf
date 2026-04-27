@@ -1,0 +1,169 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::checkExistingEnvKeys::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::detectDestination::function"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::writeEnvKey::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::isSafeEnvVarKey::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::isSupportedDeploymentEnvironment::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::shellEscapeSingle::function"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::applySecrets::function"
+    }
+  ],
+  "contentHash": "977e8cf42f41c58a1ddbadce018c8510d9841d20d91ff6008a1cbec71f9252ba",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::writeEnvKey::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::assertWritableEnvFileTarget::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::writeEnvKey::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::assertWritableEnvFileTarget::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::isWithinProjectRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::isWithinProjectRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::isWithinProjectRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::applySecrets::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::writeEnvKey::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::applySecrets::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::isSupportedDeploymentEnvironment::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::applySecrets::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::isSafeEnvVarKey::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.ts::applySecrets::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::shellEscapeSingle::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/env-writer.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 36,
+      "endOffset": 1453,
+      "kind": "function",
+      "name": "checkExistingEnvKeys",
+      "startLine": 19,
+      "startOffset": 892,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::checkExistingEnvKeys::function"
+    },
+    {
+      "endLine": 59,
+      "endOffset": 2170,
+      "kind": "function",
+      "name": "detectDestination",
+      "startLine": 46,
+      "startOffset": 1771,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::detectDestination::function"
+    },
+    {
+      "endLine": 120,
+      "endOffset": 4215,
+      "kind": "function",
+      "name": "writeEnvKey",
+      "startLine": 69,
+      "startOffset": 2467,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::writeEnvKey::function"
+    },
+    {
+      "endLine": 141,
+      "endOffset": 4810,
+      "kind": "function",
+      "name": "isSafeEnvVarKey",
+      "startLine": 139,
+      "startOffset": 4706,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::isSafeEnvVarKey::function"
+    },
+    {
+      "endLine": 145,
+      "endOffset": 4963,
+      "kind": "function",
+      "name": "isSupportedDeploymentEnvironment",
+      "startLine": 143,
+      "startOffset": 4812,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::isSupportedDeploymentEnvironment::function"
+    },
+    {
+      "endLine": 171,
+      "endOffset": 6053,
+      "kind": "function",
+      "name": "resolveProjectEnvFilePath",
+      "startLine": 152,
+      "startOffset": 5172,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function"
+    },
+    {
+      "endLine": 179,
+      "endOffset": 6361,
+      "kind": "function",
+      "name": "shellEscapeSingle",
+      "startLine": 177,
+      "startOffset": 6255,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::shellEscapeSingle::function"
+    },
+    {
+      "endLine": 252,
+      "endOffset": 8733,
+      "kind": "function",
+      "name": "applySecrets",
+      "startLine": 194,
+      "startOffset": 6743,
+      "symbolId": "packages/mcp-server/src/env-writer.ts::applySecrets::function"
+    }
+  ]
+}

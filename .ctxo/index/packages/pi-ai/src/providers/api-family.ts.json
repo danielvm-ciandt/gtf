@@ -1,0 +1,71 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isAnthropicApi::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isOpenAIApi::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isGeminiApi::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isBedrockApi::function"
+    }
+  ],
+  "contentHash": "21a0893ede3905e797ce1bfdb970cc5003b7f631a9af120b4909976736dcdf2e",
+  "edges": [],
+  "file": "packages/pi-ai/src/providers/api-family.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 24,
+      "endOffset": 1081,
+      "kind": "function",
+      "name": "isAnthropicApi",
+      "startLine": 21,
+      "startOffset": 928,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isAnthropicApi::function"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1485,
+      "kind": "function",
+      "name": "isOpenAIApi",
+      "startLine": 30,
+      "startOffset": 1241,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isOpenAIApi::function"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1808,
+      "kind": "function",
+      "name": "isGeminiApi",
+      "startLine": 44,
+      "startOffset": 1610,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isGeminiApi::function"
+    },
+    {
+      "endLine": 56,
+      "endOffset": 1966,
+      "kind": "function",
+      "name": "isBedrockApi",
+      "startLine": 54,
+      "startOffset": 1859,
+      "symbolId": "packages/pi-ai/src/providers/api-family.ts::isBedrockApi::function"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function"
+    }
+  ],
+  "contentHash": "add39821637eb97bbc9df6a74fe1a6cf760ecd0859f14c4e7ba62a9ae1c1d992",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::CallbackServerInfo::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthLoginCallbacks::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::discoverProject::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::CallbackServerInfo::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 276,
+      "endOffset": 8872,
+      "kind": "function",
+      "name": "refreshGoogleCloudToken",
+      "startLine": 274,
+      "startOffset": 8651,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::refreshGoogleCloudToken::function"
+    },
+    {
+      "endLine": 444,
+      "endOffset": 13637,
+      "kind": "function",
+      "name": "loginGeminiCli",
+      "startLine": 286,
+      "startOffset": 9240,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::loginGeminiCli::function"
+    },
+    {
+      "endLine": 467,
+      "endOffset": 14460,
+      "kind": "variable",
+      "name": "geminiCliOAuthProvider",
+      "startLine": 446,
+      "startOffset": 13652,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::geminiCliOAuthProvider::variable"
+    }
+  ]
+}

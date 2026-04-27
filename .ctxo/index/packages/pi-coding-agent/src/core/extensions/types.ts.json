@@ -1,0 +1,1411 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolCallEventType::function"
+    }
+  ],
+  "contentHash": "3b4a376311dc890103625046b943aab7d77d1b6dce36984f3cb90c0220fa8b42",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/bash-executor.ts::BashResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionPreparation::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/event-bus.ts::EventBus::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/exec.ts::ExecOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/exec.ts::ExecResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/footer-data-provider.ts::ReadonlyFooterDataProvider::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::BranchSummaryEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::CompactionEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::ReadonlySessionManager::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::BashOperations::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit.ts::EditToolDetails::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::BashToolDetails::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::BashToolInput::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::EditToolInput::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::FindToolDetails::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::FindToolInput::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::GrepToolDetails::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::GrepToolInput::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::LsToolDetails::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::LsToolInput::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::ReadToolDetails::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::ReadToolInput::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/index.ts::WriteToolInput::class",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 1075,
+      "endOffset": 32896,
+      "kind": "function",
+      "name": "isToolResultEventType",
+      "startLine": 1073,
+      "startOffset": 32767,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolResultEventType::function"
+    },
+    {
+      "endLine": 1110,
+      "endOffset": 34535,
+      "kind": "function",
+      "name": "isToolCallEventType",
+      "startLine": 1108,
+      "startOffset": 34410,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::isToolCallEventType::function"
+    },
+    {
+      "endLine": 92,
+      "endOffset": 2818,
+      "kind": "interface",
+      "name": "ExtensionUIDialogOptions",
+      "startLine": 83,
+      "startOffset": 2346,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionUIDialogOptions::interface"
+    },
+    {
+      "endLine": 101,
+      "endOffset": 3098,
+      "kind": "interface",
+      "name": "ExtensionWidgetOptions",
+      "startLine": 98,
+      "startOffset": 2960,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionWidgetOptions::interface"
+    },
+    {
+      "endLine": 241,
+      "endOffset": 8479,
+      "kind": "interface",
+      "name": "ExtensionUIContext",
+      "startLine": 110,
+      "startOffset": 3391,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionUIContext::interface"
+    },
+    {
+      "endLine": 253,
+      "endOffset": 8964,
+      "kind": "interface",
+      "name": "ContextUsage",
+      "startLine": 247,
+      "startOffset": 8663,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ContextUsage::interface"
+    },
+    {
+      "endLine": 259,
+      "endOffset": 9116,
+      "kind": "interface",
+      "name": "CompactOptions",
+      "startLine": 255,
+      "startOffset": 8966,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::CompactOptions::interface"
+    },
+    {
+      "endLine": 291,
+      "endOffset": 10199,
+      "kind": "interface",
+      "name": "ExtensionContext",
+      "startLine": 264,
+      "startOffset": 9173,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionContext::interface"
+    },
+    {
+      "endLine": 326,
+      "endOffset": 11598,
+      "kind": "interface",
+      "name": "ExtensionCommandContext",
+      "startLine": 297,
+      "startOffset": 10325,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionCommandContext::interface"
+    },
+    {
+      "endLine": 338,
+      "endOffset": 11997,
+      "kind": "interface",
+      "name": "ToolRenderResultOptions",
+      "startLine": 333,
+      "startOffset": 11817,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolRenderResultOptions::interface"
+    },
+    {
+      "endLine": 351,
+      "endOffset": 12592,
+      "kind": "interface",
+      "name": "ToolCompatibility",
+      "startLine": 344,
+      "startOffset": 12167,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCompatibility::interface"
+    },
+    {
+      "endLine": 390,
+      "endOffset": 13940,
+      "kind": "interface",
+      "name": "ToolDefinition",
+      "startLine": 356,
+      "startOffset": 12641,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolDefinition::interface"
+    },
+    {
+      "endLine": 401,
+      "endOffset": 14330,
+      "kind": "interface",
+      "name": "ResourcesDiscoverEvent",
+      "startLine": 397,
+      "startOffset": 14213,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ResourcesDiscoverEvent::interface"
+    },
+    {
+      "endLine": 408,
+      "endOffset": 14501,
+      "kind": "interface",
+      "name": "ResourcesDiscoverResult",
+      "startLine": 404,
+      "startOffset": 14384,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ResourcesDiscoverResult::interface"
+    },
+    {
+      "endLine": 418,
+      "endOffset": 14856,
+      "kind": "interface",
+      "name": "SessionDirectoryEvent",
+      "startLine": 415,
+      "startOffset": 14772,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionDirectoryEvent::interface"
+    },
+    {
+      "endLine": 423,
+      "endOffset": 14957,
+      "kind": "interface",
+      "name": "SessionStartEvent",
+      "startLine": 421,
+      "startOffset": 14895,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionStartEvent::interface"
+    },
+    {
+      "endLine": 430,
+      "endOffset": 15160,
+      "kind": "interface",
+      "name": "SessionBeforeSwitchEvent",
+      "startLine": 426,
+      "startOffset": 15027,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeSwitchEvent::interface"
+    },
+    {
+      "endLine": 437,
+      "endOffset": 15343,
+      "kind": "interface",
+      "name": "SessionSwitchEvent",
+      "startLine": 433,
+      "startOffset": 15210,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionSwitchEvent::interface"
+    },
+    {
+      "endLine": 443,
+      "endOffset": 15493,
+      "kind": "interface",
+      "name": "SessionBeforeForkEvent",
+      "startLine": 440,
+      "startOffset": 15402,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeForkEvent::interface"
+    },
+    {
+      "endLine": 449,
+      "endOffset": 15634,
+      "kind": "interface",
+      "name": "SessionForkEvent",
+      "startLine": 446,
+      "startOffset": 15532,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionForkEvent::interface"
+    },
+    {
+      "endLine": 458,
+      "endOffset": 15908,
+      "kind": "interface",
+      "name": "SessionBeforeCompactEvent",
+      "startLine": 452,
+      "startOffset": 15708,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeCompactEvent::interface"
+    },
+    {
+      "endLine": 465,
+      "endOffset": 16074,
+      "kind": "interface",
+      "name": "SessionCompactEvent",
+      "startLine": 461,
+      "startOffset": 15948,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionCompactEvent::interface"
+    },
+    {
+      "endLine": 470,
+      "endOffset": 16173,
+      "kind": "interface",
+      "name": "SessionShutdownEvent",
+      "startLine": 468,
+      "startOffset": 16105,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionShutdownEvent::interface"
+    },
+    {
+      "endLine": 477,
+      "endOffset": 16389,
+      "kind": "interface",
+      "name": "SessionEndEvent",
+      "startLine": 473,
+      "startOffset": 16255,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionEndEvent::interface"
+    },
+    {
+      "endLine": 492,
+      "endOffset": 16883,
+      "kind": "interface",
+      "name": "TreePreparation",
+      "startLine": 480,
+      "startOffset": 16435,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::TreePreparation::interface"
+    },
+    {
+      "endLine": 499,
+      "endOffset": 17081,
+      "kind": "interface",
+      "name": "SessionBeforeTreeEvent",
+      "startLine": 495,
+      "startOffset": 16955,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeTreeEvent::interface"
+    },
+    {
+      "endLine": 508,
+      "endOffset": 17309,
+      "kind": "interface",
+      "name": "SessionTreeEvent",
+      "startLine": 502,
+      "startOffset": 17133,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionTreeEvent::interface"
+    },
+    {
+      "endLine": 532,
+      "endOffset": 17934,
+      "kind": "interface",
+      "name": "ContextEvent",
+      "startLine": 529,
+      "startOffset": 17856,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ContextEvent::interface"
+    },
+    {
+      "endLine": 540,
+      "endOffset": 18236,
+      "kind": "interface",
+      "name": "BeforeProviderRequestEvent",
+      "startLine": 535,
+      "startOffset": 18009,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeProviderRequestEvent::interface"
+    },
+    {
+      "endLine": 548,
+      "endOffset": 18437,
+      "kind": "interface",
+      "name": "BeforeAgentStartEvent",
+      "startLine": 543,
+      "startOffset": 18300,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeAgentStartEvent::interface"
+    },
+    {
+      "endLine": 553,
+      "endOffset": 18536,
+      "kind": "interface",
+      "name": "AgentStartEvent",
+      "startLine": 551,
+      "startOffset": 18478,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::AgentStartEvent::interface"
+    },
+    {
+      "endLine": 559,
+      "endOffset": 18656,
+      "kind": "interface",
+      "name": "AgentEndEvent",
+      "startLine": 556,
+      "startOffset": 18575,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::AgentEndEvent::interface"
+    },
+    {
+      "endLine": 570,
+      "endOffset": 19048,
+      "kind": "interface",
+      "name": "StopEvent",
+      "startLine": 566,
+      "startOffset": 18916,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::StopEvent::interface"
+    },
+    {
+      "endLine": 581,
+      "endOffset": 19431,
+      "kind": "interface",
+      "name": "NotificationEvent",
+      "startLine": 576,
+      "startOffset": 19242,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::NotificationEvent::interface"
+    },
+    {
+      "endLine": 594,
+      "endOffset": 19831,
+      "kind": "interface",
+      "name": "BeforeCommitEvent",
+      "startLine": 588,
+      "startOffset": 19701,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeCommitEvent::interface"
+    },
+    {
+      "endLine": 601,
+      "endOffset": 19981,
+      "kind": "interface",
+      "name": "BeforeCommitEventResult",
+      "startLine": 597,
+      "startOffset": 19881,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeCommitEventResult::interface"
+    },
+    {
+      "endLine": 610,
+      "endOffset": 20131,
+      "kind": "interface",
+      "name": "CommitEvent",
+      "startLine": 604,
+      "startOffset": 20018,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::CommitEvent::interface"
+    },
+    {
+      "endLine": 618,
+      "endOffset": 20290,
+      "kind": "interface",
+      "name": "BeforePushEvent",
+      "startLine": 613,
+      "startOffset": 20184,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePushEvent::interface"
+    },
+    {
+      "endLine": 624,
+      "endOffset": 20417,
+      "kind": "interface",
+      "name": "BeforePushEventResult",
+      "startLine": 621,
+      "startOffset": 20338,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePushEventResult::interface"
+    },
+    {
+      "endLine": 632,
+      "endOffset": 20549,
+      "kind": "interface",
+      "name": "PushEvent",
+      "startLine": 627,
+      "startOffset": 20456,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::PushEvent::interface"
+    },
+    {
+      "endLine": 642,
+      "endOffset": 20777,
+      "kind": "interface",
+      "name": "BeforePrEvent",
+      "startLine": 635,
+      "startOffset": 20638,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePrEvent::interface"
+    },
+    {
+      "endLine": 650,
+      "endOffset": 20933,
+      "kind": "interface",
+      "name": "BeforePrEventResult",
+      "startLine": 645,
+      "startOffset": 20823,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePrEventResult::interface"
+    },
+    {
+      "endLine": 659,
+      "endOffset": 21102,
+      "kind": "interface",
+      "name": "PrOpenedEvent",
+      "startLine": 653,
+      "startOffset": 20980,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::PrOpenedEvent::interface"
+    },
+    {
+      "endLine": 671,
+      "endOffset": 21469,
+      "kind": "interface",
+      "name": "BeforeVerifyEvent",
+      "startLine": 666,
+      "startOffset": 21355,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeVerifyEvent::interface"
+    },
+    {
+      "endLine": 677,
+      "endOffset": 21600,
+      "kind": "interface",
+      "name": "BeforeVerifyEventResult",
+      "startLine": 674,
+      "startOffset": 21519,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeVerifyEventResult::interface"
+    },
+    {
+      "endLine": 685,
+      "endOffset": 21791,
+      "kind": "interface",
+      "name": "VerifyFailure",
+      "startLine": 680,
+      "startOffset": 21640,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::VerifyFailure::interface"
+    },
+    {
+      "endLine": 695,
+      "endOffset": 21995,
+      "kind": "interface",
+      "name": "VerifyResultEvent",
+      "startLine": 688,
+      "startOffset": 21835,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::VerifyResultEvent::interface"
+    },
+    {
+      "endLine": 708,
+      "endOffset": 22392,
+      "kind": "interface",
+      "name": "BudgetThresholdEvent",
+      "startLine": 702,
+      "startOffset": 22255,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BudgetThresholdEvent::interface"
+    },
+    {
+      "endLine": 713,
+      "endOffset": 22538,
+      "kind": "interface",
+      "name": "BudgetThresholdEventResult",
+      "startLine": 711,
+      "startOffset": 22445,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BudgetThresholdEventResult::interface"
+    },
+    {
+      "endLine": 725,
+      "endOffset": 22929,
+      "kind": "interface",
+      "name": "MilestoneStartEvent",
+      "startLine": 720,
+      "startOffset": 22810,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::MilestoneStartEvent::interface"
+    },
+    {
+      "endLine": 733,
+      "endOffset": 23112,
+      "kind": "interface",
+      "name": "MilestoneEndEvent",
+      "startLine": 728,
+      "startOffset": 22967,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::MilestoneEndEvent::interface"
+    },
+    {
+      "endLine": 742,
+      "endOffset": 23324,
+      "kind": "interface",
+      "name": "UnitStartEvent",
+      "startLine": 736,
+      "startOffset": 23195,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::UnitStartEvent::interface"
+    },
+    {
+      "endLine": 752,
+      "endOffset": 23541,
+      "kind": "interface",
+      "name": "UnitEndEvent",
+      "startLine": 745,
+      "startOffset": 23357,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::UnitEndEvent::interface"
+    },
+    {
+      "endLine": 759,
+      "endOffset": 23678,
+      "kind": "interface",
+      "name": "TurnStartEvent",
+      "startLine": 755,
+      "startOffset": 23582,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::TurnStartEvent::interface"
+    },
+    {
+      "endLine": 767,
+      "endOffset": 23848,
+      "kind": "interface",
+      "name": "TurnEndEvent",
+      "startLine": 762,
+      "startOffset": 23717,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::TurnEndEvent::interface"
+    },
+    {
+      "endLine": 773,
+      "endOffset": 24004,
+      "kind": "interface",
+      "name": "MessageStartEvent",
+      "startLine": 770,
+      "startOffset": 23918,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::MessageStartEvent::interface"
+    },
+    {
+      "endLine": 780,
+      "endOffset": 24217,
+      "kind": "interface",
+      "name": "MessageUpdateEvent",
+      "startLine": 776,
+      "startOffset": 24082,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::MessageUpdateEvent::interface"
+    },
+    {
+      "endLine": 786,
+      "endOffset": 24334,
+      "kind": "interface",
+      "name": "MessageEndEvent",
+      "startLine": 783,
+      "startOffset": 24252,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::MessageEndEvent::interface"
+    },
+    {
+      "endLine": 794,
+      "endOffset": 24505,
+      "kind": "interface",
+      "name": "ToolExecutionStartEvent",
+      "startLine": 789,
+      "startOffset": 24378,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolExecutionStartEvent::interface"
+    },
+    {
+      "endLine": 803,
+      "endOffset": 24722,
+      "kind": "interface",
+      "name": "ToolExecutionUpdateEvent",
+      "startLine": 797,
+      "startOffset": 24572,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolExecutionUpdateEvent::interface"
+    },
+    {
+      "endLine": 812,
+      "endOffset": 24912,
+      "kind": "interface",
+      "name": "ToolExecutionEndEvent",
+      "startLine": 806,
+      "startOffset": 24768,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolExecutionEndEvent::interface"
+    },
+    {
+      "endLine": 826,
+      "endOffset": 25343,
+      "kind": "interface",
+      "name": "ModelSelectEvent",
+      "startLine": 821,
+      "startOffset": 25195,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ModelSelectEvent::interface"
+    },
+    {
+      "endLine": 837,
+      "endOffset": 25756,
+      "kind": "interface",
+      "name": "BeforeModelSelectEvent",
+      "startLine": 829,
+      "startOffset": 25450,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeModelSelectEvent::interface"
+    },
+    {
+      "endLine": 842,
+      "endOffset": 25916,
+      "kind": "interface",
+      "name": "BeforeModelSelectResult",
+      "startLine": 840,
+      "startOffset": 25854,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeModelSelectResult::interface"
+    },
+    {
+      "endLine": 860,
+      "endOffset": 26528,
+      "kind": "interface",
+      "name": "AdjustToolSetEvent",
+      "startLine": 848,
+      "startOffset": 26127,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::AdjustToolSetEvent::interface"
+    },
+    {
+      "endLine": 866,
+      "endOffset": 26761,
+      "kind": "interface",
+      "name": "AdjustToolSetResult",
+      "startLine": 863,
+      "startOffset": 26623,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::AdjustToolSetResult::interface"
+    },
+    {
+      "endLine": 883,
+      "endOffset": 27331,
+      "kind": "interface",
+      "name": "BashTransformEvent",
+      "startLine": 877,
+      "startOffset": 27153,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BashTransformEvent::interface"
+    },
+    {
+      "endLine": 889,
+      "endOffset": 27532,
+      "kind": "interface",
+      "name": "BashTransformEventResult",
+      "startLine": 886,
+      "startOffset": 27381,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BashTransformEventResult::interface"
+    },
+    {
+      "endLine": 900,
+      "endOffset": 27844,
+      "kind": "interface",
+      "name": "UserBashEvent",
+      "startLine": 892,
+      "startOffset": 27600,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::UserBashEvent::interface"
+    },
+    {
+      "endLine": 918,
+      "endOffset": 28380,
+      "kind": "interface",
+      "name": "InputEvent",
+      "startLine": 910,
+      "startOffset": 28181,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::InputEvent::interface"
+    },
+    {
+      "endLine": 938,
+      "endOffset": 28927,
+      "kind": "interface",
+      "name": "BashToolCallEvent",
+      "startLine": 935,
+      "startOffset": 28821,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BashToolCallEvent::interface"
+    },
+    {
+      "endLine": 943,
+      "endOffset": 29035,
+      "kind": "interface",
+      "name": "ReadToolCallEvent",
+      "startLine": 940,
+      "startOffset": 28929,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ReadToolCallEvent::interface"
+    },
+    {
+      "endLine": 948,
+      "endOffset": 29143,
+      "kind": "interface",
+      "name": "EditToolCallEvent",
+      "startLine": 945,
+      "startOffset": 29037,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::EditToolCallEvent::interface"
+    },
+    {
+      "endLine": 953,
+      "endOffset": 29254,
+      "kind": "interface",
+      "name": "WriteToolCallEvent",
+      "startLine": 950,
+      "startOffset": 29145,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::WriteToolCallEvent::interface"
+    },
+    {
+      "endLine": 958,
+      "endOffset": 29362,
+      "kind": "interface",
+      "name": "GrepToolCallEvent",
+      "startLine": 955,
+      "startOffset": 29256,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::GrepToolCallEvent::interface"
+    },
+    {
+      "endLine": 963,
+      "endOffset": 29470,
+      "kind": "interface",
+      "name": "FindToolCallEvent",
+      "startLine": 960,
+      "startOffset": 29364,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::FindToolCallEvent::interface"
+    },
+    {
+      "endLine": 968,
+      "endOffset": 29572,
+      "kind": "interface",
+      "name": "LsToolCallEvent",
+      "startLine": 965,
+      "startOffset": 29472,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LsToolCallEvent::interface"
+    },
+    {
+      "endLine": 973,
+      "endOffset": 29692,
+      "kind": "interface",
+      "name": "CustomToolCallEvent",
+      "startLine": 970,
+      "startOffset": 29574,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::CustomToolCallEvent::interface"
+    },
+    {
+      "endLine": 997,
+      "endOffset": 30239,
+      "kind": "interface",
+      "name": "BashToolResultEvent",
+      "startLine": 994,
+      "startOffset": 30113,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BashToolResultEvent::interface"
+    },
+    {
+      "endLine": 1002,
+      "endOffset": 30367,
+      "kind": "interface",
+      "name": "ReadToolResultEvent",
+      "startLine": 999,
+      "startOffset": 30241,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ReadToolResultEvent::interface"
+    },
+    {
+      "endLine": 1007,
+      "endOffset": 30495,
+      "kind": "interface",
+      "name": "EditToolResultEvent",
+      "startLine": 1004,
+      "startOffset": 30369,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::EditToolResultEvent::interface"
+    },
+    {
+      "endLine": 1012,
+      "endOffset": 30607,
+      "kind": "interface",
+      "name": "WriteToolResultEvent",
+      "startLine": 1009,
+      "startOffset": 30497,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::WriteToolResultEvent::interface"
+    },
+    {
+      "endLine": 1017,
+      "endOffset": 30735,
+      "kind": "interface",
+      "name": "GrepToolResultEvent",
+      "startLine": 1014,
+      "startOffset": 30609,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::GrepToolResultEvent::interface"
+    },
+    {
+      "endLine": 1022,
+      "endOffset": 30863,
+      "kind": "interface",
+      "name": "FindToolResultEvent",
+      "startLine": 1019,
+      "startOffset": 30737,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::FindToolResultEvent::interface"
+    },
+    {
+      "endLine": 1027,
+      "endOffset": 30985,
+      "kind": "interface",
+      "name": "LsToolResultEvent",
+      "startLine": 1024,
+      "startOffset": 30865,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LsToolResultEvent::interface"
+    },
+    {
+      "endLine": 1032,
+      "endOffset": 31095,
+      "kind": "interface",
+      "name": "CustomToolResultEvent",
+      "startLine": 1029,
+      "startOffset": 30987,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::CustomToolResultEvent::interface"
+    },
+    {
+      "endLine": 1157,
+      "endOffset": 35559,
+      "kind": "interface",
+      "name": "ContextEventResult",
+      "startLine": 1155,
+      "startOffset": 35492,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ContextEventResult::interface"
+    },
+    {
+      "endLine": 1164,
+      "endOffset": 35694,
+      "kind": "interface",
+      "name": "ToolCallEventResult",
+      "startLine": 1161,
+      "startOffset": 35618,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEventResult::interface"
+    },
+    {
+      "endLine": 1172,
+      "endOffset": 35949,
+      "kind": "interface",
+      "name": "UserBashEventResult",
+      "startLine": 1167,
+      "startOffset": 35739,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::UserBashEventResult::interface"
+    },
+    {
+      "endLine": 1178,
+      "endOffset": 36076,
+      "kind": "interface",
+      "name": "ToolResultEventResult",
+      "startLine": 1174,
+      "startOffset": 35951,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolResultEventResult::interface"
+    },
+    {
+      "endLine": 1184,
+      "endOffset": 36335,
+      "kind": "interface",
+      "name": "BeforeAgentStartEventResult",
+      "startLine": 1180,
+      "startOffset": 36078,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeAgentStartEventResult::interface"
+    },
+    {
+      "endLine": 1189,
+      "endOffset": 36496,
+      "kind": "interface",
+      "name": "SessionDirectoryResult",
+      "startLine": 1186,
+      "startOffset": 36337,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionDirectoryResult::interface"
+    },
+    {
+      "endLine": 1198,
+      "endOffset": 36815,
+      "kind": "interface",
+      "name": "SessionBeforeSwitchResult",
+      "startLine": 1196,
+      "startOffset": 36750,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeSwitchResult::interface"
+    },
+    {
+      "endLine": 1203,
+      "endOffset": 36916,
+      "kind": "interface",
+      "name": "SessionBeforeForkResult",
+      "startLine": 1200,
+      "startOffset": 36817,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeForkResult::interface"
+    },
+    {
+      "endLine": 1208,
+      "endOffset": 37016,
+      "kind": "interface",
+      "name": "SessionBeforeCompactResult",
+      "startLine": 1205,
+      "startOffset": 36918,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeCompactResult::interface"
+    },
+    {
+      "endLine": 1222,
+      "endOffset": 37405,
+      "kind": "interface",
+      "name": "SessionBeforeTreeResult",
+      "startLine": 1210,
+      "startOffset": 37018,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeTreeResult::interface"
+    },
+    {
+      "endLine": 1230,
+      "endOffset": 37650,
+      "kind": "interface",
+      "name": "MessageRenderOptions",
+      "startLine": 1228,
+      "startOffset": 37589,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::MessageRenderOptions::interface"
+    },
+    {
+      "endLine": 1247,
+      "endOffset": 38216,
+      "kind": "interface",
+      "name": "RegisteredCommand",
+      "startLine": 1242,
+      "startOffset": 37986,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::RegisteredCommand::interface"
+    },
+    {
+      "endLine": 1271,
+      "endOffset": 39190,
+      "kind": "interface",
+      "name": "LifecycleHookContext",
+      "startLine": 1252,
+      "startOffset": 38372,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LifecycleHookContext::interface"
+    },
+    {
+      "endLine": 1573,
+      "endOffset": 52793,
+      "kind": "interface",
+      "name": "ExtensionAPI",
+      "startLine": 1287,
+      "startOffset": 39850,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionAPI::interface"
+    },
+    {
+      "endLine": 1613,
+      "endOffset": 55074,
+      "kind": "interface",
+      "name": "ProviderConfig",
+      "startLine": 1580,
+      "startOffset": 53062,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ProviderConfig::interface"
+    },
+    {
+      "endLine": 1639,
+      "endOffset": 56004,
+      "kind": "interface",
+      "name": "ProviderModelConfig",
+      "startLine": 1616,
+      "startOffset": 55128,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ProviderModelConfig::interface"
+    },
+    {
+      "endLine": 1651,
+      "endOffset": 56442,
+      "kind": "interface",
+      "name": "RegisteredTool",
+      "startLine": 1648,
+      "startOffset": 56354,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::RegisteredTool::interface"
+    },
+    {
+      "endLine": 1659,
+      "endOffset": 56598,
+      "kind": "interface",
+      "name": "ExtensionFlag",
+      "startLine": 1653,
+      "startOffset": 56444,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionFlag::interface"
+    },
+    {
+      "endLine": 1666,
+      "endOffset": 56762,
+      "kind": "interface",
+      "name": "ExtensionShortcut",
+      "startLine": 1661,
+      "startOffset": 56600,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionShortcut::interface"
+    },
+    {
+      "endLine": 1700,
+      "endOffset": 58461,
+      "kind": "interface",
+      "name": "ExtensionRuntimeState",
+      "startLine": 1677,
+      "startOffset": 57134,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionRuntimeState::interface"
+    },
+    {
+      "endLine": 1728,
+      "endOffset": 59570,
+      "kind": "interface",
+      "name": "ExtensionActions",
+      "startLine": 1706,
+      "startOffset": 58587,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionActions::interface"
+    },
+    {
+      "endLine": 1743,
+      "endOffset": 59981,
+      "kind": "interface",
+      "name": "ExtensionContextActions",
+      "startLine": 1734,
+      "startOffset": 59665,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionContextActions::interface"
+    },
+    {
+      "endLine": 1764,
+      "endOffset": 60823,
+      "kind": "interface",
+      "name": "ExtensionCommandContextActions",
+      "startLine": 1749,
+      "startOffset": 60135,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionCommandContextActions::interface"
+    },
+    {
+      "endLine": 1770,
+      "endOffset": 61035,
+      "kind": "interface",
+      "name": "ExtensionRuntime",
+      "startLine": 1770,
+      "startOffset": 60951,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionRuntime::interface"
+    },
+    {
+      "endLine": 1783,
+      "endOffset": 61436,
+      "kind": "interface",
+      "name": "Extension",
+      "startLine": 1773,
+      "startOffset": 61088,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::Extension::interface"
+    },
+    {
+      "endLine": 1790,
+      "endOffset": 61609,
+      "kind": "interface",
+      "name": "ExtensionLoadWarning",
+      "startLine": 1786,
+      "startOffset": 61508,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionLoadWarning::interface"
+    },
+    {
+      "endLine": 1799,
+      "endOffset": 61905,
+      "kind": "interface",
+      "name": "LoadExtensionsResult",
+      "startLine": 1793,
+      "startOffset": 61648,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LoadExtensionsResult::interface"
+    },
+    {
+      "endLine": 1810,
+      "endOffset": 62195,
+      "kind": "interface",
+      "name": "ExtensionError",
+      "startLine": 1805,
+      "startOffset": 62087,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionError::interface"
+    },
+    {
+      "endLine": 95,
+      "endOffset": 2920,
+      "kind": "type",
+      "name": "WidgetPlacement",
+      "startLine": 95,
+      "startOffset": 2860,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::WidgetPlacement::type"
+    },
+    {
+      "endLine": 104,
+      "endOffset": 3253,
+      "kind": "type",
+      "name": "TerminalInputHandler",
+      "startLine": 104,
+      "startOffset": 3151,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::TerminalInputHandler::type"
+    },
+    {
+      "endLine": 522,
+      "endOffset": 17621,
+      "kind": "type",
+      "name": "SessionEvent",
+      "startLine": 510,
+      "startOffset": 17311,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionEvent::type"
+    },
+    {
+      "endLine": 818,
+      "endOffset": 25151,
+      "kind": "type",
+      "name": "ModelSelectSource",
+      "startLine": 818,
+      "startOffset": 25091,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ModelSelectSource::type"
+    },
+    {
+      "endLine": 907,
+      "endOffset": 28113,
+      "kind": "type",
+      "name": "InputSource",
+      "startLine": 907,
+      "startOffset": 28051,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::InputSource::type"
+    },
+    {
+      "endLine": 924,
+      "endOffset": 28569,
+      "kind": "type",
+      "name": "InputEventResult",
+      "startLine": 921,
+      "startOffset": 28421,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::InputEventResult::type"
+    },
+    {
+      "endLine": 984,
+      "endOffset": 29939,
+      "kind": "type",
+      "name": "ToolCallEvent",
+      "startLine": 976,
+      "startOffset": 29742,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEvent::type"
+    },
+    {
+      "endLine": 1043,
+      "endOffset": 31367,
+      "kind": "type",
+      "name": "ToolResultEvent",
+      "startLine": 1035,
+      "startOffset": 31152,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolResultEvent::type"
+    },
+    {
+      "endLine": 1149,
+      "endOffset": 35312,
+      "kind": "type",
+      "name": "ExtensionEvent",
+      "startLine": 1113,
+      "startOffset": 34569,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionEvent::type"
+    },
+    {
+      "endLine": 1159,
+      "endOffset": 35616,
+      "kind": "type",
+      "name": "BeforeProviderRequestEventResult",
+      "startLine": 1159,
+      "startOffset": 35561,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeProviderRequestEventResult::type"
+    },
+    {
+      "endLine": 1194,
+      "endOffset": 36748,
+      "kind": "type",
+      "name": "SessionDirectoryHandler",
+      "startLine": 1192,
+      "startOffset": 36591,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionDirectoryHandler::type"
+    },
+    {
+      "endLine": 1236,
+      "endOffset": 37799,
+      "kind": "type",
+      "name": "MessageRenderer",
+      "startLine": 1232,
+      "startOffset": 37652,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::MessageRenderer::type"
+    },
+    {
+      "endLine": 1249,
+      "endOffset": 38270,
+      "kind": "type",
+      "name": "LifecycleHookScope",
+      "startLine": 1249,
+      "startOffset": 38218,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LifecycleHookScope::type"
+    },
+    {
+      "endLine": 1250,
+      "endOffset": 38370,
+      "kind": "type",
+      "name": "LifecycleHookPhase",
+      "startLine": 1250,
+      "startOffset": 38271,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LifecycleHookPhase::type"
+    },
+    {
+      "endLine": 1273,
+      "endOffset": 39279,
+      "kind": "type",
+      "name": "LifecycleHookHandler",
+      "startLine": 1273,
+      "startOffset": 39192,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LifecycleHookHandler::type"
+    },
+    {
+      "endLine": 1274,
+      "endOffset": 39362,
+      "kind": "type",
+      "name": "LifecycleHookMap",
+      "startLine": 1274,
+      "startOffset": 39280,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::LifecycleHookMap::type"
+    },
+    {
+      "endLine": 1282,
+      "endOffset": 39785,
+      "kind": "type",
+      "name": "ExtensionHandler",
+      "startLine": 1282,
+      "startOffset": 39670,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionHandler::type"
+    },
+    {
+      "endLine": 1642,
+      "endOffset": 56165,
+      "kind": "type",
+      "name": "ExtensionFactory",
+      "startLine": 1642,
+      "startOffset": 56091,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionFactory::type"
+    },
+    {
+      "endLine": 1671,
+      "endOffset": 56969,
+      "kind": "type",
+      "name": "ToolInfo",
+      "startLine": 1671,
+      "startOffset": 56886,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolInfo::type"
+    }
+  ]
+}

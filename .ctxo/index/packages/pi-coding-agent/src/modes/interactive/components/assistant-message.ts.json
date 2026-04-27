@@ -1,0 +1,182 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setRange::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setShowMetadata::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setHideThinkingBlock::method"
+    },
+    {
+      "cyclomatic": 30,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.updateContent::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.render::method"
+    }
+  ],
+  "contentHash": "76d5ae7d8c2a41e5134dcb84fa603d08aa5bd28ab33928720c50cb903e293d28",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::TimestampFormat::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setRange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.updateContent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setShowMetadata::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.updateContent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.updateContent::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::TimestampFormat::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 179,
+      "endOffset": 6683,
+      "kind": "class",
+      "name": "AssistantMessageComponent",
+      "startLine": 16,
+      "startOffset": 633,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class"
+    },
+    {
+      "endLine": 57,
+      "endOffset": 1904,
+      "kind": "method",
+      "name": "AssistantMessageComponent.setRange",
+      "startLine": 52,
+      "startOffset": 1759,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setRange::method"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 2047,
+      "kind": "method",
+      "name": "AssistantMessageComponent.setShowMetadata",
+      "startLine": 59,
+      "startOffset": 1907,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setShowMetadata::method"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 2175,
+      "kind": "method",
+      "name": "AssistantMessageComponent.invalidate",
+      "startLine": 66,
+      "startOffset": 2050,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.invalidate::method"
+    },
+    {
+      "endLine": 75,
+      "endOffset": 2257,
+      "kind": "method",
+      "name": "AssistantMessageComponent.setHideThinkingBlock",
+      "startLine": 73,
+      "startOffset": 2178,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.setHideThinkingBlock::method"
+    },
+    {
+      "endLine": 160,
+      "endOffset": 6100,
+      "kind": "method",
+      "name": "AssistantMessageComponent.updateContent",
+      "startLine": 77,
+      "startOffset": 2260,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.updateContent::method"
+    },
+    {
+      "endLine": 178,
+      "endOffset": 6681,
+      "kind": "method",
+      "name": "AssistantMessageComponent.render",
+      "startLine": 162,
+      "startOffset": 6103,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent.render::method"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 378,
+      "kind": "interface",
+      "name": "ContentRange",
+      "startLine": 6,
+      "startOffset": 305,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::ContentRange::interface"
+    }
+  ]
+}

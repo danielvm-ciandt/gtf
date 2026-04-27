@@ -1,0 +1,67 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent.getMessageList::method"
+    }
+  ],
+  "contentHash": "812cac0ab05edf6615996277dc1b2651e1bb45ca2045c6f9a8688acf08923da9",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 143,
+      "endOffset": 4728,
+      "kind": "class",
+      "name": "UserMessageSelectorComponent",
+      "startLine": 108,
+      "startOffset": 3617,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent::class"
+    },
+    {
+      "endLine": 142,
+      "endOffset": 4726,
+      "kind": "method",
+      "name": "UserMessageSelectorComponent.getMessageList",
+      "startLine": 140,
+      "startOffset": 4661,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/user-message-selector.ts::UserMessageSelectorComponent.getMessageList::method"
+    }
+  ]
+}

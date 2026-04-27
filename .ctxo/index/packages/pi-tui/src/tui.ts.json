@@ -1,0 +1,880 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/tui.ts::isFocusable::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.addChild::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.removeChild::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.clear::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.detachChildren::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.invalidate::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.render::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.getShowHardwareCursor::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.setShowHardwareCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.getClearOnShrink::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.setClearOnShrink::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.hideOverlay::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.hasOverlay::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.invalidate::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.start::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.addInputListener::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.removeInputListener::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.queryCellSize::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.stop::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "cyclomatic": 16,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.handleInput::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.parseCellSizeResponse::method"
+    },
+    {
+      "cyclomatic": 57,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.doRender::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.positionHardwareCursor::method"
+    }
+  ],
+  "contentHash": "4db8ea0e6d66a7f17839e60629a5ad68d39cc6aeee57a2045eb85ce72d5ba818",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::isKeyRelease::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/overlay-layout.ts::applyLineResets::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/overlay-layout.ts::isOverlayVisible::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal.ts::Terminal::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::setCellDimensions::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::isFocusable::function",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::Container::class",
+      "kind": "implements",
+      "to": "/packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "extends",
+      "to": "/packages/pi-tui/src/tui.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.setShowHardwareCursor::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.setFocus::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::isFocusable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.setFocus::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::isFocusable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.hideOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.hideOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.hideOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.hasOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.start::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.handleInput::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.start::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.start::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.queryCellSize::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.start::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.queryCellSize::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.requestRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.doRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.parseCellSizeResponse::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::isKeyRelease::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.parseCellSizeResponse::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::setCellDimensions::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.parseCellSizeResponse::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.invalidate::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.parseCellSizeResponse::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/overlay-layout.ts::applyLineResets::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.positionHardwareCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.positionHardwareCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.positionHardwareCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI.doRender::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/tui.ts::TUI.positionHardwareCursor::method"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal.ts::Terminal::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/overlay-layout.ts::isOverlayVisible::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::getCapabilities::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::isKeyRelease::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::setCellDimensions::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/overlay-layout.ts::compositeOverlays::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/overlay-layout.ts::extractCursorPosition::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/overlay-layout.ts::applyLineResets::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/tui.ts::TUI::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/tui.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 64,
+      "endOffset": 2090,
+      "kind": "function",
+      "name": "isFocusable",
+      "startLine": 62,
+      "startOffset": 1940,
+      "symbolId": "packages/pi-tui/src/tui.ts::isFocusable::function"
+    },
+    {
+      "endLine": 235,
+      "endOffset": 6979,
+      "kind": "class",
+      "name": "Container",
+      "startLine": 168,
+      "startOffset": 5112,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container::class"
+    },
+    {
+      "endLine": 175,
+      "endOffset": 5336,
+      "kind": "method",
+      "name": "Container.addChild",
+      "startLine": 172,
+      "startOffset": 5235,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.addChild::method"
+    },
+    {
+      "endLine": 187,
+      "endOffset": 5673,
+      "kind": "method",
+      "name": "Container.removeChild",
+      "startLine": 177,
+      "startOffset": 5339,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.removeChild::method"
+    },
+    {
+      "endLine": 197,
+      "endOffset": 5898,
+      "kind": "method",
+      "name": "Container.clear",
+      "startLine": 189,
+      "startOffset": 5676,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.clear::method"
+    },
+    {
+      "endLine": 208,
+      "endOffset": 6243,
+      "kind": "method",
+      "name": "Container.detachChildren",
+      "startLine": 205,
+      "startOffset": 6167,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.detachChildren::method"
+    },
+    {
+      "endLine": 214,
+      "endOffset": 6337,
+      "kind": "method",
+      "name": "Container.invalidate",
+      "startLine": 210,
+      "startOffset": 6246,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.invalidate::method"
+    },
+    {
+      "endLine": 234,
+      "endOffset": 6977,
+      "kind": "method",
+      "name": "Container.render",
+      "startLine": 216,
+      "startOffset": 6340,
+      "symbolId": "packages/pi-tui/src/tui.ts::Container.render::method"
+    },
+    {
+      "endLine": 986,
+      "endOffset": 33256,
+      "kind": "class",
+      "name": "TUI",
+      "startLine": 240,
+      "startOffset": 7062,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI::class"
+    },
+    {
+      "endLine": 288,
+      "endOffset": 8958,
+      "kind": "method",
+      "name": "TUI.getShowHardwareCursor",
+      "startLine": 286,
+      "startOffset": 8887,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.getShowHardwareCursor::method"
+    },
+    {
+      "endLine": 297,
+      "endOffset": 9176,
+      "kind": "method",
+      "name": "TUI.setShowHardwareCursor",
+      "startLine": 290,
+      "startOffset": 8961,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.setShowHardwareCursor::method"
+    },
+    {
+      "endLine": 301,
+      "endOffset": 9240,
+      "kind": "method",
+      "name": "TUI.getClearOnShrink",
+      "startLine": 299,
+      "startOffset": 9179,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.getClearOnShrink::method"
+    },
+    {
+      "endLine": 310,
+      "endOffset": 9537,
+      "kind": "method",
+      "name": "TUI.setClearOnShrink",
+      "startLine": 308,
+      "startOffset": 9460,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.setClearOnShrink::method"
+    },
+    {
+      "endLine": 324,
+      "endOffset": 9862,
+      "kind": "method",
+      "name": "TUI.setFocus",
+      "startLine": 312,
+      "startOffset": 9540,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.setFocus::method"
+    },
+    {
+      "endLine": 397,
+      "endOffset": 12301,
+      "kind": "method",
+      "name": "TUI.showOverlay",
+      "startLine": 330,
+      "startOffset": 10005,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.showOverlay::method"
+    },
+    {
+      "endLine": 410,
+      "endOffset": 12780,
+      "kind": "method",
+      "name": "TUI.hideOverlay",
+      "startLine": 400,
+      "startOffset": 12365,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.hideOverlay::method"
+    },
+    {
+      "endLine": 415,
+      "endOffset": 12923,
+      "kind": "method",
+      "name": "TUI.hasOverlay",
+      "startLine": 413,
+      "startOffset": 12831,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.hasOverlay::method"
+    },
+    {
+      "endLine": 420,
+      "endOffset": 13144,
+      "kind": "method",
+      "name": "TUI.isOverlayVisible",
+      "startLine": 418,
+      "startOffset": 12981,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.isOverlayVisible::method"
+    },
+    {
+      "endLine": 431,
+      "endOffset": 13530,
+      "kind": "method",
+      "name": "TUI.getTopmostVisibleOverlay",
+      "startLine": 423,
+      "startOffset": 13206,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.getTopmostVisibleOverlay::method"
+    },
+    {
+      "endLine": 436,
+      "endOffset": 13664,
+      "kind": "method",
+      "name": "TUI.invalidate",
+      "startLine": 433,
+      "startOffset": 13533,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.invalidate::method"
+    },
+    {
+      "endLine": 453,
+      "endOffset": 14146,
+      "kind": "method",
+      "name": "TUI.start",
+      "startLine": 438,
+      "startOffset": 13667,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.start::method"
+    },
+    {
+      "endLine": 460,
+      "endOffset": 14307,
+      "kind": "method",
+      "name": "TUI.addInputListener",
+      "startLine": 455,
+      "startOffset": 14149,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.addInputListener::method"
+    },
+    {
+      "endLine": 464,
+      "endOffset": 14405,
+      "kind": "method",
+      "name": "TUI.removeInputListener",
+      "startLine": 462,
+      "startOffset": 14310,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.removeInputListener::method"
+    },
+    {
+      "endLine": 475,
+      "endOffset": 14753,
+      "kind": "method",
+      "name": "TUI.queryCellSize",
+      "startLine": 466,
+      "startOffset": 14408,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.queryCellSize::method"
+    },
+    {
+      "endLine": 502,
+      "endOffset": 15566,
+      "kind": "method",
+      "name": "TUI.stop",
+      "startLine": 477,
+      "startOffset": 14756,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.stop::method"
+    },
+    {
+      "endLine": 522,
+      "endOffset": 16191,
+      "kind": "method",
+      "name": "TUI.requestRender",
+      "startLine": 504,
+      "startOffset": 15569,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.requestRender::method"
+    },
+    {
+      "endLine": 580,
+      "endOffset": 17959,
+      "kind": "method",
+      "name": "TUI.handleInput",
+      "startLine": 524,
+      "startOffset": 16194,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.handleInput::method"
+    },
+    {
+      "endLine": 631,
+      "endOffset": 19852,
+      "kind": "method",
+      "name": "TUI.parseCellSizeResponse",
+      "startLine": 582,
+      "startOffset": 17962,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.parseCellSizeResponse::method"
+    },
+    {
+      "endLine": 947,
+      "endOffset": 32136,
+      "kind": "method",
+      "name": "TUI.doRender",
+      "startLine": 633,
+      "startOffset": 19855,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.doRender::method"
+    },
+    {
+      "endLine": 985,
+      "endOffset": 33254,
+      "kind": "method",
+      "name": "TUI.positionHardwareCursor",
+      "startLine": 954,
+      "startOffset": 32342,
+      "symbolId": "packages/pi-tui/src/tui.ts::TUI.positionHardwareCursor::method"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 1292,
+      "kind": "interface",
+      "name": "Component",
+      "startLine": 21,
+      "startOffset": 626,
+      "symbolId": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "endLine": 59,
+      "endOffset": 1875,
+      "kind": "interface",
+      "name": "Focusable",
+      "startLine": 56,
+      "startOffset": 1740,
+      "symbolId": "packages/pi-tui/src/tui.ts::Focusable::interface"
+    },
+    {
+      "endLine": 98,
+      "endOffset": 2809,
+      "kind": "interface",
+      "name": "OverlayMargin",
+      "startLine": 93,
+      "startOffset": 2709,
+      "symbolId": "packages/pi-tui/src/tui.ts::OverlayMargin::interface"
+    },
+    {
+      "endLine": 145,
+      "endOffset": 4499,
+      "kind": "interface",
+      "name": "OverlayOptions",
+      "startLine": 107,
+      "startOffset": 3062,
+      "symbolId": "packages/pi-tui/src/tui.ts::OverlayOptions::interface"
+    },
+    {
+      "endLine": 163,
+      "endOffset": 5044,
+      "kind": "interface",
+      "name": "OverlayHandle",
+      "startLine": 150,
+      "startOffset": 4571,
+      "symbolId": "packages/pi-tui/src/tui.ts::OverlayHandle::interface"
+    },
+    {
+      "endLine": 88,
+      "endOffset": 2662,
+      "kind": "type",
+      "name": "OverlayAnchor",
+      "startLine": 79,
+      "startOffset": 2488,
+      "symbolId": "packages/pi-tui/src/tui.ts::OverlayAnchor::type"
+    },
+    {
+      "endLine": 101,
+      "endOffset": 2934,
+      "kind": "type",
+      "name": "SizeValue",
+      "startLine": 101,
+      "startOffset": 2888,
+      "symbolId": "packages/pi-tui/src/tui.ts::SizeValue::type"
+    },
+    {
+      "endLine": 72,
+      "endOffset": 2419,
+      "kind": "variable",
+      "name": "CURSOR_MARKER",
+      "startLine": 72,
+      "startOffset": 2388,
+      "symbolId": "packages/pi-tui/src/tui.ts::CURSOR_MARKER::variable"
+    }
+  ]
+}

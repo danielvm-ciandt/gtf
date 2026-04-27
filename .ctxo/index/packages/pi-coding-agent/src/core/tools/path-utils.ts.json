@@ -1,0 +1,138 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/path-utils.ts::expandPath::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    }
+  ],
+  "contentHash": "25f1fdcd733923bcb27b44f0216c5b45f55fd7abc3f9c793aae21d250a089eed",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::expandPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::normalizeUnicodeSpaces::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::expandPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::normalizeAtPrefix::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::normalizeMsysPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::expandPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::fileExists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::tryMacOSScreenshotPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::fileExists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::tryNFDVariant::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::fileExists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::tryCurlyQuoteVariant::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::fileExists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::tryCurlyQuoteVariant::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::fileExists::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/path-utils.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 47,
+      "endOffset": 1480,
+      "kind": "function",
+      "name": "expandPath",
+      "startLine": 38,
+      "startOffset": 1194,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/path-utils.ts::expandPath::function"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 2208,
+      "kind": "function",
+      "name": "resolveToCwd",
+      "startLine": 65,
+      "startOffset": 1991,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "endLine": 105,
+      "endOffset": 3250,
+      "kind": "function",
+      "name": "resolveReadPath",
+      "startLine": 73,
+      "startOffset": 2210,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveReadPath::function"
+    },
+    {
+      "endLine": 4,
+      "endOffset": 223,
+      "kind": "variable",
+      "name": "UNICODE_SPACES",
+      "startLine": 4,
+      "startOffset": 158,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/path-utils.ts::UNICODE_SPACES::variable"
+    }
+  ]
+}

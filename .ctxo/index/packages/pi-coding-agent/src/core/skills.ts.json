@@ -1,0 +1,211 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::getLoadedSkills::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDir::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::formatSkillsForPrompt::function"
+    },
+    {
+      "cyclomatic": 22,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function"
+    }
+  ],
+  "contentHash": "f13be20a959a89f3dce1ae6527ff61ccf89db5c6cfae9f303d99b09ee654effc",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::getLoadedSkills::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/frontmatter.ts::parseFrontmatter::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::getLoadedSkills::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/path-display.ts::toPosixPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::getLoadedSkills::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/diagnostics.ts::ResourceDiagnostic::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::getLoadedSkills::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDirInternal::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::formatSkillsForPrompt::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::formatSkillsForPrompt::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::formatSkillsForPrompt::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::escapeXml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDirInternal::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDirInternal::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDirInternal::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::resolveSkillPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDirInternal::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkillFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/diagnostics.ts::ResourceDiagnostic::interface"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/skills.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 105,
+      "endOffset": 3035,
+      "kind": "function",
+      "name": "getLoadedSkills",
+      "startLine": 103,
+      "startOffset": 2962,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::getLoadedSkills::function"
+    },
+    {
+      "endLine": 169,
+      "endOffset": 4769,
+      "kind": "function",
+      "name": "loadSkillsFromDir",
+      "startLine": 166,
+      "startOffset": 4591,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::loadSkillsFromDir::function"
+    },
+    {
+      "endLine": 337,
+      "endOffset": 9692,
+      "kind": "function",
+      "name": "formatSkillsForPrompt",
+      "startLine": 310,
+      "startOffset": 8557,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::formatSkillsForPrompt::function"
+    },
+    {
+      "endLine": 489,
+      "endOffset": 14824,
+      "kind": "function",
+      "name": "loadSkills",
+      "startLine": 376,
+      "startOffset": 10845,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 2681,
+      "kind": "interface",
+      "name": "SkillFrontmatter",
+      "startLine": 80,
+      "startOffset": 2541,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::SkillFrontmatter::interface"
+    },
+    {
+      "endLine": 94,
+      "endOffset": 2834,
+      "kind": "interface",
+      "name": "Skill",
+      "startLine": 87,
+      "startOffset": 2683,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::Skill::interface"
+    },
+    {
+      "endLine": 99,
+      "endOffset": 2927,
+      "kind": "interface",
+      "name": "LoadSkillsResult",
+      "startLine": 96,
+      "startOffset": 2836,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::LoadSkillsResult::interface"
+    },
+    {
+      "endLine": 157,
+      "endOffset": 4443,
+      "kind": "interface",
+      "name": "LoadSkillsFromDirOptions",
+      "startLine": 152,
+      "startOffset": 4287,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::LoadSkillsFromDirOptions::interface"
+    },
+    {
+      "endLine": 357,
+      "endOffset": 10282,
+      "kind": "interface",
+      "name": "LoadSkillsOptions",
+      "startLine": 348,
+      "startOffset": 9882,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::LoadSkillsOptions::interface"
+    },
+    {
+      "endLine": 14,
+      "endOffset": 693,
+      "kind": "variable",
+      "name": "ECOSYSTEM_SKILLS_DIR",
+      "startLine": 14,
+      "startOffset": 634,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::ECOSYSTEM_SKILLS_DIR::variable"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 841,
+      "kind": "variable",
+      "name": "ECOSYSTEM_PROJECT_SKILLS_DIR",
+      "startLine": 19,
+      "startOffset": 801,
+      "symbolId": "packages/pi-coding-agent/src/core/skills.ts::ECOSYSTEM_PROJECT_SKILLS_DIR::variable"
+    }
+  ]
+}

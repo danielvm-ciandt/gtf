@@ -1,0 +1,467 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function"
+    }
+  ],
+  "contentHash": "e7e9038da77ffd6e47347b7da3319a1715c34037d7a56d6a314acbf19284c344",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::BashToolOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::bashTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit.ts::editTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/find.ts::findTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/grep.ts::grepTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::hashlineEditTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::hashlineReadTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/ls.ts::lsTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::ReadToolOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::readTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::writeTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/index.ts::createLspTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/index.ts::lspTool::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/index.ts::createLspTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/read.ts::createReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit.ts::createEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/index.ts::createLspTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-read.ts::createHashlineReadTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/bash.ts::createBashTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/write.ts::createWriteTool::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 179,
+      "endOffset": 4485,
+      "kind": "function",
+      "name": "createCodingTools",
+      "startLine": 172,
+      "startOffset": 4266,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createCodingTools::function"
+    },
+    {
+      "endLine": 186,
+      "endOffset": 4757,
+      "kind": "function",
+      "name": "createReadOnlyTools",
+      "startLine": 184,
+      "startOffset": 4566,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createReadOnlyTools::function"
+    },
+    {
+      "endLine": 204,
+      "endOffset": 5306,
+      "kind": "function",
+      "name": "createAllTools",
+      "startLine": 191,
+      "startOffset": 4832,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createAllTools::function"
+    },
+    {
+      "endLine": 217,
+      "endOffset": 5734,
+      "kind": "function",
+      "name": "createHashlineCodingTools",
+      "startLine": 210,
+      "startOffset": 5491,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::createHashlineCodingTools::function"
+    },
+    {
+      "endLine": 167,
+      "endOffset": 4188,
+      "kind": "interface",
+      "name": "ToolsOptions",
+      "startLine": 162,
+      "startOffset": 4037,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::ToolsOptions::interface"
+    },
+    {
+      "endLine": 135,
+      "endOffset": 3233,
+      "kind": "type",
+      "name": "Tool",
+      "startLine": 135,
+      "startOffset": 3199,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::Tool::type"
+    },
+    {
+      "endLine": 160,
+      "endOffset": 4035,
+      "kind": "type",
+      "name": "ToolName",
+      "startLine": 160,
+      "startOffset": 3990,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::ToolName::type"
+    },
+    {
+      "endLine": 138,
+      "endOffset": 3371,
+      "kind": "variable",
+      "name": "codingTools",
+      "startLine": 138,
+      "startOffset": 3308,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::codingTools::variable"
+    },
+    {
+      "endLine": 141,
+      "endOffset": 3527,
+      "kind": "variable",
+      "name": "readOnlyTools",
+      "startLine": 141,
+      "startOffset": 3465,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::readOnlyTools::variable"
+    },
+    {
+      "endLine": 155,
+      "endOffset": 3802,
+      "kind": "variable",
+      "name": "allTools",
+      "startLine": 144,
+      "startOffset": 3588,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::allTools::variable"
+    },
+    {
+      "endLine": 158,
+      "endOffset": 3987,
+      "kind": "variable",
+      "name": "hashlineCodingTools",
+      "startLine": 158,
+      "startOffset": 3900,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/index.ts::hashlineCodingTools::variable"
+    }
+  ]
+}

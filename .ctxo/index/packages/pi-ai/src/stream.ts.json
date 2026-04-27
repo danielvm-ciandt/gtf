@@ -1,0 +1,250 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/stream.ts::stream::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/stream.ts::complete::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/stream.ts::streamSimple::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/stream.ts::completeSimple::function"
+    }
+  ],
+  "contentHash": "09b24abc904a6c3c5cfe16d30a2e1c09239a5e3c98cb70d9572f50202f4d5415",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/api-registry.ts::getApiProvider::function"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessageEventStream::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ProviderStreamOptions::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/stream.ts::resolveApiProvider::function"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::complete::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/stream.ts::stream::function"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::streamSimple::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/stream.ts::resolveApiProvider::function"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::completeSimple::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/stream.ts::streamSimple::function"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ProviderStreamOptions::type"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::stream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::StreamOptions::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::complete::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::complete::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::complete::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::complete::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ProviderStreamOptions::type"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::complete::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::streamSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::streamSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::streamSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::streamSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::streamSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::completeSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::completeSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::completeSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::completeSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/stream.ts::completeSimple::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    }
+  ],
+  "file": "packages/pi-ai/src/stream.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 31,
+      "endOffset": 770,
+      "kind": "function",
+      "name": "stream",
+      "startLine": 24,
+      "startOffset": 504,
+      "symbolId": "packages/pi-ai/src/stream.ts::stream::function"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 992,
+      "kind": "function",
+      "name": "complete",
+      "startLine": 33,
+      "startOffset": 772,
+      "symbolId": "packages/pi-ai/src/stream.ts::complete::function"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1253,
+      "kind": "function",
+      "name": "streamSimple",
+      "startLine": 42,
+      "startOffset": 994,
+      "symbolId": "packages/pi-ai/src/stream.ts::streamSimple::function"
+    },
+    {
+      "endLine": 58,
+      "endOffset": 1485,
+      "kind": "function",
+      "name": "completeSimple",
+      "startLine": 51,
+      "startOffset": 1255,
+      "symbolId": "packages/pi-ai/src/stream.ts::completeSimple::function"
+    }
+  ]
+}

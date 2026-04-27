@@ -1,0 +1,687 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemesWithPaths::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeFromPath::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeByName::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setRegisteredThemes::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setTheme::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setThemeInstance::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::onThemeChange::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::stopThemeWatcher::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getResolvedThemeColors::function"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeExportColors::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSelectListTheme::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getEditorTheme::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSettingsListTheme::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.bg::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.bold::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.italic::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.underline::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.inverse::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.strikethrough::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getFgAnsi::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getBgAnsi::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getColorMode::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getBashModeBorderColor::method"
+    }
+  ],
+  "contentHash": "373f35e99579999411a16996cf1af2d87a87e8775346f3bb915e1daf63ae48bc",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts::ThemeJsonSchema::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts::ColorValue::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts::ThemeJson::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/themes.ts::builtinThemes::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getBuiltinThemes::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemesWithPaths::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemesWithPaths::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getBuiltinThemes::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeFromPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::parseThemeJsonContent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeFromPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::createTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeByName::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getDefaultTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setGlobalTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::startThemeWatcher::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setGlobalTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setGlobalTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::startThemeWatcher::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setGlobalTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setThemeInstance::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setGlobalTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setThemeInstance::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::stopThemeWatcher::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getResolvedThemeColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getDefaultTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getResolvedThemeColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeJson::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getResolvedThemeColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::resolveThemeColors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getResolvedThemeColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::ansi256ToHex::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeExportColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getDefaultTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeExportColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeJson::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeExportColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::ansi256ToHex::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeExportColors::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::ansi256ToHex::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getHighlightColors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getHighlightColors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getEditorTheme::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSelectListTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getBashModeBorderColor::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemesWithPaths::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 391,
+      "endOffset": 11522,
+      "kind": "function",
+      "name": "getAvailableThemes",
+      "startLine": 376,
+      "startOffset": 11056,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemes::function"
+    },
+    {
+      "endLine": 426,
+      "endOffset": 12436,
+      "kind": "function",
+      "name": "getAvailableThemesWithPaths",
+      "startLine": 398,
+      "startOffset": 11598,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getAvailableThemesWithPaths::function"
+    },
+    {
+      "endLine": 523,
+      "endOffset": 15663,
+      "kind": "function",
+      "name": "loadThemeFromPath",
+      "startLine": 519,
+      "startOffset": 15417,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeFromPath::function"
+    },
+    {
+      "endLine": 540,
+      "endOffset": 16046,
+      "kind": "function",
+      "name": "getThemeByName",
+      "startLine": 534,
+      "startOffset": 15912,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeByName::function"
+    },
+    {
+      "endLine": 594,
+      "endOffset": 17696,
+      "kind": "function",
+      "name": "setRegisteredThemes",
+      "startLine": 587,
+      "startOffset": 17505,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setRegisteredThemes::function"
+    },
+    {
+      "endLine": 610,
+      "endOffset": 18140,
+      "kind": "function",
+      "name": "initTheme",
+      "startLine": 596,
+      "startOffset": 17698,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::initTheme::function"
+    },
+    {
+      "endLine": 631,
+      "endOffset": 18728,
+      "kind": "function",
+      "name": "setTheme",
+      "startLine": 612,
+      "startOffset": 18142,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setTheme::function"
+    },
+    {
+      "endLine": 638,
+      "endOffset": 18960,
+      "kind": "function",
+      "name": "setThemeInstance",
+      "startLine": 633,
+      "startOffset": 18730,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::setThemeInstance::function"
+    },
+    {
+      "endLine": 643,
+      "endOffset": 19128,
+      "kind": "function",
+      "name": "onThemeChange",
+      "startLine": 640,
+      "startOffset": 18962,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::onThemeChange::function"
+    },
+    {
+      "endLine": 704,
+      "endOffset": 20686,
+      "kind": "function",
+      "name": "stopThemeWatcher",
+      "startLine": 699,
+      "startOffset": 20566,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::stopThemeWatcher::function"
+    },
+    {
+      "endLine": 781,
+      "endOffset": 22889,
+      "kind": "function",
+      "name": "getResolvedThemeColors",
+      "startLine": 760,
+      "startOffset": 22082,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getResolvedThemeColors::function"
+    },
+    {
+      "endLine": 819,
+      "endOffset": 23960,
+      "kind": "function",
+      "name": "getThemeExportColors",
+      "startLine": 787,
+      "startOffset": 23023,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeExportColors::function"
+    },
+    {
+      "endLine": 865,
+      "endOffset": 25398,
+      "kind": "function",
+      "name": "highlightCode",
+      "startLine": 854,
+      "startOffset": 25058,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::highlightCode::function"
+    },
+    {
+      "endLine": 936,
+      "endOffset": 26652,
+      "kind": "function",
+      "name": "getLanguageFromPath",
+      "startLine": 870,
+      "startOffset": 25461,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getLanguageFromPath::function"
+    },
+    {
+      "endLine": 967,
+      "endOffset": 27960,
+      "kind": "function",
+      "name": "getMarkdownTheme",
+      "startLine": 938,
+      "startOffset": 26654,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "endLine": 977,
+      "endOffset": 28324,
+      "kind": "function",
+      "name": "getSelectListTheme",
+      "startLine": 969,
+      "startOffset": 27962,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSelectListTheme::function"
+    },
+    {
+      "endLine": 984,
+      "endOffset": 28489,
+      "kind": "function",
+      "name": "getEditorTheme",
+      "startLine": 979,
+      "startOffset": 28326,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getEditorTheme::function"
+    },
+    {
+      "endLine": 994,
+      "endOffset": 28932,
+      "kind": "function",
+      "name": "getSettingsListTheme",
+      "startLine": 986,
+      "startOffset": 28491,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getSettingsListTheme::function"
+    },
+    {
+      "endLine": 366,
+      "endOffset": 10793,
+      "kind": "class",
+      "name": "Theme",
+      "startLine": 269,
+      "startOffset": 7977,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme::class"
+    },
+    {
+      "endLine": 299,
+      "endOffset": 9009,
+      "kind": "method",
+      "name": "Theme.fg",
+      "startLine": 295,
+      "startOffset": 8791,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.fg::method"
+    },
+    {
+      "endLine": 305,
+      "endOffset": 9238,
+      "kind": "method",
+      "name": "Theme.bg",
+      "startLine": 301,
+      "startOffset": 9012,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.bg::method"
+    },
+    {
+      "endLine": 309,
+      "endOffset": 9299,
+      "kind": "method",
+      "name": "Theme.bold",
+      "startLine": 307,
+      "startOffset": 9241,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.bold::method"
+    },
+    {
+      "endLine": 313,
+      "endOffset": 9364,
+      "kind": "method",
+      "name": "Theme.italic",
+      "startLine": 311,
+      "startOffset": 9302,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.italic::method"
+    },
+    {
+      "endLine": 317,
+      "endOffset": 9435,
+      "kind": "method",
+      "name": "Theme.underline",
+      "startLine": 315,
+      "startOffset": 9367,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.underline::method"
+    },
+    {
+      "endLine": 321,
+      "endOffset": 9502,
+      "kind": "method",
+      "name": "Theme.inverse",
+      "startLine": 319,
+      "startOffset": 9438,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.inverse::method"
+    },
+    {
+      "endLine": 325,
+      "endOffset": 9581,
+      "kind": "method",
+      "name": "Theme.strikethrough",
+      "startLine": 323,
+      "startOffset": 9505,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.strikethrough::method"
+    },
+    {
+      "endLine": 331,
+      "endOffset": 9744,
+      "kind": "method",
+      "name": "Theme.getFgAnsi",
+      "startLine": 327,
+      "startOffset": 9584,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getFgAnsi::method"
+    },
+    {
+      "endLine": 337,
+      "endOffset": 9915,
+      "kind": "method",
+      "name": "Theme.getBgAnsi",
+      "startLine": 333,
+      "startOffset": 9747,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getBgAnsi::method"
+    },
+    {
+      "endLine": 341,
+      "endOffset": 9968,
+      "kind": "method",
+      "name": "Theme.getColorMode",
+      "startLine": 339,
+      "startOffset": 9918,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getColorMode::method"
+    },
+    {
+      "endLine": 361,
+      "endOffset": 10682,
+      "kind": "method",
+      "name": "Theme.getThinkingBorderColor",
+      "startLine": 343,
+      "startOffset": 9971,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getThinkingBorderColor::method"
+    },
+    {
+      "endLine": 365,
+      "endOffset": 10791,
+      "kind": "method",
+      "name": "Theme.getBashModeBorderColor",
+      "startLine": 363,
+      "startOffset": 10685,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme.getBashModeBorderColor::method"
+    },
+    {
+      "endLine": 396,
+      "endOffset": 11596,
+      "kind": "interface",
+      "name": "ThemeInfo",
+      "startLine": 393,
+      "startOffset": 11524,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::ThemeInfo::interface"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 1901,
+      "kind": "type",
+      "name": "ThemeColor",
+      "startLine": 25,
+      "startOffset": 1093,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::ThemeColor::type"
+    },
+    {
+      "endLine": 79,
+      "endOffset": 2036,
+      "kind": "type",
+      "name": "ThemeBg",
+      "startLine": 73,
+      "startOffset": 1903,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::ThemeBg::type"
+    },
+    {
+      "endLine": 576,
+      "endOffset": 17210,
+      "kind": "variable",
+      "name": "theme",
+      "startLine": 570,
+      "startOffset": 16936,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ]
+}

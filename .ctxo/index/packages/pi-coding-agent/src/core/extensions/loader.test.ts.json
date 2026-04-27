@@ -1,0 +1,48 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "834d91d7c348d5b5a4cc944c1ac5308bb552a8f9ade337416dd552082b74571d",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/loader.test.ts::loader.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::isProjectTrusted::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/loader.test.ts::loader.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::trustProject::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/loader.test.ts::loader.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::getUntrustedExtensionPaths::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/loader.test.ts::loader.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::containsTypeScriptSyntax::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/loader.test.ts::loader.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::loadExtensions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/loader.test.ts::loader.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::resetExtensionLoaderCache::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/loader.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": []
+}

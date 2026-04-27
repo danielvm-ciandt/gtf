@@ -1,0 +1,114 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::setAllowedCommandPrefixes::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::getAllowedCommandPrefixes::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::clearConfigValueCache::function"
+    }
+  ],
+  "contentHash": "571b1631b9278d92937c8acb01cc5c82fb9c10d3f61471e6d179c9594291c105",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/resolve-config-value.ts::setAllowedCommandPrefixes::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMMAND_EXECUTION_TIMEOUT_MS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resolve-config-value.ts::setAllowedCommandPrefixes::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::clearConfigValueCache::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::executeCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/resolve-config-value.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 43,
+      "endOffset": 1313,
+      "kind": "function",
+      "name": "setAllowedCommandPrefixes",
+      "startLine": 37,
+      "startOffset": 1024,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::setAllowedCommandPrefixes::function"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1470,
+      "kind": "function",
+      "name": "getAllowedCommandPrefixes",
+      "startLine": 46,
+      "startOffset": 1373,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::getAllowedCommandPrefixes::function"
+    },
+    {
+      "endLine": 61,
+      "endOffset": 1937,
+      "kind": "function",
+      "name": "resolveConfigValue",
+      "startLine": 55,
+      "startOffset": 1729,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "endLine": 112,
+      "endOffset": 3582,
+      "kind": "function",
+      "name": "resolveHeaders",
+      "startLine": 102,
+      "startOffset": 3153,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "endLine": 117,
+      "endOffset": 3729,
+      "kind": "function",
+      "name": "clearConfigValueCache",
+      "startLine": 115,
+      "startOffset": 3651,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::clearConfigValueCache::function"
+    },
+    {
+      "endLine": 24,
+      "endOffset": 571,
+      "kind": "variable",
+      "name": "SAFE_COMMAND_PREFIXES",
+      "startLine": 13,
+      "startOffset": 450,
+      "symbolId": "packages/pi-coding-agent/src/core/resolve-config-value.ts::SAFE_COMMAND_PREFIXES::variable"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.create::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.persist::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.initSchema::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryAll::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.upsertThreads::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.claimStage1Jobs::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.completeStage1Job::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.failStage1Job::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.tryClaimGlobalPhase2Job::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.completePhase2Job::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStage1Outputs::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStage1OutputsForCwd::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getThread::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStats::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.clearAll::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.clearForCwd::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.resetAllForCwd::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.close::method"
+    }
+  ],
+  "contentHash": "009747d4683cc2f0a195da1c055bedd942fd07e3f9b695cc9851972bb6fbf841",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.persist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.initSchema::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.persist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryAll::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.upsertThreads::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.upsertThreads::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.claimStage1Jobs::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryAll::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.claimStage1Jobs::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.completeStage1Job::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.failStage1Job::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.tryClaimGlobalPhase2Job::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.tryClaimGlobalPhase2Job::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.tryClaimGlobalPhase2Job::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.tryClaimGlobalPhase2Job::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.completePhase2Job::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStage1Outputs::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryAll::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStage1OutputsForCwd::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryAll::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getThread::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStats::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStats::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStats::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.clearAll::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.clearForCwd::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.resetAllForCwd::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryAll::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.resetAllForCwd::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.close::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.persist::method"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 477,
+      "endOffset": 13246,
+      "kind": "class",
+      "name": "MemoryStorage",
+      "startLine": 45,
+      "startOffset": 1136,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage::class"
+    },
+    {
+      "endLine": 72,
+      "endOffset": 1943,
+      "kind": "method",
+      "name": "MemoryStorage.create",
+      "startLine": 55,
+      "startOffset": 1390,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.create::method"
+    },
+    {
+      "endLine": 77,
+      "endOffset": 2056,
+      "kind": "method",
+      "name": "MemoryStorage.persist",
+      "startLine": 74,
+      "startOffset": 1946,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.persist::method"
+    },
+    {
+      "endLine": 87,
+      "endOffset": 2262,
+      "kind": "method",
+      "name": "MemoryStorage.schedulePersist",
+      "startLine": 79,
+      "startOffset": 2059,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.schedulePersist::method"
+    },
+    {
+      "endLine": 129,
+      "endOffset": 3649,
+      "kind": "method",
+      "name": "MemoryStorage.initSchema",
+      "startLine": 89,
+      "startOffset": 2265,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.initSchema::method"
+    },
+    {
+      "endLine": 140,
+      "endOffset": 3940,
+      "kind": "method",
+      "name": "MemoryStorage.queryAll",
+      "startLine": 131,
+      "startOffset": 3652,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryAll::method"
+    },
+    {
+      "endLine": 145,
+      "endOffset": 4083,
+      "kind": "method",
+      "name": "MemoryStorage.queryOne",
+      "startLine": 142,
+      "startOffset": 3943,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.queryOne::method"
+    },
+    {
+      "endLine": 199,
+      "endOffset": 5790,
+      "kind": "method",
+      "name": "MemoryStorage.upsertThreads",
+      "startLine": 151,
+      "startOffset": 4216,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.upsertThreads::method"
+    },
+    {
+      "endLine": 241,
+      "endOffset": 6871,
+      "kind": "method",
+      "name": "MemoryStorage.claimStage1Jobs",
+      "startLine": 205,
+      "startOffset": 5922,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.claimStage1Jobs::method"
+    },
+    {
+      "endLine": 260,
+      "endOffset": 7491,
+      "kind": "method",
+      "name": "MemoryStorage.completeStage1Job",
+      "startLine": 246,
+      "startOffset": 6951,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.completeStage1Job::method"
+    },
+    {
+      "endLine": 275,
+      "endOffset": 7989,
+      "kind": "method",
+      "name": "MemoryStorage.failStage1Job",
+      "startLine": 265,
+      "startOffset": 7538,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.failStage1Job::method"
+    },
+    {
+      "endLine": 320,
+      "endOffset": 9252,
+      "kind": "method",
+      "name": "MemoryStorage.tryClaimGlobalPhase2Job",
+      "startLine": 281,
+      "startOffset": 8102,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.tryClaimGlobalPhase2Job::method"
+    },
+    {
+      "endLine": 331,
+      "endOffset": 9512,
+      "kind": "method",
+      "name": "MemoryStorage.completePhase2Job",
+      "startLine": 325,
+      "startOffset": 9309,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.completePhase2Job::method"
+    },
+    {
+      "endLine": 345,
+      "endOffset": 9883,
+      "kind": "method",
+      "name": "MemoryStorage.getStage1Outputs",
+      "startLine": 336,
+      "startOffset": 9564,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStage1Outputs::method"
+    },
+    {
+      "endLine": 362,
+      "endOffset": 10367,
+      "kind": "method",
+      "name": "MemoryStorage.getStage1OutputsForCwd",
+      "startLine": 350,
+      "startOffset": 9943,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStage1OutputsForCwd::method"
+    },
+    {
+      "endLine": 372,
+      "endOffset": 10565,
+      "kind": "method",
+      "name": "MemoryStorage.getThread",
+      "startLine": 367,
+      "startOffset": 10407,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getThread::method"
+    },
+    {
+      "endLine": 410,
+      "endOffset": 11623,
+      "kind": "method",
+      "name": "MemoryStorage.getStats",
+      "startLine": 377,
+      "startOffset": 10607,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.getStats::method"
+    },
+    {
+      "endLine": 420,
+      "endOffset": 11841,
+      "kind": "method",
+      "name": "MemoryStorage.clearAll",
+      "startLine": 415,
+      "startOffset": 11676,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.clearAll::method"
+    },
+    {
+      "endLine": 436,
+      "endOffset": 12292,
+      "kind": "method",
+      "name": "MemoryStorage.clearForCwd",
+      "startLine": 425,
+      "startOffset": 11926,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.clearForCwd::method"
+    },
+    {
+      "endLine": 467,
+      "endOffset": 13090,
+      "kind": "method",
+      "name": "MemoryStorage.resetAllForCwd",
+      "startLine": 441,
+      "startOffset": 12361,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.resetAllForCwd::method"
+    },
+    {
+      "endLine": 476,
+      "endOffset": 13244,
+      "kind": "method",
+      "name": "MemoryStorage.close",
+      "startLine": 469,
+      "startOffset": 13093,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage.close::method"
+    },
+    {
+      "endLine": 24,
+      "endOffset": 713,
+      "kind": "interface",
+      "name": "ThreadRow",
+      "startLine": 14,
+      "startOffset": 461,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::ThreadRow::interface"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 818,
+      "kind": "interface",
+      "name": "Stage1OutputRow",
+      "startLine": 26,
+      "startOffset": 715,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::Stage1OutputRow::interface"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 1134,
+      "kind": "interface",
+      "name": "JobRow",
+      "startLine": 32,
+      "startOffset": 820,
+      "symbolId": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::JobRow::interface"
+    }
+  ]
+}

@@ -1,0 +1,734 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/server.ts::withElicitTimeout::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/server.ts::buildAskUserQuestionsElicitRequest::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/mcp-server/src/server.ts::formatAskUserQuestionsElicitResult::function"
+    },
+    {
+      "cyclomatic": 23,
+      "symbolId": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function"
+    },
+    {
+      "cyclomatic": 57,
+      "symbolId": "packages/mcp-server/src/server.ts::createMcpServer::function"
+    }
+  ],
+  "contentHash": "ceb6df545bec2b8b7df3ac0d57884026eb271ae606ede3d9557e48ba2eae93da",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/remote-questions.ts::isRemoteConfigured::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/state.ts::readProgress::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/metrics.ts::readHistory::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/captures.ts::readCaptures::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::buildGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphStatus::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphQuery::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphDiff::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::applySecrets::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::checkExistingEnvKeys::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::detectDestination::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::withElicitTimeout::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::formatAskUserQuestionsElicitResult::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::normalizeAskUserQuestionsAnswers::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::formatAskUserQuestionsElicitResult::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::normalizeAskUserQuestionsNote::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::checkExistingEnvKeys::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::textContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::withElicitTimeout::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::textContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::detectDestination::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/env-writer.ts::applySecrets::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::textContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::readProjectState::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::validateAskUserQuestionsPayload::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::isRemoteConfigured::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::textContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::textContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::withElicitTimeout::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::buildAskUserQuestionsElicitRequest::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::textContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::textContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::formatAskUserQuestionsElicitResult::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::readProgress::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/metrics.ts::readHistory::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/captures.ts::readCaptures::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::buildGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphQuery::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphStatus::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphDiff::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::jsonContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/server.ts::errorContent::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/env-writer.ts::checkExistingEnvKeys::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/env-writer.ts::detectDestination::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/env-writer.ts::applySecrets::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/remote-questions.ts::isRemoteConfigured::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/remote-questions.ts::tryRemoteQuestions::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/state.ts::readProgress::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/metrics.ts::readHistory::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/captures.ts::readCaptures::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/knowledge.ts::readKnowledge::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeSnapshot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/graph.ts::buildGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/graph.ts::writeGraph::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphQuery::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphStatus::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/graph.ts::graphDiff::function"
+    },
+    {
+      "from": "packages/mcp-server/src/server.ts::createMcpServer::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/server.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 89,
+      "endOffset": 3976,
+      "kind": "function",
+      "name": "withElicitTimeout",
+      "startLine": 72,
+      "startOffset": 3460,
+      "symbolId": "packages/mcp-server/src/server.ts::withElicitTimeout::function"
+    },
+    {
+      "endLine": 364,
+      "endOffset": 12432,
+      "kind": "function",
+      "name": "buildAskUserQuestionsElicitRequest",
+      "startLine": 315,
+      "startOffset": 10894,
+      "symbolId": "packages/mcp-server/src/server.ts::buildAskUserQuestionsElicitRequest::function"
+    },
+    {
+      "endLine": 387,
+      "endOffset": 13150,
+      "kind": "function",
+      "name": "formatAskUserQuestionsElicitResult",
+      "startLine": 366,
+      "startOffset": 12434,
+      "symbolId": "packages/mcp-server/src/server.ts::formatAskUserQuestionsElicitResult::function"
+    },
+    {
+      "endLine": 507,
+      "endOffset": 17747,
+      "kind": "function",
+      "name": "secureEnvCollectHandler",
+      "startLine": 402,
+      "startOffset": 13780,
+      "symbolId": "packages/mcp-server/src/server.ts::secureEnvCollectHandler::function"
+    },
+    {
+      "endLine": 1018,
+      "endOffset": 41260,
+      "kind": "function",
+      "name": "createMcpServer",
+      "startLine": 519,
+      "startOffset": 18180,
+      "symbolId": "packages/mcp-server/src/server.ts::createMcpServer::function"
+    },
+    {
+      "endLine": 231,
+      "endOffset": 8696,
+      "kind": "interface",
+      "name": "McpToolExtra",
+      "startLine": 227,
+      "startOffset": 8538,
+      "symbolId": "packages/mcp-server/src/server.ts::McpToolExtra::interface"
+    },
+    {
+      "endLine": 396,
+      "endOffset": 13632,
+      "kind": "type",
+      "name": "ElicitInputFn",
+      "startLine": 393,
+      "startOffset": 13384,
+      "symbolId": "packages/mcp-server/src/server.ts::ElicitInputFn::type"
+    }
+  ]
+}

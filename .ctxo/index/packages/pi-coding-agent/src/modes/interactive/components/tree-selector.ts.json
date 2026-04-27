@@ -1,0 +1,166 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.showLabelInput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.hideLabelInput::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.handleInput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.getTreeList::method"
+    }
+  ],
+  "contentHash": "bb139e9d82091523377608ba06edbdb22b874720dad8d76f7a818240c2807f82",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionTreeNode::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::applyRowHighlight::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::computeScrollWindow::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderCursor::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderScrollPosition::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.showLabelInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.hideLabelInput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.showLabelInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.hideLabelInput::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionTreeNode::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 1178,
+      "endOffset": 40773,
+      "kind": "class",
+      "name": "TreeSelectorComponent",
+      "startLine": 1074,
+      "startOffset": 37519,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent::class"
+    },
+    {
+      "endLine": 1158,
+      "endOffset": 40378,
+      "kind": "method",
+      "name": "TreeSelectorComponent.showLabelInput",
+      "startLine": 1143,
+      "startOffset": 39787,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.showLabelInput::method"
+    },
+    {
+      "endLine": 1165,
+      "endOffset": 40554,
+      "kind": "method",
+      "name": "TreeSelectorComponent.hideLabelInput",
+      "startLine": 1160,
+      "startOffset": 40381,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.hideLabelInput::method"
+    },
+    {
+      "endLine": 1173,
+      "endOffset": 40716,
+      "kind": "method",
+      "name": "TreeSelectorComponent.handleInput",
+      "startLine": 1167,
+      "startOffset": 40557,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.handleInput::method"
+    },
+    {
+      "endLine": 1177,
+      "endOffset": 40771,
+      "kind": "method",
+      "name": "TreeSelectorComponent.getTreeList",
+      "startLine": 1175,
+      "startOffset": 40719,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::TreeSelectorComponent.getTreeList::method"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 1420,
+      "kind": "type",
+      "name": "FilterMode",
+      "startLine": 45,
+      "startOffset": 1333,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-selector.ts::FilterMode::type"
+    }
+  ]
+}

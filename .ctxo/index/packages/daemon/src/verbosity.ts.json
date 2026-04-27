@@ -1,0 +1,107 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/daemon/src/verbosity.ts::shouldShowAtLevel::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/verbosity.ts::VerbosityManager.getLevel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/verbosity.ts::VerbosityManager.setLevel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/verbosity.ts::VerbosityManager.shouldShow::method"
+    }
+  ],
+  "contentHash": "a198b7a038a5623fe163b2ebae4adc8a9443eb9177b463f5f5e0e2fcb93a6a46",
+  "edges": [
+    {
+      "from": "packages/daemon/src/verbosity.ts::shouldShowAtLevel::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::VerbosityLevel::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/verbosity.ts::VerbosityManager.shouldShow::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/verbosity.ts::VerbosityManager.getLevel::method"
+    },
+    {
+      "from": "packages/daemon/src/verbosity.ts::VerbosityManager.shouldShow::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/verbosity.ts::shouldShowAtLevel::function"
+    },
+    {
+      "from": "packages/daemon/src/verbosity.ts::shouldShowAtLevel::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::VerbosityLevel::type"
+    },
+    {
+      "from": "packages/daemon/src/verbosity.ts::VerbosityManager::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::VerbosityLevel::type"
+    }
+  ],
+  "file": "packages/daemon/src/verbosity.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 100,
+      "endOffset": 3045,
+      "kind": "function",
+      "name": "shouldShowAtLevel",
+      "startLine": 79,
+      "startOffset": 2454,
+      "symbolId": "packages/daemon/src/verbosity.ts::shouldShowAtLevel::function"
+    },
+    {
+      "endLine": 70,
+      "endOffset": 2141,
+      "kind": "class",
+      "name": "VerbosityManager",
+      "startLine": 49,
+      "startOffset": 1452,
+      "symbolId": "packages/daemon/src/verbosity.ts::VerbosityManager::class"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 1718,
+      "kind": "method",
+      "name": "VerbosityManager.getLevel",
+      "startLine": 53,
+      "startOffset": 1617,
+      "symbolId": "packages/daemon/src/verbosity.ts::VerbosityManager.getLevel::method"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 1871,
+      "kind": "method",
+      "name": "VerbosityManager.setLevel",
+      "startLine": 58,
+      "startOffset": 1770,
+      "symbolId": "packages/daemon/src/verbosity.ts::VerbosityManager.setLevel::method"
+    },
+    {
+      "endLine": 69,
+      "endOffset": 2139,
+      "kind": "method",
+      "name": "VerbosityManager.shouldShow",
+      "startLine": 66,
+      "startOffset": 1984,
+      "symbolId": "packages/daemon/src/verbosity.ts::VerbosityManager.shouldShow::method"
+    }
+  ]
+}

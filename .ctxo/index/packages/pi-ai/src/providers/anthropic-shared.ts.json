@@ -1,0 +1,632 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::supportsAdaptiveThinking::function"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::mapThinkingLevelToEffort::function"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::isTransientNetworkError::function"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::extractRetryAfterMs::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::normalizeToolCallId::function"
+    },
+    {
+      "cyclomatic": 38,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::convertTools::function"
+    },
+    {
+      "cyclomatic": 21,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::mapStopReason::function"
+    },
+    {
+      "cyclomatic": 72,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function"
+    }
+  ],
+  "contentHash": "8f83bd747bfe80e8b286b46b78e49755a5335569c3aa2f8849f14b1c81a08799",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::CacheRetention::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ImageContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Message::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ServerToolUseContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ThinkingContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Tool::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ToolResultMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::WebSearchResultContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::hasXmlParameterTags::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::resolveCacheRetention::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::convertTools::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::supportsAdaptiveThinking::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::hasXmlParameterTags::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::mapStopReason::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::extractRetryAfterMs::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/anthropic-shared.ts::isTransientNetworkError::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::CacheRetention::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ImageContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Message::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ToolResultMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::convertTools::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Tool::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::mapStopReason::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ThinkingContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ServerToolUseContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::WebSearchResultContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::hasXmlParameterTags::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/anthropic-shared.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 115,
+      "endOffset": 3734,
+      "kind": "function",
+      "name": "getCacheControl",
+      "startLine": 102,
+      "startOffset": 3267,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::getCacheControl::function"
+    },
+    {
+      "endLine": 162,
+      "endOffset": 4857,
+      "kind": "function",
+      "name": "convertContentBlocks",
+      "startLine": 118,
+      "startOffset": 3822,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::convertContentBlocks::function"
+    },
+    {
+      "endLine": 178,
+      "endOffset": 5403,
+      "kind": "function",
+      "name": "supportsAdaptiveThinking",
+      "startLine": 165,
+      "startOffset": 4972,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::supportsAdaptiveThinking::function"
+    },
+    {
+      "endLine": 198,
+      "endOffset": 6001,
+      "kind": "function",
+      "name": "mapThinkingLevelToEffort",
+      "startLine": 181,
+      "startOffset": 5508,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::mapThinkingLevelToEffort::function"
+    },
+    {
+      "endLine": 217,
+      "endOffset": 6646,
+      "kind": "function",
+      "name": "isTransientNetworkError",
+      "startLine": 201,
+      "startOffset": 6104,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::isTransientNetworkError::function"
+    },
+    {
+      "endLine": 249,
+      "endOffset": 7762,
+      "kind": "function",
+      "name": "extractRetryAfterMs",
+      "startLine": 220,
+      "startOffset": 6748,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::extractRetryAfterMs::function"
+    },
+    {
+      "endLine": 254,
+      "endOffset": 7983,
+      "kind": "function",
+      "name": "normalizeToolCallId",
+      "startLine": 252,
+      "startOffset": 7867,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::normalizeToolCallId::function"
+    },
+    {
+      "endLine": 428,
+      "endOffset": 12952,
+      "kind": "function",
+      "name": "convertMessages",
+      "startLine": 257,
+      "startOffset": 8099,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::convertMessages::function"
+    },
+    {
+      "endLine": 458,
+      "endOffset": 13773,
+      "kind": "function",
+      "name": "convertTools",
+      "startLine": 431,
+      "startOffset": 13056,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::convertTools::function"
+    },
+    {
+      "endLine": 541,
+      "endOffset": 16116,
+      "kind": "function",
+      "name": "buildParams",
+      "startLine": 461,
+      "startOffset": 13858,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::buildParams::function"
+    },
+    {
+      "endLine": 563,
+      "endOffset": 16627,
+      "kind": "function",
+      "name": "mapStopReason",
+      "startLine": 544,
+      "startOffset": 16197,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::mapStopReason::function"
+    },
+    {
+      "endLine": 841,
+      "endOffset": 27224,
+      "kind": "function",
+      "name": "processAnthropicStream",
+      "startLine": 576,
+      "startOffset": 16992,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::processAnthropicStream::function"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1708,
+      "kind": "interface",
+      "name": "AnthropicOptions",
+      "startLine": 43,
+      "startOffset": 1458,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::AnthropicOptions::interface"
+    },
+    {
+      "endLine": 573,
+      "endOffset": 16876,
+      "kind": "interface",
+      "name": "StreamAnthropicArgs",
+      "startLine": 566,
+      "startOffset": 16676,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::StreamAnthropicArgs::interface"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 851,
+      "kind": "type",
+      "name": "AnthropicApi",
+      "startLine": 32,
+      "startOffset": 782,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::AnthropicApi::type"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 1364,
+      "kind": "type",
+      "name": "AnthropicEffort",
+      "startLine": 40,
+      "startOffset": 1290,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::AnthropicEffort::type"
+    },
+    {
+      "endLine": 76,
+      "endOffset": 2389,
+      "kind": "variable",
+      "name": "toClaudeCodeName",
+      "startLine": 76,
+      "startOffset": 2308,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::toClaudeCodeName::variable"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 2793,
+      "kind": "variable",
+      "name": "fromClaudeCodeName",
+      "startLine": 78,
+      "startOffset": 2517,
+      "symbolId": "packages/pi-ai/src/providers/anthropic-shared.ts::fromClaudeCodeName::variable"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.resetOverflowRecovery::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.clearOverflowRecovery::method"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.compact::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.abortCompaction::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.abortBranchSummary::method"
+    },
+    {
+      "cyclomatic": 20,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.setAutoCompactionEnabled::method"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._scheduleAutoCompactionFollowup::method"
+    }
+  ],
+  "contentHash": "5f36c9a81fc51349c9e55a56b0f485d1fc86051984b33ecd93aa49ffe7846325",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionProducedNoSummaryError::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::calculateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::compact::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::estimateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::prepareCompaction::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::shouldCompact::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::ExtensionRunner::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeCompactResult::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::CompactionEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSessionEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.compact::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::prepareCompaction::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::estimateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::calculateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::shouldCompact::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::prepareCompaction::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._scheduleAutoCompactionFollowup::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::compact::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._scheduleAutoCompactionFollowup::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::compact::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionResult::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::prepareCompaction::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/index.ts::SessionBeforeCompactResult::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::CompactionEntry::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::estimateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::calculateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::shouldCompact::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/index.ts::CompactionProducedNoSummaryError::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/error.ts::getErrorMessage::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 439,
+      "endOffset": 15447,
+      "kind": "class",
+      "name": "CompactionOrchestrator",
+      "startLine": 46,
+      "startOffset": 1725,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator::class"
+    },
+    {
+      "endLine": 66,
+      "endOffset": 2557,
+      "kind": "method",
+      "name": "CompactionOrchestrator.resetOverflowRecovery",
+      "startLine": 64,
+      "startOffset": 2480,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.resetOverflowRecovery::method"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 2724,
+      "kind": "method",
+      "name": "CompactionOrchestrator.clearOverflowRecovery",
+      "startLine": 69,
+      "startOffset": 2647,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.clearOverflowRecovery::method"
+    },
+    {
+      "endLine": 188,
+      "endOffset": 6576,
+      "kind": "method",
+      "name": "CompactionOrchestrator.compact",
+      "startLine": 86,
+      "startOffset": 3222,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.compact::method"
+    },
+    {
+      "endLine": 194,
+      "endOffset": 6754,
+      "kind": "method",
+      "name": "CompactionOrchestrator.abortCompaction",
+      "startLine": 191,
+      "startOffset": 6634,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.abortCompaction::method"
+    },
+    {
+      "endLine": 199,
+      "endOffset": 6883,
+      "kind": "method",
+      "name": "CompactionOrchestrator.abortBranchSummary",
+      "startLine": 197,
+      "startOffset": 6805,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.abortBranchSummary::method"
+    },
+    {
+      "endLine": 274,
+      "endOffset": 9726,
+      "kind": "method",
+      "name": "CompactionOrchestrator.checkCompaction",
+      "startLine": 212,
+      "startOffset": 7343,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.checkCompaction::method"
+    },
+    {
+      "endLine": 279,
+      "endOffset": 9881,
+      "kind": "method",
+      "name": "CompactionOrchestrator.setAutoCompactionEnabled",
+      "startLine": 277,
+      "startOffset": 9768,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator.setAutoCompactionEnabled::method"
+    },
+    {
+      "endLine": 417,
+      "endOffset": 14855,
+      "kind": "method",
+      "name": "CompactionOrchestrator._runAutoCompaction",
+      "startLine": 290,
+      "startOffset": 10208,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._runAutoCompaction::method"
+    },
+    {
+      "endLine": 438,
+      "endOffset": 15445,
+      "kind": "method",
+      "name": "CompactionOrchestrator._scheduleAutoCompactionFollowup",
+      "startLine": 419,
+      "startOffset": 14858,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestrator._scheduleAutoCompactionFollowup::method"
+    },
+    {
+      "endLine": 44,
+      "endOffset": 1723,
+      "kind": "interface",
+      "name": "CompactionOrchestratorDeps",
+      "startLine": 32,
+      "startOffset": 1263,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction-orchestrator.ts::CompactionOrchestratorDeps::interface"
+    }
+  ]
+}

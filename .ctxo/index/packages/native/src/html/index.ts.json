@@ -1,0 +1,54 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/native/src/html/index.ts::htmlToMarkdown::function"
+    }
+  ],
+  "contentHash": "0ab20f95820b59362bc005c029fca6bfce09ccbc40ab2f30337d2badfd499ba8",
+  "edges": [
+    {
+      "from": "packages/native/src/html/index.ts::htmlToMarkdown::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/html/index.ts::htmlToMarkdown::function",
+      "kind": "imports",
+      "to": "packages/native/src/html/types.ts::HtmlToMarkdownOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/html/index.ts::htmlToMarkdown::function",
+      "kind": "uses",
+      "to": "packages/native/src/html/types.ts::HtmlToMarkdownOptions::interface"
+    },
+    {
+      "from": "packages/native/src/html/index.ts::htmlToMarkdown::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/html/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 23,
+      "endOffset": 675,
+      "kind": "function",
+      "name": "htmlToMarkdown",
+      "startLine": 18,
+      "startOffset": 516,
+      "symbolId": "packages/native/src/html/index.ts::htmlToMarkdown::function"
+    }
+  ]
+}

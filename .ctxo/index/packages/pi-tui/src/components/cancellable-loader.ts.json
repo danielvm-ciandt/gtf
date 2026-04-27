@@ -1,0 +1,85 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader.handleInput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader.dispose::method"
+    }
+  ],
+  "contentHash": "55e4f91717966ce1508e40b713bc37c0df18953818f2cab5121db0f5d4c5caae",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/components/loader.ts::Loader::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader::class",
+      "kind": "extends",
+      "to": "packages/pi-tui/src/components/loader.ts::Loader::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/components/loader.ts::Loader::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/cancellable-loader.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 41,
+      "endOffset": 1066,
+      "kind": "class",
+      "name": "CancellableLoader",
+      "startLine": 12,
+      "startOffset": 382,
+      "symbolId": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader::class"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 966,
+      "kind": "method",
+      "name": "CancellableLoader.handleInput",
+      "startLine": 28,
+      "startOffset": 793,
+      "symbolId": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader.handleInput::method"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 1064,
+      "kind": "method",
+      "name": "CancellableLoader.dispose",
+      "startLine": 36,
+      "startOffset": 969,
+      "symbolId": "packages/pi-tui/src/components/cancellable-loader.ts::CancellableLoader.dispose::method"
+    }
+  ]
+}

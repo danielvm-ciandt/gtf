@@ -1,0 +1,106 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.consume::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.flush::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.drain::method"
+    }
+  ],
+  "contentHash": "43671cb3ba5f70ce3d570f526c7f5aef4c10fbbbe7255e53a5fc96cffa4b6023",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.consume::method",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.drain::method"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.flush::method",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.drain::method"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.drain::method",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/think-tag-parser.ts::trailingPartialLength::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.drain::method",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/think-tag-parser.ts::trailingPartialLength::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/think-tag-parser.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 93,
+      "endOffset": 2587,
+      "kind": "class",
+      "name": "ThinkTagParser",
+      "startLine": 28,
+      "startOffset": 722,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser::class"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 925,
+      "kind": "method",
+      "name": "ThinkTagParser.consume",
+      "startLine": 31,
+      "startOffset": 823,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.consume::method"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 983,
+      "kind": "method",
+      "name": "ThinkTagParser.flush",
+      "startLine": 36,
+      "startOffset": 928,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.flush::method"
+    },
+    {
+      "endLine": 92,
+      "endOffset": 2585,
+      "kind": "method",
+      "name": "ThinkTagParser.drain",
+      "startLine": 40,
+      "startOffset": 986,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkTagParser.drain::method"
+    },
+    {
+      "endLine": 5,
+      "endOffset": 126,
+      "kind": "interface",
+      "name": "ThinkSegment",
+      "startLine": 2,
+      "startOffset": 53,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkSegment::interface"
+    },
+    {
+      "endLine": 0,
+      "endOffset": 51,
+      "kind": "type",
+      "name": "ThinkSegmentType",
+      "startLine": 0,
+      "startOffset": 0,
+      "symbolId": "packages/pi-ai/src/providers/think-tag-parser.ts::ThinkSegmentType::type"
+    }
+  ]
+}

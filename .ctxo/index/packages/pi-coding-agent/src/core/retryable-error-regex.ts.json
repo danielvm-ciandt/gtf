@@ -1,0 +1,27 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "0e13714e448dfef9e8623eccef6d51857016ba28f8dff4c0bf22c1587d40fcd7",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/retryable-error-regex.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 17,
+      "endOffset": 1380,
+      "kind": "variable",
+      "name": "RETRYABLE_ERROR_RE",
+      "startLine": 16,
+      "startOffset": 872,
+      "symbolId": "packages/pi-coding-agent/src/core/retryable-error-regex.ts::RETRYABLE_ERROR_RE::variable"
+    }
+  ]
+}

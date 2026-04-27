@@ -1,0 +1,379 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getUpdateInstruction::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getThemesDir::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getExportTemplateDir::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getReadmePath::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getExamplesPath::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getChangelogPath::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getShareViewerUrl::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getModelsPath::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getAuthPath::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getSettingsPath::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getBinDir::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getPromptsDir::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getSessionsDir::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getBlobsDir::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getDebugLogPath::function"
+    }
+  ],
+  "contentHash": "19212c41864a57eba91e6a7d3b490409cf8ac380a373dd69e4514578a55cd154",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getUpdateInstruction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::detectInstallMethod::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getThemesDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getPackageDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getExportTemplateDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getPackageDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getReadmePath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getPackageDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getDocsPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getPackageDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getExamplesPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getPackageDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getChangelogPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getPackageDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getModelsPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getAuthPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getSettingsPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getBinDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getPromptsDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getSessionsDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getBlobsDir::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/config.ts::getDebugLogPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/config.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 67,
+      "endOffset": 2314,
+      "kind": "function",
+      "name": "getUpdateInstruction",
+      "startLine": 51,
+      "startOffset": 1772,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getUpdateInstruction::function"
+    },
+    {
+      "endLine": 122,
+      "endOffset": 4380,
+      "kind": "function",
+      "name": "getThemesDir",
+      "startLine": 114,
+      "startOffset": 4017,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getThemesDir::function"
+    },
+    {
+      "endLine": 137,
+      "endOffset": 4904,
+      "kind": "function",
+      "name": "getExportTemplateDir",
+      "startLine": 130,
+      "startOffset": 4604,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getExportTemplateDir::function"
+    },
+    {
+      "endLine": 147,
+      "endOffset": 5153,
+      "kind": "function",
+      "name": "getReadmePath",
+      "startLine": 145,
+      "startOffset": 5057,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getReadmePath::function"
+    },
+    {
+      "endLine": 152,
+      "endOffset": 5278,
+      "kind": "function",
+      "name": "getDocsPath",
+      "startLine": 150,
+      "startOffset": 5189,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getDocsPath::function"
+    },
+    {
+      "endLine": 157,
+      "endOffset": 5415,
+      "kind": "function",
+      "name": "getExamplesPath",
+      "startLine": 155,
+      "startOffset": 5318,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getExamplesPath::function"
+    },
+    {
+      "endLine": 162,
+      "endOffset": 5551,
+      "kind": "function",
+      "name": "getChangelogPath",
+      "startLine": 160,
+      "startOffset": 5449,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getChangelogPath::function"
+    },
+    {
+      "endLine": 183,
+      "endOffset": 6414,
+      "kind": "function",
+      "name": "getShareViewerUrl",
+      "startLine": 180,
+      "startOffset": 6243,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getShareViewerUrl::function"
+    },
+    {
+      "endLine": 199,
+      "endOffset": 6989,
+      "kind": "function",
+      "name": "getAgentDir",
+      "startLine": 190,
+      "startOffset": 6675,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "endLine": 204,
+      "endOffset": 7128,
+      "kind": "function",
+      "name": "getCustomThemesDir",
+      "startLine": 202,
+      "startOffset": 7041,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getCustomThemesDir::function"
+    },
+    {
+      "endLine": 209,
+      "endOffset": 7248,
+      "kind": "function",
+      "name": "getModelsPath",
+      "startLine": 207,
+      "startOffset": 7161,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getModelsPath::function"
+    },
+    {
+      "endLine": 214,
+      "endOffset": 7362,
+      "kind": "function",
+      "name": "getAuthPath",
+      "startLine": 212,
+      "startOffset": 7279,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getAuthPath::function"
+    },
+    {
+      "endLine": 219,
+      "endOffset": 7488,
+      "kind": "function",
+      "name": "getSettingsPath",
+      "startLine": 217,
+      "startOffset": 7397,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getSettingsPath::function"
+    },
+    {
+      "endLine": 224,
+      "endOffset": 7620,
+      "kind": "function",
+      "name": "getBinDir",
+      "startLine": 222,
+      "startOffset": 7545,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getBinDir::function"
+    },
+    {
+      "endLine": 229,
+      "endOffset": 7751,
+      "kind": "function",
+      "name": "getPromptsDir",
+      "startLine": 227,
+      "startOffset": 7668,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getPromptsDir::function"
+    },
+    {
+      "endLine": 234,
+      "endOffset": 7876,
+      "kind": "function",
+      "name": "getSessionsDir",
+      "startLine": 232,
+      "startOffset": 7791,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getSessionsDir::function"
+    },
+    {
+      "endLine": 239,
+      "endOffset": 8015,
+      "kind": "function",
+      "name": "getBlobsDir",
+      "startLine": 237,
+      "startOffset": 7936,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getBlobsDir::function"
+    },
+    {
+      "endLine": 244,
+      "endOffset": 8150,
+      "kind": "function",
+      "name": "getDebugLogPath",
+      "startLine": 242,
+      "startOffset": 8051,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::getDebugLogPath::function"
+    },
+    {
+      "endLine": 17,
+      "endOffset": 744,
+      "kind": "variable",
+      "name": "isBunBinary",
+      "startLine": 16,
+      "startOffset": 621,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::isBunBinary::variable"
+    },
+    {
+      "endLine": 170,
+      "endOffset": 5887,
+      "kind": "variable",
+      "name": "APP_NAME",
+      "startLine": 170,
+      "startOffset": 5842,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::APP_NAME::variable"
+    },
+    {
+      "endLine": 171,
+      "endOffset": 5960,
+      "kind": "variable",
+      "name": "CONFIG_DIR_NAME",
+      "startLine": 171,
+      "startOffset": 5902,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "endLine": 172,
+      "endOffset": 6004,
+      "kind": "variable",
+      "name": "VERSION",
+      "startLine": 172,
+      "startOffset": 5975,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::VERSION::variable"
+    },
+    {
+      "endLine": 175,
+      "endOffset": 6133,
+      "kind": "variable",
+      "name": "ENV_AGENT_DIR",
+      "startLine": 175,
+      "startOffset": 6073,
+      "symbolId": "packages/pi-coding-agent/src/config.ts::ENV_AGENT_DIR::variable"
+    }
+  ]
+}

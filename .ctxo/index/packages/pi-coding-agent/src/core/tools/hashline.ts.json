@@ -1,0 +1,223 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::computeLineHash::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatLineTag::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseTag::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::validateLineRef::function"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::stripNewLinePrefixes::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseHashlineText::function"
+    },
+    {
+      "cyclomatic": 67,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashlineMismatchError.formatMessage::method"
+    }
+  ],
+  "contentHash": "605493b1a9d55b1327810dac96a189ed71b43a8e09cc8855a50e9138e4e55e05",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashlineMismatchError::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/core/tools/hashline.ts::Error::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatLineTag::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::computeLineHash::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatLineTag::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::validateLineRef::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::computeLineHash::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseHashlineText::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::stripNewLinePrefixes::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::computeLineHash::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::maybeAutocorrectEscapedTabIndentation::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::shouldAutocorrect::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::shouldAutocorrect::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashlineMismatchError.formatMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::computeLineHash::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/hashline.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 54,
+      "endOffset": 1915,
+      "kind": "function",
+      "name": "computeLineHash",
+      "startLine": 46,
+      "startOffset": 1691,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::computeLineHash::function"
+    },
+    {
+      "endLine": 61,
+      "endOffset": 2093,
+      "kind": "function",
+      "name": "formatLineTag",
+      "startLine": 59,
+      "startOffset": 1974,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatLineTag::function"
+    },
+    {
+      "endLine": 76,
+      "endOffset": 2471,
+      "kind": "function",
+      "name": "formatHashLines",
+      "startLine": 68,
+      "startOffset": 2231,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::formatHashLines::function"
+    },
+    {
+      "endLine": 93,
+      "endOffset": 3008,
+      "kind": "function",
+      "name": "parseTag",
+      "startLine": 83,
+      "startOffset": 2595,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseTag::function"
+    },
+    {
+      "endLine": 187,
+      "endOffset": 5942,
+      "kind": "function",
+      "name": "validateLineRef",
+      "startLine": 179,
+      "startOffset": 5506,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::validateLineRef::function"
+    },
+    {
+      "endLine": 226,
+      "endOffset": 7367,
+      "kind": "function",
+      "name": "stripNewLinePrefixes",
+      "startLine": 205,
+      "startOffset": 6663,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::stripNewLinePrefixes::function"
+    },
+    {
+      "endLine": 239,
+      "endOffset": 7816,
+      "kind": "function",
+      "name": "parseHashlineText",
+      "startLine": 232,
+      "startOffset": 7503,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseHashlineText::function"
+    },
+    {
+      "endLine": 524,
+      "endOffset": 16867,
+      "kind": "function",
+      "name": "applyHashlineEdits",
+      "startLine": 294,
+      "startOffset": 9708,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function"
+    },
+    {
+      "endLine": 174,
+      "endOffset": 5413,
+      "kind": "class",
+      "name": "HashlineMismatchError",
+      "startLine": 112,
+      "startOffset": 3530,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashlineMismatchError::class"
+    },
+    {
+      "endLine": 173,
+      "endOffset": 5411,
+      "kind": "method",
+      "name": "HashlineMismatchError.formatMessage",
+      "startLine": 132,
+      "startOffset": 4179,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashlineMismatchError.formatMessage::method"
+    },
+    {
+      "endLine": 103,
+      "endOffset": 3276,
+      "kind": "interface",
+      "name": "HashMismatch",
+      "startLine": 99,
+      "startOffset": 3192,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashMismatch::interface"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 952,
+      "kind": "type",
+      "name": "Anchor",
+      "startLine": 23,
+      "startOffset": 900,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::Anchor::type"
+    },
+    {
+      "endLine": 27,
+      "endOffset": 1148,
+      "kind": "type",
+      "name": "HashlineEdit",
+      "startLine": 24,
+      "startOffset": 953,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashlineEdit::type"
+    }
+  ]
+}

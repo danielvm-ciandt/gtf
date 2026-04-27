@@ -1,0 +1,48 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "864cb8e16a75eb56df23defd9b94237cbc65f7d55ec552a07da6738224256204",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/skill-tool.test.ts::skill-tool.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skill-tool.test.ts::skill-tool.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skill-tool.test.ts::skill-tool.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skill-tool.test.ts::skill-tool.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skill-tool.test.ts::skill-tool.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/skill-tool.test.ts::skill-tool.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/skill-tool.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": []
+}

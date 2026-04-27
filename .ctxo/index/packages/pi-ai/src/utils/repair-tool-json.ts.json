@@ -1,0 +1,97 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::hasYamlBulletLists::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::hasXmlParameterTags::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::hasTruncatedNumbers::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function"
+    }
+  ],
+  "contentHash": "5f6c7732de7c862f0218a2ec52ae4d49fc11c6c287dae07c2bf76cbbd2573e3c",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::hasXmlParameterTags::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::promoteXmlParametersToTopLevel::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::hasTruncatedNumbers::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::repairTruncatedNumbers::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/repair-tool-json.ts::hasYamlBulletLists::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/repair-tool-json.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 27,
+      "endOffset": 954,
+      "kind": "function",
+      "name": "hasYamlBulletLists",
+      "startLine": 23,
+      "startOffset": 701,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::hasYamlBulletLists::function"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 1354,
+      "kind": "function",
+      "name": "hasXmlParameterTags",
+      "startLine": 38,
+      "startOffset": 1251,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::hasXmlParameterTags::function"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 1901,
+      "kind": "function",
+      "name": "hasTruncatedNumbers",
+      "startLine": 51,
+      "startOffset": 1637,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::hasTruncatedNumbers::function"
+    },
+    {
+      "endLine": 219,
+      "endOffset": 7232,
+      "kind": "function",
+      "name": "repairToolJson",
+      "startLine": 162,
+      "startOffset": 5136,
+      "symbolId": "packages/pi-ai/src/utils/repair-tool-json.ts::repairToolJson::function"
+    }
+  ]
+}

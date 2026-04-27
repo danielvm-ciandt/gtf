@@ -1,0 +1,117 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent.getResourceList::method"
+    }
+  ],
+  "contentHash": "e9953b1e9ba23bc02461167a42352f1c8ddebf2ecd190a7e3b91efda099506a2",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::PathMetadata::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::ResolvedPaths::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::ResolvedResource::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::PackageSource::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::ResolvedPaths::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 596,
+      "endOffset": 17986,
+      "kind": "class",
+      "name": "ConfigSelectorComponent",
+      "startLine": 549,
+      "startOffset": 16816,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent::class"
+    },
+    {
+      "endLine": 595,
+      "endOffset": 17984,
+      "kind": "method",
+      "name": "ConfigSelectorComponent.getResourceList",
+      "startLine": 593,
+      "startOffset": 17920,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/config-selector.ts::ConfigSelectorComponent.getResourceList::method"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "c2bb61b8d25e25a26fb742d65bc39899d0bd03b5fbd7d5f37a2218d5325df6e4",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/utils/frontmatter.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 36,
+      "endOffset": 1059,
+      "kind": "variable",
+      "name": "parseFrontmatter",
+      "startLine": 27,
+      "startOffset": 719,
+      "symbolId": "packages/pi-coding-agent/src/utils/frontmatter.ts::parseFrontmatter::variable"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1153,
+      "kind": "variable",
+      "name": "stripFrontmatter",
+      "startLine": 38,
+      "startOffset": 1075,
+      "symbolId": "packages/pi-coding-agent/src/utils/frontmatter.ts::stripFrontmatter::variable"
+    }
+  ]
+}

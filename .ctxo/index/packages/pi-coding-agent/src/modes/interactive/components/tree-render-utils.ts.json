@@ -1,0 +1,150 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::buildTreePrefix::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::computeScrollWindow::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderCursor::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::applyRowHighlight::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderScrollPosition::function"
+    }
+  ],
+  "contentHash": "327a43668e051e930eacf74a9e1992184ba0b34206cab28f52afd1bdf8c5d3c4",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::buildTreePrefix::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderCursor::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::applyRowHighlight::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderScrollPosition::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 24,
+      "endOffset": 1156,
+      "kind": "function",
+      "name": "buildTreePrefix",
+      "startLine": 19,
+      "startOffset": 848,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::buildTreePrefix::function"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 1956,
+      "kind": "function",
+      "name": "computeScrollWindow",
+      "startLine": 41,
+      "startOffset": 1629,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::computeScrollWindow::function"
+    },
+    {
+      "endLine": 57,
+      "endOffset": 2296,
+      "kind": "function",
+      "name": "renderCursor",
+      "startLine": 55,
+      "startOffset": 2176,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderCursor::function"
+    },
+    {
+      "endLine": 65,
+      "endOffset": 2586,
+      "kind": "function",
+      "name": "applyRowHighlight",
+      "startLine": 62,
+      "startOffset": 2374,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::applyRowHighlight::function"
+    },
+    {
+      "endLine": 80,
+      "endOffset": 3030,
+      "kind": "function",
+      "name": "renderScrollPosition",
+      "startLine": 72,
+      "startOffset": 2758,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderScrollPosition::function"
+    },
+    {
+      "endLine": 33,
+      "endOffset": 1384,
+      "kind": "interface",
+      "name": "ScrollWindow",
+      "startLine": 28,
+      "startOffset": 1232,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::ScrollWindow::interface"
+    },
+    {
+      "endLine": 4,
+      "endOffset": 206,
+      "kind": "variable",
+      "name": "TREE_BRANCH",
+      "startLine": 4,
+      "startOffset": 177,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::TREE_BRANCH::variable"
+    },
+    {
+      "endLine": 5,
+      "endOffset": 257,
+      "kind": "variable",
+      "name": "TREE_LAST",
+      "startLine": 5,
+      "startOffset": 230,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::TREE_LAST::variable"
+    },
+    {
+      "endLine": 6,
+      "endOffset": 303,
+      "kind": "variable",
+      "name": "TREE_PIPE",
+      "startLine": 6,
+      "startOffset": 281,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::TREE_PIPE::variable"
+    },
+    {
+      "endLine": 7,
+      "endOffset": 345,
+      "kind": "variable",
+      "name": "TREE_SPACE",
+      "startLine": 7,
+      "startOffset": 327,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::TREE_SPACE::variable"
+    }
+  ]
+}

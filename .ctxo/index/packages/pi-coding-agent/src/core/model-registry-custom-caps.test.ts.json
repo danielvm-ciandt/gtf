@@ -1,0 +1,28 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "543b0b6d806ee591d8052db7ac5b2727d5ef61f7c61a8e1129aa7b15242e8b10",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry-custom-caps.test.ts::model-registry-custom-caps.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry-custom-caps.test.ts::model-registry-custom-caps.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/model-registry-custom-caps.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": []
+}

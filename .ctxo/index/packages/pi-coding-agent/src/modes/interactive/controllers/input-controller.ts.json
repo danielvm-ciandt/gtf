@@ -1,0 +1,90 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 24,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function"
+    }
+  ],
+  "contentHash": "b66c7203498138fcc8e36908c2448435b3ca1c6557b92f02c290884c49124d1d",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeStateHost::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::looksLikeFilePath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::consumePendingImages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::consumePendingImages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::consumePendingImages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeStateHost::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/contextual-tips.ts::ContextualTips::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 141,
+      "endOffset": 4645,
+      "kind": "function",
+      "name": "setupEditorSubmitHandler",
+      "startLine": 16,
+      "startOffset": 631,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/input-controller.ts::setupEditorSubmitHandler::function"
+    }
+  ]
+}

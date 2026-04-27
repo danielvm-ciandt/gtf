@@ -1,0 +1,27 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "bd34ebd4988937ddcf02392043a8fadc63d2bea03adbc265fd391d9a78386572",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/defaults.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 2,
+      "endOffset": 119,
+      "kind": "variable",
+      "name": "DEFAULT_THINKING_LEVEL",
+      "startLine": 2,
+      "startOffset": 71,
+      "symbolId": "packages/pi-coding-agent/src/core/defaults.ts::DEFAULT_THINKING_LEVEL::variable"
+    }
+  ]
+}

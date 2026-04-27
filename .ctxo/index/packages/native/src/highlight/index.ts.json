@@ -1,0 +1,90 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/highlight/index.ts::highlightCode::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/highlight/index.ts::supportsLanguage::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/highlight/index.ts::getSupportedLanguages::function"
+    }
+  ],
+  "contentHash": "2f590b44bac412c1afe4297734f77cbbdd28af0c64c364e6e2837324278a3dc9",
+  "edges": [
+    {
+      "from": "packages/native/src/highlight/index.ts::highlightCode::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/highlight/index.ts::highlightCode::function",
+      "kind": "imports",
+      "to": "packages/native/src/highlight/types.ts::HighlightColors::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/highlight/index.ts::highlightCode::function",
+      "kind": "uses",
+      "to": "packages/native/src/highlight/types.ts::HighlightColors::interface"
+    },
+    {
+      "from": "packages/native/src/highlight/index.ts::highlightCode::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/highlight/index.ts::supportsLanguage::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/highlight/index.ts::getSupportedLanguages::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/highlight/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 26,
+      "endOffset": 787,
+      "kind": "function",
+      "name": "highlightCode",
+      "startLine": 20,
+      "startOffset": 616,
+      "symbolId": "packages/native/src/highlight/index.ts::highlightCode::function"
+    },
+    {
+      "endLine": 36,
+      "endOffset": 1062,
+      "kind": "function",
+      "name": "supportsLanguage",
+      "startLine": 34,
+      "startOffset": 952,
+      "symbolId": "packages/native/src/highlight/index.ts::supportsLanguage::function"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 1257,
+      "kind": "function",
+      "name": "getSupportedLanguages",
+      "startLine": 41,
+      "startOffset": 1151,
+      "symbolId": "packages/native/src/highlight/index.ts::getSupportedLanguages::function"
+    }
+  ]
+}

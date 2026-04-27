@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "f04ff9ffb29f123a9728d6d14cb59ede031e33857644c2816eb72c3732cd842f",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/resources/extensions/memory/storage.test.ts::storage.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/resources/extensions/memory/storage.ts::MemoryStorage::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/resources/extensions/memory/storage.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": []
+}

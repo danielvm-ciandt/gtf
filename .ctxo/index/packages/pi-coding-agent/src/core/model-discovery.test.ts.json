@@ -1,0 +1,43 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "aef7fba1d63cf2aee705e69185a355b50c0caf9f2c7ca7d5b9b8e26cfa7ad476",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/model-discovery.test.ts::model-discovery.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::DISCOVERY_TTLS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-discovery.test.ts::model-discovery.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-discovery.test.ts::model-discovery.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-discovery.test.ts::model-discovery.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-discovery.test.ts::model-discovery.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/model-discovery.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": []
+}

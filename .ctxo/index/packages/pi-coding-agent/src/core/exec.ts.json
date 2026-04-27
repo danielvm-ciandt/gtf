@@ -1,0 +1,50 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/exec.ts::execCommand::function"
+    }
+  ],
+  "contentHash": "6803de303b2a301686364282d2785ff00b446beadeec67a36cf5afe61aff9433",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/exec.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 105,
+      "endOffset": 2387,
+      "kind": "function",
+      "name": "execCommand",
+      "startLine": 32,
+      "startOffset": 617,
+      "symbolId": "packages/pi-coding-agent/src/core/exec.ts::execCommand::function"
+    },
+    {
+      "endLine": 16,
+      "endOffset": 363,
+      "kind": "interface",
+      "name": "ExecOptions",
+      "startLine": 9,
+      "startOffset": 174,
+      "symbolId": "packages/pi-coding-agent/src/core/exec.ts::ExecOptions::interface"
+    },
+    {
+      "endLine": 26,
+      "endOffset": 511,
+      "kind": "interface",
+      "name": "ExecResult",
+      "startLine": 21,
+      "startOffset": 413,
+      "symbolId": "packages/pi-coding-agent/src/core/exec.ts::ExecResult::interface"
+    }
+  ]
+}

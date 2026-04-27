@@ -1,0 +1,97 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    }
+  ],
+  "contentHash": "278617073e04a65c89ae665b11714c3e4b1b3fbb2bdea046aec63f4fd29fc08c",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getNodeCreateServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 112,
+      "endOffset": 3392,
+      "kind": "function",
+      "name": "startCallbackServer",
+      "startLine": 47,
+      "startOffset": 1606,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "endLine": 131,
+      "endOffset": 3837,
+      "kind": "function",
+      "name": "parseRedirectUrl",
+      "startLine": 117,
+      "startOffset": 3482,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "endLine": 153,
+      "endOffset": 4397,
+      "kind": "function",
+      "name": "getGoogleUserEmail",
+      "startLine": 136,
+      "startOffset": 3913,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    },
+    {
+      "endLine": 200,
+      "endOffset": 5761,
+      "kind": "function",
+      "name": "refreshGoogleOAuthToken",
+      "startLine": 164,
+      "startOffset": 4771,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 843,
+      "kind": "type",
+      "name": "CallbackServerInfo",
+      "startLine": 19,
+      "startOffset": 695,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::CallbackServerInfo::type"
+    }
+  ]
+}

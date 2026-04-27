@@ -1,0 +1,60 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/utils/changelog.ts::parseChangelog::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/utils/changelog.ts::getNewEntries::function"
+    }
+  ],
+  "contentHash": "6f1ecfe1b64841153691aea0026e91cdcd8ed06399378b555d81e858816091b8",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/utils/changelog.ts::getNewEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/changelog.ts::compareVersions::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/utils/changelog.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 70,
+      "endOffset": 1837,
+      "kind": "function",
+      "name": "parseChangelog",
+      "startLine": 13,
+      "startOffset": 268,
+      "symbolId": "packages/pi-coding-agent/src/utils/changelog.ts::parseChangelog::function"
+    },
+    {
+      "endLine": 95,
+      "endOffset": 2551,
+      "kind": "function",
+      "name": "getNewEntries",
+      "startLine": 84,
+      "startOffset": 2186,
+      "symbolId": "packages/pi-coding-agent/src/utils/changelog.ts::getNewEntries::function"
+    },
+    {
+      "endLine": 7,
+      "endOffset": 149,
+      "kind": "interface",
+      "name": "ChangelogEntry",
+      "startLine": 2,
+      "startOffset": 48,
+      "symbolId": "packages/pi-coding-agent/src/utils/changelog.ts::ChangelogEntry::interface"
+    }
+  ]
+}

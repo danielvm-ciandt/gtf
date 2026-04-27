@@ -1,0 +1,27 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d336e017e8463a14462c53a72ae4bf3fa24ee02b170543f1f19b716434dd946b",
+  "edges": [],
+  "file": "packages/native/src/clipboard/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 6,
+      "endOffset": 233,
+      "kind": "interface",
+      "name": "ClipboardImage",
+      "startLine": 1,
+      "startOffset": 53,
+      "symbolId": "packages/native/src/clipboard/types.ts::ClipboardImage::interface"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "18cc3bdc852bc9e4e847aaa7c8f228976d88d4d69647f8b07b5e4b0f0dfbecbd",
+  "edges": [
+    {
+      "from": "packages/daemon/src/verbosity.test.ts::verbosity.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/verbosity.ts::VerbosityManager::class"
+    },
+    {
+      "from": "packages/daemon/src/verbosity.test.ts::verbosity.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/verbosity.ts::shouldShowAtLevel::function"
+    }
+  ],
+  "file": "packages/daemon/src/verbosity.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

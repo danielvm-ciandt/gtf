@@ -1,0 +1,374 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.handleInput::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.buildBaseLayout::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadCurrentSessions::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.enterRenameMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.exitRenameMode::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.confirmRename::method"
+    },
+    {
+      "cyclomatic": 23,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadScope::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.toggleSortMode::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.toggleNameFilter::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.refreshSessionsAfterMutation::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.toggleScope::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.getSessionList::method"
+    }
+  ],
+  "contentHash": "f694ef794b805a45766a6d632624eb385228091d5c73d3399696e1a9a53d8936",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionListProgress::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector-search.ts::filterAndSortSessions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector-search.ts::hasSessionName::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector-search.ts::NameFilter::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector-search.ts::SortMode::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::applyRowHighlight::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::buildTreePrefix::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::computeScrollWindow::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tree-render-utils.ts::renderCursor::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.exitRenameMode::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.buildBaseLayout::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.buildBaseLayout::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadCurrentSessions::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.enterRenameMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.buildBaseLayout::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.exitRenameMode::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.buildBaseLayout::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.confirmRename::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.exitRenameMode::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.confirmRename::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.exitRenameMode::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.confirmRename::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.refreshSessionsAfterMutation::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.confirmRename::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.exitRenameMode::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.refreshSessionsAfterMutation::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.toggleScope::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadScope::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector-search.ts::SortMode::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/session-selector-search.ts::NameFilter::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionInfo::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 1006,
+      "endOffset": 31980,
+      "kind": "class",
+      "name": "SessionSelectorComponent",
+      "startLine": 654,
+      "startOffset": 21414,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent::class"
+    },
+    {
+      "endLine": 667,
+      "endOffset": 21810,
+      "kind": "method",
+      "name": "SessionSelectorComponent.handleInput",
+      "startLine": 655,
+      "startOffset": 21494,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.handleInput::method"
+    },
+    {
+      "endLine": 717,
+      "endOffset": 23503,
+      "kind": "method",
+      "name": "SessionSelectorComponent.buildBaseLayout",
+      "startLine": 705,
+      "startOffset": 23038,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.buildBaseLayout::method"
+    },
+    {
+      "endLine": 841,
+      "endOffset": 27541,
+      "kind": "method",
+      "name": "SessionSelectorComponent.loadCurrentSessions",
+      "startLine": 839,
+      "startOffset": 27456,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadCurrentSessions::method"
+    },
+    {
+      "endLine": 858,
+      "endOffset": 28150,
+      "kind": "method",
+      "name": "SessionSelectorComponent.enterRenameMode",
+      "startLine": 843,
+      "startOffset": 27544,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.enterRenameMode::method"
+    },
+    {
+      "endLine": 867,
+      "endOffset": 28310,
+      "kind": "method",
+      "name": "SessionSelectorComponent.exitRenameMode",
+      "startLine": 860,
+      "startOffset": 28153,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.exitRenameMode::method"
+    },
+    {
+      "endLine": 891,
+      "endOffset": 28806,
+      "kind": "method",
+      "name": "SessionSelectorComponent.confirmRename",
+      "startLine": 869,
+      "startOffset": 28313,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.confirmRename::method"
+    },
+    {
+      "endLine": 957,
+      "endOffset": 30659,
+      "kind": "method",
+      "name": "SessionSelectorComponent.loadScope",
+      "startLine": 893,
+      "startOffset": 28809,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.loadScope::method"
+    },
+    {
+      "endLine": 965,
+      "endOffset": 30981,
+      "kind": "method",
+      "name": "SessionSelectorComponent.toggleSortMode",
+      "startLine": 959,
+      "startOffset": 30662,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.toggleSortMode::method"
+    },
+    {
+      "endLine": 972,
+      "endOffset": 31207,
+      "kind": "method",
+      "name": "SessionSelectorComponent.toggleNameFilter",
+      "startLine": 967,
+      "startOffset": 30984,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.toggleNameFilter::method"
+    },
+    {
+      "endLine": 976,
+      "endOffset": 31321,
+      "kind": "method",
+      "name": "SessionSelectorComponent.refreshSessionsAfterMutation",
+      "startLine": 974,
+      "startOffset": 31210,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.refreshSessionsAfterMutation::method"
+    },
+    {
+      "endLine": 1001,
+      "endOffset": 31914,
+      "kind": "method",
+      "name": "SessionSelectorComponent.toggleScope",
+      "startLine": 978,
+      "startOffset": 31324,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.toggleScope::method"
+    },
+    {
+      "endLine": 1005,
+      "endOffset": 31978,
+      "kind": "method",
+      "name": "SessionSelectorComponent.getSessionList",
+      "startLine": 1003,
+      "startOffset": 31917,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/session-selector.ts::SessionSelectorComponent.getSessionList::method"
+    }
+  ]
+}

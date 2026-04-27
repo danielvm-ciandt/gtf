@@ -1,0 +1,43 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "6b2d44aefedc6b5aa179ff73391b291a417256ad0b46fb0ad8ec4a7d2aa7c8a1",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeStateHost::interface",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSessionEvent::type",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 36,
+      "endOffset": 1039,
+      "kind": "interface",
+      "name": "InteractiveModeStateHost",
+      "startLine": 3,
+      "startOffset": 119,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeStateHost::interface"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1094,
+      "kind": "type",
+      "name": "InteractiveModeEvent",
+      "startLine": 38,
+      "startOffset": 1041,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeEvent::type"
+    }
+  ]
+}

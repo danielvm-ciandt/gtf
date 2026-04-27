@@ -1,0 +1,157 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.setExpanded::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.rebuild::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.render::method"
+    }
+  ],
+  "contentHash": "a6c5fef304ef93c6fb3fa5b477585fbc3979ca97caa9285d51584642d23468b2",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::ParsedSkillBlock::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.setExpanded::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.rebuild::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.rebuild::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.rebuild::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::ParsedSkillBlock::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 68,
+      "endOffset": 1987,
+      "kind": "class",
+      "name": "SkillInvocationMessageComponent",
+      "startLine": 12,
+      "startOffset": 603,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent::class"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 1103,
+      "kind": "method",
+      "name": "SkillInvocationMessageComponent.setExpanded",
+      "startLine": 24,
+      "startOffset": 974,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.setExpanded::method"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 1178,
+      "kind": "method",
+      "name": "SkillInvocationMessageComponent.invalidate",
+      "startLine": 31,
+      "startOffset": 1106,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.invalidate::method"
+    },
+    {
+      "endLine": 54,
+      "endOffset": 1559,
+      "kind": "method",
+      "name": "SkillInvocationMessageComponent.rebuild",
+      "startLine": 36,
+      "startOffset": 1181,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.rebuild::method"
+    },
+    {
+      "endLine": 67,
+      "endOffset": 1985,
+      "kind": "method",
+      "name": "SkillInvocationMessageComponent.render",
+      "startLine": 56,
+      "startOffset": 1562,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/skill-invocation-message.ts::SkillInvocationMessageComponent.render::method"
+    }
+  ]
+}

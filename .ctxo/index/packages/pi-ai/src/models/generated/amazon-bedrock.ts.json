@@ -1,0 +1,34 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "0f2de98f3ee68ecdfae41a3b15a63863f3f75cb2ec710479d7fbb55c9a369ef3",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/models/generated/amazon-bedrock.ts::AMAZON_BEDROCK_MODELS::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-ai/src/models/generated/amazon-bedrock.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 1553,
+      "endOffset": 42993,
+      "kind": "variable",
+      "name": "AMAZON_BEDROCK_MODELS",
+      "startLine": 5,
+      "startOffset": 187,
+      "symbolId": "packages/pi-ai/src/models/generated/amazon-bedrock.ts::AMAZON_BEDROCK_MODELS::variable"
+    }
+  ]
+}

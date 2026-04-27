@@ -1,0 +1,227 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.updateList::method"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.dispose::method"
+    }
+  ],
+  "contentHash": "2eb1a62d10544ca2c04fb1a5a4fd71047fcfe20e354680f8497f8dda44c3aa88",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts::CountdownTimer::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.updateList::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.updateList::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/countdown-timer.ts::CountdownTimer::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::rawKeyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 154,
+      "endOffset": 4704,
+      "kind": "class",
+      "name": "ExtensionSelectorComponent",
+      "startLine": 20,
+      "startOffset": 693,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent::class"
+    },
+    {
+      "endLine": 84,
+      "endOffset": 2411,
+      "kind": "method",
+      "name": "ExtensionSelectorComponent.isSeparator",
+      "startLine": 82,
+      "startOffset": 2294,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.isSeparator::method"
+    },
+    {
+      "endLine": 103,
+      "endOffset": 3078,
+      "kind": "method",
+      "name": "ExtensionSelectorComponent.nextSelectable",
+      "startLine": 90,
+      "startOffset": 2573,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.nextSelectable::method"
+    },
+    {
+      "endLine": 119,
+      "endOffset": 3598,
+      "kind": "method",
+      "name": "ExtensionSelectorComponent.updateList",
+      "startLine": 105,
+      "startOffset": 3081,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.updateList::method"
+    },
+    {
+      "endLine": 149,
+      "endOffset": 4650,
+      "kind": "method",
+      "name": "ExtensionSelectorComponent.handleInput",
+      "startLine": 121,
+      "startOffset": 3601,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.handleInput::method"
+    },
+    {
+      "endLine": 153,
+      "endOffset": 4702,
+      "kind": "method",
+      "name": "ExtensionSelectorComponent.dispose",
+      "startLine": 151,
+      "startOffset": 4653,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorComponent.dispose::method"
+    },
+    {
+      "endLine": 18,
+      "endOffset": 691,
+      "kind": "interface",
+      "name": "ExtensionSelectorOptions",
+      "startLine": 15,
+      "startOffset": 615,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::ExtensionSelectorOptions::interface"
+    },
+    {
+      "endLine": 13,
+      "endOffset": 612,
+      "kind": "variable",
+      "name": "SEPARATOR_PREFIX",
+      "startLine": 13,
+      "startOffset": 588,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/extension-selector.ts::SEPARATOR_PREFIX::variable"
+    }
+  ]
+}

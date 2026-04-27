@@ -1,0 +1,136 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function"
+    }
+  ],
+  "contentHash": "f9b2ae7990a5d8e6399ad7ffb2feceb9e60fce4fd58e5f8146e38022c530f9e6",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::APP_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getExportTemplateDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getResolvedThemeColors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getThemeExportColors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolInfo::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::preRenderCustomTools::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::generateHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/index.ts::generateHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::APP_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::APP_NAME::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/export-html/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 272,
+      "endOffset": 9424,
+      "kind": "function",
+      "name": "exportSessionToHtml",
+      "startLine": 226,
+      "startOffset": 7983,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/index.ts::exportSessionToHtml::function"
+    },
+    {
+      "endLine": 305,
+      "endOffset": 10357,
+      "kind": "function",
+      "name": "exportFromFile",
+      "startLine": 278,
+      "startOffset": 9553,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/index.ts::exportFromFile::function"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 1132,
+      "kind": "interface",
+      "name": "ToolHtmlRenderer",
+      "startLine": 13,
+      "startOffset": 615,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/index.ts::ToolHtmlRenderer::interface"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 1465,
+      "kind": "interface",
+      "name": "ExportOptions",
+      "startLine": 32,
+      "startOffset": 1306,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/index.ts::ExportOptions::interface"
+    }
+  ]
+}

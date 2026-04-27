@@ -1,0 +1,147 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.process::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.flush::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.clear::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.getBuffer::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.destroy::method"
+    }
+  ],
+  "contentHash": "0ca5a0a137827648ca538808c4050e7a9612f07c80664569d6d00a65ce2a97f9",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer::class",
+      "kind": "extends",
+      "to": "/packages/pi-tui/src/stdin-buffer.ts::EventEmitter::class"
+    },
+    {
+      "from": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.process::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::extractCompleteSequences::function"
+    },
+    {
+      "from": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.process::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::extractCompleteSequences::function"
+    },
+    {
+      "from": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.process::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.flush::method"
+    },
+    {
+      "from": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.flush::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::isCompleteSequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.flush::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::isCompleteSequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.destroy::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.clear::method"
+    }
+  ],
+  "file": "packages/pi-tui/src/stdin-buffer.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 418,
+      "endOffset": 10856,
+      "kind": "class",
+      "name": "StdinBuffer",
+      "startLine": 247,
+      "startOffset": 6454,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer::class"
+    },
+    {
+      "endLine": 363,
+      "endOffset": 9569,
+      "kind": "method",
+      "name": "StdinBuffer.process",
+      "startLine": 262,
+      "startOffset": 6997,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.process::method"
+    },
+    {
+      "endLine": 395,
+      "endOffset": 10497,
+      "kind": "method",
+      "name": "StdinBuffer.flush",
+      "startLine": 365,
+      "startOffset": 9572,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.flush::method"
+    },
+    {
+      "endLine": 409,
+      "endOffset": 10766,
+      "kind": "method",
+      "name": "StdinBuffer.clear",
+      "startLine": 397,
+      "startOffset": 10500,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.clear::method"
+    },
+    {
+      "endLine": 413,
+      "endOffset": 10815,
+      "kind": "method",
+      "name": "StdinBuffer.getBuffer",
+      "startLine": 411,
+      "startOffset": 10769,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.getBuffer::method"
+    },
+    {
+      "endLine": 417,
+      "endOffset": 10854,
+      "kind": "method",
+      "name": "StdinBuffer.destroy",
+      "startLine": 415,
+      "startOffset": 10818,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer.destroy::method"
+    },
+    {
+      "endLine": 236,
+      "endOffset": 6223,
+      "kind": "type",
+      "name": "StdinBufferOptions",
+      "startLine": 225,
+      "startOffset": 5874,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBufferOptions::type"
+    },
+    {
+      "endLine": 241,
+      "endOffset": 6298,
+      "kind": "type",
+      "name": "StdinBufferEventMap",
+      "startLine": 238,
+      "startOffset": 6225,
+      "symbolId": "packages/pi-tui/src/stdin-buffer.ts::StdinBufferEventMap::type"
+    }
+  ]
+}

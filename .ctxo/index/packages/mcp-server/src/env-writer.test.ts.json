@@ -1,0 +1,58 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "1ead45634408fc2c2ca21c49e6ee10ab2639114e725c831a9783691128473061",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::checkExistingEnvKeys::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::detectDestination::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::writeEnvKey::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::applySecrets::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::isSafeEnvVarKey::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::isSupportedDeploymentEnvironment::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::resolveProjectEnvFilePath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/env-writer.test.ts::env-writer.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/env-writer.ts::shellEscapeSingle::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/env-writer.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

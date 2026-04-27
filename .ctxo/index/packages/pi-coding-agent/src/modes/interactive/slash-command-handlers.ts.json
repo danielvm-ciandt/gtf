@@ -1,0 +1,243 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 39,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::capitalizeKey::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::getAppKeyDisplay::function"
+    }
+  ],
+  "contentHash": "4671ef34fb040ab2a4010a664951ddb2b57be325ae1f4519e74e46f234fe216a",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getShareViewerUrl::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/agent-session.ts::AgentSession::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/clipboard.ts::copyToClipboard::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/changelog.ts::getChangelogPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/changelog.ts::parseChangelog::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/armin.ts::ArminComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/bordered-loader.ts::BorderedLoader::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::formatKeyForDisplay::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::SelectSubmenu::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/settings-selector.ts::THINKING_DESCRIPTIONS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleExportCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleShareCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleCopyCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleNameCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleSessionCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleChangelogCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleHotkeysCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleCompactCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleThinkingCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleEditModeCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::handleArminSaysHi::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::getAppKeyDisplay::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::capitalizeKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::getAppKeyDisplay::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::getAppKeyDisplay::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::getAppKeyDisplay::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::getAppKeyDisplay::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 239,
+      "endOffset": 7369,
+      "kind": "function",
+      "name": "dispatchSlashCommand",
+      "startLine": 121,
+      "startOffset": 4263,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::dispatchSlashCommand::function"
+    },
+    {
+      "endLine": 461,
+      "endOffset": 14607,
+      "kind": "function",
+      "name": "capitalizeKey",
+      "startLine": 451,
+      "startOffset": 14393,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::capitalizeKey::function"
+    },
+    {
+      "endLine": 465,
+      "endOffset": 14757,
+      "kind": "function",
+      "name": "getAppKeyDisplay",
+      "startLine": 463,
+      "startOffset": 14609,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::getAppKeyDisplay::function"
+    },
+    {
+      "endLine": 109,
+      "endOffset": 3885,
+      "kind": "interface",
+      "name": "SlashCommandContext",
+      "startLine": 53,
+      "startOffset": 2100,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/slash-command-handlers.ts::SlashCommandContext::interface"
+    }
+  ]
+}

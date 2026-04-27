@@ -1,0 +1,180 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "216f40df767c20533b476eacd1693380dfc49d758099fdc2504e2b63540a8fa2",
+  "edges": [],
+  "file": "packages/rpc-client/src/rpc-types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320165,
+  "symbols": [
+    {
+      "endLine": 23,
+      "endOffset": 881,
+      "kind": "interface",
+      "name": "ImageContent",
+      "startLine": 19,
+      "startOffset": 734,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::ImageContent::interface"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1068,
+      "kind": "interface",
+      "name": "ModelInfo",
+      "startLine": 26,
+      "startOffset": 934,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::ModelInfo::interface"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1449,
+      "kind": "interface",
+      "name": "SessionStats",
+      "startLine": 35,
+      "startOffset": 1120,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::SessionStats::interface"
+    },
+    {
+      "endLine": 65,
+      "endOffset": 1964,
+      "kind": "interface",
+      "name": "BashResult",
+      "startLine": 54,
+      "startOffset": 1502,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::BashResult::interface"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 2241,
+      "kind": "interface",
+      "name": "CompactionResult",
+      "startLine": 68,
+      "startOffset": 2012,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::CompactionResult::interface"
+    },
+    {
+      "endLine": 164,
+      "endOffset": 5662,
+      "kind": "interface",
+      "name": "RpcSlashCommand",
+      "startLine": 153,
+      "startOffset": 5262,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcSlashCommand::interface"
+    },
+    {
+      "endLine": 188,
+      "endOffset": 6417,
+      "kind": "interface",
+      "name": "RpcSessionState",
+      "startLine": 170,
+      "startOffset": 5838,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcSessionState::interface"
+    },
+    {
+      "endLine": 313,
+      "endOffset": 10796,
+      "kind": "interface",
+      "name": "RpcInitResult",
+      "startLine": 306,
+      "startOffset": 10658,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcInitResult::interface"
+    },
+    {
+      "endLine": 322,
+      "endOffset": 11059,
+      "kind": "interface",
+      "name": "RpcExecutionCompleteEvent",
+      "startLine": 316,
+      "startOffset": 10882,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcExecutionCompleteEvent::interface"
+    },
+    {
+      "endLine": 336,
+      "endOffset": 11345,
+      "kind": "interface",
+      "name": "RpcCostUpdateEvent",
+      "startLine": 325,
+      "startOffset": 11131,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcCostUpdateEvent::interface"
+    },
+    {
+      "endLine": 16,
+      "endOffset": 687,
+      "kind": "type",
+      "name": "ThinkingLevel",
+      "startLine": 16,
+      "startOffset": 603,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::ThinkingLevel::type"
+    },
+    {
+      "endLine": 81,
+      "endOffset": 2565,
+      "kind": "type",
+      "name": "RpcProtocolVersion",
+      "startLine": 81,
+      "startOffset": 2526,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcProtocolVersion::type"
+    },
+    {
+      "endLine": 146,
+      "endOffset": 4997,
+      "kind": "type",
+      "name": "RpcCommand",
+      "startLine": 87,
+      "startOffset": 2752,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcCommand::type"
+    },
+    {
+      "endLine": 299,
+      "endOffset": 10428,
+      "kind": "type",
+      "name": "RpcResponse",
+      "startLine": 195,
+      "startOffset": 6637,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcResponse::type"
+    },
+    {
+      "endLine": 339,
+      "endOffset": 11473,
+      "kind": "type",
+      "name": "RpcV2Event",
+      "startLine": 339,
+      "startOffset": 11401,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcV2Event::type"
+    },
+    {
+      "endLine": 381,
+      "endOffset": 12905,
+      "kind": "type",
+      "name": "RpcExtensionUIRequest",
+      "startLine": 346,
+      "startOffset": 11718,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcExtensionUIRequest::type"
+    },
+    {
+      "endLine": 392,
+      "endOffset": 13447,
+      "kind": "type",
+      "name": "RpcExtensionUIResponse",
+      "startLine": 388,
+      "startOffset": 13144,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcExtensionUIResponse::type"
+    },
+    {
+      "endLine": 398,
+      "endOffset": 13702,
+      "kind": "type",
+      "name": "RpcCommandType",
+      "startLine": 398,
+      "startOffset": 13654,
+      "symbolId": "packages/rpc-client/src/rpc-types.ts::RpcCommandType::type"
+    }
+  ]
+}

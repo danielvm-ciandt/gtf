@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ctxo": {
+      "command": "npx",
+      "args": [
+        "@ctxo/cli",
+        "mcp"
+      ]
+    },
+    "context-mode": {
+      "command": "context-mode"
+    }
+  }
+}

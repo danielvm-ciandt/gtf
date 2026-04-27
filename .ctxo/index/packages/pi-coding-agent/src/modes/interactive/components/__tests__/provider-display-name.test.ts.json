@@ -1,0 +1,28 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "7de3135229e008155f614c695404f96ce109df0094f49331fdf1e3d31894a6a2",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/__tests__/provider-display-name.test.ts::provider-display-name.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerAuthBadge::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/__tests__/provider-display-name.test.ts::provider-display-name.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/model-selector.ts::providerDisplayName::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/__tests__/provider-display-name.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": []
+}

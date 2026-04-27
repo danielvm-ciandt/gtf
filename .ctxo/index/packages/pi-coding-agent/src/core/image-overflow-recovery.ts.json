@@ -1,0 +1,63 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::isImageDimensionError::function"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::downsizeConversationImages::function"
+    }
+  ],
+  "contentHash": "38c8b959caf3412c89a5077a41b97779e37ced8f2f9eb195d443c8fe18af09e8",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 42,
+      "endOffset": 1612,
+      "kind": "function",
+      "name": "isImageDimensionError",
+      "startLine": 39,
+      "startOffset": 1434,
+      "symbolId": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::isImageDimensionError::function"
+    },
+    {
+      "endLine": 117,
+      "endOffset": 4304,
+      "kind": "function",
+      "name": "downsizeConversationImages",
+      "startLine": 63,
+      "startOffset": 2244,
+      "symbolId": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::downsizeConversationImages::function"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1857,
+      "kind": "interface",
+      "name": "DownsizeResult",
+      "startLine": 44,
+      "startOffset": 1614,
+      "symbolId": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::DownsizeResult::interface"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 886,
+      "kind": "variable",
+      "name": "MANY_IMAGE_MAX_DIMENSION",
+      "startLine": 20,
+      "startOffset": 855,
+      "symbolId": "packages/pi-coding-agent/src/core/image-overflow-recovery.ts::MANY_IMAGE_MAX_DIMENSION::variable"
+    }
+  ]
+}

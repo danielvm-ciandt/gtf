@@ -1,0 +1,335 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.setRespectGitignore::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.setExcludeDirs::method"
+    },
+    {
+      "cyclomatic": 21,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.applyCompletion::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractAtPrefix::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractPathPrefix::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.expandHomePath::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.resolveScopedFuzzyQuery::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.scopedPathForDisplay::method"
+    },
+    {
+      "cyclomatic": 37,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFileSuggestions::method"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFuzzyFileSuggestions::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getForceFileSuggestions::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.shouldTriggerFileCompletion::method"
+    }
+  ],
+  "contentHash": "f80a9d8075bbd88f4b10eb02b7591a1b7edeb18d51c69ab72355e6472bb811d4",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider::class",
+      "kind": "implements",
+      "to": "/packages/pi-tui/src/autocomplete.ts::AutocompleteProvider::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractAtPrefix::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::parsePathPrefix::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFuzzyFileSuggestions::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractPathPrefix::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFileSuggestions::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractAtPrefix::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::extractQuotedPrefix::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractAtPrefix::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::findLastDelimiter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractPathPrefix::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::extractQuotedPrefix::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractPathPrefix::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::findLastDelimiter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.resolveScopedFuzzyQuery::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.expandHomePath::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::parsePathPrefix::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.expandHomePath::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::buildCompletionValue::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFuzzyFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.resolveScopedFuzzyQuery::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFuzzyFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.scopedPathForDisplay::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFuzzyFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::buildCompletionValue::function"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getForceFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractPathPrefix::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getForceFileSuggestions::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFileSuggestions::method"
+    },
+    {
+      "from": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/autocomplete.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 674,
+      "endOffset": 20937,
+      "kind": "class",
+      "name": "CombinedAutocompleteProvider",
+      "startLine": 129,
+      "startOffset": 3322,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider::class"
+    },
+    {
+      "endLine": 148,
+      "endOffset": 3989,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.setRespectGitignore",
+      "startLine": 146,
+      "startOffset": 3910,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.setRespectGitignore::method"
+    },
+    {
+      "endLine": 152,
+      "endOffset": 4085,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.setExcludeDirs",
+      "startLine": 150,
+      "startOffset": 3992,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.setExcludeDirs::method"
+    },
+    {
+      "endLine": 252,
+      "endOffset": 7342,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.getSuggestions",
+      "startLine": 154,
+      "startOffset": 4088,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getSuggestions::method"
+    },
+    {
+      "endLine": 340,
+      "endOffset": 10709,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.applyCompletion",
+      "startLine": 254,
+      "startOffset": 7345,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.applyCompletion::method"
+    },
+    {
+      "endLine": 357,
+      "endOffset": 11156,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.extractAtPrefix",
+      "startLine": 343,
+      "startOffset": 10760,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractAtPrefix::method"
+    },
+    {
+      "endLine": 387,
+      "endOffset": 12215,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.extractPathPrefix",
+      "startLine": 360,
+      "startOffset": 11218,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.extractPathPrefix::method"
+    },
+    {
+      "endLine": 399,
+      "endOffset": 12626,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.expandHomePath",
+      "startLine": 390,
+      "startOffset": 12269,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.expandHomePath::method"
+    },
+    {
+      "endLine": 428,
+      "endOffset": 13338,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.resolveScopedFuzzyQuery",
+      "startLine": 401,
+      "startOffset": 12629,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.resolveScopedFuzzyQuery::method"
+    },
+    {
+      "endLine": 435,
+      "endOffset": 13530,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.scopedPathForDisplay",
+      "startLine": 430,
+      "startOffset": 13341,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.scopedPathForDisplay::method"
+    },
+    {
+      "endLine": 571,
+      "endOffset": 17592,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.getFileSuggestions",
+      "startLine": 438,
+      "startOffset": 13592,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFileSuggestions::method"
+    },
+    {
+      "endLine": 631,
+      "endOffset": 19580,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.getFuzzyFileSuggestions",
+      "startLine": 574,
+      "startOffset": 17672,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getFuzzyFileSuggestions::method"
+    },
+    {
+      "endLine": 660,
+      "endOffset": 20456,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.getForceFileSuggestions",
+      "startLine": 634,
+      "startOffset": 19658,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.getForceFileSuggestions::method"
+    },
+    {
+      "endLine": 673,
+      "endOffset": 20935,
+      "kind": "method",
+      "name": "CombinedAutocompleteProvider.shouldTriggerFileCompletion",
+      "startLine": 663,
+      "startOffset": 20526,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::CombinedAutocompleteProvider.shouldTriggerFileCompletion::method"
+    },
+    {
+      "endLine": 91,
+      "endOffset": 2367,
+      "kind": "interface",
+      "name": "AutocompleteItem",
+      "startLine": 87,
+      "startOffset": 2275,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::AutocompleteItem::interface"
+    },
+    {
+      "endLine": 99,
+      "endOffset": 2631,
+      "kind": "interface",
+      "name": "SlashCommand",
+      "startLine": 93,
+      "startOffset": 2369,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::SlashCommand::interface"
+    },
+    {
+      "endLine": 126,
+      "endOffset": 3251,
+      "kind": "interface",
+      "name": "AutocompleteProvider",
+      "startLine": 101,
+      "startOffset": 2633,
+      "symbolId": "packages/pi-tui/src/autocomplete.ts::AutocompleteProvider::interface"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function"
+    }
+  ],
+  "contentHash": "2716bacd9bb53ac311722b04f3523b0c720eb899ca7598fe87cf4361d08665ec",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolDefinition::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/export-html/ansi-to-html.ts::ansiLinesToHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/ansi-to-html.ts::ansiLinesToHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/ansi-to-html.ts::ansiLinesToHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/export-html/ansi-to-html.ts::ansiLinesToHtml::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/export-html/ansi-to-html.ts::ansiLinesToHtml::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 113,
+      "endOffset": 3505,
+      "kind": "function",
+      "name": "createToolHtmlRenderer",
+      "startLine": 39,
+      "startOffset": 1425,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::createToolHtmlRenderer::function"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 706,
+      "kind": "interface",
+      "name": "ToolHtmlRendererDeps",
+      "startLine": 12,
+      "startOffset": 437,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::ToolHtmlRendererDeps::interface"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 1222,
+      "kind": "interface",
+      "name": "ToolHtmlRenderer",
+      "startLine": 21,
+      "startOffset": 708,
+      "symbolId": "packages/pi-coding-agent/src/core/export-html/tool-renderer.ts::ToolHtmlRenderer::interface"
+    }
+  ]
+}

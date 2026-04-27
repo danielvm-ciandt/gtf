@@ -1,0 +1,518 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.setText::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.invalidate::method"
+    },
+    {
+      "cyclomatic": 24,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.applyDefaultStyle::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultStylePrefix::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getStylePrefix::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultInlineStyleContext::method"
+    },
+    {
+      "cyclomatic": 35,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method"
+    },
+    {
+      "cyclomatic": 27,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderList::method"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderCodeBlock::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getLongestWordWidth::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.wrapCellText::method"
+    },
+    {
+      "cyclomatic": 36,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method"
+    }
+  ],
+  "contentHash": "ec7cc4c4d1a93d7980c311b0caf467c84ca7215f70ee7e0a15b11d4691711367",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.setText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.invalidate::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultInlineStyleContext::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.applyDefaultStyle::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultInlineStyleContext::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultStylePrefix::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderCodeBlock::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderList::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.getStylePrefix::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.applyDefaultStyle::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultInlineStyleContext::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderList::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderCodeBlock::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.getLongestWordWidth::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.wrapCellText::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.getLongestWordWidth::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.getLongestWordWidth::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.wrapCellText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/markdown.ts::Markdown.wrapCellText::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/terminal-image.ts::isImageLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/markdown.ts::Markdown::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/markdown.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 833,
+      "endOffset": 27702,
+      "kind": "class",
+      "name": "Markdown",
+      "startLine": 53,
+      "startOffset": 1634,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown::class"
+    },
+    {
+      "endLine": 86,
+      "endOffset": 2619,
+      "kind": "method",
+      "name": "Markdown.setText",
+      "startLine": 83,
+      "startOffset": 2546,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.setText::method"
+    },
+    {
+      "endLine": 93,
+      "endOffset": 2775,
+      "kind": "method",
+      "name": "Markdown.invalidate",
+      "startLine": 88,
+      "startOffset": 2622,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.invalidate::method"
+    },
+    {
+      "endLine": 207,
+      "endOffset": 6948,
+      "kind": "method",
+      "name": "Markdown.render",
+      "startLine": 95,
+      "startOffset": 2778,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.render::method"
+    },
+    {
+      "endLine": 242,
+      "endOffset": 7893,
+      "kind": "method",
+      "name": "Markdown.applyDefaultStyle",
+      "startLine": 215,
+      "startOffset": 7193,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.applyDefaultStyle::method"
+    },
+    {
+      "endLine": 276,
+      "endOffset": 8735,
+      "kind": "method",
+      "name": "Markdown.getDefaultStylePrefix",
+      "startLine": 244,
+      "startOffset": 7896,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultStylePrefix::method"
+    },
+    {
+      "endLine": 283,
+      "endOffset": 8990,
+      "kind": "method",
+      "name": "Markdown.getStylePrefix",
+      "startLine": 278,
+      "startOffset": 8738,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getStylePrefix::method"
+    },
+    {
+      "endLine": 290,
+      "endOffset": 9180,
+      "kind": "method",
+      "name": "Markdown.getDefaultInlineStyleContext",
+      "startLine": 285,
+      "startOffset": 8993,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getDefaultInlineStyleContext::method"
+    },
+    {
+      "endLine": 429,
+      "endOffset": 13905,
+      "kind": "method",
+      "name": "Markdown.renderToken",
+      "startLine": 292,
+      "startOffset": 9183,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderToken::method"
+    },
+    {
+      "endLine": 516,
+      "endOffset": 16854,
+      "kind": "method",
+      "name": "Markdown.renderInlineTokens",
+      "startLine": 431,
+      "startOffset": 13908,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderInlineTokens::method"
+    },
+    {
+      "endLine": 571,
+      "endOffset": 18649,
+      "kind": "method",
+      "name": "Markdown.renderList",
+      "startLine": 521,
+      "startOffset": 16913,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderList::method"
+    },
+    {
+      "endLine": 611,
+      "endOffset": 20120,
+      "kind": "method",
+      "name": "Markdown.renderListItem",
+      "startLine": 577,
+      "startOffset": 18782,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderListItem::method"
+    },
+    {
+      "endLine": 634,
+      "endOffset": 20925,
+      "kind": "method",
+      "name": "Markdown.renderCodeBlock",
+      "startLine": 617,
+      "startOffset": 20298,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderCodeBlock::method"
+    },
+    {
+      "endLine": 649,
+      "endOffset": 21337,
+      "kind": "method",
+      "name": "Markdown.getLongestWordWidth",
+      "startLine": 639,
+      "startOffset": 20997,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.getLongestWordWidth::method"
+    },
+    {
+      "endLine": 659,
+      "endOffset": 21645,
+      "kind": "method",
+      "name": "Markdown.wrapCellText",
+      "startLine": 657,
+      "startOffset": 21522,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.wrapCellText::method"
+    },
+    {
+      "endLine": 832,
+      "endOffset": 27700,
+      "kind": "method",
+      "name": "Markdown.renderTable",
+      "startLine": 665,
+      "startOffset": 21765,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::Markdown.renderTable::method"
+    },
+    {
+      "endLine": 22,
+      "endOffset": 712,
+      "kind": "interface",
+      "name": "DefaultTextStyle",
+      "startLine": 9,
+      "startOffset": 363,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::DefaultTextStyle::interface"
+    },
+    {
+      "endLine": 46,
+      "endOffset": 1538,
+      "kind": "interface",
+      "name": "MarkdownTheme",
+      "startLine": 28,
+      "startOffset": 833,
+      "symbolId": "packages/pi-tui/src/components/markdown.ts::MarkdownTheme::interface"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/event-bus.ts::createEventBus::function"
+    }
+  ],
+  "contentHash": "fe5c39a57081fb9674c5bdc8c4bc6779bb8524c8895afc337af5ea517bdc71a2",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/event-bus.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 32,
+      "endOffset": 794,
+      "kind": "function",
+      "name": "createEventBus",
+      "startLine": 11,
+      "startOffset": 263,
+      "symbolId": "packages/pi-coding-agent/src/core/event-bus.ts::createEventBus::function"
+    },
+    {
+      "endLine": 5,
+      "endOffset": 187,
+      "kind": "interface",
+      "name": "EventBus",
+      "startLine": 2,
+      "startOffset": 45,
+      "symbolId": "packages/pi-coding-agent/src/core/event-bus.ts::EventBus::interface"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 261,
+      "kind": "interface",
+      "name": "EventBusController",
+      "startLine": 7,
+      "startOffset": 189,
+      "symbolId": "packages/pi-coding-agent/src/core/event-bus.ts::EventBusController::interface"
+    }
+  ]
+}

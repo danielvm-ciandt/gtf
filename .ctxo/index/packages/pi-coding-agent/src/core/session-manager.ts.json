@@ -1,0 +1,1289 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::parseSessionEntries::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "cyclomatic": 26,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.wasInterrupted::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.newSession::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._buildIndex::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.isPersisted::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getCwd::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionDir::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionId::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionFile::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._persist::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._accumulateUsage::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendMessage::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendThinkingLevelChange::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendModelChange::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCompaction::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomEntry::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendSessionInfo::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionName::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomMessageEntry::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getLeafId::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getLeafEntry::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getEntry::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getChildren::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getLabel::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendLabelChange::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getBranch::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.buildSessionContext::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getHeader::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getEntries::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getUsageTotals::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getTree::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.branch::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.resetLeaf::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.branchWithSummary::method"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.create::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.open::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.continueRecent::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.inMemory::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.forkFrom::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.list::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.listAll::method"
+    }
+  ],
+  "contentHash": "153d8966b196e0fab7478a16a3ddc1f4cb9f02ab88e4678b84eec2520d293f8d",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/fs-utils.ts::atomicWriteFileSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getBlobsDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getSessionsDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::tryAcquireLockSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::BashExecutionMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createBranchSummaryMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createCompactionSummaryMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createCustomMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/blob-store.ts::BlobStore::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/blob-store.ts::externalizeImageData::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/blob-store.ts::isBlobRef::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/blob-store.ts::resolveImageData::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/redact-secrets.ts::redactSecrets::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::migrateToCurrentVersion::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createCustomMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createBranchSummaryMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createCompactionSummaryMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::loadEntriesFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.newSession::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::migrateToCurrentVersion::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._buildIndex::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::resolveBlobRefsInEntries::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.newSession::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::createEmptyUsageTotals::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.newSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._buildIndex::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::createEmptyUsageTotals::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._buildIndex::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._accumulateUsage::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::prepareForPersistence::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::tryAcquireLockSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/fs-utils.ts::atomicWriteFileSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._persist::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::tryAcquireLockSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._persist::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::prepareForPersistence::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._persist::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::prepareForPersistence::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._accumulateUsage::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._persist::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendMessage::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendThinkingLevelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendThinkingLevelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendModelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendModelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCompaction::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomEntry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomEntry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendSessionInfo::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendSessionInfo::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionName::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomMessageEntry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomMessageEntry::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendLabelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendLabelChange::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.buildSessionContext::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getTree::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getEntries::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.branchWithSummary::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.branchWithSummary::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getBranch::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._buildIndex::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::generateId::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._buildIndex::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.create::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getDefaultSessionDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.open::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::loadEntriesFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.continueRecent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getDefaultSessionDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.continueRecent::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::findMostRecentSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.forkFrom::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::loadEntriesFromFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.forkFrom::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getDefaultSessionDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.forkFrom::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/fs-utils.ts::atomicWriteFileSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.list::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::getDefaultSessionDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.list::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::listSessionsFromDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.listAll::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/config.ts::getSessionsDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.listAll::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::pLimit::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.listAll::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionInfo::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createCustomMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createBranchSummaryMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::createCompactionSummaryMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/blob-store.ts::BlobStore::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getBlobsDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lock-utils.ts::tryAcquireLockSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/fs-utils.ts::atomicWriteFileSync::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::CustomMessage::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::BashExecutionMessage::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getSessionsDir::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/session-manager.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 318,
+      "endOffset": 8759,
+      "kind": "function",
+      "name": "migrateSessionEntries",
+      "startLine": 316,
+      "startOffset": 8655,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::migrateSessionEntries::function"
+    },
+    {
+      "endLine": 336,
+      "endOffset": 9150,
+      "kind": "function",
+      "name": "parseSessionEntries",
+      "startLine": 321,
+      "startOffset": 8800,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::parseSessionEntries::function"
+    },
+    {
+      "endLine": 345,
+      "endOffset": 9398,
+      "kind": "function",
+      "name": "getLatestCompactionEntry",
+      "startLine": 338,
+      "startOffset": 9152,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::getLatestCompactionEntry::function"
+    },
+    {
+      "endLine": 459,
+      "endOffset": 12948,
+      "kind": "function",
+      "name": "buildSessionContext",
+      "startLine": 352,
+      "startOffset": 9588,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::buildSessionContext::function"
+    },
+    {
+      "endLine": 1645,
+      "endOffset": 49684,
+      "kind": "class",
+      "name": "SessionManager",
+      "startLine": 815,
+      "startOffset": 23675,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager::class"
+    },
+    {
+      "endLine": 875,
+      "endOffset": 25755,
+      "kind": "method",
+      "name": "SessionManager.wasInterrupted",
+      "startLine": 851,
+      "startOffset": 24879,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.wasInterrupted::method"
+    },
+    {
+      "endLine": 909,
+      "endOffset": 26902,
+      "kind": "method",
+      "name": "SessionManager.setSessionFile",
+      "startLine": 878,
+      "startOffset": 25833,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.setSessionFile::method"
+    },
+    {
+      "endLine": 935,
+      "endOffset": 27647,
+      "kind": "method",
+      "name": "SessionManager.newSession",
+      "startLine": 911,
+      "startOffset": 26905,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.newSession::method"
+    },
+    {
+      "endLine": 957,
+      "endOffset": 28227,
+      "kind": "method",
+      "name": "SessionManager._buildIndex",
+      "startLine": 937,
+      "startOffset": 27650,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._buildIndex::method"
+    },
+    {
+      "endLine": 969,
+      "endOffset": 28621,
+      "kind": "method",
+      "name": "SessionManager._rewriteFile",
+      "startLine": 959,
+      "startOffset": 28230,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._rewriteFile::method"
+    },
+    {
+      "endLine": 973,
+      "endOffset": 28674,
+      "kind": "method",
+      "name": "SessionManager.isPersisted",
+      "startLine": 971,
+      "startOffset": 28624,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.isPersisted::method"
+    },
+    {
+      "endLine": 977,
+      "endOffset": 28717,
+      "kind": "method",
+      "name": "SessionManager.getCwd",
+      "startLine": 975,
+      "startOffset": 28677,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getCwd::method"
+    },
+    {
+      "endLine": 981,
+      "endOffset": 28774,
+      "kind": "method",
+      "name": "SessionManager.getSessionDir",
+      "startLine": 979,
+      "startOffset": 28720,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionDir::method"
+    },
+    {
+      "endLine": 985,
+      "endOffset": 28829,
+      "kind": "method",
+      "name": "SessionManager.getSessionId",
+      "startLine": 983,
+      "startOffset": 28777,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionId::method"
+    },
+    {
+      "endLine": 989,
+      "endOffset": 28900,
+      "kind": "method",
+      "name": "SessionManager.getSessionFile",
+      "startLine": 987,
+      "startOffset": 28832,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionFile::method"
+    },
+    {
+      "endLine": 1017,
+      "endOffset": 29790,
+      "kind": "method",
+      "name": "SessionManager._persist",
+      "startLine": 991,
+      "startOffset": 28903,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._persist::method"
+    },
+    {
+      "endLine": 1026,
+      "endOffset": 30028,
+      "kind": "method",
+      "name": "SessionManager._appendEntry",
+      "startLine": 1019,
+      "startOffset": 29793,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._appendEntry::method"
+    },
+    {
+      "endLine": 1043,
+      "endOffset": 30473,
+      "kind": "method",
+      "name": "SessionManager._accumulateUsage",
+      "startLine": 1028,
+      "startOffset": 30031,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager._accumulateUsage::method"
+    },
+    {
+      "endLine": 1061,
+      "endOffset": 31172,
+      "kind": "method",
+      "name": "SessionManager.appendMessage",
+      "startLine": 1051,
+      "startOffset": 30870,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendMessage::method"
+    },
+    {
+      "endLine": 1074,
+      "endOffset": 31582,
+      "kind": "method",
+      "name": "SessionManager.appendThinkingLevelChange",
+      "startLine": 1064,
+      "startOffset": 31277,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendThinkingLevelChange::method"
+    },
+    {
+      "endLine": 1088,
+      "endOffset": 31977,
+      "kind": "method",
+      "name": "SessionManager.appendModelChange",
+      "startLine": 1077,
+      "startOffset": 31678,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendModelChange::method"
+    },
+    {
+      "endLine": 1111,
+      "endOffset": 32517,
+      "kind": "method",
+      "name": "SessionManager.appendCompaction",
+      "startLine": 1091,
+      "startOffset": 32079,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCompaction::method"
+    },
+    {
+      "endLine": 1125,
+      "endOffset": 32918,
+      "kind": "method",
+      "name": "SessionManager.appendCustomEntry",
+      "startLine": 1114,
+      "startOffset": 32630,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomEntry::method"
+    },
+    {
+      "endLine": 1138,
+      "endOffset": 33272,
+      "kind": "method",
+      "name": "SessionManager.appendSessionInfo",
+      "startLine": 1128,
+      "startOffset": 32997,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendSessionInfo::method"
+    },
+    {
+      "endLine": 1151,
+      "endOffset": 33692,
+      "kind": "method",
+      "name": "SessionManager.getSessionName",
+      "startLine": 1141,
+      "startOffset": 33356,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getSessionName::method"
+    },
+    {
+      "endLine": 1179,
+      "endOffset": 34543,
+      "kind": "method",
+      "name": "SessionManager.appendCustomMessageEntry",
+      "startLine": 1161,
+      "startOffset": 34113,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendCustomMessageEntry::method"
+    },
+    {
+      "endLine": 1187,
+      "endOffset": 34775,
+      "kind": "method",
+      "name": "SessionManager.getLeafId",
+      "startLine": 1185,
+      "startOffset": 34722,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getLeafId::method"
+    },
+    {
+      "endLine": 1191,
+      "endOffset": 34886,
+      "kind": "method",
+      "name": "SessionManager.getLeafEntry",
+      "startLine": 1189,
+      "startOffset": 34778,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getLeafEntry::method"
+    },
+    {
+      "endLine": 1195,
+      "endOffset": 34968,
+      "kind": "method",
+      "name": "SessionManager.getEntry",
+      "startLine": 1193,
+      "startOffset": 34889,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getEntry::method"
+    },
+    {
+      "endLine": 1208,
+      "endOffset": 35247,
+      "kind": "method",
+      "name": "SessionManager.getChildren",
+      "startLine": 1200,
+      "startOffset": 35022,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getChildren::method"
+    },
+    {
+      "endLine": 1215,
+      "endOffset": 35379,
+      "kind": "method",
+      "name": "SessionManager.getLabel",
+      "startLine": 1213,
+      "startOffset": 35300,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getLabel::method"
+    },
+    {
+      "endLine": 1241,
+      "endOffset": 36040,
+      "kind": "method",
+      "name": "SessionManager.appendLabelChange",
+      "startLine": 1222,
+      "startOffset": 35549,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.appendLabelChange::method"
+    },
+    {
+      "endLine": 1257,
+      "endOffset": 36592,
+      "kind": "method",
+      "name": "SessionManager.getBranch",
+      "startLine": 1248,
+      "startOffset": 36265,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getBranch::method"
+    },
+    {
+      "endLine": 1265,
+      "endOffset": 36822,
+      "kind": "method",
+      "name": "SessionManager.buildSessionContext",
+      "startLine": 1263,
+      "startOffset": 36707,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.buildSessionContext::method"
+    },
+    {
+      "endLine": 1273,
+      "endOffset": 37003,
+      "kind": "method",
+      "name": "SessionManager.getHeader",
+      "startLine": 1270,
+      "startOffset": 36859,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getHeader::method"
+    },
+    {
+      "endLine": 1282,
+      "endOffset": 37299,
+      "kind": "method",
+      "name": "SessionManager.getEntries",
+      "startLine": 1280,
+      "startOffset": 37231,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getEntries::method"
+    },
+    {
+      "endLine": 1286,
+      "endOffset": 37377,
+      "kind": "method",
+      "name": "SessionManager.getUsageTotals",
+      "startLine": 1284,
+      "startOffset": 37302,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getUsageTotals::method"
+    },
+    {
+      "endLine": 1330,
+      "endOffset": 38756,
+      "kind": "method",
+      "name": "SessionManager.getTree",
+      "startLine": 1293,
+      "startOffset": 37636,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.getTree::method"
+    },
+    {
+      "endLine": 1347,
+      "endOffset": 39340,
+      "kind": "method",
+      "name": "SessionManager.branch",
+      "startLine": 1342,
+      "startOffset": 39174,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.branch::method"
+    },
+    {
+      "endLine": 1356,
+      "endOffset": 39596,
+      "kind": "method",
+      "name": "SessionManager.resetLeaf",
+      "startLine": 1354,
+      "startOffset": 39552,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.resetLeaf::method"
+    },
+    {
+      "endLine": 1380,
+      "endOffset": 40349,
+      "kind": "method",
+      "name": "SessionManager.branchWithSummary",
+      "startLine": 1363,
+      "startOffset": 39796,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.branchWithSummary::method"
+    },
+    {
+      "endLine": 1479,
+      "endOffset": 43738,
+      "kind": "method",
+      "name": "SessionManager.createBranchedSession",
+      "startLine": 1387,
+      "startOffset": 40599,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.createBranchedSession::method"
+    },
+    {
+      "endLine": 1489,
+      "endOffset": 44130,
+      "kind": "method",
+      "name": "SessionManager.create",
+      "startLine": 1486,
+      "startOffset": 43951,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.create::method"
+    },
+    {
+      "endLine": 1504,
+      "endOffset": 44815,
+      "kind": "method",
+      "name": "SessionManager.open",
+      "startLine": 1496,
+      "startOffset": 44324,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.open::method"
+    },
+    {
+      "endLine": 1518,
+      "endOffset": 45354,
+      "kind": "method",
+      "name": "SessionManager.continueRecent",
+      "startLine": 1511,
+      "startOffset": 45036,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.continueRecent::method"
+    },
+    {
+      "endLine": 1523,
+      "endOffset": 45536,
+      "kind": "method",
+      "name": "SessionManager.inMemory",
+      "startLine": 1521,
+      "startOffset": 45415,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.inMemory::method"
+    },
+    {
+      "endLine": 1573,
+      "endOffset": 47489,
+      "kind": "method",
+      "name": "SessionManager.forkFrom",
+      "startLine": 1532,
+      "startOffset": 45945,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.forkFrom::method"
+    },
+    {
+      "endLine": 1586,
+      "endOffset": 48132,
+      "kind": "method",
+      "name": "SessionManager.list",
+      "startLine": 1581,
+      "startOffset": 47809,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.list::method"
+    },
+    {
+      "endLine": 1644,
+      "endOffset": 49682,
+      "kind": "method",
+      "name": "SessionManager.listAll",
+      "startLine": 1592,
+      "startOffset": 48276,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionManager.listAll::method"
+    },
+    {
+      "endLine": 62,
+      "endOffset": 1820,
+      "kind": "interface",
+      "name": "SessionHeader",
+      "startLine": 55,
+      "startOffset": 1646,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionHeader::interface"
+    },
+    {
+      "endLine": 66,
+      "endOffset": 1885,
+      "kind": "interface",
+      "name": "NewSessionOptions",
+      "startLine": 64,
+      "startOffset": 1822,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::NewSessionOptions::interface"
+    },
+    {
+      "endLine": 73,
+      "endOffset": 1998,
+      "kind": "interface",
+      "name": "SessionEntryBase",
+      "startLine": 68,
+      "startOffset": 1887,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntryBase::interface"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2107,
+      "kind": "interface",
+      "name": "SessionMessageEntry",
+      "startLine": 75,
+      "startOffset": 2000,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionMessageEntry::interface"
+    },
+    {
+      "endLine": 83,
+      "endOffset": 2235,
+      "kind": "interface",
+      "name": "ThinkingLevelChangeEntry",
+      "startLine": 80,
+      "startOffset": 2109,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::ThinkingLevelChangeEntry::interface"
+    },
+    {
+      "endLine": 89,
+      "endOffset": 2359,
+      "kind": "interface",
+      "name": "ModelChangeEntry",
+      "startLine": 85,
+      "startOffset": 2237,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::ModelChangeEntry::interface"
+    },
+    {
+      "endLine": 100,
+      "endOffset": 2753,
+      "kind": "interface",
+      "name": "CompactionEntry",
+      "startLine": 91,
+      "startOffset": 2361,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::CompactionEntry::interface"
+    },
+    {
+      "endLine": 110,
+      "endOffset": 3042,
+      "kind": "interface",
+      "name": "BranchSummaryEntry",
+      "startLine": 102,
+      "startOffset": 2755,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::BranchSummaryEntry::interface"
+    },
+    {
+      "endLine": 126,
+      "endOffset": 3604,
+      "kind": "interface",
+      "name": "CustomEntry",
+      "startLine": 122,
+      "startOffset": 3485,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::CustomEntry::interface"
+    },
+    {
+      "endLine": 133,
+      "endOffset": 3791,
+      "kind": "interface",
+      "name": "LabelEntry",
+      "startLine": 129,
+      "startOffset": 3672,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::LabelEntry::interface"
+    },
+    {
+      "endLine": 139,
+      "endOffset": 3959,
+      "kind": "interface",
+      "name": "SessionInfoEntry",
+      "startLine": 136,
+      "startOffset": 3858,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionInfoEntry::interface"
+    },
+    {
+      "endLine": 159,
+      "endOffset": 4649,
+      "kind": "interface",
+      "name": "CustomMessageEntry",
+      "startLine": 153,
+      "startOffset": 4442,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::CustomMessageEntry::interface"
+    },
+    {
+      "endLine": 182,
+      "endOffset": 5283,
+      "kind": "interface",
+      "name": "SessionTreeNode",
+      "startLine": 177,
+      "startOffset": 5132,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionTreeNode::interface"
+    },
+    {
+      "endLine": 188,
+      "endOffset": 5425,
+      "kind": "interface",
+      "name": "SessionContext",
+      "startLine": 184,
+      "startOffset": 5285,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionContext::interface"
+    },
+    {
+      "endLine": 204,
+      "endOffset": 5865,
+      "kind": "interface",
+      "name": "SessionInfo",
+      "startLine": 190,
+      "startOffset": 5427,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionInfo::interface"
+    },
+    {
+      "endLine": 212,
+      "endOffset": 5995,
+      "kind": "interface",
+      "name": "SessionUsageTotals",
+      "startLine": 206,
+      "startOffset": 5867,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionUsageTotals::interface"
+    },
+    {
+      "endLine": 171,
+      "endOffset": 4966,
+      "kind": "type",
+      "name": "SessionEntry",
+      "startLine": 162,
+      "startOffset": 4756,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "endLine": 174,
+      "endOffset": 5061,
+      "kind": "type",
+      "name": "FileEntry",
+      "startLine": 174,
+      "startOffset": 5008,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::FileEntry::type"
+    },
+    {
+      "endLine": 230,
+      "endOffset": 6288,
+      "kind": "type",
+      "name": "ReadonlySessionManager",
+      "startLine": 214,
+      "startOffset": 5997,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::ReadonlySessionManager::type"
+    },
+    {
+      "endLine": 765,
+      "endOffset": 22347,
+      "kind": "type",
+      "name": "SessionListProgress",
+      "startLine": 765,
+      "startOffset": 22273,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::SessionListProgress::type"
+    },
+    {
+      "endLine": 53,
+      "endOffset": 1643,
+      "kind": "variable",
+      "name": "CURRENT_SESSION_VERSION",
+      "startLine": 53,
+      "startOffset": 1616,
+      "symbolId": "packages/pi-coding-agent/src/core/session-manager.ts::CURRENT_SESSION_VERSION::variable"
+    }
+  ]
+}

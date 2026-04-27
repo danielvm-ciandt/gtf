@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/core/local-model-check.ts::isLocalModel::function"
+    }
+  ],
+  "contentHash": "96f7c1fee76ce2b6cdffc546567ea5f558bb1422e739848a690e33af62c7dc58",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/local-model-check.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 44,
+      "endOffset": 1142,
+      "kind": "function",
+      "name": "isLocalModel",
+      "startLine": 12,
+      "startOffset": 432,
+      "symbolId": "packages/pi-coding-agent/src/core/local-model-check.ts::isLocalModel::function"
+    }
+  ]
+}

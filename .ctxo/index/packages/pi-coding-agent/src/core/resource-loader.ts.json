@@ -1,0 +1,939 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::detectExtensionConflicts::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getExtensions::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getSkills::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getPrompts::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getThemes::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getAgentsFiles::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getSystemPrompt::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getAppendSystemPrompt::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getPathMetadata::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method"
+    },
+    {
+      "cyclomatic": 29,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.normalizeExtensionPaths::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateSkillsFromPaths::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.applyExtensionMetadata::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.resolveResourcePath::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemes::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemesFromDir::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemeFromFile::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadExtensionFactories::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.dedupeResources::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.discoverFileInSearchPaths::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.isUnderPath::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getExtensionNameFromPath::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.detectExtensionConflicts::method"
+    }
+  ],
+  "contentHash": "ccb45641a8cf1b696086a8b81a4885648d65dca77f77f0b5df3db737e0a53b39",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/diagnostics.ts::ResourceCollision::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/diagnostics.ts::ResourceDiagnostic::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/event-bus.ts::createEventBus::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/event-bus.ts::EventBus::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::createExtensionRuntime::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::loadExtensionFromFactory::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::loadExtensions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::resetExtensionLoaderCache::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::Extension::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionFactory::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionRuntime::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::LoadExtensionsResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::PathMetadata::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::PromptTemplate::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::loadPromptTemplates::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::Skill::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/core/resource-loader.ts::ResourceLoader::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::detectExtensionConflicts::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.normalizeExtensionPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.normalizeExtensionPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.normalizeExtensionPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateSkillsFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::resetExtensionLoaderCache::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::loadExtensions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadExtensionFactories::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.detectExtensionConflicts::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateSkillsFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::loadProjectContextFiles::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::resolvePromptInput::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.discoverFileInSearchPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.discoverFileInSearchPaths::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::resolvePromptInput::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.normalizeExtensionPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.resolveResourcePath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateSkillsFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateSkillsFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.applyExtensionMetadata::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateSkillsFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::loadPromptTemplates::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.dedupeResources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.applyExtensionMetadata::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemes::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.dedupeResources::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.applyExtensionMetadata::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.resolveResourcePath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemes::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemesFromDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemes::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemesFromDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemes::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemeFromFile::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemesFromDir::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemeFromFile::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemeFromFile::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadExtensionFactories::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::loadExtensionFromFactory::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.isUnderPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.isUnderPath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::detectExtensionConflicts::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::Extension::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/event-bus.ts::EventBus::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionFactory::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::LoadExtensionsResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::Skill::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/diagnostics.ts::ResourceDiagnostic::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::PromptTemplate::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::Theme::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::PathMetadata::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/event-bus.ts::createEventBus::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::createExtensionRuntime::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::resetExtensionLoaderCache::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::loadExtensions::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/skills.ts::loadSkills::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/prompt-templates.ts::loadPromptTemplates::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::loadThemeFromPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ExtensionRuntime::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::Extension::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/loader.ts::loadExtensionFromFactory::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/diagnostics.ts::ResourceCollision::interface"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/resource-loader.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 857,
+      "endOffset": 30426,
+      "kind": "function",
+      "name": "extractExtensionKey",
+      "startLine": 847,
+      "startOffset": 29909,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::extractExtensionKey::function"
+    },
+    {
+      "endLine": 928,
+      "endOffset": 32682,
+      "kind": "function",
+      "name": "detectExtensionConflicts",
+      "startLine": 867,
+      "startOffset": 30783,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::detectExtensionConflicts::function"
+    },
+    {
+      "endLine": 838,
+      "endOffset": 29601,
+      "kind": "class",
+      "name": "DefaultResourceLoader",
+      "startLine": 158,
+      "startOffset": 5746,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader::class"
+    },
+    {
+      "endLine": 261,
+      "endOffset": 10302,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getExtensions",
+      "startLine": 259,
+      "startOffset": 10228,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getExtensions::method"
+    },
+    {
+      "endLine": 265,
+      "endOffset": 10447,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getSkills",
+      "startLine": 263,
+      "startOffset": 10305,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getSkills::method"
+    },
+    {
+      "endLine": 269,
+      "endOffset": 10606,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getPrompts",
+      "startLine": 267,
+      "startOffset": 10450,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getPrompts::method"
+    },
+    {
+      "endLine": 273,
+      "endOffset": 10751,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getThemes",
+      "startLine": 271,
+      "startOffset": 10609,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getThemes::method"
+    },
+    {
+      "endLine": 277,
+      "endOffset": 10878,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getAgentsFiles",
+      "startLine": 275,
+      "startOffset": 10754,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getAgentsFiles::method"
+    },
+    {
+      "endLine": 281,
+      "endOffset": 10951,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getSystemPrompt",
+      "startLine": 279,
+      "startOffset": 10881,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getSystemPrompt::method"
+    },
+    {
+      "endLine": 285,
+      "endOffset": 11026,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getAppendSystemPrompt",
+      "startLine": 283,
+      "startOffset": 10954,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getAppendSystemPrompt::method"
+    },
+    {
+      "endLine": 289,
+      "endOffset": 11106,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getPathMetadata",
+      "startLine": 287,
+      "startOffset": 11029,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getPathMetadata::method"
+    },
+    {
+      "endLine": 319,
+      "endOffset": 12048,
+      "kind": "method",
+      "name": "DefaultResourceLoader.extendResources",
+      "startLine": 291,
+      "startOffset": 11109,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.extendResources::method"
+    },
+    {
+      "endLine": 465,
+      "endOffset": 18049,
+      "kind": "method",
+      "name": "DefaultResourceLoader.reload",
+      "startLine": 321,
+      "startOffset": 12051,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.reload::method"
+    },
+    {
+      "endLine": 474,
+      "endOffset": 18319,
+      "kind": "method",
+      "name": "DefaultResourceLoader.normalizeExtensionPaths",
+      "startLine": 467,
+      "startOffset": 18052,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.normalizeExtensionPaths::method"
+    },
+    {
+      "endLine": 501,
+      "endOffset": 19168,
+      "kind": "method",
+      "name": "DefaultResourceLoader.updateSkillsFromPaths",
+      "startLine": 476,
+      "startOffset": 18322,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateSkillsFromPaths::method"
+    },
+    {
+      "endLine": 535,
+      "endOffset": 20323,
+      "kind": "method",
+      "name": "DefaultResourceLoader.updatePromptsFromPaths",
+      "startLine": 503,
+      "startOffset": 19171,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updatePromptsFromPaths::method"
+    },
+    {
+      "endLine": 563,
+      "endOffset": 21480,
+      "kind": "method",
+      "name": "DefaultResourceLoader.updateThemesFromPaths",
+      "startLine": 537,
+      "startOffset": 20326,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.updateThemesFromPaths::method"
+    },
+    {
+      "endLine": 597,
+      "endOffset": 22410,
+      "kind": "method",
+      "name": "DefaultResourceLoader.applyExtensionMetadata",
+      "startLine": 565,
+      "startOffset": 21483,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.applyExtensionMetadata::method"
+    },
+    {
+      "endLine": 611,
+      "endOffset": 22759,
+      "kind": "method",
+      "name": "DefaultResourceLoader.mergePaths",
+      "startLine": 599,
+      "startOffset": 22413,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.mergePaths::method"
+    },
+    {
+      "endLine": 624,
+      "endOffset": 23138,
+      "kind": "method",
+      "name": "DefaultResourceLoader.resolveResourcePath",
+      "startLine": 613,
+      "startOffset": 22762,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.resolveResourcePath::method"
+    },
+    {
+      "endLine": 666,
+      "endOffset": 24410,
+      "kind": "method",
+      "name": "DefaultResourceLoader.loadThemes",
+      "startLine": 626,
+      "startOffset": 23141,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemes::method"
+    },
+    {
+      "endLine": 696,
+      "endOffset": 25198,
+      "kind": "method",
+      "name": "DefaultResourceLoader.loadThemesFromDir",
+      "startLine": 668,
+      "startOffset": 24413,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemesFromDir::method"
+    },
+    {
+      "endLine": 705,
+      "endOffset": 25535,
+      "kind": "method",
+      "name": "DefaultResourceLoader.loadThemeFromFile",
+      "startLine": 698,
+      "startOffset": 25201,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadThemeFromFile::method"
+    },
+    {
+      "endLine": 726,
+      "endOffset": 26282,
+      "kind": "method",
+      "name": "DefaultResourceLoader.loadExtensionFactories",
+      "startLine": 707,
+      "startOffset": 25538,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.loadExtensionFactories::method"
+    },
+    {
+      "endLine": 762,
+      "endOffset": 27231,
+      "kind": "method",
+      "name": "DefaultResourceLoader.dedupeResources",
+      "startLine": 728,
+      "startOffset": 26285,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.dedupeResources::method"
+    },
+    {
+      "endLine": 773,
+      "endOffset": 27537,
+      "kind": "method",
+      "name": "DefaultResourceLoader.discoverFileInSearchPaths",
+      "startLine": 764,
+      "startOffset": 27234,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.discoverFileInSearchPaths::method"
+    },
+    {
+      "endLine": 811,
+      "endOffset": 28612,
+      "kind": "method",
+      "name": "DefaultResourceLoader.addDefaultMetadataForPath",
+      "startLine": 775,
+      "startOffset": 27540,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.addDefaultMetadataForPath::method"
+    },
+    {
+      "endLine": 820,
+      "endOffset": 28901,
+      "kind": "method",
+      "name": "DefaultResourceLoader.isUnderPath",
+      "startLine": 813,
+      "startOffset": 28615,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.isUnderPath::method"
+    },
+    {
+      "endLine": 833,
+      "endOffset": 29383,
+      "kind": "method",
+      "name": "DefaultResourceLoader.getExtensionNameFromPath",
+      "startLine": 827,
+      "startOffset": 29150,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.getExtensionNameFromPath::method"
+    },
+    {
+      "endLine": 837,
+      "endOffset": 29599,
+      "kind": "method",
+      "name": "DefaultResourceLoader.detectExtensionConflicts",
+      "startLine": 835,
+      "startOffset": 29386,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoader.detectExtensionConflicts::method"
+    },
+    {
+      "endLine": 24,
+      "endOffset": 1410,
+      "kind": "interface",
+      "name": "ResourceExtensionPaths",
+      "startLine": 20,
+      "startOffset": 1177,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::ResourceExtensionPaths::interface"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 1990,
+      "kind": "interface",
+      "name": "ResourceLoader",
+      "startLine": 26,
+      "startOffset": 1412,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::ResourceLoader::interface"
+    },
+    {
+      "endLine": 156,
+      "endOffset": 5744,
+      "kind": "interface",
+      "name": "DefaultResourceLoaderOptions",
+      "startLine": 113,
+      "startOffset": 3931,
+      "symbolId": "packages/pi-coding-agent/src/core/resource-loader.ts::DefaultResourceLoaderOptions::interface"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::getSegmenter::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::sliceByColumn::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::sliceWithWidth::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::extractSegments::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    }
+  ],
+  "contentHash": "8610f11b0ddec69e51e1a0bfc21a35bd3ca89411fcb0be13527eda3d11fbcbf3",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/utils.ts::truncateToWidth::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::ellipsisStringToKind::function"
+    },
+    {
+      "from": "packages/pi-tui/src/utils.ts::sliceByColumn::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::sliceWithWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/utils.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320165,
+  "symbols": [
+    {
+      "endLine": 17,
+      "endOffset": 504,
+      "kind": "function",
+      "name": "getSegmenter",
+      "startLine": 15,
+      "startOffset": 435,
+      "symbolId": "packages/pi-tui/src/utils.ts::getSegmenter::function"
+    },
+    {
+      "endLine": 26,
+      "endOffset": 704,
+      "kind": "function",
+      "name": "isWhitespaceChar",
+      "startLine": 24,
+      "startOffset": 620,
+      "symbolId": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "endLine": 33,
+      "endOffset": 852,
+      "kind": "function",
+      "name": "isPunctuationChar",
+      "startLine": 31,
+      "startOffset": 754,
+      "symbolId": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "endLine": 45,
+      "endOffset": 1250,
+      "kind": "function",
+      "name": "visibleWidth",
+      "startLine": 43,
+      "startOffset": 1164,
+      "symbolId": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "endLine": 57,
+      "endOffset": 1645,
+      "kind": "function",
+      "name": "wrapTextWithAnsi",
+      "startLine": 55,
+      "startOffset": 1525,
+      "symbolId": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "endLine": 88,
+      "endOffset": 2771,
+      "kind": "function",
+      "name": "truncateToWidth",
+      "startLine": 81,
+      "startOffset": 2557,
+      "symbolId": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "endLine": 96,
+      "endOffset": 3125,
+      "kind": "function",
+      "name": "sliceByColumn",
+      "startLine": 94,
+      "startOffset": 2959,
+      "symbolId": "packages/pi-tui/src/utils.ts::sliceByColumn::function"
+    },
+    {
+      "endLine": 106,
+      "endOffset": 3410,
+      "kind": "function",
+      "name": "sliceWithWidth",
+      "startLine": 99,
+      "startOffset": 3210,
+      "symbolId": "packages/pi-tui/src/utils.ts::sliceWithWidth::function"
+    },
+    {
+      "endLine": 120,
+      "endOffset": 3833,
+      "kind": "function",
+      "name": "extractSegments",
+      "startLine": 112,
+      "startOffset": 3539,
+      "symbolId": "packages/pi-tui/src/utils.ts::extractSegments::function"
+    },
+    {
+      "endLine": 137,
+      "endOffset": 4420,
+      "kind": "function",
+      "name": "applyBackgroundToLine",
+      "startLine": 130,
+      "startOffset": 4105,
+      "symbolId": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    }
+  ]
+}

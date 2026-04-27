@@ -1,0 +1,211 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableText::function"
+    },
+    {
+      "cyclomatic": 211,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function"
+    }
+  ],
+  "contentHash": "f0d95a205b0b71f8623d68ed01ba87f7d4bc8c64224e22f097b5d2ea4d612b77",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeStateHost::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableText::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::rowsRenderedAfterContentIndex::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::hasVisibleAssistantContent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::hasAssistantToolBlocks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeStateHost::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/interactive-mode-state.ts::InteractiveModeEvent::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/tool-execution.ts::ToolExecutionComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/assistant-message.ts::AssistantMessageComponent::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::appKey::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 67,
+      "endOffset": 2756,
+      "kind": "function",
+      "name": "findLatestPinnableCandidates",
+      "startLine": 48,
+      "startOffset": 2132,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableCandidates::function"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 2903,
+      "kind": "function",
+      "name": "findLatestPinnableText",
+      "startLine": 69,
+      "startOffset": 2758,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::findLatestPinnableText::function"
+    },
+    {
+      "endLine": 973,
+      "endOffset": 36198,
+      "kind": "function",
+      "name": "handleAgentEvent",
+      "startLine": 102,
+      "startOffset": 4110,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/controllers/chat-controller.ts::handleAgentEvent::function"
+    }
+  ]
+}

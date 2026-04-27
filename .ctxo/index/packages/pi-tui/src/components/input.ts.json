@@ -1,0 +1,598 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.getValue::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.setValue::method"
+    },
+    {
+      "cyclomatic": 34,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handleInput::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.insertCharacter::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handleBackspace::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handleForwardDelete::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteToLineStart::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteToLineEnd::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteWordBackwards::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteWordForward::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.yank::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.yankPop::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.undo::method"
+    },
+    {
+      "cyclomatic": 22,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handlePaste::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.invalidate::method"
+    },
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.render::method"
+    }
+  ],
+  "contentHash": "4534e1972451e908e6874f5be482beadf4799b4c7f0dab09e48e2e78419e6497",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/kill-ring.ts::KillRing::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::CURSOR_MARKER::variable"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Focusable::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/undo-stack.ts::UndoStack::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::getSegmenter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.handlePaste::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.undo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.handleBackspace::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.handleForwardDelete::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.deleteWordBackwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.deleteWordForward::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.deleteToLineStart::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.deleteToLineEnd::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.yank::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.yankPop::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.insertCharacter::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.insertCharacter::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.insertCharacter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleBackspace::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handleForwardDelete::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.deleteToLineStart::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.deleteToLineEnd::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.deleteWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.deleteWordForward::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.deleteWordForward::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.yank::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.yankPop::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.handlePaste::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/kill-ring.ts::KillRing::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/undo-stack.ts::UndoStack::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::isWhitespaceChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::isPunctuationChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::CURSOR_MARKER::variable"
+    },
+    {
+      "from": "packages/pi-tui/src/components/input.ts::Input::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/input.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 544,
+      "endOffset": 16138,
+      "kind": "class",
+      "name": "Input",
+      "startLine": 17,
+      "startOffset": 542,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input::class"
+    },
+    {
+      "endLine": 52,
+      "endOffset": 1560,
+      "kind": "method",
+      "name": "Input.getValue",
+      "startLine": 50,
+      "startOffset": 1516,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.getValue::method"
+    },
+    {
+      "endLine": 57,
+      "endOffset": 1672,
+      "kind": "method",
+      "name": "Input.setValue",
+      "startLine": 54,
+      "startOffset": 1563,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.setValue::method"
+    },
+    {
+      "endLine": 222,
+      "endOffset": 5743,
+      "kind": "method",
+      "name": "Input.handleInput",
+      "startLine": 59,
+      "startOffset": 1675,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handleInput::method"
+    },
+    {
+      "endLine": 233,
+      "endOffset": 6110,
+      "kind": "method",
+      "name": "Input.insertCharacter",
+      "startLine": 224,
+      "startOffset": 5746,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.insertCharacter::method"
+    },
+    {
+      "endLine": 246,
+      "endOffset": 6605,
+      "kind": "method",
+      "name": "Input.handleBackspace",
+      "startLine": 235,
+      "startOffset": 6113,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handleBackspace::method"
+    },
+    {
+      "endLine": 258,
+      "endOffset": 7065,
+      "kind": "method",
+      "name": "Input.handleForwardDelete",
+      "startLine": 248,
+      "startOffset": 6608,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handleForwardDelete::method"
+    },
+    {
+      "endLine": 268,
+      "endOffset": 7401,
+      "kind": "method",
+      "name": "Input.deleteToLineStart",
+      "startLine": 260,
+      "startOffset": 7068,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteToLineStart::method"
+    },
+    {
+      "endLine": 277,
+      "endOffset": 7732,
+      "kind": "method",
+      "name": "Input.deleteToLineEnd",
+      "startLine": 270,
+      "startOffset": 7404,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteToLineEnd::method"
+    },
+    {
+      "endLine": 298,
+      "endOffset": 8350,
+      "kind": "method",
+      "name": "Input.deleteWordBackwards",
+      "startLine": 279,
+      "startOffset": 7735,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteWordBackwards::method"
+    },
+    {
+      "endLine": 318,
+      "endOffset": 8946,
+      "kind": "method",
+      "name": "Input.deleteWordForward",
+      "startLine": 300,
+      "startOffset": 8353,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.deleteWordForward::method"
+    },
+    {
+      "endLine": 329,
+      "endOffset": 9199,
+      "kind": "method",
+      "name": "Input.yank",
+      "startLine": 320,
+      "startOffset": 8949,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.yank::method"
+    },
+    {
+      "endLine": 347,
+      "endOffset": 9829,
+      "kind": "method",
+      "name": "Input.yankPop",
+      "startLine": 331,
+      "startOffset": 9202,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.yankPop::method"
+    },
+    {
+      "endLine": 351,
+      "endOffset": 9928,
+      "kind": "method",
+      "name": "Input.pushUndo",
+      "startLine": 349,
+      "startOffset": 9832,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.pushUndo::method"
+    },
+    {
+      "endLine": 359,
+      "endOffset": 10112,
+      "kind": "method",
+      "name": "Input.undo",
+      "startLine": 353,
+      "startOffset": 9931,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.undo::method"
+    },
+    {
+      "endLine": 393,
+      "endOffset": 11179,
+      "kind": "method",
+      "name": "Input.moveWordBackwards",
+      "startLine": 361,
+      "startOffset": 10115,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.moveWordBackwards::method"
+    },
+    {
+      "endLine": 428,
+      "endOffset": 12179,
+      "kind": "method",
+      "name": "Input.moveWordForwards",
+      "startLine": 395,
+      "startOffset": 11182,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.moveWordForwards::method"
+    },
+    {
+      "endLine": 440,
+      "endOffset": 12595,
+      "kind": "method",
+      "name": "Input.handlePaste",
+      "startLine": 430,
+      "startOffset": 12182,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.handlePaste::method"
+    },
+    {
+      "endLine": 444,
+      "endOffset": 12666,
+      "kind": "method",
+      "name": "Input.invalidate",
+      "startLine": 442,
+      "startOffset": 12598,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.invalidate::method"
+    },
+    {
+      "endLine": 543,
+      "endOffset": 16136,
+      "kind": "method",
+      "name": "Input.render",
+      "startLine": 446,
+      "startOffset": 12669,
+      "symbolId": "packages/pi-tui/src/components/input.ts::Input.render::method"
+    }
+  ]
+}

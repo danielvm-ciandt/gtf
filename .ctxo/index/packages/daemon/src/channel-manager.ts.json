@@ -1,0 +1,152 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/daemon/src/channel-manager.ts::sanitizeChannelName::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveCategory::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.createProjectChannel::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.archiveChannel::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.findCategoryByName::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveArchiveCategory::method"
+    }
+  ],
+  "contentHash": "20ba0053c3c45b43e22408f2b80b627e57be6e73a7d631464efda65406808c73",
+  "edges": [
+    {
+      "from": "packages/daemon/src/channel-manager.ts::sanitizeChannelName::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveCategory::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager.findCategoryByName::method"
+    },
+    {
+      "from": "packages/daemon/src/channel-manager.ts::ChannelManager.createProjectChannel::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/channel-manager.ts::sanitizeChannelName::function"
+    },
+    {
+      "from": "packages/daemon/src/channel-manager.ts::ChannelManager.createProjectChannel::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveCategory::method"
+    },
+    {
+      "from": "packages/daemon/src/channel-manager.ts::ChannelManager.archiveChannel::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveArchiveCategory::method"
+    },
+    {
+      "from": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveArchiveCategory::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager.findCategoryByName::method"
+    },
+    {
+      "from": "packages/daemon/src/channel-manager.ts::ChannelManager::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/logger.ts::Logger::class"
+    }
+  ],
+  "file": "packages/daemon/src/channel-manager.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 83,
+      "endOffset": 2428,
+      "kind": "function",
+      "name": "sanitizeChannelName",
+      "startLine": 43,
+      "startOffset": 1362,
+      "symbolId": "packages/daemon/src/channel-manager.ts::sanitizeChannelName::function"
+    },
+    {
+      "endLine": 222,
+      "endOffset": 6715,
+      "kind": "class",
+      "name": "ChannelManager",
+      "startLine": 95,
+      "startOffset": 2716,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager::class"
+    },
+    {
+      "endLine": 134,
+      "endOffset": 4000,
+      "kind": "method",
+      "name": "ChannelManager.resolveCategory",
+      "startLine": 113,
+      "startOffset": 3288,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveCategory::method"
+    },
+    {
+      "endLine": 158,
+      "endOffset": 4650,
+      "kind": "method",
+      "name": "ChannelManager.createProjectChannel",
+      "startLine": 140,
+      "startOffset": 4152,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.createProjectChannel::method"
+    },
+    {
+      "endLine": 189,
+      "endOffset": 5603,
+      "kind": "method",
+      "name": "ChannelManager.archiveChannel",
+      "startLine": 164,
+      "startOffset": 4805,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.archiveChannel::method"
+    },
+    {
+      "endLine": 200,
+      "endOffset": 6057,
+      "kind": "method",
+      "name": "ChannelManager.findCategoryByName",
+      "startLine": 195,
+      "startOffset": 5791,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.findCategoryByName::method"
+    },
+    {
+      "endLine": 221,
+      "endOffset": 6713,
+      "kind": "method",
+      "name": "ChannelManager.resolveArchiveCategory",
+      "startLine": 202,
+      "startOffset": 6061,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManager.resolveArchiveCategory::method"
+    },
+    {
+      "endLine": 93,
+      "endOffset": 2714,
+      "kind": "interface",
+      "name": "ChannelManagerOptions",
+      "startLine": 89,
+      "startOffset": 2613,
+      "symbolId": "packages/daemon/src/channel-manager.ts::ChannelManagerOptions::interface"
+    }
+  ]
+}

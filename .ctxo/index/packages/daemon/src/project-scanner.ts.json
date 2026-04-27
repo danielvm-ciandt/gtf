@@ -1,0 +1,55 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/daemon/src/project-scanner.ts::scanForProjects::function"
+    }
+  ],
+  "contentHash": "e233a6d926fb6e45cccce56f25fb7a468af13af204e69f836c306911a46b5177",
+  "edges": [
+    {
+      "from": "packages/daemon/src/project-scanner.ts::scanForProjects::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/project-scanner.ts::scanForProjects::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ProjectMarker::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/project-scanner.ts::scanForProjects::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface"
+    },
+    {
+      "from": "packages/daemon/src/project-scanner.ts::scanForProjects::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::ProjectMarker::type"
+    }
+  ],
+  "file": "packages/daemon/src/project-scanner.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 98,
+      "endOffset": 3048,
+      "kind": "function",
+      "name": "scanForProjects",
+      "startLine": 37,
+      "startOffset": 1397,
+      "symbolId": "packages/daemon/src/project-scanner.ts::scanForProjects::function"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#ensureDir::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#scanExistingIds::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocateId::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocatePath::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.save::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.exists::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.listFiles::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.getPath::method"
+    }
+  ],
+  "contentHash": "2ac0cd35bd4e09feeabfe089a47702218fb02d491b57a8dba1c31c39bbda6b30",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#ensureDir::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#scanExistingIds::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#scanExistingIds::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.listFiles::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocatePath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#ensureDir::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocatePath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocateId::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.save::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocatePath::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.exists::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.listFiles::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.getPath::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.listFiles::method"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/artifact-manager.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 124,
+      "endOffset": 3181,
+      "kind": "class",
+      "name": "ArtifactManager",
+      "startLine": 15,
+      "startOffset": 475,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager::class"
+    },
+    {
+      "endLine": 46,
+      "endOffset": 1166,
+      "kind": "method",
+      "name": "ArtifactManager.#ensureDir",
+      "startLine": 37,
+      "startOffset": 949,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#ensureDir::method"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 1593,
+      "kind": "method",
+      "name": "ArtifactManager.#scanExistingIds",
+      "startLine": 52,
+      "startOffset": 1309,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.#scanExistingIds::method"
+    },
+    {
+      "endLine": 68,
+      "endOffset": 1692,
+      "kind": "method",
+      "name": "ArtifactManager.allocateId",
+      "startLine": 66,
+      "startOffset": 1642,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocateId::method"
+    },
+    {
+      "endLine": 79,
+      "endOffset": 2063,
+      "kind": "method",
+      "name": "ArtifactManager.allocatePath",
+      "startLine": 74,
+      "startOffset": 1843,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.allocatePath::method"
+    },
+    {
+      "endLine": 91,
+      "endOffset": 2440,
+      "kind": "method",
+      "name": "ArtifactManager.save",
+      "startLine": 87,
+      "startOffset": 2291,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.save::method"
+    },
+    {
+      "endLine": 100,
+      "endOffset": 2647,
+      "kind": "method",
+      "name": "ArtifactManager.exists",
+      "startLine": 97,
+      "startOffset": 2529,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.exists::method"
+    },
+    {
+      "endLine": 112,
+      "endOffset": 2856,
+      "kind": "method",
+      "name": "ArtifactManager.listFiles",
+      "startLine": 106,
+      "startOffset": 2758,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.listFiles::method"
+    },
+    {
+      "endLine": 123,
+      "endOffset": 3179,
+      "kind": "method",
+      "name": "ArtifactManager.getPath",
+      "startLine": 119,
+      "startOffset": 2999,
+      "symbolId": "packages/pi-coding-agent/src/core/artifact-manager.ts::ArtifactManager.getPath::method"
+    }
+  ]
+}

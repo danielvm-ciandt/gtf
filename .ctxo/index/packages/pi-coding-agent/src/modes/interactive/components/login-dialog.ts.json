@@ -1,0 +1,254 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.rejectPending::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.cancel::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.dispose::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showAuth::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showManualInput::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showPrompt::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showWaiting::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showProgress::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.handleInput::method"
+    }
+  ],
+  "contentHash": "5127e23579998420ef5124f44b78e2f3bf231c9352f7141b13b421e86d48dc3e",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::Focusable::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::wrapPlainText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.cancel::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.rejectPending::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.dispose::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.rejectPending::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showAuth::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showManualInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.rejectPending::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showManualInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showPrompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.rejectPending::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showPrompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showPrompt::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showWaiting::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.cancel::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 28,
+      "endOffset": 1114,
+      "kind": "function",
+      "name": "buildAuthUrlPresentation",
+      "startLine": 18,
+      "startOffset": 767,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function"
+    },
+    {
+      "endLine": 255,
+      "endOffset": 8207,
+      "kind": "class",
+      "name": "LoginDialogComponent",
+      "startLine": 38,
+      "startOffset": 1442,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent::class"
+    },
+    {
+      "endLine": 115,
+      "endOffset": 3545,
+      "kind": "method",
+      "name": "LoginDialogComponent.rejectPending",
+      "startLine": 108,
+      "startOffset": 3323,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.rejectPending::method"
+    },
+    {
+      "endLine": 124,
+      "endOffset": 3848,
+      "kind": "method",
+      "name": "LoginDialogComponent.cancel",
+      "startLine": 117,
+      "startOffset": 3548,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.cancel::method"
+    },
+    {
+      "endLine": 136,
+      "endOffset": 4188,
+      "kind": "method",
+      "name": "LoginDialogComponent.dispose",
+      "startLine": 131,
+      "startOffset": 4036,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.dispose::method"
+    },
+    {
+      "endLine": 176,
+      "endOffset": 5780,
+      "kind": "method",
+      "name": "LoginDialogComponent.showAuth",
+      "startLine": 141,
+      "startOffset": 4268,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showAuth::method"
+    },
+    {
+      "endLine": 195,
+      "endOffset": 6452,
+      "kind": "method",
+      "name": "LoginDialogComponent.showManualInput",
+      "startLine": 181,
+      "startOffset": 5866,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showManualInput::method"
+    },
+    {
+      "endLine": 222,
+      "endOffset": 7415,
+      "kind": "method",
+      "name": "LoginDialogComponent.showPrompt",
+      "startLine": 201,
+      "startOffset": 6614,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showPrompt::method"
+    },
+    {
+      "endLine": 232,
+      "endOffset": 7780,
+      "kind": "method",
+      "name": "LoginDialogComponent.showWaiting",
+      "startLine": 227,
+      "startOffset": 7493,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showWaiting::method"
+    },
+    {
+      "endLine": 240,
+      "endOffset": 7971,
+      "kind": "method",
+      "name": "LoginDialogComponent.showProgress",
+      "startLine": 237,
+      "startOffset": 7827,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.showProgress::method"
+    },
+    {
+      "endLine": 254,
+      "endOffset": 8205,
+      "kind": "method",
+      "name": "LoginDialogComponent.handleInput",
+      "startLine": 242,
+      "startOffset": 7974,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::LoginDialogComponent.handleInput::method"
+    }
+  ]
+}

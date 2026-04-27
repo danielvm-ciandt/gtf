@@ -1,0 +1,290 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::retainThoughtSignature::function"
+    },
+    {
+      "cyclomatic": 39,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::sanitizeSchemaForGoogle::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::convertTools::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::mapToolChoice::function"
+    },
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::mapStopReason::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::mapStopReasonString::function"
+    }
+  ],
+  "contentHash": "b083a84829c6cb6c0bd6693cab508d13bb3e26cbe0f2b6a301e9d3047e7880c9",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ImageContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Tool::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::requiresToolCallId::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::resolveThoughtSignature::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::resolveThoughtSignature::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::resolveThoughtSignature::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::requiresToolCallId::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::requiresToolCallId::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertTools::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::sanitizeSchemaForGoogle::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertTools::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/google-shared.ts::sanitizeSchemaForGoogle::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ImageContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::convertTools::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Tool::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::mapStopReason::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/google-shared.ts::mapStopReasonString::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/google-shared.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 28,
+      "endOffset": 1492,
+      "kind": "function",
+      "name": "isThinkingPart",
+      "startLine": 26,
+      "startOffset": 1368,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::isThinkingPart::function"
+    },
+    {
+      "endLine": 42,
+      "endOffset": 2146,
+      "kind": "function",
+      "name": "retainThoughtSignature",
+      "startLine": 39,
+      "startOffset": 1931,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::retainThoughtSignature::function"
+    },
+    {
+      "endLine": 226,
+      "endOffset": 9283,
+      "kind": "function",
+      "name": "convertMessages",
+      "startLine": 75,
+      "startOffset": 3388,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::convertMessages::function"
+    },
+    {
+      "endLine": 272,
+      "endOffset": 10651,
+      "kind": "function",
+      "name": "sanitizeSchemaForGoogle",
+      "startLine": 239,
+      "startOffset": 9770,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::sanitizeSchemaForGoogle::function"
+    },
+    {
+      "endLine": 301,
+      "endOffset": 11717,
+      "kind": "function",
+      "name": "convertTools",
+      "startLine": 285,
+      "startOffset": 11235,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::convertTools::function"
+    },
+    {
+      "endLine": 317,
+      "endOffset": 12110,
+      "kind": "function",
+      "name": "mapToolChoice",
+      "startLine": 306,
+      "startOffset": 11790,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::mapToolChoice::function"
+    },
+    {
+      "endLine": 349,
+      "endOffset": 13015,
+      "kind": "function",
+      "name": "mapStopReason",
+      "startLine": 322,
+      "startOffset": 12166,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::mapStopReason::function"
+    },
+    {
+      "endLine": 363,
+      "endOffset": 13289,
+      "kind": "function",
+      "name": "mapStopReasonString",
+      "startLine": 354,
+      "startOffset": 13096,
+      "symbolId": "packages/pi-ai/src/providers/google-shared.ts::mapStopReasonString::function"
+    }
+  ]
+}

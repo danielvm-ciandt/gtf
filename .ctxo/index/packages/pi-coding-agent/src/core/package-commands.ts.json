@@ -1,0 +1,200 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function"
+    },
+    {
+      "cyclomatic": 20,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::parsePackageCommand::function"
+    },
+    {
+      "cyclomatic": 33,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function"
+    }
+  ],
+  "contentHash": "c04d25d1e37ac71030757eb320d4f6feb01afee084f4e5c8cf67e7dd703a22ec",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::prepareLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::runLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::parsePackageCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::printPackageCommandHelp::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-commands.ts::reportSettingsErrors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::prepareLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::runLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::prepareLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::runLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::prepareLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::runLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::runLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::SettingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/package-manager.ts::DefaultPackageManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::prepareLifecycleHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lifecycle-hooks.ts::runLifecycleHooks::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/package-commands.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 51,
+      "endOffset": 1484,
+      "kind": "function",
+      "name": "getPackageCommandUsage",
+      "startLine": 40,
+      "startOffset": 1142,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::getPackageCommandUsage::function"
+    },
+    {
+      "endLine": 148,
+      "endOffset": 3801,
+      "kind": "function",
+      "name": "parsePackageCommand",
+      "startLine": 108,
+      "startOffset": 2827,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::parsePackageCommand::function"
+    },
+    {
+      "endLine": 309,
+      "endOffset": 9540,
+      "kind": "function",
+      "name": "runPackageCommand",
+      "startLine": 150,
+      "startOffset": 3803,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::runPackageCommand::function"
+    },
+    {
+      "endLine": 13,
+      "endOffset": 444,
+      "kind": "interface",
+      "name": "PackageCommandOptions",
+      "startLine": 7,
+      "startOffset": 300,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::PackageCommandOptions::interface"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 670,
+      "kind": "interface",
+      "name": "PackageCommandRunnerOptions",
+      "startLine": 15,
+      "startOffset": 446,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::PackageCommandRunnerOptions::interface"
+    },
+    {
+      "endLine": 28,
+      "endOffset": 757,
+      "kind": "interface",
+      "name": "PackageCommandRunnerResult",
+      "startLine": 25,
+      "startOffset": 672,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::PackageCommandRunnerResult::interface"
+    },
+    {
+      "endLine": 5,
+      "endOffset": 298,
+      "kind": "type",
+      "name": "PackageCommand",
+      "startLine": 5,
+      "startOffset": 228,
+      "symbolId": "packages/pi-coding-agent/src/core/package-commands.ts::PackageCommand::type"
+    }
+  ]
+}

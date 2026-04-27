@@ -1,0 +1,27 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "c59fae7a266fbc4961d8ed0154c66feebec0a2734af340bcfbc2daccc0cec6de",
+  "edges": [],
+  "file": "packages/native/src/image/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 40,
+      "endOffset": 1212,
+      "kind": "interface",
+      "name": "NativeImageHandle",
+      "startLine": 27,
+      "startOffset": 735,
+      "symbolId": "packages/native/src/image/types.ts::NativeImageHandle::interface"
+    }
+  ]
+}

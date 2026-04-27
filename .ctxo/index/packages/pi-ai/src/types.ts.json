@@ -1,0 +1,340 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "7d3b75dbfca587b44ab5e57f3e1349c744e9f9877c25d7034659fdf222116d4c",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/types.ts::ThinkingBudgets::interface",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-ai/src/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 59,
+      "endOffset": 1325,
+      "kind": "interface",
+      "name": "ThinkingBudgets",
+      "startLine": 54,
+      "startOffset": 1221,
+      "symbolId": "packages/pi-ai/src/types.ts::ThinkingBudgets::interface"
+    },
+    {
+      "endLine": 112,
+      "endOffset": 3312,
+      "kind": "interface",
+      "name": "StreamOptions",
+      "startLine": 66,
+      "startOffset": 1475,
+      "symbolId": "packages/pi-ai/src/types.ts::StreamOptions::interface"
+    },
+    {
+      "endLine": 121,
+      "endOffset": 3676,
+      "kind": "interface",
+      "name": "SimpleStreamOptions",
+      "startLine": 117,
+      "startOffset": 3472,
+      "symbolId": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface"
+    },
+    {
+      "endLine": 134,
+      "endOffset": 4018,
+      "kind": "interface",
+      "name": "TextSignatureV1",
+      "startLine": 130,
+      "startOffset": 3922,
+      "symbolId": "packages/pi-ai/src/types.ts::TextSignatureV1::interface"
+    },
+    {
+      "endLine": 140,
+      "endOffset": 4198,
+      "kind": "interface",
+      "name": "TextContent",
+      "startLine": 136,
+      "startOffset": 4020,
+      "symbolId": "packages/pi-ai/src/types.ts::TextContent::interface"
+    },
+    {
+      "endLine": 150,
+      "endOffset": 4584,
+      "kind": "interface",
+      "name": "ThinkingContent",
+      "startLine": 142,
+      "startOffset": 4200,
+      "symbolId": "packages/pi-ai/src/types.ts::ThinkingContent::interface"
+    },
+    {
+      "endLine": 156,
+      "endOffset": 4733,
+      "kind": "interface",
+      "name": "ImageContent",
+      "startLine": 152,
+      "startOffset": 4586,
+      "symbolId": "packages/pi-ai/src/types.ts::ImageContent::interface"
+    },
+    {
+      "endLine": 164,
+      "endOffset": 4937,
+      "kind": "interface",
+      "name": "ToolCall",
+      "startLine": 158,
+      "startOffset": 4735,
+      "symbolId": "packages/pi-ai/src/types.ts::ToolCall::interface"
+    },
+    {
+      "endLine": 172,
+      "endOffset": 5173,
+      "kind": "interface",
+      "name": "ServerToolUseContent",
+      "startLine": 167,
+      "startOffset": 5041,
+      "symbolId": "packages/pi-ai/src/types.ts::ServerToolUseContent::interface"
+    },
+    {
+      "endLine": 180,
+      "endOffset": 5460,
+      "kind": "interface",
+      "name": "WebSearchResultContent",
+      "startLine": 175,
+      "startOffset": 5271,
+      "symbolId": "packages/pi-ai/src/types.ts::WebSearchResultContent::interface"
+    },
+    {
+      "endLine": 195,
+      "endOffset": 5692,
+      "kind": "interface",
+      "name": "Usage",
+      "startLine": 182,
+      "startOffset": 5462,
+      "symbolId": "packages/pi-ai/src/types.ts::Usage::interface"
+    },
+    {
+      "endLine": 203,
+      "endOffset": 5939,
+      "kind": "interface",
+      "name": "UserMessage",
+      "startLine": 199,
+      "startOffset": 5787,
+      "symbolId": "packages/pi-ai/src/types.ts::UserMessage::interface"
+    },
+    {
+      "endLine": 219,
+      "endOffset": 6509,
+      "kind": "interface",
+      "name": "AssistantMessage",
+      "startLine": 205,
+      "startOffset": 5941,
+      "symbolId": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "endLine": 231,
+      "endOffset": 6990,
+      "kind": "interface",
+      "name": "InferenceMetrics",
+      "startLine": 222,
+      "startOffset": 6601,
+      "symbolId": "packages/pi-ai/src/types.ts::InferenceMetrics::interface"
+    },
+    {
+      "endLine": 241,
+      "endOffset": 7271,
+      "kind": "interface",
+      "name": "ToolResultMessage",
+      "startLine": 233,
+      "startOffset": 6992,
+      "symbolId": "packages/pi-ai/src/types.ts::ToolResultMessage::interface"
+    },
+    {
+      "endLine": 251,
+      "endOffset": 7526,
+      "kind": "interface",
+      "name": "Tool",
+      "startLine": 247,
+      "startOffset": 7399,
+      "symbolId": "packages/pi-ai/src/types.ts::Tool::interface"
+    },
+    {
+      "endLine": 257,
+      "endOffset": 7619,
+      "kind": "interface",
+      "name": "Context",
+      "startLine": 253,
+      "startOffset": 7528,
+      "symbolId": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "endLine": 306,
+      "endOffset": 11038,
+      "kind": "interface",
+      "name": "OpenAICompletionsCompat",
+      "startLine": 279,
+      "startOffset": 9053,
+      "symbolId": "packages/pi-ai/src/types.ts::OpenAICompletionsCompat::interface"
+    },
+    {
+      "endLine": 311,
+      "endOffset": 11167,
+      "kind": "interface",
+      "name": "OpenAIResponsesCompat",
+      "startLine": 309,
+      "startOffset": 11097,
+      "symbolId": "packages/pi-ai/src/types.ts::OpenAIResponsesCompat::interface"
+    },
+    {
+      "endLine": 323,
+      "endOffset": 11604,
+      "kind": "interface",
+      "name": "OpenRouterRouting",
+      "startLine": 318,
+      "startOffset": 11341,
+      "symbolId": "packages/pi-ai/src/types.ts::OpenRouterRouting::interface"
+    },
+    {
+      "endLine": 335,
+      "endOffset": 12065,
+      "kind": "interface",
+      "name": "VercelGatewayRouting",
+      "startLine": 330,
+      "startOffset": 11806,
+      "symbolId": "packages/pi-ai/src/types.ts::VercelGatewayRouting::interface"
+    },
+    {
+      "endLine": 361,
+      "endOffset": 13082,
+      "kind": "interface",
+      "name": "ModelCapabilities",
+      "startLine": 344,
+      "startOffset": 12368,
+      "symbolId": "packages/pi-ai/src/types.ts::ModelCapabilities::interface"
+    },
+    {
+      "endLine": 394,
+      "endOffset": 14141,
+      "kind": "interface",
+      "name": "Model",
+      "startLine": 364,
+      "startOffset": 13132,
+      "symbolId": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "endLine": 16,
+      "endOffset": 466,
+      "kind": "type",
+      "name": "KnownApi",
+      "startLine": 4,
+      "startOffset": 154,
+      "symbolId": "packages/pi-ai/src/types.ts::KnownApi::type"
+    },
+    {
+      "endLine": 18,
+      "endOffset": 511,
+      "kind": "type",
+      "name": "Api",
+      "startLine": 18,
+      "startOffset": 468,
+      "symbolId": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1020,
+      "kind": "type",
+      "name": "KnownProvider",
+      "startLine": 20,
+      "startOffset": 513,
+      "symbolId": "packages/pi-ai/src/types.ts::KnownProvider::type"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1067,
+      "kind": "type",
+      "name": "Provider",
+      "startLine": 49,
+      "startOffset": 1021,
+      "symbolId": "packages/pi-ai/src/types.ts::Provider::type"
+    },
+    {
+      "endLine": 51,
+      "endOffset": 1145,
+      "kind": "type",
+      "name": "ThinkingLevel",
+      "startLine": 51,
+      "startOffset": 1069,
+      "symbolId": "packages/pi-ai/src/types.ts::ThinkingLevel::type"
+    },
+    {
+      "endLine": 62,
+      "endOffset": 1418,
+      "kind": "type",
+      "name": "CacheRetention",
+      "startLine": 62,
+      "startOffset": 1363,
+      "symbolId": "packages/pi-ai/src/types.ts::CacheRetention::type"
+    },
+    {
+      "endLine": 64,
+      "endOffset": 1473,
+      "kind": "type",
+      "name": "Transport",
+      "startLine": 64,
+      "startOffset": 1420,
+      "symbolId": "packages/pi-ai/src/types.ts::Transport::type"
+    },
+    {
+      "endLine": 114,
+      "endOffset": 3390,
+      "kind": "type",
+      "name": "ProviderStreamOptions",
+      "startLine": 114,
+      "startOffset": 3314,
+      "symbolId": "packages/pi-ai/src/types.ts::ProviderStreamOptions::type"
+    },
+    {
+      "endLine": 128,
+      "endOffset": 3920,
+      "kind": "type",
+      "name": "StreamFunction",
+      "startLine": 124,
+      "startOffset": 3723,
+      "symbolId": "packages/pi-ai/src/types.ts::StreamFunction::type"
+    },
+    {
+      "endLine": 197,
+      "endOffset": 5785,
+      "kind": "type",
+      "name": "StopReason",
+      "startLine": 197,
+      "startOffset": 5694,
+      "symbolId": "packages/pi-ai/src/types.ts::StopReason::type"
+    },
+    {
+      "endLine": 243,
+      "endOffset": 7346,
+      "kind": "type",
+      "name": "Message",
+      "startLine": 243,
+      "startOffset": 7273,
+      "symbolId": "packages/pi-ai/src/types.ts::Message::type"
+    },
+    {
+      "endLine": 273,
+      "endOffset": 8906,
+      "kind": "type",
+      "name": "AssistantMessageEvent",
+      "startLine": 259,
+      "startOffset": 7621,
+      "symbolId": "packages/pi-ai/src/types.ts::AssistantMessageEvent::type"
+    }
+  ]
+}

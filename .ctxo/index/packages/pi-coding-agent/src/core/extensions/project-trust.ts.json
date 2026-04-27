@@ -1,0 +1,79 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::isProjectTrusted::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::trustProject::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::getUntrustedExtensionPaths::function"
+    }
+  ],
+  "contentHash": "dddf3cd61a9a5665f22e27f2815d66f1f19e8a0c5f412675b4f716b73da9b98f",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::isProjectTrusted::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::readTrustedProjects::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::trustProject::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::readTrustedProjects::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::trustProject::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::writeTrustedProjects::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::getUntrustedExtensionPaths::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::isProjectTrusted::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/extensions/project-trust.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 32,
+      "endOffset": 1080,
+      "kind": "function",
+      "name": "isProjectTrusted",
+      "startLine": 29,
+      "startOffset": 896,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::isProjectTrusted::function"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1320,
+      "kind": "function",
+      "name": "trustProject",
+      "startLine": 34,
+      "startOffset": 1082,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::trustProject::function"
+    },
+    {
+      "endLine": 50,
+      "endOffset": 1537,
+      "kind": "function",
+      "name": "getUntrustedExtensionPaths",
+      "startLine": 41,
+      "startOffset": 1322,
+      "symbolId": "packages/pi-coding-agent/src/core/extensions/project-trust.ts::getUntrustedExtensionPaths::function"
+    }
+  ]
+}

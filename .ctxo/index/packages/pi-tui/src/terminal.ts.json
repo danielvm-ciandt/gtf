@@ -1,0 +1,280 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.start::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.setupStdinBuffer::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.queryAndEnableKittyProtocol::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.enableWindowsVTInput::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.drainInput::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.stop::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.write::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.moveBy::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.hideCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.showCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.clearLine::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.clearFromCursor::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.clearScreen::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.setTitle::method"
+    }
+  ],
+  "contentHash": "7307b50a9e1da4175538eded3584fa677731abb1ced70609097ce3cd7f3ea14b",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keys.ts::setKittyProtocolActive::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer::class"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal::class",
+      "kind": "implements",
+      "to": "/packages/pi-tui/src/terminal.ts::Terminal::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal.start::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal.ts::ProcessTerminal.enableWindowsVTInput::method"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal.start::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal.ts::ProcessTerminal.queryAndEnableKittyProtocol::method"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal.setupStdinBuffer::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::setKittyProtocolActive::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal.setupStdinBuffer::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer::class"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal.queryAndEnableKittyProtocol::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/terminal.ts::ProcessTerminal.setupStdinBuffer::method"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal.drainInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::setKittyProtocolActive::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal.stop::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::setKittyProtocolActive::function"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/stdin-buffer.ts::StdinBuffer::class"
+    },
+    {
+      "from": "packages/pi-tui/src/terminal.ts::ProcessTerminal::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keys.ts::setKittyProtocolActive::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/terminal.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 365,
+      "endOffset": 11736,
+      "kind": "class",
+      "name": "ProcessTerminal",
+      "startLine": 57,
+      "startOffset": 1733,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal::class"
+    },
+    {
+      "endLine": 117,
+      "endOffset": 3947,
+      "kind": "method",
+      "name": "ProcessTerminal.start",
+      "startLine": 76,
+      "startOffset": 2364,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.start::method"
+    },
+    {
+      "endLine": 171,
+      "endOffset": 5999,
+      "kind": "method",
+      "name": "ProcessTerminal.setupStdinBuffer",
+      "startLine": 127,
+      "startOffset": 4365,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.setupStdinBuffer::method"
+    },
+    {
+      "endLine": 197,
+      "endOffset": 7031,
+      "kind": "method",
+      "name": "ProcessTerminal.queryAndEnableKittyProtocol",
+      "startLine": 187,
+      "startOffset": 6683,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.queryAndEnableKittyProtocol::method"
+    },
+    {
+      "endLine": 228,
+      "endOffset": 8375,
+      "kind": "method",
+      "name": "ProcessTerminal.enableWindowsVTInput",
+      "startLine": 205,
+      "startOffset": 7324,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.enableWindowsVTInput::method"
+    },
+    {
+      "endLine": 266,
+      "endOffset": 9438,
+      "kind": "method",
+      "name": "ProcessTerminal.drainInput",
+      "startLine": 230,
+      "startOffset": 8378,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.drainInput::method"
+    },
+    {
+      "endLine": 309,
+      "endOffset": 10663,
+      "kind": "method",
+      "name": "ProcessTerminal.stop",
+      "startLine": 268,
+      "startOffset": 9441,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.stop::method"
+    },
+    {
+      "endLine": 320,
+      "endOffset": 10883,
+      "kind": "method",
+      "name": "ProcessTerminal.write",
+      "startLine": 311,
+      "startOffset": 10666,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.write::method"
+    },
+    {
+      "endLine": 339,
+      "endOffset": 11244,
+      "kind": "method",
+      "name": "ProcessTerminal.moveBy",
+      "startLine": 330,
+      "startOffset": 11016,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.moveBy::method"
+    },
+    {
+      "endLine": 343,
+      "endOffset": 11307,
+      "kind": "method",
+      "name": "ProcessTerminal.hideCursor",
+      "startLine": 341,
+      "startOffset": 11247,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.hideCursor::method"
+    },
+    {
+      "endLine": 347,
+      "endOffset": 11370,
+      "kind": "method",
+      "name": "ProcessTerminal.showCursor",
+      "startLine": 345,
+      "startOffset": 11310,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.showCursor::method"
+    },
+    {
+      "endLine": 351,
+      "endOffset": 11429,
+      "kind": "method",
+      "name": "ProcessTerminal.clearLine",
+      "startLine": 349,
+      "startOffset": 11373,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.clearLine::method"
+    },
+    {
+      "endLine": 355,
+      "endOffset": 11494,
+      "kind": "method",
+      "name": "ProcessTerminal.clearFromCursor",
+      "startLine": 353,
+      "startOffset": 11432,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.clearFromCursor::method"
+    },
+    {
+      "endLine": 359,
+      "endOffset": 11601,
+      "kind": "method",
+      "name": "ProcessTerminal.clearScreen",
+      "startLine": 357,
+      "startOffset": 11497,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.clearScreen::method"
+    },
+    {
+      "endLine": 364,
+      "endOffset": 11734,
+      "kind": "method",
+      "name": "ProcessTerminal.setTitle",
+      "startLine": 361,
+      "startOffset": 11604,
+      "symbolId": "packages/pi-tui/src/terminal.ts::ProcessTerminal.setTitle::method"
+    },
+    {
+      "endLine": 52,
+      "endOffset": 1679,
+      "kind": "interface",
+      "name": "Terminal",
+      "startLine": 10,
+      "startOffset": 276,
+      "symbolId": "packages/pi-tui/src/terminal.ts::Terminal::interface"
+    }
+  ]
+}

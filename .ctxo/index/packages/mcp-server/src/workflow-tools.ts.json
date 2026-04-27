@@ -1,0 +1,648 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/mcp-server/src/workflow-tools.ts::_buildImportCandidates::function"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function"
+    }
+  ],
+  "contentHash": "113417c51e84fc375229ec4693d9a52aa837f266d10a18b524d90dbb3f61e39f",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::safeRealpath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::getAllowedProjectRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::safeRealpath::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::isWithinRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::resolveExternalStateRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::isWithinRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::ensureMilestoneDbRow::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::ensureMilestoneDbRow::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::ensureMilestoneDbRow::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::ensureMilestoneDbRow::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::getWorkflowToolExecutors::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::adaptExecutorResult::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::getWorkflowToolExecutors::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::adaptExecutorResult::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleReplanSlice::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleReplanSlice::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleSliceComplete::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleSliceComplete::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleCompleteMilestone::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleCompleteMilestone::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleValidateMilestone::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleValidateMilestone::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleReassessRoadmap::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleReassessRoadmap::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleSaveGateResult::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::getWorkflowToolExecutors::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::getSupportedSummaryArtifactTypes::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::adaptExecutorResult::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleTaskComplete::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::handleTaskComplete::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::getWorkflowToolExecutors::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::adaptExecutorResult::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::enforceWorkflowWriteGate::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::parseWorkflowArgs::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::runSerializedWorkflowDbOperation::function"
+    },
+    {
+      "from": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/workflow-tools.ts::importLocalModule::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/workflow-tools.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 321,
+      "endOffset": 10198,
+      "kind": "function",
+      "name": "validateProjectDir",
+      "startLine": 290,
+      "startOffset": 8607,
+      "symbolId": "packages/mcp-server/src/workflow-tools.ts::validateProjectDir::function"
+    },
+    {
+      "endLine": 469,
+      "endOffset": 16176,
+      "kind": "function",
+      "name": "_buildImportCandidates",
+      "startLine": 452,
+      "startOffset": 15377,
+      "symbolId": "packages/mcp-server/src/workflow-tools.ts::_buildImportCandidates::function"
+    },
+    {
+      "endLine": 1835,
+      "endOffset": 77451,
+      "kind": "function",
+      "name": "registerWorkflowTools",
+      "startLine": 1246,
+      "startOffset": 50976,
+      "symbolId": "packages/mcp-server/src/workflow-tools.ts::registerWorkflowTools::function"
+    },
+    {
+      "endLine": 607,
+      "endOffset": 20848,
+      "kind": "variable",
+      "name": "WORKFLOW_TOOL_NAMES",
+      "startLine": 571,
+      "startOffset": 19814,
+      "symbolId": "packages/mcp-server/src/workflow-tools.ts::WORKFLOW_TOOL_NAMES::variable"
+    }
+  ]
+}

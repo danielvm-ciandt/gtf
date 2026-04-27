@@ -1,0 +1,635 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::fileToUri::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::sortDiagnostics::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnostic::function"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatGroupedDiagnosticMessages::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnosticsSummary::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatLocation::function"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::symbolKindToIcon::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDocumentSymbol::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSymbolInformation::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::filterWorkspaceSymbols::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::dedupeWorkspaceSymbols::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCodeAction::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::applyCodeAction::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::hasGlobPattern::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::collectGlobMatches::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::extractHoverText::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::readLocationContext::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCallHierarchyItem::function"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSignatureHelp::function"
+    }
+  ],
+  "contentHash": "dfeb7f6d2cce590a3ef716b504175e8edee3c20bcbf051283edf0514a37c53d0",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isEnoent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::CallHierarchyItem::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::CodeAction::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Command::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Diagnostic::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::DiagnosticSeverity::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::DocumentSymbol::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Location::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::MarkupContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SignatureHelp::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolInformation::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolKind::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::TextEdit::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::WorkspaceEdit::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnostic::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::severityToString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnostic::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::stripDiagnosticNoise::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnosticsSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::severityToString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatLocation::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDocumentSymbol::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::symbolKindToIcon::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSymbolInformation::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::symbolKindToIcon::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSymbolInformation::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatLocation::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::filterWorkspaceSymbols::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::applyCodeAction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::isCommandItem::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::normalizeOccurrence::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::firstNonWhitespaceColumn::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::findSymbolMatchIndexes::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::findSymbolMatchIndexes::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isEnoent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::readLocationContext::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isEnoent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCallHierarchyItem::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::symbolKindToIcon::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCallHierarchyItem::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSignatureHelp::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::extractDocText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSignatureHelp::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/utils.ts::extractDocText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::sortDiagnostics::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Diagnostic::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnostic::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Diagnostic::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnosticsSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Diagnostic::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatLocation::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Location::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::WorkspaceEdit::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::symbolKindToIcon::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolKind::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDocumentSymbol::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::DocumentSymbol::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSymbolInformation::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolInformation::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::filterWorkspaceSymbols::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolInformation::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::dedupeWorkspaceSymbols::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SymbolInformation::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCodeAction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::CodeAction::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCodeAction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Command::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::applyCodeAction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::CodeAction::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::applyCodeAction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::Command::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isEnoent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::readLocationContext::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isEnoent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCallHierarchyItem::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::CallHierarchyItem::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSignatureHelp::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::SignatureHelp::interface"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/lsp/utils.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 153,
+      "endOffset": 3009,
+      "kind": "function",
+      "name": "detectLanguageId",
+      "startLine": 138,
+      "startOffset": 2532,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::detectLanguageId::function"
+    },
+    {
+      "endLine": 167,
+      "endOffset": 3428,
+      "kind": "function",
+      "name": "fileToUri",
+      "startLine": 159,
+      "startOffset": 3207,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::fileToUri::function"
+    },
+    {
+      "endLine": 181,
+      "endOffset": 3743,
+      "kind": "function",
+      "name": "uriToFile",
+      "startLine": 169,
+      "startOffset": 3430,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::uriToFile::function"
+    },
+    {
+      "endLine": 211,
+      "endOffset": 4708,
+      "kind": "function",
+      "name": "sortDiagnostics",
+      "startLine": 198,
+      "startOffset": 4172,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::sortDiagnostics::function"
+    },
+    {
+      "endLine": 235,
+      "endOffset": 5548,
+      "kind": "function",
+      "name": "formatDiagnostic",
+      "startLine": 226,
+      "startOffset": 5024,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnostic::function"
+    },
+    {
+      "endLine": 308,
+      "endOffset": 7382,
+      "kind": "function",
+      "name": "formatGroupedDiagnosticMessages",
+      "startLine": 239,
+      "startOffset": 5598,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatGroupedDiagnosticMessages::function"
+    },
+    {
+      "endLine": 327,
+      "endOffset": 8013,
+      "kind": "function",
+      "name": "formatDiagnosticsSummary",
+      "startLine": 310,
+      "startOffset": 7384,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDiagnosticsSummary::function"
+    },
+    {
+      "endLine": 338,
+      "endOffset": 8463,
+      "kind": "function",
+      "name": "formatLocation",
+      "startLine": 333,
+      "startOffset": 8201,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatLocation::function"
+    },
+    {
+      "endLine": 378,
+      "endOffset": 9794,
+      "kind": "function",
+      "name": "formatWorkspaceEdit",
+      "startLine": 344,
+      "startOffset": 8656,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatWorkspaceEdit::function"
+    },
+    {
+      "endLine": 415,
+      "endOffset": 10549,
+      "kind": "function",
+      "name": "symbolKindToIcon",
+      "startLine": 413,
+      "startOffset": 10439,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::symbolKindToIcon::function"
+    },
+    {
+      "endLine": 431,
+      "endOffset": 11050,
+      "kind": "function",
+      "name": "formatDocumentSymbol",
+      "startLine": 417,
+      "startOffset": 10551,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatDocumentSymbol::function"
+    },
+    {
+      "endLine": 438,
+      "endOffset": 11381,
+      "kind": "function",
+      "name": "formatSymbolInformation",
+      "startLine": 433,
+      "startOffset": 11052,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSymbolInformation::function"
+    },
+    {
+      "endLine": 447,
+      "endOffset": 11766,
+      "kind": "function",
+      "name": "filterWorkspaceSymbols",
+      "startLine": 440,
+      "startOffset": 11383,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::filterWorkspaceSymbols::function"
+    },
+    {
+      "endLine": 466,
+      "endOffset": 12255,
+      "kind": "function",
+      "name": "dedupeWorkspaceSymbols",
+      "startLine": 449,
+      "startOffset": 11768,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::dedupeWorkspaceSymbols::function"
+    },
+    {
+      "endLine": 473,
+      "endOffset": 12683,
+      "kind": "function",
+      "name": "formatCodeAction",
+      "startLine": 468,
+      "startOffset": 12257,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCodeAction::function"
+    },
+    {
+      "endLine": 521,
+      "endOffset": 14165,
+      "kind": "function",
+      "name": "applyCodeAction",
+      "startLine": 491,
+      "startOffset": 13150,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::applyCodeAction::function"
+    },
+    {
+      "endLine": 527,
+      "endOffset": 14303,
+      "kind": "function",
+      "name": "hasGlobPattern",
+      "startLine": 525,
+      "startOffset": 14205,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::hasGlobPattern::function"
+    },
+    {
+      "endLine": 540,
+      "endOffset": 14778,
+      "kind": "function",
+      "name": "collectGlobMatches",
+      "startLine": 529,
+      "startOffset": 14305,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::collectGlobMatches::function"
+    },
+    {
+      "endLine": 564,
+      "endOffset": 15508,
+      "kind": "function",
+      "name": "extractHoverText",
+      "startLine": 546,
+      "startOffset": 14971,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::extractHoverText::function"
+    },
+    {
+      "endLine": 628,
+      "endOffset": 17731,
+      "kind": "function",
+      "name": "resolveSymbolColumn",
+      "startLine": 595,
+      "startOffset": 16583,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::resolveSymbolColumn::function"
+    },
+    {
+      "endLine": 652,
+      "endOffset": 18525,
+      "kind": "function",
+      "name": "readLocationContext",
+      "startLine": 630,
+      "startOffset": 17733,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::readLocationContext::function"
+    },
+    {
+      "endLine": 664,
+      "endOffset": 19075,
+      "kind": "function",
+      "name": "formatCallHierarchyItem",
+      "startLine": 658,
+      "startOffset": 18719,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatCallHierarchyItem::function"
+    },
+    {
+      "endLine": 705,
+      "endOffset": 20423,
+      "kind": "function",
+      "name": "formatSignatureHelp",
+      "startLine": 676,
+      "startOffset": 19430,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::formatSignatureHelp::function"
+    },
+    {
+      "endLine": 479,
+      "endOffset": 12918,
+      "kind": "interface",
+      "name": "CodeActionApplyDependencies",
+      "startLine": 475,
+      "startOffset": 12685,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::CodeActionApplyDependencies::interface"
+    },
+    {
+      "endLine": 485,
+      "endOffset": 13027,
+      "kind": "interface",
+      "name": "AppliedCodeActionResult",
+      "startLine": 481,
+      "startOffset": 12920,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/utils.ts::AppliedCodeActionResult::interface"
+    }
+  ]
+}

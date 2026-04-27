@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/utils/sleep.ts::sleep::function"
+    }
+  ],
+  "contentHash": "41bb3a7cccc0420483993d6fbc4e85d7cc1ab5a4ec46ce440deaae224f1005fc",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/utils/sleep.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 17,
+      "endOffset": 401,
+      "kind": "function",
+      "name": "sleep",
+      "startLine": 3,
+      "startOffset": 52,
+      "symbolId": "packages/pi-coding-agent/src/utils/sleep.ts::sleep::function"
+    }
+  ]
+}

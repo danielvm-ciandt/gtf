@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    }
+  ],
+  "contentHash": "9582d32054e0e34b1f288413339f66f383cb187377808927fea4403d12373a65",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 13,
+      "endOffset": 386,
+      "kind": "function",
+      "name": "shortenPath",
+      "startLine": 6,
+      "startOffset": 166,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/utils/shorten-path.ts::shortenPath::function"
+    }
+  ]
+}

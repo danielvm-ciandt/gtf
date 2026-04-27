@@ -1,0 +1,147 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.setText::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.setCustomBgFn::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.invalidate::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.render::method"
+    }
+  ],
+  "contentHash": "fdcd8c8ab8eca6e7110b9695c523f652fa008d397334bdd258c5e4662b419b33",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/text.ts::Text::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/text.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 106,
+      "endOffset": 3280,
+      "kind": "class",
+      "name": "Text",
+      "startLine": 6,
+      "startOffset": 202,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text::class"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 949,
+      "kind": "method",
+      "name": "Text.setText",
+      "startLine": 24,
+      "startOffset": 768,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.setText::method"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 1142,
+      "kind": "method",
+      "name": "Text.setCustomBgFn",
+      "startLine": 32,
+      "startOffset": 952,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.setCustomBgFn::method"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 1263,
+      "kind": "method",
+      "name": "Text.invalidate",
+      "startLine": 39,
+      "startOffset": 1145,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.invalidate::method"
+    },
+    {
+      "endLine": 105,
+      "endOffset": 3278,
+      "kind": "method",
+      "name": "Text.render",
+      "startLine": 45,
+      "startOffset": 1266,
+      "symbolId": "packages/pi-tui/src/components/text.ts::Text.render::method"
+    }
+  ]
+}

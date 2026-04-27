@@ -1,0 +1,38 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "23f8d54518b415836dfdb4862486aed7e6dd7d8a2375c7ed03819b4ecd95a627",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/bedrock-provider.ts::bedrockProviderModule::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/amazon-bedrock.ts::streamBedrock::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/bedrock-provider.ts::bedrockProviderModule::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/amazon-bedrock.ts::streamSimpleBedrock::variable"
+    }
+  ],
+  "file": "packages/pi-ai/src/bedrock-provider.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 5,
+      "endOffset": 163,
+      "kind": "variable",
+      "name": "bedrockProviderModule",
+      "startLine": 2,
+      "startOffset": 98,
+      "symbolId": "packages/pi-ai/src/bedrock-provider.ts::bedrockProviderModule::variable"
+    }
+  ]
+}

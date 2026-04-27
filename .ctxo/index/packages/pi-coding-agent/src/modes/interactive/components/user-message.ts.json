@@ -1,0 +1,83 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent.render::method"
+    }
+  ],
+  "contentHash": "10d1f4ea6e9caf49987f0064c7e05105df6f41453651b4b5ee5efffa666ba968",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::TimestampFormat::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::TimestampFormat::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::getMarkdownTheme::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 43,
+      "endOffset": 1501,
+      "kind": "class",
+      "name": "UserMessageComponent",
+      "startLine": 11,
+      "startOffset": 400,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent::class"
+    },
+    {
+      "endLine": 42,
+      "endOffset": 1499,
+      "kind": "method",
+      "name": "UserMessageComponent.render",
+      "startLine": 22,
+      "startOffset": 836,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/user-message.ts::UserMessageComponent.render::method"
+    }
+  ]
+}

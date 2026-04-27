@@ -1,0 +1,101 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText.invalidate::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText.render::method"
+    }
+  ],
+  "contentHash": "907efd5d232b2fee5f96211df066e5d54b7cf8b6d04d39ebb1a8794c0f18da6f",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/truncated-text.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 64,
+      "endOffset": 1822,
+      "kind": "class",
+      "name": "TruncatedText",
+      "startLine": 6,
+      "startOffset": 169,
+      "symbolId": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText::class"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 519,
+      "kind": "method",
+      "name": "TruncatedText.invalidate",
+      "startLine": 17,
+      "startOffset": 451,
+      "symbolId": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText.invalidate::method"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 1820,
+      "kind": "method",
+      "name": "TruncatedText.render",
+      "startLine": 21,
+      "startOffset": 522,
+      "symbolId": "packages/pi-tui/src/components/truncated-text.ts::TruncatedText.render::method"
+    }
+  ]
+}

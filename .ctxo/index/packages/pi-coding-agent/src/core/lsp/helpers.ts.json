@@ -1,0 +1,99 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::throwIfAborted::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isEnoent::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isRecord::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::clampTimeout::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::untilAborted::function"
+    }
+  ],
+  "contentHash": "702e0c084d4f4947e8ed7fa3665840ede3fbd87623b6c426d3a8915b92fc934e",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/helpers.ts::ToolAbortError::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/core/lsp/helpers.ts::Error::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/lsp/helpers.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 15,
+      "endOffset": 347,
+      "kind": "function",
+      "name": "throwIfAborted",
+      "startLine": 11,
+      "startOffset": 228,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::throwIfAborted::function"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 441,
+      "kind": "function",
+      "name": "isEnoent",
+      "startLine": 17,
+      "startOffset": 349,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isEnoent::function"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 579,
+      "kind": "function",
+      "name": "isRecord",
+      "startLine": 21,
+      "startOffset": 443,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isRecord::function"
+    },
+    {
+      "endLine": 27,
+      "endOffset": 689,
+      "kind": "function",
+      "name": "clampTimeout",
+      "startLine": 25,
+      "startOffset": 581,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::clampTimeout::function"
+    },
+    {
+      "endLine": 53,
+      "endOffset": 1309,
+      "kind": "function",
+      "name": "untilAborted",
+      "startLine": 32,
+      "startOffset": 749,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::untilAborted::function"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 226,
+      "kind": "class",
+      "name": "ToolAbortError",
+      "startLine": 4,
+      "startOffset": 94,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/helpers.ts::ToolAbortError::class"
+    }
+  ]
+}

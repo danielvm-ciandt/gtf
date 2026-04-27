@@ -1,0 +1,66 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "bf9c582a29b5590ca63d44f61a97b19dd42b0aad8da679d3a64b0df984011722",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/server.ts::buildAskUserQuestionsElicitRequest::function"
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/server.ts::createMcpServer::function"
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/server.ts::formatAskUserQuestionsElicitResult::function"
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/server.ts::withElicitTimeout::function"
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::MAX_EVENTS::variable"
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::ManagedSession::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::CostAccumulator::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/mcp-server.test.ts::mcp-server.test::variable",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::PendingBlocker::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/mcp-server/src/mcp-server.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

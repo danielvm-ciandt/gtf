@@ -1,0 +1,184 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 27,
+      "symbolId": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function"
+    }
+  ],
+  "contentHash": "cace46e82e81ea1b6f76d8c8c34465ef6d70bdc0c5d148bb29a96203c1ed4110",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveSliceFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/roadmap.ts::readMilestoneTitle::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/roadmap.ts::readVision::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/roadmap.ts::parseRoadmapTable::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveSliceFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/roadmap.ts::parseSlicePlanTasks::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveSliceFile::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/roadmap.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 262,
+      "endOffset": 8696,
+      "kind": "function",
+      "name": "readRoadmap",
+      "startLine": 183,
+      "startOffset": 5715,
+      "symbolId": "packages/mcp-server/src/readers/roadmap.ts::readRoadmap::function"
+    },
+    {
+      "endLine": 21,
+      "endOffset": 563,
+      "kind": "interface",
+      "name": "TaskInfo",
+      "startLine": 17,
+      "startOffset": 473,
+      "symbolId": "packages/mcp-server/src/readers/roadmap.ts::TaskInfo::interface"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 741,
+      "kind": "interface",
+      "name": "SliceInfo",
+      "startLine": 23,
+      "startOffset": 565,
+      "symbolId": "packages/mcp-server/src/readers/roadmap.ts::SliceInfo::interface"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 901,
+      "kind": "interface",
+      "name": "MilestoneInfo",
+      "startLine": 33,
+      "startOffset": 743,
+      "symbolId": "packages/mcp-server/src/readers/roadmap.ts::MilestoneInfo::interface"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 968,
+      "kind": "interface",
+      "name": "RoadmapResult",
+      "startLine": 41,
+      "startOffset": 903,
+      "symbolId": "packages/mcp-server/src/readers/roadmap.ts::RoadmapResult::interface"
+    }
+  ]
+}

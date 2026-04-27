@@ -1,0 +1,122 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    }
+  ],
+  "contentHash": "7b907165f705f1dee99a7585539e5188284084bd744ba8e56312e25acf4c4eea",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/model-discovery.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 47,
+      "endOffset": 1306,
+      "kind": "function",
+      "name": "getDefaultTTL",
+      "startLine": 45,
+      "startOffset": 1187,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "endLine": 296,
+      "endOffset": 9171,
+      "kind": "function",
+      "name": "supportsDiscoveryForApi",
+      "startLine": 293,
+      "startOffset": 9022,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    },
+    {
+      "endLine": 311,
+      "endOffset": 9555,
+      "kind": "function",
+      "name": "getDiscoveryAdapter",
+      "startLine": 298,
+      "startOffset": 9173,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "endLine": 317,
+      "endOffset": 9726,
+      "kind": "function",
+      "name": "getDiscoverableProviders",
+      "startLine": 313,
+      "startOffset": 9557,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "endLine": 13,
+      "endOffset": 405,
+      "kind": "interface",
+      "name": "DiscoveredModel",
+      "startLine": 5,
+      "startOffset": 159,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::DiscoveredModel::interface"
+    },
+    {
+      "endLine": 20,
+      "endOffset": 527,
+      "kind": "interface",
+      "name": "DiscoveryResult",
+      "startLine": 15,
+      "startOffset": 407,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::DiscoveryResult::interface"
+    },
+    {
+      "endLine": 26,
+      "endOffset": 698,
+      "kind": "interface",
+      "name": "ProviderDiscoveryAdapter",
+      "startLine": 22,
+      "startOffset": 529,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::ProviderDiscoveryAdapter::interface"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 865,
+      "kind": "variable",
+      "name": "OPENAI_COMPAT_DISCOVERY_APIS",
+      "startLine": 28,
+      "startOffset": 713,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::OPENAI_COMPAT_DISCOVERY_APIS::variable"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 1184,
+      "kind": "variable",
+      "name": "DISCOVERY_TTLS",
+      "startLine": 37,
+      "startOffset": 922,
+      "symbolId": "packages/pi-coding-agent/src/core/model-discovery.ts::DISCOVERY_TTLS::variable"
+    }
+  ]
+}

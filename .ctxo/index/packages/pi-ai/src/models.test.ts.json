@@ -1,0 +1,55 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "2d48ecfd0fc1478e825c04120f4e485120172126b4849b5f4e3e5a519ddaa178",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/models.test.ts::models.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::getProviders::function"
+    },
+    {
+      "from": "packages/pi-ai/src/models.test.ts::models.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::getModels::function"
+    },
+    {
+      "from": "packages/pi-ai/src/models.test.ts::models.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::getModel::function"
+    },
+    {
+      "from": "packages/pi-ai/src/models.test.ts::models.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::supportsXhigh::function"
+    },
+    {
+      "from": "packages/pi-ai/src/models.test.ts::models.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::applyCapabilityPatches::function"
+    },
+    {
+      "from": "packages/pi-ai/src/models.test.ts::models.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/models.test.ts::models.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-ai/src/models.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": []
+}

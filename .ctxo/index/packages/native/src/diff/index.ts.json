@@ -1,0 +1,101 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/diff/index.ts::normalizeForFuzzyMatch::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/diff/index.ts::fuzzyFindText::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/diff/index.ts::generateDiff::function"
+    }
+  ],
+  "contentHash": "fff86643dd8fe05e41a84f53cdfead63a28116204056e4ecce6eba7d2e09d844",
+  "edges": [
+    {
+      "from": "packages/native/src/diff/index.ts::normalizeForFuzzyMatch::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/diff/index.ts::normalizeForFuzzyMatch::function",
+      "kind": "imports",
+      "to": "packages/native/src/diff/types.ts::DiffResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/diff/index.ts::normalizeForFuzzyMatch::function",
+      "kind": "imports",
+      "to": "packages/native/src/diff/types.ts::FuzzyMatchResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/diff/index.ts::normalizeForFuzzyMatch::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/diff/index.ts::fuzzyFindText::function",
+      "kind": "uses",
+      "to": "packages/native/src/diff/types.ts::FuzzyMatchResult::interface"
+    },
+    {
+      "from": "packages/native/src/diff/index.ts::fuzzyFindText::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/diff/index.ts::generateDiff::function",
+      "kind": "uses",
+      "to": "packages/native/src/diff/types.ts::DiffResult::interface"
+    },
+    {
+      "from": "packages/native/src/diff/index.ts::generateDiff::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/diff/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 23,
+      "endOffset": 744,
+      "kind": "function",
+      "name": "normalizeForFuzzyMatch",
+      "startLine": 19,
+      "startOffset": 585,
+      "symbolId": "packages/native/src/diff/index.ts::normalizeForFuzzyMatch::function"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1136,
+      "kind": "function",
+      "name": "fuzzyFindText",
+      "startLine": 31,
+      "startOffset": 932,
+      "symbolId": "packages/native/src/diff/index.ts::fuzzyFindText::function"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 1670,
+      "kind": "function",
+      "name": "generateDiff",
+      "startLine": 50,
+      "startOffset": 1425,
+      "symbolId": "packages/native/src/diff/index.ts::generateDiff::function"
+    }
+  ]
+}

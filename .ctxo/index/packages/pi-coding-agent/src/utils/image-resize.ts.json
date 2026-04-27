@@ -1,0 +1,69 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    }
+  ],
+  "contentHash": "7a31a47051354c21693ff2346a32f581c5242133be036c5f205abd94cfd0cce6",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/image-resize.ts::pickSmaller::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/utils/image-resize.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 211,
+      "endOffset": 5975,
+      "kind": "function",
+      "name": "resizeImage",
+      "startLine": 51,
+      "startOffset": 1583,
+      "symbolId": "packages/pi-coding-agent/src/utils/image-resize.ts::resizeImage::function"
+    },
+    {
+      "endLine": 224,
+      "endOffset": 6471,
+      "kind": "function",
+      "name": "formatDimensionNote",
+      "startLine": 217,
+      "startOffset": 6091,
+      "symbolId": "packages/pi-coding-agent/src/utils/image-resize.ts::formatDimensionNote::function"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 406,
+      "kind": "interface",
+      "name": "ImageResizeOptions",
+      "startLine": 4,
+      "startOffset": 186,
+      "symbolId": "packages/pi-coding-agent/src/utils/image-resize.ts::ImageResizeOptions::interface"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 589,
+      "kind": "interface",
+      "name": "ResizedImage",
+      "startLine": 11,
+      "startOffset": 408,
+      "symbolId": "packages/pi-coding-agent/src/utils/image-resize.ts::ResizedImage::interface"
+    }
+  ]
+}

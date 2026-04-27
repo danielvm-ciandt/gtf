@@ -1,0 +1,256 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.setExpanded::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.appendOutput::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.setComplete::method"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.getOutput::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.getCommand::method"
+    }
+  ],
+  "contentHash": "72dcf6700a55c298c5dd84e655d474df5fe11b70ee628f9ac1e4f71f79346ba6",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateTail::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::Container::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.setExpanded::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.appendOutput::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.setComplete::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateTail::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/dynamic-border.ts::DynamicBorder::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::editorKey::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateTail::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/visual-truncate.ts::truncateToVisualLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/keybinding-hints.ts::keyHint::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 211,
+      "endOffset": 6521,
+      "kind": "class",
+      "name": "BashExecutionComponent",
+      "startLine": 20,
+      "startOffset": 642,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent::class"
+    },
+    {
+      "endLine": 76,
+      "endOffset": 2410,
+      "kind": "method",
+      "name": "BashExecutionComponent.setExpanded",
+      "startLine": 73,
+      "startOffset": 2317,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.setExpanded::method"
+    },
+    {
+      "endLine": 81,
+      "endOffset": 2491,
+      "kind": "method",
+      "name": "BashExecutionComponent.invalidate",
+      "startLine": 78,
+      "startOffset": 2413,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.invalidate::method"
+    },
+    {
+      "endLine": 99,
+      "endOffset": 3129,
+      "kind": "method",
+      "name": "BashExecutionComponent.appendOutput",
+      "startLine": 83,
+      "startOffset": 2494,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.appendOutput::method"
+    },
+    {
+      "endLine": 120,
+      "endOffset": 3597,
+      "kind": "method",
+      "name": "BashExecutionComponent.setComplete",
+      "startLine": 101,
+      "startOffset": 3132,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.setComplete::method"
+    },
+    {
+      "endLine": 196,
+      "endOffset": 6286,
+      "kind": "method",
+      "name": "BashExecutionComponent.updateDisplay",
+      "startLine": 122,
+      "startOffset": 3600,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.updateDisplay::method"
+    },
+    {
+      "endLine": 203,
+      "endOffset": 6419,
+      "kind": "method",
+      "name": "BashExecutionComponent.getOutput",
+      "startLine": 201,
+      "startOffset": 6357,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.getOutput::method"
+    },
+    {
+      "endLine": 210,
+      "endOffset": 6519,
+      "kind": "method",
+      "name": "BashExecutionComponent.getCommand",
+      "startLine": 208,
+      "startOffset": 6471,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/bash-execution.ts::BashExecutionComponent.getCommand::method"
+    }
+  ]
+}

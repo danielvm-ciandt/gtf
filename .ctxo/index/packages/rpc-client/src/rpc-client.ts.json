@@ -1,0 +1,1041 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.start::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.stop::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.onEvent::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.events::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getStderr::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.prompt::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.steer::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.followUp::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.abort::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.newSession::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getState::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setModel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleModel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getAvailableModels::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleThinkingLevel::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setSteeringMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setFollowUpMode::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.compact::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setAutoCompaction::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setAutoRetry::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.abortRetry::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.bash::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.abortBash::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getSessionStats::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.exportHtml::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.switchSession::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.fork::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getForkMessages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getLastAssistantText::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setSessionName::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getMessages::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getCommands::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.sendUIResponse::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.init::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.shutdown::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.subscribe::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.waitForIdle::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.collectEvents::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.promptAndWait::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.handleLine::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    }
+  ],
+  "contentHash": "6c95c404a77e54d8ea8b8c4dedb605d271ce7e951d9947a8bdb1d6292fb5b8da",
+  "edges": [
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/jsonl.ts::attachJsonlLineReader::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::BashResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::CompactionResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::ImageContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::ModelInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcCommand::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcInitResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcResponse::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcSessionState::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcSlashCommand::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::ThinkingLevel::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "imports",
+      "to": "packages/rpc-client/src/rpc-types.ts::SessionStats::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.start::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/jsonl.ts::attachJsonlLineReader::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.start::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.handleLine::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.events::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.onEvent::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.prompt::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.steer::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.followUp::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.abort::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.newSession::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.newSession::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getState::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getState::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setModel::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setModel::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleModel::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleModel::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getAvailableModels::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getAvailableModels::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleThinkingLevel::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setSteeringMode::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setFollowUpMode::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.compact::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.compact::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setAutoCompaction::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setAutoRetry::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.abortRetry::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.bash::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.bash::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.abortBash::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getSessionStats::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getSessionStats::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.exportHtml::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.exportHtml::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.switchSession::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.switchSession::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.fork::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.fork::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getForkMessages::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getForkMessages::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getLastAssistantText::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getLastAssistantText::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.setSessionName::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getMessages::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getMessages::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getCommands::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.getCommands::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.sendUIResponse::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.init::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.init::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.shutdown::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.subscribe::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.waitForIdle::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.onEvent::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.collectEvents::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.onEvent::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.promptAndWait::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.collectEvents::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.promptAndWait::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/rpc-client.ts::RpcClient.prompt::method"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method",
+      "kind": "calls",
+      "to": "packages/rpc-client/src/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcResponse::type"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/jsonl.ts::attachJsonlLineReader::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::ImageContent::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcSessionState::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::ThinkingLevel::type"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::ModelInfo::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::CompactionResult::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::BashResult::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::SessionStats::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcSlashCommand::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/jsonl.ts::serializeJsonLine::function"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcInitResult::interface"
+    },
+    {
+      "from": "packages/rpc-client/src/rpc-client.ts::RpcClient::class",
+      "kind": "uses",
+      "to": "packages/rpc-client/src/rpc-types.ts::RpcCommand::type"
+    }
+  ],
+  "file": "packages/rpc-client/src/rpc-client.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320165,
+  "symbols": [
+    {
+      "endLine": 665,
+      "endOffset": 18337,
+      "kind": "class",
+      "name": "RpcClient",
+      "startLine": 61,
+      "startOffset": 1816,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient::class"
+    },
+    {
+      "endLine": 132,
+      "endOffset": 4039,
+      "kind": "method",
+      "name": "RpcClient.start",
+      "startLine": 77,
+      "startOffset": 2349,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.start::method"
+    },
+    {
+      "endLine": 165,
+      "endOffset": 4725,
+      "kind": "method",
+      "name": "RpcClient.stop",
+      "startLine": 137,
+      "startOffset": 4084,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.stop::method"
+    },
+    {
+      "endLine": 178,
+      "endOffset": 5020,
+      "kind": "method",
+      "name": "RpcClient.onEvent",
+      "startLine": 170,
+      "startOffset": 4782,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.onEvent::method"
+    },
+    {
+      "endLine": 257,
+      "endOffset": 6731,
+      "kind": "method",
+      "name": "RpcClient.events",
+      "startLine": 195,
+      "startOffset": 5356,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.events::method"
+    },
+    {
+      "endLine": 264,
+      "endOffset": 6846,
+      "kind": "method",
+      "name": "RpcClient.getStderr",
+      "startLine": 262,
+      "startOffset": 6800,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getStderr::method"
+    },
+    {
+      "endLine": 277,
+      "endOffset": 7338,
+      "kind": "method",
+      "name": "RpcClient.prompt",
+      "startLine": 275,
+      "startOffset": 7208,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.prompt::method"
+    },
+    {
+      "endLine": 284,
+      "endOffset": 7540,
+      "kind": "method",
+      "name": "RpcClient.steer",
+      "startLine": 282,
+      "startOffset": 7412,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.steer::method"
+    },
+    {
+      "endLine": 291,
+      "endOffset": 7760,
+      "kind": "method",
+      "name": "RpcClient.followUp",
+      "startLine": 289,
+      "startOffset": 7625,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.followUp::method"
+    },
+    {
+      "endLine": 298,
+      "endOffset": 7873,
+      "kind": "method",
+      "name": "RpcClient.abort",
+      "startLine": 296,
+      "startOffset": 7802,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.abort::method"
+    },
+    {
+      "endLine": 308,
+      "endOffset": 8293,
+      "kind": "method",
+      "name": "RpcClient.newSession",
+      "startLine": 305,
+      "startOffset": 8106,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.newSession::method"
+    },
+    {
+      "endLine": 316,
+      "endOffset": 8476,
+      "kind": "method",
+      "name": "RpcClient.getState",
+      "startLine": 313,
+      "startOffset": 8337,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getState::method"
+    },
+    {
+      "endLine": 324,
+      "endOffset": 8731,
+      "kind": "method",
+      "name": "RpcClient.setModel",
+      "startLine": 321,
+      "startOffset": 8523,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setModel::method"
+    },
+    {
+      "endLine": 336,
+      "endOffset": 9004,
+      "kind": "method",
+      "name": "RpcClient.cycleModel",
+      "startLine": 329,
+      "startOffset": 8769,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleModel::method"
+    },
+    {
+      "endLine": 344,
+      "endOffset": 9239,
+      "kind": "method",
+      "name": "RpcClient.getAvailableModels",
+      "startLine": 341,
+      "startOffset": 9051,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getAvailableModels::method"
+    },
+    {
+      "endLine": 351,
+      "endOffset": 9398,
+      "kind": "method",
+      "name": "RpcClient.setThinkingLevel",
+      "startLine": 349,
+      "startOffset": 9276,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setThinkingLevel::method"
+    },
+    {
+      "endLine": 359,
+      "endOffset": 9613,
+      "kind": "method",
+      "name": "RpcClient.cycleThinkingLevel",
+      "startLine": 356,
+      "startOffset": 9437,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.cycleThinkingLevel::method"
+    },
+    {
+      "endLine": 366,
+      "endOffset": 9777,
+      "kind": "method",
+      "name": "RpcClient.setSteeringMode",
+      "startLine": 364,
+      "startOffset": 9649,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setSteeringMode::method"
+    },
+    {
+      "endLine": 373,
+      "endOffset": 9943,
+      "kind": "method",
+      "name": "RpcClient.setFollowUpMode",
+      "startLine": 371,
+      "startOffset": 9814,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setFollowUpMode::method"
+    },
+    {
+      "endLine": 381,
+      "endOffset": 10169,
+      "kind": "method",
+      "name": "RpcClient.compact",
+      "startLine": 378,
+      "startOffset": 9985,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.compact::method"
+    },
+    {
+      "endLine": 388,
+      "endOffset": 10346,
+      "kind": "method",
+      "name": "RpcClient.setAutoCompaction",
+      "startLine": 386,
+      "startOffset": 10224,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setAutoCompaction::method"
+    },
+    {
+      "endLine": 395,
+      "endOffset": 10508,
+      "kind": "method",
+      "name": "RpcClient.setAutoRetry",
+      "startLine": 393,
+      "startOffset": 10396,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setAutoRetry::method"
+    },
+    {
+      "endLine": 402,
+      "endOffset": 10632,
+      "kind": "method",
+      "name": "RpcClient.abortRetry",
+      "startLine": 400,
+      "startOffset": 10550,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.abortRetry::method"
+    },
+    {
+      "endLine": 410,
+      "endOffset": 10822,
+      "kind": "method",
+      "name": "RpcClient.bash",
+      "startLine": 407,
+      "startOffset": 10673,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.bash::method"
+    },
+    {
+      "endLine": 417,
+      "endOffset": 10947,
+      "kind": "method",
+      "name": "RpcClient.abortBash",
+      "startLine": 415,
+      "startOffset": 10867,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.abortBash::method"
+    },
+    {
+      "endLine": 425,
+      "endOffset": 11139,
+      "kind": "method",
+      "name": "RpcClient.getSessionStats",
+      "startLine": 422,
+      "startOffset": 10988,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getSessionStats::method"
+    },
+    {
+      "endLine": 433,
+      "endOffset": 11355,
+      "kind": "method",
+      "name": "RpcClient.exportHtml",
+      "startLine": 430,
+      "startOffset": 11180,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.exportHtml::method"
+    },
+    {
+      "endLine": 442,
+      "endOffset": 11676,
+      "kind": "method",
+      "name": "RpcClient.switchSession",
+      "startLine": 439,
+      "startOffset": 11488,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.switchSession::method"
+    },
+    {
+      "endLine": 451,
+      "endOffset": 11990,
+      "kind": "method",
+      "name": "RpcClient.fork",
+      "startLine": 448,
+      "startOffset": 11815,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.fork::method"
+    },
+    {
+      "endLine": 459,
+      "endOffset": 12287,
+      "kind": "method",
+      "name": "RpcClient.getForkMessages",
+      "startLine": 456,
+      "startOffset": 12043,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getForkMessages::method"
+    },
+    {
+      "endLine": 467,
+      "endOffset": 12533,
+      "kind": "method",
+      "name": "RpcClient.getLastAssistantText",
+      "startLine": 464,
+      "startOffset": 12340,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getLastAssistantText::method"
+    },
+    {
+      "endLine": 474,
+      "endOffset": 12689,
+      "kind": "method",
+      "name": "RpcClient.setSessionName",
+      "startLine": 472,
+      "startOffset": 12580,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.setSessionName::method"
+    },
+    {
+      "endLine": 483,
+      "endOffset": 12991,
+      "kind": "method",
+      "name": "RpcClient.getMessages",
+      "startLine": 480,
+      "startOffset": 12818,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getMessages::method"
+    },
+    {
+      "endLine": 491,
+      "endOffset": 13268,
+      "kind": "method",
+      "name": "RpcClient.getCommands",
+      "startLine": 488,
+      "startOffset": 13079,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getCommands::method"
+    },
+    {
+      "endLine": 506,
+      "endOffset": 13709,
+      "kind": "method",
+      "name": "RpcClient.sendUIResponse",
+      "startLine": 497,
+      "startOffset": 13394,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.sendUIResponse::method"
+    },
+    {
+      "endLine": 515,
+      "endOffset": 14100,
+      "kind": "method",
+      "name": "RpcClient.init",
+      "startLine": 512,
+      "startOffset": 13877,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.init::method"
+    },
+    {
+      "endLine": 536,
+      "endOffset": 14626,
+      "kind": "method",
+      "name": "RpcClient.shutdown",
+      "startLine": 521,
+      "startOffset": 14220,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.shutdown::method"
+    },
+    {
+      "endLine": 544,
+      "endOffset": 14872,
+      "kind": "method",
+      "name": "RpcClient.subscribe",
+      "startLine": 542,
+      "startOffset": 14769,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.subscribe::method"
+    },
+    {
+      "endLine": 569,
+      "endOffset": 15574,
+      "kind": "method",
+      "name": "RpcClient.waitForIdle",
+      "startLine": 554,
+      "startOffset": 15151,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.waitForIdle::method"
+    },
+    {
+      "endLine": 591,
+      "endOffset": 16122,
+      "kind": "method",
+      "name": "RpcClient.collectEvents",
+      "startLine": 574,
+      "startOffset": 15632,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.collectEvents::method"
+    },
+    {
+      "endLine": 600,
+      "endOffset": 16422,
+      "kind": "method",
+      "name": "RpcClient.promptAndWait",
+      "startLine": 596,
+      "startOffset": 16198,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.promptAndWait::method"
+    },
+    {
+      "endLine": 625,
+      "endOffset": 17163,
+      "kind": "method",
+      "name": "RpcClient.handleLine",
+      "startLine": 606,
+      "startOffset": 16595,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.handleLine::method"
+    },
+    {
+      "endLine": 654,
+      "endOffset": 17921,
+      "kind": "method",
+      "name": "RpcClient.send",
+      "startLine": 627,
+      "startOffset": 17166,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.send::method"
+    },
+    {
+      "endLine": 664,
+      "endOffset": 18335,
+      "kind": "method",
+      "name": "RpcClient.getData",
+      "startLine": 656,
+      "startOffset": 17924,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClient.getData::method"
+    },
+    {
+      "endLine": 38,
+      "endOffset": 1193,
+      "kind": "interface",
+      "name": "SdkAgentEvent",
+      "startLine": 35,
+      "startOffset": 1119,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::SdkAgentEvent::interface"
+    },
+    {
+      "endLine": 53,
+      "endOffset": 1575,
+      "kind": "interface",
+      "name": "RpcClientOptions",
+      "startLine": 40,
+      "startOffset": 1195,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcClientOptions::interface"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 1639,
+      "kind": "type",
+      "name": "RpcEventListener",
+      "startLine": 55,
+      "startOffset": 1577,
+      "symbolId": "packages/rpc-client/src/rpc-client.ts::RpcEventListener::type"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.invalidate::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.startAnimation::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.stopAnimation::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.render::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.dispose::method"
+    }
+  ],
+  "contentHash": "efec8ee0f6865bad8d07bf858dd9da287982260efa659d6f1b5d6c7616d33137",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent::class",
+      "kind": "implements",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.startAnimation::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.stopAnimation::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.render::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::rgb::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.dispose::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.stopAnimation::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 164,
+      "endOffset": 10260,
+      "kind": "class",
+      "name": "DaxnutsComponent",
+      "startLine": 56,
+      "startOffset": 7627,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent::class"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 8090,
+      "kind": "method",
+      "name": "DaxnutsComponent.invalidate",
+      "startLine": 72,
+      "startOffset": 8043,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.invalidate::method"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 8313,
+      "kind": "method",
+      "name": "DaxnutsComponent.startAnimation",
+      "startLine": 76,
+      "startOffset": 8093,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.startAnimation::method"
+    },
+    {
+      "endLine": 92,
+      "endOffset": 8435,
+      "kind": "method",
+      "name": "DaxnutsComponent.stopAnimation",
+      "startLine": 87,
+      "startOffset": 8316,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.stopAnimation::method"
+    },
+    {
+      "endLine": 159,
+      "endOffset": 10211,
+      "kind": "method",
+      "name": "DaxnutsComponent.render",
+      "startLine": 94,
+      "startOffset": 8438,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.render::method"
+    },
+    {
+      "endLine": 163,
+      "endOffset": 10258,
+      "kind": "method",
+      "name": "DaxnutsComponent.dispose",
+      "startLine": 161,
+      "startOffset": 10214,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/daxnuts.ts::DaxnutsComponent.dispose::method"
+    }
+  ]
+}

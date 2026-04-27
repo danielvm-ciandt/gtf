@@ -1,0 +1,82 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor.onAction::method"
+    },
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor.handleInput::method"
+    }
+  ],
+  "contentHash": "ca2069543cdadcc1259711364d47d4a01191597fe38e8b2ffc3ce507721203cd",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::Editor::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::KeybindingsManager::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/keybindings.ts::AppAction::type"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 86,
+      "endOffset": 2859,
+      "kind": "class",
+      "name": "CustomEditor",
+      "startLine": 6,
+      "startOffset": 271,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor::class"
+    },
+    {
+      "endLine": 27,
+      "endOffset": 1033,
+      "kind": "method",
+      "name": "CustomEditor.onAction",
+      "startLine": 25,
+      "startOffset": 930,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor.onAction::method"
+    },
+    {
+      "endLine": 85,
+      "endOffset": 2857,
+      "kind": "method",
+      "name": "CustomEditor.handleInput",
+      "startLine": 29,
+      "startOffset": 1036,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/custom-editor.ts::CustomEditor.handleInput::method"
+    }
+  ]
+}

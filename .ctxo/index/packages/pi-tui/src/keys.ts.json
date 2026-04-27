@@ -1,0 +1,463 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/keys.ts::setKittyProtocolActive::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/keys.ts::isKittyProtocolActive::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/keys.ts::isKeyRelease::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/keys.ts::isKeyRepeat::function"
+    },
+    {
+      "cyclomatic": 186,
+      "symbolId": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "cyclomatic": 60,
+      "symbolId": "packages/pi-tui/src/keys.ts::parseKey::function"
+    },
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    }
+  ],
+  "contentHash": "cbf17818148214813bfddb063601d3de47ef848be7e77df3049b676ef25e38da",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/keys.ts::isKeyRelease::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::hasKittyEventType::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::isKeyRepeat::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::hasKittyEventType::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::parseKeyId::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesModifyOtherKeys::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesModifyOtherKeys::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesModifyOtherKeys::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::isDigitKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::rawCtrlChar::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::isDigitKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesPrintableModifyOtherKeys::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesPrintableModifyOtherKeys::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesPrintableModifyOtherKeys::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesPrintableModifyOtherKeys::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::matchesKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::matchesKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::parseKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::parseKittySequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::parseKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::formatParsedKey::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::parseKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::parseModifyOtherKeysSequence::function"
+    },
+    {
+      "from": "packages/pi-tui/src/keys.ts::parseKey::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keys.ts::formatParsedKey::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/keys.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 32,
+      "endOffset": 1377,
+      "kind": "function",
+      "name": "setKittyProtocolActive",
+      "startLine": 30,
+      "startOffset": 1280,
+      "symbolId": "packages/pi-tui/src/keys.ts::setKittyProtocolActive::function"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1531,
+      "kind": "function",
+      "name": "isKittyProtocolActive",
+      "startLine": 37,
+      "startOffset": 1449,
+      "symbolId": "packages/pi-tui/src/keys.ts::isKittyProtocolActive::function"
+    },
+    {
+      "endLine": 471,
+      "endOffset": 12416,
+      "kind": "function",
+      "name": "isKeyRelease",
+      "startLine": 469,
+      "startOffset": 12325,
+      "symbolId": "packages/pi-tui/src/keys.ts::isKeyRelease::function"
+    },
+    {
+      "endLine": 479,
+      "endOffset": 12643,
+      "kind": "function",
+      "name": "isKeyRepeat",
+      "startLine": 477,
+      "startOffset": 12553,
+      "symbolId": "packages/pi-tui/src/keys.ts::isKeyRepeat::function"
+    },
+    {
+      "endLine": 1025,
+      "endOffset": 31419,
+      "kind": "function",
+      "name": "matchesKey",
+      "startLine": 682,
+      "startOffset": 20791,
+      "symbolId": "packages/pi-tui/src/keys.ts::matchesKey::function"
+    },
+    {
+      "endLine": 1142,
+      "endOffset": 36983,
+      "kind": "function",
+      "name": "parseKey",
+      "startLine": 1068,
+      "startOffset": 34045,
+      "symbolId": "packages/pi-tui/src/keys.ts::parseKey::function"
+    },
+    {
+      "endLine": 1207,
+      "endOffset": 39700,
+      "kind": "function",
+      "name": "decodeKittyPrintable",
+      "startLine": 1165,
+      "startOffset": 38026,
+      "symbolId": "packages/pi-tui/src/keys.ts::decodeKittyPrintable::function"
+    },
+    {
+      "endLine": 162,
+      "endOffset": 3155,
+      "kind": "type",
+      "name": "KeyId",
+      "startLine": 146,
+      "startOffset": 2719,
+      "symbolId": "packages/pi-tui/src/keys.ts::KeyId::type"
+    },
+    {
+      "endLine": 429,
+      "endOffset": 11198,
+      "kind": "type",
+      "name": "KeyEventType",
+      "startLine": 429,
+      "startOffset": 11140,
+      "symbolId": "packages/pi-tui/src/keys.ts::KeyEventType::type"
+    },
+    {
+      "endLine": 254,
+      "endOffset": 5863,
+      "kind": "variable",
+      "name": "Key",
+      "startLine": 173,
+      "startOffset": 3502,
+      "symbolId": "packages/pi-tui/src/keys.ts::Key::variable"
+    }
+  ]
+}

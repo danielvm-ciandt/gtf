@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/fs-utils.ts::atomicWriteFileSync::function"
+    }
+  ],
+  "contentHash": "9bd08d86b43219ecf9523a9b88672d4178c10f61194b86ee1af734ca084b531c",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/fs-utils.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 11,
+      "endOffset": 500,
+      "kind": "function",
+      "name": "atomicWriteFileSync",
+      "startLine": 7,
+      "startOffset": 272,
+      "symbolId": "packages/pi-coding-agent/src/core/fs-utils.ts::atomicWriteFileSync::function"
+    }
+  ]
+}

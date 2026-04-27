@@ -1,0 +1,81 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "9c11621dca2098c2b248a309fba9ccff842bac75b9670619bb4b7672f02db6cd",
+  "edges": [],
+  "file": "packages/native/src/gsd-parser/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 12,
+      "endOffset": 371,
+      "kind": "interface",
+      "name": "FrontmatterResult",
+      "startLine": 7,
+      "startOffset": 181,
+      "symbolId": "packages/native/src/gsd-parser/types.ts::FrontmatterResult::interface"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 544,
+      "kind": "interface",
+      "name": "SectionResult",
+      "startLine": 14,
+      "startOffset": 373,
+      "symbolId": "packages/native/src/gsd-parser/types.ts::SectionResult::interface"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 849,
+      "kind": "interface",
+      "name": "ParsedGsdFile",
+      "startLine": 21,
+      "startOffset": 546,
+      "symbolId": "packages/native/src/gsd-parser/types.ts::ParsedGsdFile::interface"
+    },
+    {
+      "endLine": 37,
+      "endOffset": 994,
+      "kind": "interface",
+      "name": "BatchParseResult",
+      "startLine": 32,
+      "startOffset": 851,
+      "symbolId": "packages/native/src/gsd-parser/types.ts::BatchParseResult::interface"
+    },
+    {
+      "endLine": 46,
+      "endOffset": 1136,
+      "kind": "interface",
+      "name": "NativeRoadmapSlice",
+      "startLine": 39,
+      "startOffset": 996,
+      "symbolId": "packages/native/src/gsd-parser/types.ts::NativeRoadmapSlice::interface"
+    },
+    {
+      "endLine": 53,
+      "endOffset": 1261,
+      "kind": "interface",
+      "name": "NativeBoundaryMapEntry",
+      "startLine": 48,
+      "startOffset": 1138,
+      "symbolId": "packages/native/src/gsd-parser/types.ts::NativeBoundaryMapEntry::interface"
+    },
+    {
+      "endLine": 61,
+      "endOffset": 1434,
+      "kind": "interface",
+      "name": "NativeRoadmap",
+      "startLine": 55,
+      "startOffset": 1263,
+      "symbolId": "packages/native/src/gsd-parser/types.ts::NativeRoadmap::interface"
+    }
+  ]
+}

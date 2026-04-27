@@ -1,0 +1,43 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "76bb3baadf2b9aea99828689ac9fd90da803f6a68603544d0723bfb5d84c93a6",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.test.ts::provider-capabilities.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/provider-capabilities.ts::PROVIDER_CAPABILITIES::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.test.ts::provider-capabilities.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/provider-capabilities.ts::getProviderCapabilities::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.test.ts::provider-capabilities.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/provider-capabilities.ts::getUnsupportedFeatures::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.test.ts::provider-capabilities.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/provider-capabilities.ts::mergeCapabilityOverrides::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/provider-capabilities.test.ts::provider-capabilities.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/provider-capabilities.ts::getRegisteredApis::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/provider-capabilities.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": []
+}

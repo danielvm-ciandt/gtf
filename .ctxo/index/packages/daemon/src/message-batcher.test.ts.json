@@ -1,0 +1,41 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "6b92fbde1d91d26f2e6747bacc8230f762c067a91940b45059eef29912bee87d",
+  "edges": [
+    {
+      "from": "packages/daemon/src/message-batcher.test.ts::message-batcher.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher::class"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.test.ts::message-batcher.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/message-batcher.ts::SendPayload::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.test.ts::message-batcher.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/message-batcher.ts::BatcherLogger::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.test.ts::message-batcher.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/daemon/src/message-batcher.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": []
+}

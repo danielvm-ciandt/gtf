@@ -1,0 +1,74 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 16,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    }
+  ],
+  "contentHash": "e2112f082612d7982e9443f069ae2ab63fec7f2a476243b32a1303eeb0dc3953",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::formatTimestamp::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::TimestampFormat::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::formatTimestamp::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::trimOuterBlankLines::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::TimestampFormat::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme.ts::theme::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/timestamp.ts::formatTimestamp::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 86,
+      "endOffset": 2738,
+      "kind": "function",
+      "name": "renderChatFrame",
+      "startLine": 14,
+      "startOffset": 509,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/components/chat-frame.ts::renderChatFrame::function"
+    }
+  ]
+}

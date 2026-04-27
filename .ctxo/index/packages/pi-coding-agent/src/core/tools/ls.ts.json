@@ -1,0 +1,139 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 18,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function"
+    }
+  ],
+  "contentHash": "55f4f9385141a032e9ac4c5611132f6d746798f95b2c8d6ee61fda3bf4942aab",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/ls.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 166,
+      "endOffset": 5122,
+      "kind": "function",
+      "name": "createLsTool",
+      "startLine": 45,
+      "startOffset": 1526,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/ls.ts::createLsTool::function"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 762,
+      "kind": "interface",
+      "name": "LsToolDetails",
+      "startLine": 16,
+      "startOffset": 667,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/ls.ts::LsToolDetails::interface"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1276,
+      "kind": "interface",
+      "name": "LsOperations",
+      "startLine": 25,
+      "startOffset": 892,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/ls.ts::LsOperations::interface"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 1524,
+      "kind": "interface",
+      "name": "LsToolOptions",
+      "startLine": 40,
+      "startOffset": 1387,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/ls.ts::LsToolOptions::interface"
+    },
+    {
+      "endLine": 12,
+      "endOffset": 637,
+      "kind": "type",
+      "name": "LsToolInput",
+      "startLine": 12,
+      "startOffset": 587,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/ls.ts::LsToolInput::type"
+    },
+    {
+      "endLine": 169,
+      "endOffset": 5246,
+      "kind": "variable",
+      "name": "lsTool",
+      "startLine": 169,
+      "startOffset": 5210,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/ls.ts::lsTool::variable"
+    }
+  ]
+}

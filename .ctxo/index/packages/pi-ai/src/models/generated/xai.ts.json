@@ -1,0 +1,34 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "5e71270e8296f6feb946edcae7ed7fe2ebb57295f383bde14aad34485c6bdd52",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/models/generated/xai.ts::XAI_MODELS::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-ai/src/models/generated/xai.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 414,
+      "endOffset": 9468,
+      "kind": "variable",
+      "name": "XAI_MODELS",
+      "startLine": 5,
+      "startOffset": 187,
+      "symbolId": "packages/pi-ai/src/models/generated/xai.ts::XAI_MODELS::variable"
+    }
+  ]
+}

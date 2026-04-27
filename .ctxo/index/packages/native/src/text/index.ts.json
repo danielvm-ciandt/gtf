@@ -1,0 +1,155 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/text/index.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/text/index.ts::truncateToWidth::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/text/index.ts::sliceWithWidth::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/text/index.ts::extractSegments::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/text/index.ts::sanitizeText::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/text/index.ts::visibleWidth::function"
+    }
+  ],
+  "contentHash": "7e02ffae4edab4eb300f1de95c126d38f663371c8c485862178e8c51e70921fa",
+  "edges": [
+    {
+      "from": "packages/native/src/text/index.ts::wrapTextWithAnsi::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::wrapTextWithAnsi::function",
+      "kind": "imports",
+      "to": "packages/native/src/text/types.ts::ExtractSegmentsResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/text/index.ts::wrapTextWithAnsi::function",
+      "kind": "imports",
+      "to": "packages/native/src/text/types.ts::SliceResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/text/index.ts::wrapTextWithAnsi::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::truncateToWidth::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::sliceWithWidth::function",
+      "kind": "uses",
+      "to": "packages/native/src/text/types.ts::SliceResult::interface"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::sliceWithWidth::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::extractSegments::function",
+      "kind": "uses",
+      "to": "packages/native/src/text/types.ts::ExtractSegmentsResult::interface"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::extractSegments::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::sanitizeText::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/text/index.ts::visibleWidth::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/text/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 31,
+      "endOffset": 893,
+      "kind": "function",
+      "name": "wrapTextWithAnsi",
+      "startLine": 21,
+      "startOffset": 674,
+      "symbolId": "packages/native/src/text/index.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "endLine": 56,
+      "endOffset": 1568,
+      "kind": "function",
+      "name": "truncateToWidth",
+      "startLine": 42,
+      "startOffset": 1282,
+      "symbolId": "packages/native/src/text/index.ts::truncateToWidth::function"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2052,
+      "kind": "function",
+      "name": "sliceWithWidth",
+      "startLine": 64,
+      "startOffset": 1764,
+      "symbolId": "packages/native/src/text/index.ts::sliceWithWidth::function"
+    },
+    {
+      "endLine": 102,
+      "endOffset": 2606,
+      "kind": "function",
+      "name": "extractSegments",
+      "startLine": 86,
+      "startOffset": 2242,
+      "symbolId": "packages/native/src/text/index.ts::extractSegments::function"
+    },
+    {
+      "endLine": 112,
+      "endOffset": 2943,
+      "kind": "function",
+      "name": "sanitizeText",
+      "startLine": 110,
+      "startOffset": 2813,
+      "symbolId": "packages/native/src/text/index.ts::sanitizeText::function"
+    },
+    {
+      "endLine": 124,
+      "endOffset": 3243,
+      "kind": "function",
+      "name": "visibleWidth",
+      "startLine": 119,
+      "startOffset": 3071,
+      "symbolId": "packages/native/src/text/index.ts::visibleWidth::function"
+    }
+  ]
+}

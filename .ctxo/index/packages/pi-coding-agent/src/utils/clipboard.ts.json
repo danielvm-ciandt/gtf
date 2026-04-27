@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/utils/clipboard.ts::copyToClipboard::function"
+    }
+  ],
+  "contentHash": "7b6a44ff6a8f4f097e6b666b5664fc4d007d2da5b9c92ab9ebe8f9c9ff9c536f",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/utils/clipboard.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 13,
+      "endOffset": 445,
+      "kind": "function",
+      "name": "copyToClipboard",
+      "startLine": 2,
+      "startOffset": 72,
+      "symbolId": "packages/pi-coding-agent/src/utils/clipboard.ts::copyToClipboard::function"
+    }
+  ]
+}

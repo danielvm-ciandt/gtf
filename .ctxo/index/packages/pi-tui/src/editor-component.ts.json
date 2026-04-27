@@ -1,0 +1,40 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d574f7f469af4dc9bd6e5f16564acfb74b3b648b1ca1391c08266c5827a6ddd5",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/editor-component.ts::EditorComponent::interface",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/autocomplete.ts::AutocompleteProvider::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/editor-component.ts::EditorComponent::interface",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-tui/src/editor-component.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 76,
+      "endOffset": 2717,
+      "kind": "interface",
+      "name": "EditorComponent",
+      "startLine": 10,
+      "startOffset": 344,
+      "symbolId": "packages/pi-tui/src/editor-component.ts::EditorComponent::interface"
+    }
+  ]
+}

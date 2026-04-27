@@ -1,0 +1,187 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::hasTransformations::function"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "cyclomatic": 46,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function"
+    }
+  ],
+  "contentHash": "aafd8e48aa5fb3de4635697b605f770fb6a55ce20d2dd5248814e7aca8c06bbb",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Message::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ToolResultMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::hasTransformations::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::logProviderSwitchReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Message::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Message::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ToolResultMessage::interface"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/transform-messages.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 36,
+      "endOffset": 1332,
+      "kind": "function",
+      "name": "createEmptyReport",
+      "startLine": 26,
+      "startOffset": 1056,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::createEmptyReport::function"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1702,
+      "kind": "function",
+      "name": "hasTransformations",
+      "startLine": 41,
+      "startOffset": 1413,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::hasTransformations::function"
+    },
+    {
+      "endLine": 67,
+      "endOffset": 2309,
+      "kind": "function",
+      "name": "transformMessagesWithReport",
+      "startLine": 55,
+      "startOffset": 1833,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "endLine": 264,
+      "endOffset": 9500,
+      "kind": "function",
+      "name": "transformMessages",
+      "startLine": 89,
+      "startOffset": 3663,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::transformMessages::function"
+    },
+    {
+      "endLine": 21,
+      "endOffset": 1003,
+      "kind": "interface",
+      "name": "ProviderSwitchReport",
+      "startLine": 6,
+      "startOffset": 298,
+      "symbolId": "packages/pi-ai/src/providers/transform-messages.ts::ProviderSwitchReport::interface"
+    }
+  ]
+}

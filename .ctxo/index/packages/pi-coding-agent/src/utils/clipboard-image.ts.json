@@ -1,0 +1,85 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/utils/clipboard-image.ts::extensionForImageMimeType::function"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImage::function"
+    }
+  ],
+  "contentHash": "33c3704f88575a84220579a9dbea81dd7722b359c1a11ad390a22e618e333533",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/utils/clipboard-image.ts::extensionForImageMimeType::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/clipboard-image.ts::baseMimeType::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImage::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/clipboard-image.ts::isWaylandSession::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImage::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImageViaWlPaste::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImage::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImageViaXclip::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImage::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/clipboard-image.ts::isSupportedImageMimeType::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImage::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/clipboard-image.ts::convertToPng::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/utils/clipboard-image.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 37,
+      "endOffset": 1073,
+      "kind": "function",
+      "name": "extensionForImageMimeType",
+      "startLine": 24,
+      "startOffset": 779,
+      "symbolId": "packages/pi-coding-agent/src/utils/clipboard-image.ts::extensionForImageMimeType::function"
+    },
+    {
+      "endLine": 226,
+      "endOffset": 6728,
+      "kind": "function",
+      "name": "readClipboardImage",
+      "startLine": 182,
+      "startOffset": 5503,
+      "symbolId": "packages/pi-coding-agent/src/utils/clipboard-image.ts::readClipboardImage::function"
+    },
+    {
+      "endLine": 8,
+      "endOffset": 261,
+      "kind": "type",
+      "name": "ClipboardImage",
+      "startLine": 5,
+      "startOffset": 189,
+      "symbolId": "packages/pi-coding-agent/src/utils/clipboard-image.ts::ClipboardImage::type"
+    }
+  ]
+}

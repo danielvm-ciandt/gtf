@@ -1,0 +1,60 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 20,
+      "symbolId": "packages/pi-tui/src/fuzzy.ts::fuzzyMatch::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    }
+  ],
+  "contentHash": "ad50c1c9b9eef28a32bacb2ea2763e316e9f8b2580048fe96ab4c9dcd8781305",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/fuzzy.ts::fuzzyMatch::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/fuzzy.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 88,
+      "endOffset": 2288,
+      "kind": "function",
+      "name": "fuzzyMatch",
+      "startLine": 11,
+      "startOffset": 219,
+      "symbolId": "packages/pi-tui/src/fuzzy.ts::fuzzyMatch::function"
+    },
+    {
+      "endLine": 132,
+      "endOffset": 3195,
+      "kind": "function",
+      "name": "fuzzyFilter",
+      "startLine": 94,
+      "startOffset": 2427,
+      "symbolId": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 217,
+      "kind": "interface",
+      "name": "FuzzyMatch",
+      "startLine": 6,
+      "startOffset": 151,
+      "symbolId": "packages/pi-tui/src/fuzzy.ts::FuzzyMatch::interface"
+    }
+  ]
+}

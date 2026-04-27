@@ -1,0 +1,48 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "6f26247fd54847604893c35a6b941c1f641fd767d846c87c43aa6ee5976a87b5",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.test.ts::compaction.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.test.ts::compaction.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.test.ts::compaction.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::chunkMessages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.test.ts::compaction.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::isDegenerateSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.test.ts::compaction.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CompactionProducedNoSummaryError::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.test.ts::compaction.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::estimateSerializedTokens::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/compaction/compaction.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": []
+}

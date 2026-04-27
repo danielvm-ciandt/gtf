@@ -1,0 +1,38 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "ee467af0aa55b8e4a0faa544e85e474ff3187225a45901994100a1b26f71aeca",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/api-family.test.ts::api-family.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/api-family.ts::isAnthropicApi::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/api-family.test.ts::api-family.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/api-family.ts::isBedrockApi::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/api-family.test.ts::api-family.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/api-family.ts::isGeminiApi::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/api-family.test.ts::api-family.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/api-family.ts::isOpenAIApi::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/api-family.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": []
+}

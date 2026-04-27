@@ -1,0 +1,45 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "4071860d65454f2015ffa1cd8b701309b4f6877919ee56a49a3a223f1277ef85",
+  "edges": [],
+  "file": "packages/native/src/fd/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 12,
+      "endOffset": 432,
+      "kind": "interface",
+      "name": "FuzzyFindOptions",
+      "startLine": 1,
+      "startOffset": 43,
+      "symbolId": "packages/native/src/fd/types.ts::FuzzyFindOptions::interface"
+    },
+    {
+      "endLine": 22,
+      "endOffset": 764,
+      "kind": "interface",
+      "name": "FuzzyFindMatch",
+      "startLine": 15,
+      "startOffset": 479,
+      "symbolId": "packages/native/src/fd/types.ts::FuzzyFindMatch::interface"
+    },
+    {
+      "endLine": 30,
+      "endOffset": 1041,
+      "kind": "interface",
+      "name": "FuzzyFindResult",
+      "startLine": 25,
+      "startOffset": 807,
+      "symbolId": "packages/native/src/fd/types.ts::FuzzyFindResult::interface"
+    }
+  ]
+}

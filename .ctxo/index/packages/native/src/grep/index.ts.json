@@ -1,0 +1,123 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/grep/index.ts::searchContent::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/grep/index.ts::grep::function"
+    }
+  ],
+  "contentHash": "f24c0a26c20e7abac3a002746deb36857b24a6d595d05ecff597351319e55e73",
+  "edges": [
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/grep/types.ts::ContextLine::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/grep/types.ts::GrepMatch::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/grep/types.ts::GrepOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/grep/types.ts::GrepResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/grep/types.ts::SearchMatch::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/grep/types.ts::SearchOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "imports",
+      "to": "packages/native/src/grep/types.ts::SearchResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "uses",
+      "to": "packages/native/src/grep/types.ts::SearchOptions::interface"
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "uses",
+      "to": "packages/native/src/grep/types.ts::SearchResult::interface"
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::searchContent::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::grep::function",
+      "kind": "uses",
+      "to": "packages/native/src/grep/types.ts::GrepOptions::interface"
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::grep::function",
+      "kind": "uses",
+      "to": "packages/native/src/grep/types.ts::GrepResult::interface"
+    },
+    {
+      "from": "packages/native/src/grep/index.ts::grep::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/grep/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 38,
+      "endOffset": 737,
+      "kind": "function",
+      "name": "searchContent",
+      "startLine": 33,
+      "startOffset": 571,
+      "symbolId": "packages/native/src/grep/index.ts::searchContent::function"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1065,
+      "kind": "function",
+      "name": "grep",
+      "startLine": 46,
+      "startOffset": 944,
+      "symbolId": "packages/native/src/grep/index.ts::grep::function"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateTail::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateLine::function"
+    }
+  ],
+  "contentHash": "dcae1f1268695832012627943e403a38a2183e0a634161cd55a0ff27170bd123",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::TRUNCATE_DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateTail::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateStringToBytesFromEnd::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/truncate.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 59,
+      "endOffset": 1911,
+      "kind": "function",
+      "name": "formatSize",
+      "startLine": 51,
+      "startOffset": 1672,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "endLine": 150,
+      "endOffset": 4226,
+      "kind": "function",
+      "name": "truncateHead",
+      "startLine": 68,
+      "startOffset": 2174,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "endLine": 231,
+      "endOffset": 6589,
+      "kind": "function",
+      "name": "truncateTail",
+      "startLine": 158,
+      "startOffset": 4473,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateTail::function"
+    },
+    {
+      "endLine": 266,
+      "endOffset": 7547,
+      "kind": "function",
+      "name": "truncateLine",
+      "startLine": 258,
+      "startOffset": 7250,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateLine::function"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1446,
+      "kind": "interface",
+      "name": "TruncationResult",
+      "startLine": 16,
+      "startOffset": 537,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface"
+    },
+    {
+      "endLine": 46,
+      "endOffset": 1622,
+      "kind": "interface",
+      "name": "TruncationOptions",
+      "startLine": 41,
+      "startOffset": 1448,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationOptions::interface"
+    },
+    {
+      "endLine": 12,
+      "endOffset": 408,
+      "kind": "variable",
+      "name": "DEFAULT_MAX_LINES",
+      "startLine": 12,
+      "startOffset": 362,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_LINES::variable"
+    },
+    {
+      "endLine": 13,
+      "endOffset": 452,
+      "kind": "variable",
+      "name": "DEFAULT_MAX_BYTES",
+      "startLine": 13,
+      "startOffset": 423,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "endLine": 14,
+      "endOffset": 501,
+      "kind": "variable",
+      "name": "GREP_MAX_LINE_LENGTH",
+      "startLine": 14,
+      "startOffset": 475,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/truncate.ts::GREP_MAX_LINE_LENGTH::variable"
+    }
+  ]
+}

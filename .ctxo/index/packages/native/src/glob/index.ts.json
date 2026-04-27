@@ -1,0 +1,94 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/glob/index.ts::glob::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/native/src/glob/index.ts::invalidateFsScanCache::function"
+    }
+  ],
+  "contentHash": "1d060ddd5ce8e28dce2df7317436f03c4683ccfa4d234d6596df8f465b60222f",
+  "edges": [
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "imports",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "imports",
+      "to": "packages/native/src/glob/types.ts::GlobMatch::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "imports",
+      "to": "packages/native/src/glob/types.ts::GlobOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "imports",
+      "to": "packages/native/src/glob/types.ts::GlobResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "uses",
+      "to": "packages/native/src/glob/types.ts::GlobOptions::interface"
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "uses",
+      "to": "packages/native/src/glob/types.ts::GlobMatch::interface"
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "uses",
+      "to": "packages/native/src/glob/types.ts::GlobResult::interface"
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::glob::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    },
+    {
+      "from": "packages/native/src/glob/index.ts::invalidateFsScanCache::function",
+      "kind": "uses",
+      "to": "packages/native/src/native.ts::native::variable"
+    }
+  ],
+  "file": "packages/native/src/glob/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 31,
+      "endOffset": 992,
+      "kind": "function",
+      "name": "glob",
+      "startLine": 26,
+      "startOffset": 775,
+      "symbolId": "packages/native/src/glob/index.ts::glob::function"
+    },
+    {
+      "endLine": 43,
+      "endOffset": 1329,
+      "kind": "function",
+      "name": "invalidateFsScanCache",
+      "startLine": 41,
+      "startOffset": 1229,
+      "symbolId": "packages/native/src/glob/index.ts::invalidateFsScanCache::function"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.startSession::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.getSession::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.getSessionByDir::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.resolveBlocker::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSession::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSessionByDir::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.stopDetachedAutoProcess::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager._cancelSessionObject::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.getResult::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.cleanup::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.resolveCLIPath::method"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method"
+    }
+  ],
+  "contentHash": "7c5a80b3125898206035889abc5afbb7de5afcd8028f6de23c366bbc722f511e",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::ManagedSession::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::ExecuteOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::PendingBlocker::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::CostAccumulator::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::SessionStatus::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::MAX_EVENTS::variable"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/types.ts::INIT_TIMEOUT_MS::variable"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.startSession::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::timeout::function"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.startSession::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::timeout::function"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.startSession::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.resolveBlocker::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager.getSession::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSession::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager.getSession::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSession::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager._cancelSessionObject::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSessionByDir::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager.getSessionByDir::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSessionByDir::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager._cancelSessionObject::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSessionByDir::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager.stopDetachedAutoProcess::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.getResult::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::SessionManager.getSession::method"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::isTerminalNotification::function"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::isBlockedNotification::function"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::extractBlocker::function"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::isBlockingUIRequest::function"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/session-manager.ts::extractBlocker::function"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/types.ts::ManagedSession::interface"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/types.ts::ExecuteOptions::interface"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/types.ts::INIT_TIMEOUT_MS::variable"
+    },
+    {
+      "from": "packages/mcp-server/src/session-manager.ts::SessionManager::class",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/types.ts::MAX_EVENTS::variable"
+    }
+  ],
+  "file": "packages/mcp-server/src/session-manager.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 356,
+      "endOffset": 12636,
+      "kind": "class",
+      "name": "SessionManager",
+      "startLine": 54,
+      "startOffset": 2161,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "endLine": 149,
+      "endOffset": 5565,
+      "kind": "method",
+      "name": "SessionManager.startSession",
+      "startLine": 65,
+      "startOffset": 2618,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.startSession::method"
+    },
+    {
+      "endLine": 160,
+      "endOffset": 5882,
+      "kind": "method",
+      "name": "SessionManager.getSession",
+      "startLine": 155,
+      "startOffset": 5680,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.getSession::method"
+    },
+    {
+      "endLine": 167,
+      "endOffset": 6083,
+      "kind": "method",
+      "name": "SessionManager.getSessionByDir",
+      "startLine": 165,
+      "startOffset": 5963,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.getSessionByDir::method"
+    },
+    {
+      "endLine": 183,
+      "endOffset": 6677,
+      "kind": "method",
+      "name": "SessionManager.resolveBlocker",
+      "startLine": 172,
+      "startOffset": 6156,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.resolveBlocker::method"
+    },
+    {
+      "endLine": 192,
+      "endOffset": 6995,
+      "kind": "method",
+      "name": "SessionManager.cancelSession",
+      "startLine": 188,
+      "startOffset": 6772,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSession::method"
+    },
+    {
+      "endLine": 212,
+      "endOffset": 7754,
+      "kind": "method",
+      "name": "SessionManager.cancelSessionByDir",
+      "startLine": 202,
+      "startOffset": 7380,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.cancelSessionByDir::method"
+    },
+    {
+      "endLine": 227,
+      "endOffset": 8278,
+      "kind": "method",
+      "name": "SessionManager.stopDetachedAutoProcess",
+      "startLine": 214,
+      "startOffset": 7758,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.stopDetachedAutoProcess::method"
+    },
+    {
+      "endLine": 243,
+      "endOffset": 8688,
+      "kind": "method",
+      "name": "SessionManager._cancelSessionObject",
+      "startLine": 232,
+      "startOffset": 8377,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager._cancelSessionObject::method"
+    },
+    {
+      "endLine": 266,
+      "endOffset": 9452,
+      "kind": "method",
+      "name": "SessionManager.getResult",
+      "startLine": 248,
+      "startOffset": 8782,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.getResult::method"
+    },
+    {
+      "endLine": 285,
+      "endOffset": 9993,
+      "kind": "method",
+      "name": "SessionManager.cleanup",
+      "startLine": 271,
+      "startOffset": 9522,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.cleanup::method"
+    },
+    {
+      "endLine": 312,
+      "endOffset": 10742,
+      "kind": "method",
+      "name": "SessionManager.resolveCLIPath",
+      "startLine": 293,
+      "startOffset": 10149,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.resolveCLIPath::method"
+    },
+    {
+      "endLine": 355,
+      "endOffset": 12634,
+      "kind": "method",
+      "name": "SessionManager.handleEvent",
+      "startLine": 318,
+      "startOffset": 10938,
+      "symbolId": "packages/mcp-server/src/session-manager.ts::SessionManager.handleEvent::method"
+    }
+  ]
+}

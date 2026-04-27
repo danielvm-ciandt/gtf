@@ -1,0 +1,17 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "9adbd7bbc0bb628784ab09d69cda30d97d956130383d44c817aee24fb69c40ae",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/tools/bash-spawn-windows.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": []
+}

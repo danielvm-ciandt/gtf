@@ -1,0 +1,536 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::getLastAssistantUsage::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateContextTokens::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::shouldCompact::function"
+    },
+    {
+      "cyclomatic": 22,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findTurnStartIndex::function"
+    },
+    {
+      "cyclomatic": 13,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findCutPoint::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::chunkMessages::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::isDegenerateSummary::function"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function"
+    }
+  ],
+  "contentHash": "5e3c8970476921b261576f30c3af9bd4aeaf7b445589ffa8d607a561ce7d2777",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_KEEP_RECENT_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::COMPACTION_RESERVE_TOKENS::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/messages.ts::convertToLlm::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::CompactionEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::collectMessages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::computeFileLists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createFileOps::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::createSummarizationMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::estimateSerializedTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractFileOpsFromMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractTextContent::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::FileOperations::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::formatFileOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::getMessageFromEntry::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::SUMMARIZATION_SYSTEM_PROMPT::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::serializeConversation::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CompactionProducedNoSummaryError::class",
+      "kind": "extends",
+      "to": "/packages/pi-coding-agent/src/core/compaction/compaction.ts::Error::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::getLastAssistantUsage::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::getAssistantUsage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateContextTokens::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::getLastAssistantUsageInfo::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateContextTokens::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateContextTokens::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateContextTokens::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findCutPoint::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findValidCutPoints::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findCutPoint::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findCutPoint::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findTurnStartIndex::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::chunkMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::estimateSerializedTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::estimateSerializedTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::singlePassSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::chunkMessages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::singlePassSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::isDegenerateSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::singlePassSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::isDegenerateSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::collectMessages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateContextTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findCutPoint::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::collectMessages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::collectMessages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::extractFileOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractFileOpsFromMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateTurnPrefixSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::computeFileLists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::formatFileOperations::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::getLastAssistantUsage::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findTurnStartIndex::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findCutPoint::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::chunkMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::estimateSerializedTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::estimateSerializedTokens::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::SessionEntry::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::collectMessages::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/session-manager.ts::CompactionEntry::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::extractFileOpsFromMessage::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::computeFileLists::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/compaction/utils.ts::formatFileOperations::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/compaction/compaction.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 106,
+      "endOffset": 3444,
+      "kind": "function",
+      "name": "calculateContextTokens",
+      "startLine": 104,
+      "startOffset": 3286,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::calculateContextTokens::function"
+    },
+    {
+      "endLine": 134,
+      "endOffset": 4297,
+      "kind": "function",
+      "name": "getLastAssistantUsage",
+      "startLine": 125,
+      "startOffset": 3996,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::getLastAssistantUsage::function"
+    },
+    {
+      "endLine": 183,
+      "endOffset": 5605,
+      "kind": "function",
+      "name": "estimateContextTokens",
+      "startLine": 155,
+      "startOffset": 4897,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateContextTokens::function"
+    },
+    {
+      "endLine": 191,
+      "endOffset": 5897,
+      "kind": "function",
+      "name": "shouldCompact",
+      "startLine": 188,
+      "startOffset": 5677,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::shouldCompact::function"
+    },
+    {
+      "endLine": 259,
+      "endOffset": 7819,
+      "kind": "function",
+      "name": "estimateTokens",
+      "startLine": 201,
+      "startOffset": 6202,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::estimateTokens::function"
+    },
+    {
+      "endLine": 325,
+      "endOffset": 9863,
+      "kind": "function",
+      "name": "findTurnStartIndex",
+      "startLine": 310,
+      "startOffset": 9339,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findTurnStartIndex::function"
+    },
+    {
+      "endLine": 414,
+      "endOffset": 12803,
+      "kind": "function",
+      "name": "findCutPoint",
+      "startLine": 352,
+      "startOffset": 10917,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::findCutPoint::function"
+    },
+    {
+      "endLine": 527,
+      "endOffset": 16516,
+      "kind": "function",
+      "name": "chunkMessages",
+      "startLine": 497,
+      "startOffset": 15404,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::chunkMessages::function"
+    },
+    {
+      "endLine": 560,
+      "endOffset": 18089,
+      "kind": "function",
+      "name": "isDegenerateSummary",
+      "startLine": 548,
+      "startOffset": 17414,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::isDegenerateSummary::function"
+    },
+    {
+      "endLine": 684,
+      "endOffset": 22766,
+      "kind": "function",
+      "name": "generateSummary",
+      "startLine": 575,
+      "startOffset": 18632,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::generateSummary::function"
+    },
+    {
+      "endLine": 840,
+      "endOffset": 28184,
+      "kind": "function",
+      "name": "prepareCompaction",
+      "startLine": 772,
+      "startOffset": 25910,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::prepareCompaction::function"
+    },
+    {
+      "endLine": 934,
+      "endOffset": 30882,
+      "kind": "function",
+      "name": "compact",
+      "startLine": 868,
+      "startOffset": 29154,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::compact::function"
+    },
+    {
+      "endLine": 697,
+      "endOffset": 23247,
+      "kind": "class",
+      "name": "CompactionProducedNoSummaryError",
+      "startLine": 692,
+      "startOffset": 23081,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CompactionProducedNoSummaryError::class"
+    },
+    {
+      "endLine": 36,
+      "endOffset": 1208,
+      "kind": "interface",
+      "name": "CompactionDetails",
+      "startLine": 33,
+      "startOffset": 1122,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CompactionDetails::interface"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2495,
+      "kind": "interface",
+      "name": "CompactionResult",
+      "startLine": 72,
+      "startOffset": 2266,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CompactionResult::interface"
+    },
+    {
+      "endLine": 88,
+      "endOffset": 2776,
+      "kind": "interface",
+      "name": "CompactionSettings",
+      "startLine": 84,
+      "startOffset": 2667,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CompactionSettings::interface"
+    },
+    {
+      "endLine": 141,
+      "endOffset": 4436,
+      "kind": "interface",
+      "name": "ContextUsageEstimate",
+      "startLine": 136,
+      "startOffset": 4299,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::ContextUsageEstimate::interface"
+    },
+    {
+      "endLine": 334,
+      "endOffset": 10175,
+      "kind": "interface",
+      "name": "CutPointResult",
+      "startLine": 327,
+      "startOffset": 9865,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CutPointResult::interface"
+    },
+    {
+      "endLine": 770,
+      "endOffset": 25908,
+      "kind": "interface",
+      "name": "CompactionPreparation",
+      "startLine": 754,
+      "startOffset": 25229,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::CompactionPreparation::interface"
+    },
+    {
+      "endLine": 94,
+      "endOffset": 2953,
+      "kind": "variable",
+      "name": "DEFAULT_COMPACTION_SETTINGS",
+      "startLine": 90,
+      "startOffset": 2791,
+      "symbolId": "packages/pi-coding-agent/src/core/compaction/compaction.ts::DEFAULT_COMPACTION_SETTINGS::variable"
+    }
+  ]
+}

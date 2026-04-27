@@ -1,0 +1,60 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d1fc9353b5597cb58ff360a6a3c5ef5d0b87a520ae7d0c9f772a421f211821a1",
+  "edges": [
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/config.ts::resolveConfigPath::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/config.ts::loadConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/config.ts::validateConfig::function"
+    },
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/daemon.ts::Daemon::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/daemon.test.ts::daemon.test::variable",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::LogEntry::interface",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/daemon/src/daemon.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": []
+}

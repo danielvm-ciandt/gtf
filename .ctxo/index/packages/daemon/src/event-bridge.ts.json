@@ -1,0 +1,428 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.start::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.stop::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.getVerbosityManager::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionStarted::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionEvent::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionBlocked::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionCompleted::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionError::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.createButtonCollector::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.sendBlockerDM::method"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.handleMessageCreate::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.cleanupSession::method"
+    }
+  ],
+  "contentHash": "a3217160c3aa3bdf72238d221cbebb7bcf267e316d39b3b6adbea683e9fe43c0",
+  "edges": [
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::PendingBlocker::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/verbosity.ts::VerbosityManager::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-formatter.ts::formatEvent::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-formatter.ts::formatBlocker::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-formatter.ts::formatSessionStarted::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-formatter.ts::formatError::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-formatter.ts::formatCompletion::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionStarted::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionEvent::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionBlocked::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionCompleted::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionError::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.handleMessageCreate::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionStarted::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatSessionStarted::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionStarted::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionEvent::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatEvent::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionBlocked::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatBlocker::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionBlocked::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.createButtonCollector::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionBlocked::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.sendBlockerDM::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionCompleted::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatCompletion::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionCompleted::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.cleanupSession::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionError::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-formatter.ts::formatError::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionError::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge.cleanupSession::method"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.createButtonCollector::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge.handleMessageCreate::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/logger.ts::Logger::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/verbosity.ts::VerbosityManager::class"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/event-formatter.ts::formatSessionStarted::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/event-formatter.ts::formatEvent::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/event-formatter.ts::formatBlocker::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/event-formatter.ts::formatCompletion::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/event-formatter.ts::formatError::function"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::PendingBlocker::interface"
+    },
+    {
+      "from": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    }
+  ],
+  "file": "packages/daemon/src/event-bridge.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 457,
+      "endOffset": 16812,
+      "kind": "class",
+      "name": "EventBridge",
+      "startLine": 61,
+      "startOffset": 2368,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge::class"
+    },
+    {
+      "endLine": 136,
+      "endOffset": 5227,
+      "kind": "method",
+      "name": "EventBridge.start",
+      "startLine": 104,
+      "startOffset": 3980,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.start::method"
+    },
+    {
+      "endLine": 163,
+      "endOffset": 6267,
+      "kind": "method",
+      "name": "EventBridge.stop",
+      "startLine": 139,
+      "startOffset": 5303,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.stop::method"
+    },
+    {
+      "endLine": 168,
+      "endOffset": 6412,
+      "kind": "method",
+      "name": "EventBridge.getVerbosityManager",
+      "startLine": 166,
+      "startOffset": 6340,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.getVerbosityManager::method"
+    },
+    {
+      "endLine": 212,
+      "endOffset": 7882,
+      "kind": "method",
+      "name": "EventBridge.onSessionStarted",
+      "startLine": 174,
+      "startOffset": 6606,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionStarted::method"
+    },
+    {
+      "endLine": 228,
+      "endOffset": 8450,
+      "kind": "method",
+      "name": "EventBridge.onSessionEvent",
+      "startLine": 214,
+      "startOffset": 7886,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionEvent::method"
+    },
+    {
+      "endLine": 252,
+      "endOffset": 9242,
+      "kind": "method",
+      "name": "EventBridge.onSessionBlocked",
+      "startLine": 230,
+      "startOffset": 8454,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionBlocked::method"
+    },
+    {
+      "endLine": 269,
+      "endOffset": 9778,
+      "kind": "method",
+      "name": "EventBridge.onSessionCompleted",
+      "startLine": 254,
+      "startOffset": 9246,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionCompleted::method"
+    },
+    {
+      "endLine": 281,
+      "endOffset": 10199,
+      "kind": "method",
+      "name": "EventBridge.onSessionError",
+      "startLine": 271,
+      "startOffset": 9782,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.onSessionError::method"
+    },
+    {
+      "endLine": 358,
+      "endOffset": 13089,
+      "kind": "method",
+      "name": "EventBridge.createButtonCollector",
+      "startLine": 287,
+      "startOffset": 10401,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.createButtonCollector::method"
+    },
+    {
+      "endLine": 382,
+      "endOffset": 13950,
+      "kind": "method",
+      "name": "EventBridge.sendBlockerDM",
+      "startLine": 364,
+      "startOffset": 13263,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.sendBlockerDM::method"
+    },
+    {
+      "endLine": 437,
+      "endOffset": 16208,
+      "kind": "method",
+      "name": "EventBridge.handleMessageCreate",
+      "startLine": 388,
+      "startOffset": 14149,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.handleMessageCreate::method"
+    },
+    {
+      "endLine": 456,
+      "endOffset": 16810,
+      "kind": "method",
+      "name": "EventBridge.cleanupSession",
+      "startLine": 443,
+      "startOffset": 16380,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridge.cleanupSession::method"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1703,
+      "kind": "interface",
+      "name": "BridgeClient",
+      "startLine": 35,
+      "startOffset": 1437,
+      "symbolId": "packages/daemon/src/event-bridge.ts::BridgeClient::interface"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1941,
+      "kind": "interface",
+      "name": "EventBridgeOptions",
+      "startLine": 42,
+      "startOffset": 1749,
+      "symbolId": "packages/daemon/src/event-bridge.ts::EventBridgeOptions::interface"
+    }
+  ]
+}

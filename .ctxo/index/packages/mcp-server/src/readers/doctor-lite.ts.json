@@ -1,0 +1,150 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function"
+    }
+  ],
+  "contentHash": "ba031fa87410da9c1bfcd0f8633df99205a2dfd7a7fbd88418d111ffc0ffd143",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveSliceFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/doctor-lite.ts::checkProjectLevel::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/doctor-lite.ts::checkMilestoneLevel::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/doctor-lite.ts::checkSliceLevel::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/doctor-lite.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 224,
+      "endOffset": 6502,
+      "kind": "function",
+      "name": "runDoctorLite",
+      "startLine": 182,
+      "startOffset": 5293,
+      "symbolId": "packages/mcp-server/src/readers/doctor-lite.ts::runDoctorLite::function"
+    },
+    {
+      "endLine": 28,
+      "endOffset": 758,
+      "kind": "interface",
+      "name": "DoctorIssue",
+      "startLine": 21,
+      "startOffset": 581,
+      "symbolId": "packages/mcp-server/src/readers/doctor-lite.ts::DoctorIssue::interface"
+    },
+    {
+      "endLine": 34,
+      "endOffset": 893,
+      "kind": "interface",
+      "name": "DoctorResult",
+      "startLine": 30,
+      "startOffset": 760,
+      "symbolId": "packages/mcp-server/src/readers/doctor-lite.ts::DoctorResult::interface"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 579,
+      "kind": "type",
+      "name": "Severity",
+      "startLine": 19,
+      "startOffset": 527,
+      "symbolId": "packages/mcp-server/src/readers/doctor-lite.ts::Severity::type"
+    }
+  ]
+}

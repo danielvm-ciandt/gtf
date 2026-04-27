@@ -1,0 +1,165 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.getGitBranch::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.getExtensionStatuses::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.onBranchChange::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.setExtensionStatus::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.clearExtensionStatuses::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.getAvailableProviderCount::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.setAvailableProviderCount::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.dispose::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.setupGitWatcher::method"
+    }
+  ],
+  "contentHash": "8a398f7c1dd253842d4ec6bb35a1fdc9d90df3f26e2b440e2b118f1ae403eec1",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.getGitBranch::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/footer-data-provider.ts::findGitHeadPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.setupGitWatcher::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/footer-data-provider.ts::findGitHeadPath::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/footer-data-provider.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 137,
+      "endOffset": 3964,
+      "kind": "class",
+      "name": "FooterDataProvider",
+      "startLine": 39,
+      "startOffset": 1185,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider::class"
+    },
+    {
+      "endLine": 66,
+      "endOffset": 2057,
+      "kind": "method",
+      "name": "FooterDataProvider.getGitBranch",
+      "startLine": 51,
+      "startOffset": 1602,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.getGitBranch::method"
+    },
+    {
+      "endLine": 71,
+      "endOffset": 2207,
+      "kind": "method",
+      "name": "FooterDataProvider.getExtensionStatuses",
+      "startLine": 69,
+      "startOffset": 2118,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.getExtensionStatuses::method"
+    },
+    {
+      "endLine": 77,
+      "endOffset": 2438,
+      "kind": "method",
+      "name": "FooterDataProvider.onBranchChange",
+      "startLine": 74,
+      "startOffset": 2281,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.onBranchChange::method"
+    },
+    {
+      "endLine": 86,
+      "endOffset": 2672,
+      "kind": "method",
+      "name": "FooterDataProvider.setExtensionStatus",
+      "startLine": 80,
+      "startOffset": 2480,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.setExtensionStatus::method"
+    },
+    {
+      "endLine": 91,
+      "endOffset": 2787,
+      "kind": "method",
+      "name": "FooterDataProvider.clearExtensionStatuses",
+      "startLine": 89,
+      "startOffset": 2718,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.clearExtensionStatuses::method"
+    },
+    {
+      "endLine": 96,
+      "endOffset": 2946,
+      "kind": "method",
+      "name": "FooterDataProvider.getAvailableProviderCount",
+      "startLine": 94,
+      "startOffset": 2868,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.getAvailableProviderCount::method"
+    },
+    {
+      "endLine": 101,
+      "endOffset": 3089,
+      "kind": "method",
+      "name": "FooterDataProvider.setAvailableProviderCount",
+      "startLine": 99,
+      "startOffset": 2999,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.setAvailableProviderCount::method"
+    },
+    {
+      "endLine": 110,
+      "endOffset": 3260,
+      "kind": "method",
+      "name": "FooterDataProvider.dispose",
+      "startLine": 104,
+      "startOffset": 3118,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.dispose::method"
+    },
+    {
+      "endLine": 136,
+      "endOffset": 3962,
+      "kind": "method",
+      "name": "FooterDataProvider.setupGitWatcher",
+      "startLine": 112,
+      "startOffset": 3263,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::FooterDataProvider.setupGitWatcher::method"
+    },
+    {
+      "endLine": 143,
+      "endOffset": 4232,
+      "kind": "type",
+      "name": "ReadonlyFooterDataProvider",
+      "startLine": 140,
+      "startOffset": 4072,
+      "symbolId": "packages/pi-coding-agent/src/core/footer-data-provider.ts::ReadonlyFooterDataProvider::type"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/kill-ring.ts::KillRing.push::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/kill-ring.ts::KillRing.peek::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/kill-ring.ts::KillRing.rotate::method"
+    }
+  ],
+  "contentHash": "d829ae816560b12d2800a38db9f7278f76d9ef43d0e53e004a86add9b56c559a",
+  "edges": [],
+  "file": "packages/pi-tui/src/kill-ring.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 45,
+      "endOffset": 1294,
+      "kind": "class",
+      "name": "KillRing",
+      "startLine": 7,
+      "startOffset": 243,
+      "symbolId": "packages/pi-tui/src/kill-ring.ts::KillRing::class"
+    },
+    {
+      "endLine": 27,
+      "endOffset": 893,
+      "kind": "method",
+      "name": "KillRing.push",
+      "startLine": 18,
+      "startOffset": 608,
+      "symbolId": "packages/pi-tui/src/kill-ring.ts::KillRing.push::method"
+    },
+    {
+      "endLine": 32,
+      "endOffset": 1062,
+      "kind": "method",
+      "name": "KillRing.peek",
+      "startLine": 30,
+      "startOffset": 954,
+      "symbolId": "packages/pi-tui/src/kill-ring.ts::KillRing.peek::method"
+    },
+    {
+      "endLine": 40,
+      "endOffset": 1237,
+      "kind": "method",
+      "name": "KillRing.rotate",
+      "startLine": 35,
+      "startOffset": 1122,
+      "symbolId": "packages/pi-tui/src/kill-ring.ts::KillRing.rotate::method"
+    }
+  ]
+}

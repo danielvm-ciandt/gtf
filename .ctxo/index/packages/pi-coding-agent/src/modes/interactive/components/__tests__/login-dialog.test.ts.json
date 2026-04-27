@@ -1,0 +1,23 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "2d5f40c65834c15f6587b5cd9b89ffa125b6fceaf9c0e4c6c9ea98f8391973c2",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/components/__tests__/login-dialog.test.ts::login-dialog.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/components/login-dialog.ts::buildAuthUrlPresentation::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/components/__tests__/login-dialog.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": []
+}

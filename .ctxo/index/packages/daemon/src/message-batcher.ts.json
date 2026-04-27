@@ -1,0 +1,202 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.start::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.stop::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.destroy::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.enqueue::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.enqueueImmediate::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.flush::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.doSend::method"
+    }
+  ],
+  "contentHash": "c53b4bc980d328a1e5990a4b9020121336a9d5f97d7cc1239662ccf7bc72c445",
+  "edges": [
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher::class",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher.start::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher.flush::method"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher.destroy::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher.stop::method"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher.destroy::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher.flush::method"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher.enqueue::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher.flush::method"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher.enqueueImmediate::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher.flush::method"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher.enqueueImmediate::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher.doSend::method"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher.flush::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/message-batcher.ts::MessageBatcher.doSend::method"
+    },
+    {
+      "from": "packages/daemon/src/message-batcher.ts::MessageBatcher::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::FormattedEvent::interface"
+    }
+  ],
+  "file": "packages/daemon/src/message-batcher.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 215,
+      "endOffset": 7393,
+      "kind": "class",
+      "name": "MessageBatcher",
+      "startLine": 57,
+      "startOffset": 2036,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher::class"
+    },
+    {
+      "endLine": 90,
+      "endOffset": 3268,
+      "kind": "method",
+      "name": "MessageBatcher.start",
+      "startLine": 80,
+      "startOffset": 2863,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.start::method"
+    },
+    {
+      "endLine": 99,
+      "endOffset": 3475,
+      "kind": "method",
+      "name": "MessageBatcher.stop",
+      "startLine": 93,
+      "startOffset": 3329,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.stop::method"
+    },
+    {
+      "endLine": 108,
+      "endOffset": 3730,
+      "kind": "method",
+      "name": "MessageBatcher.destroy",
+      "startLine": 102,
+      "startOffset": 3550,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.destroy::method"
+    },
+    {
+      "endLine": 120,
+      "endOffset": 4065,
+      "kind": "method",
+      "name": "MessageBatcher.enqueue",
+      "startLine": 114,
+      "startOffset": 3872,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.enqueue::method"
+    },
+    {
+      "endLine": 132,
+      "endOffset": 4488,
+      "kind": "method",
+      "name": "MessageBatcher.enqueueImmediate",
+      "startLine": 126,
+      "startOffset": 4217,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.enqueueImmediate::method"
+    },
+    {
+      "endLine": 159,
+      "endOffset": 5300,
+      "kind": "method",
+      "name": "MessageBatcher.flush",
+      "startLine": 148,
+      "startOffset": 4984,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.flush::method"
+    },
+    {
+      "endLine": 214,
+      "endOffset": 7391,
+      "kind": "method",
+      "name": "MessageBatcher.doSend",
+      "startLine": 169,
+      "startOffset": 5691,
+      "symbolId": "packages/daemon/src/message-batcher.ts::MessageBatcher.doSend::method"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 918,
+      "kind": "interface",
+      "name": "SendPayload",
+      "startLine": 19,
+      "startOffset": 821,
+      "symbolId": "packages/daemon/src/message-batcher.ts::SendPayload::interface"
+    },
+    {
+      "endLine": 33,
+      "endOffset": 1319,
+      "kind": "interface",
+      "name": "BatcherLogger",
+      "startLine": 29,
+      "startOffset": 1106,
+      "symbolId": "packages/daemon/src/message-batcher.ts::BatcherLogger::interface"
+    },
+    {
+      "endLine": 41,
+      "endOffset": 1593,
+      "kind": "interface",
+      "name": "BatcherOptions",
+      "startLine": 36,
+      "startOffset": 1366,
+      "symbolId": "packages/daemon/src/message-batcher.ts::BatcherOptions::interface"
+    },
+    {
+      "endLine": 26,
+      "endOffset": 1049,
+      "kind": "type",
+      "name": "SendFn",
+      "startLine": 26,
+      "startOffset": 981,
+      "symbolId": "packages/daemon/src/message-batcher.ts::SendFn::type"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/providers/register-builtins.ts::resetApiProviders::function"
+    }
+  ],
+  "contentHash": "9cb2e8da635cd59303ebcff1d8960f37adf0ddff388dc09f62be70a92c822007",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/api-registry.ts::clearApiProviders::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/api-registry.ts::registerApiProvider::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessageEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::SimpleStreamOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/amazon-bedrock.ts::BedrockOptions::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/anthropic.ts::streamAnthropic::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/anthropic.ts::streamSimpleAnthropic::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/anthropic-vertex.ts::streamAnthropicVertex::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/anthropic-vertex.ts::streamSimpleAnthropicVertex::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/azure-openai-responses.ts::streamAzureOpenAIResponses::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/azure-openai-responses.ts::streamSimpleAzureOpenAIResponses::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google.ts::streamGoogle::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google.ts::streamSimpleGoogle::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-gemini-cli.ts::streamGoogleGeminiCli::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-gemini-cli.ts::streamSimpleGoogleGeminiCli::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-vertex.ts::streamGoogleVertex::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/google-vertex.ts::streamSimpleGoogleVertex::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/mistral.ts::streamMistral::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/mistral.ts::streamSimpleMistral::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-codex-responses.ts::streamOpenAICodexResponses::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-codex-responses.ts::streamSimpleOpenAICodexResponses::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-completions.ts::streamOpenAICompletions::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-completions.ts::streamSimpleOpenAICompletions::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-responses.ts::streamOpenAIResponses::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/openai-responses.ts::streamSimpleOpenAIResponses::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::resetApiProviders::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/api-registry.ts::clearApiProviders::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::resetApiProviders::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/register-builtins.ts::registerBuiltInApiProviders::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/register-builtins.ts::resetApiProviders::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/api-registry.ts::clearApiProviders::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/register-builtins.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 37,
+      "endOffset": 1945,
+      "kind": "function",
+      "name": "setBedrockProviderModule",
+      "startLine": 35,
+      "startOffset": 1823,
+      "symbolId": "packages/pi-ai/src/providers/register-builtins.ts::setBedrockProviderModule::function"
+    },
+    {
+      "endLine": 190,
+      "endOffset": 5705,
+      "kind": "function",
+      "name": "resetApiProviders",
+      "startLine": 187,
+      "startOffset": 5606,
+      "symbolId": "packages/pi-ai/src/providers/register-builtins.ts::resetApiProviders::function"
+    }
+  ]
+}

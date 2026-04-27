@@ -1,0 +1,244 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 40,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function"
+    }
+  ],
+  "contentHash": "9f29f46cb23f78df3272dd5fac2af3e52bb861b9d8b69919490c5a0e190ad1de",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::detectLineEnding::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::generateDiffString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::restoreLineEndings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::stripBom::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::Anchor::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::computeLineHash::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::HashlineEdit::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseHashlineText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseTag::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseHashlineText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseHashlineText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::stripBom::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::detectLineEnding::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::resolveEditAnchors::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::restoreLineEndings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::generateDiffString::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::parseHashlineText::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::stripBom::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::detectLineEnding::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::normalizeToLF::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/hashline.ts::applyHashlineEdits::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::restoreLineEndings::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/edit-diff.ts::generateDiffString::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 314,
+      "endOffset": 10194,
+      "kind": "function",
+      "name": "createHashlineEditTool",
+      "startLine": 141,
+      "startOffset": 4718,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::createHashlineEditTool::function"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 2236,
+      "kind": "interface",
+      "name": "HashlineEditToolDetails",
+      "startLine": 58,
+      "startOffset": 2052,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::HashlineEditToolDetails::interface"
+    },
+    {
+      "endLine": 73,
+      "endOffset": 2565,
+      "kind": "interface",
+      "name": "HashlineEditOperations",
+      "startLine": 68,
+      "startOffset": 2298,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::HashlineEditOperations::interface"
+    },
+    {
+      "endLine": 84,
+      "endOffset": 2927,
+      "kind": "interface",
+      "name": "HashlineEditToolOptions",
+      "startLine": 82,
+      "startOffset": 2845,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::HashlineEditToolOptions::interface"
+    },
+    {
+      "endLine": 55,
+      "endOffset": 1980,
+      "kind": "type",
+      "name": "HashlineEditInput",
+      "startLine": 55,
+      "startOffset": 1914,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::HashlineEditInput::type"
+    },
+    {
+      "endLine": 56,
+      "endOffset": 2050,
+      "kind": "type",
+      "name": "HashlineEditItem",
+      "startLine": 56,
+      "startOffset": 1981,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::HashlineEditItem::type"
+    },
+    {
+      "endLine": 317,
+      "endOffset": 10319,
+      "kind": "variable",
+      "name": "hashlineEditTool",
+      "startLine": 317,
+      "startOffset": 10263,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/hashline-edit.ts::hashlineEditTool::variable"
+    }
+  ]
+}

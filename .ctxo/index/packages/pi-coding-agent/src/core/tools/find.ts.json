@@ -1,0 +1,154 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function"
+    }
+  ],
+  "contentHash": "07a9787a9a767c3fc965032457c9c572c885100c4b185b1a72f67d079ae9fbea",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/constants.ts::FIND_DEFAULT_LIMIT::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/find.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 196,
+      "endOffset": 6403,
+      "kind": "function",
+      "name": "createFindTool",
+      "startLine": 50,
+      "startOffset": 1772,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/find.ts::createFindTool::function"
+    },
+    {
+      "endLine": 24,
+      "endOffset": 988,
+      "kind": "interface",
+      "name": "FindToolDetails",
+      "startLine": 21,
+      "startOffset": 890,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/find.ts::FindToolDetails::interface"
+    },
+    {
+      "endLine": 35,
+      "endOffset": 1424,
+      "kind": "interface",
+      "name": "FindOperations",
+      "startLine": 30,
+      "startOffset": 1114,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/find.ts::FindOperations::interface"
+    },
+    {
+      "endLine": 48,
+      "endOffset": 1770,
+      "kind": "interface",
+      "name": "FindToolOptions",
+      "startLine": 45,
+      "startOffset": 1628,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/find.ts::FindToolOptions::interface"
+    },
+    {
+      "endLine": 17,
+      "endOffset": 845,
+      "kind": "type",
+      "name": "FindToolInput",
+      "startLine": 17,
+      "startOffset": 791,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/find.ts::FindToolInput::type"
+    },
+    {
+      "endLine": 199,
+      "endOffset": 6533,
+      "kind": "variable",
+      "name": "findTool",
+      "startLine": 199,
+      "startOffset": 6493,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/find.ts::findTool::variable"
+    }
+  ]
+}

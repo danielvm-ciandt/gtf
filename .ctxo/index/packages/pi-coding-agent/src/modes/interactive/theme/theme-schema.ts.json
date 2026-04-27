@@ -1,0 +1,45 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "2f0a586a5305b4a9c79c44ad33e582d70fc3bad4fee7264bc62d582a209cbee5",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 6,
+      "endOffset": 286,
+      "kind": "type",
+      "name": "ColorValue",
+      "startLine": 6,
+      "startOffset": 229,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts::ColorValue::type"
+    },
+    {
+      "endLine": 82,
+      "endOffset": 2819,
+      "kind": "type",
+      "name": "ThemeJson",
+      "startLine": 82,
+      "startOffset": 2764,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts::ThemeJson::type"
+    },
+    {
+      "endLine": 80,
+      "endOffset": 2761,
+      "kind": "variable",
+      "name": "ThemeJsonSchema",
+      "startLine": 8,
+      "startOffset": 301,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts::ThemeJsonSchema::variable"
+    }
+  ]
+}

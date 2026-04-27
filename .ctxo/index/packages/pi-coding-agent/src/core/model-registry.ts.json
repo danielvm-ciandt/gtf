@@ -1,0 +1,808 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.refresh::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getError::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadModels::method"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadBuiltInModels::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.mergeCustomModels::method"
+    },
+    {
+      "cyclomatic": 14,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method"
+    },
+    {
+      "cyclomatic": 17,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.validateConfig::method"
+    },
+    {
+      "cyclomatic": 23,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.parseModels::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAll::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAvailable::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderAuthMode::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isProviderRequestReady::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.find::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKey::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKeyForProvider::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isUsingOAuth::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.registerProvider::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.unregisterProvider::method"
+    },
+    {
+      "cyclomatic": 43,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method"
+    },
+    {
+      "cyclomatic": 11,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAllWithDiscovered::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isDiscovered::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryCache::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.convertDiscoveredModels::method"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderApis::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAutoDiscoverableProviders::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderBaseUrl::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryProviderDefaults::method"
+    },
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryTtl::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isLocalModel::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isAllLocalChain::method"
+    }
+  ],
+  "contentHash": "3654010e49893c3eebd91185e9cf7b248317ee2425fb5a1e1695ac160091bf24",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::DiscoveredModel::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::DiscoveryResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::clearConfigValueCache::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/local-model-check.ts::isLocalModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.refresh::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.refresh::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::emptyCustomModelsResult::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadBuiltInModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.mergeCustomModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadBuiltInModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadBuiltInModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::applyModelOverride::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::emptyCustomModelsResult::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::emptyCustomModelsResult::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.validateConfig::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.parseModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::emptyCustomModelsResult::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::emptyCustomModelsResult::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.parseModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.parseModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.parseModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAvailable::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isProviderRequestReady::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isProviderRequestReady::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderAuthMode::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKey::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderAuthMode::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKeyForProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderAuthMode::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKeyForProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKey::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.registerProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.unregisterProvider::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.refresh::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAutoDiscoverableProviders::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderApis::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKey::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isProviderRequestReady::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderBaseUrl::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryTtl::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.convertDiscoveredModels::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.convertDiscoveredModels::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryProviderDefaults::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAutoDiscoverableProviders::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAutoDiscoverableProviders::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderApis::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAutoDiscoverableProviders::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderBaseUrl::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.find::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryProviderDefaults::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.find::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryTtl::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryTtl::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryTtl::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isAllLocalChain::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAll::method"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isAllLocalChain::method",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/local-model-check.ts::isLocalModel::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/discovery-cache.ts::ModelDiscoveryCache::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/auth-storage.ts::AuthStorage::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::getAgentDir::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveConfigValue::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/resolve-config-value.ts::resolveHeaders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::DiscoveryResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoveryAdapter::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDiscoverableProviders::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::supportsDiscoveryForApi::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-discovery.ts::getDefaultTTL::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/local-model-check.ts::isLocalModel::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/model-registry.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 995,
+      "endOffset": 35411,
+      "kind": "class",
+      "name": "ModelRegistry",
+      "startLine": 243,
+      "startOffset": 9070,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "endLine": 289,
+      "endOffset": 10550,
+      "kind": "method",
+      "name": "ModelRegistry.refresh",
+      "startLine": 276,
+      "startOffset": 10173,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.refresh::method"
+    },
+    {
+      "endLine": 296,
+      "endOffset": 10691,
+      "kind": "method",
+      "name": "ModelRegistry.getError",
+      "startLine": 294,
+      "startOffset": 10631,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getError::method"
+    },
+    {
+      "endLine": 327,
+      "endOffset": 11805,
+      "kind": "method",
+      "name": "ModelRegistry.loadModels",
+      "startLine": 298,
+      "startOffset": 10694,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadModels::method"
+    },
+    {
+      "endLine": 361,
+      "endOffset": 12859,
+      "kind": "method",
+      "name": "ModelRegistry.loadBuiltInModels",
+      "startLine": 330,
+      "startOffset": 11872,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadBuiltInModels::method"
+    },
+    {
+      "endLine": 375,
+      "endOffset": 13386,
+      "kind": "method",
+      "name": "ModelRegistry.mergeCustomModels",
+      "startLine": 364,
+      "startOffset": 12952,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.mergeCustomModels::method"
+    },
+    {
+      "endLine": 430,
+      "endOffset": 15379,
+      "kind": "method",
+      "name": "ModelRegistry.loadCustomModels",
+      "startLine": 377,
+      "startOffset": 13389,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.loadCustomModels::method"
+    },
+    {
+      "endLine": 471,
+      "endOffset": 17163,
+      "kind": "method",
+      "name": "ModelRegistry.validateConfig",
+      "startLine": 432,
+      "startOffset": 15382,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.validateConfig::method"
+    },
+    {
+      "endLine": 537,
+      "endOffset": 19742,
+      "kind": "method",
+      "name": "ModelRegistry.parseModels",
+      "startLine": 473,
+      "startOffset": 17166,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.parseModels::method"
+    },
+    {
+      "endLine": 545,
+      "endOffset": 19905,
+      "kind": "method",
+      "name": "ModelRegistry.getAll",
+      "startLine": 543,
+      "startOffset": 19856,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAll::method"
+    },
+    {
+      "endLine": 553,
+      "endOffset": 20135,
+      "kind": "method",
+      "name": "ModelRegistry.getAvailable",
+      "startLine": 551,
+      "startOffset": 20025,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAvailable::method"
+    },
+    {
+      "endLine": 566,
+      "endOffset": 20547,
+      "kind": "method",
+      "name": "ModelRegistry.getProviderAuthMode",
+      "startLine": 559,
+      "startOffset": 20258,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderAuthMode::method"
+    },
+    {
+      "endLine": 577,
+      "endOffset": 20972,
+      "kind": "method",
+      "name": "ModelRegistry.isProviderRequestReady",
+      "startLine": 571,
+      "startOffset": 20643,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isProviderRequestReady::method"
+    },
+    {
+      "endLine": 584,
+      "endOffset": 21169,
+      "kind": "method",
+      "name": "ModelRegistry.find",
+      "startLine": 582,
+      "startOffset": 21022,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.find::method"
+    },
+    {
+      "endLine": 595,
+      "endOffset": 21672,
+      "kind": "method",
+      "name": "ModelRegistry.getApiKey",
+      "startLine": 591,
+      "startOffset": 21356,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKey::method"
+    },
+    {
+      "endLine": 606,
+      "endOffset": 22148,
+      "kind": "method",
+      "name": "ModelRegistry.getApiKeyForProvider",
+      "startLine": 602,
+      "startOffset": 21862,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getApiKeyForProvider::method"
+    },
+    {
+      "endLine": 614,
+      "endOffset": 22356,
+      "kind": "method",
+      "name": "ModelRegistry.isUsingOAuth",
+      "startLine": 611,
+      "startOffset": 22225,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isUsingOAuth::method"
+    },
+    {
+      "endLine": 626,
+      "endOffset": 22833,
+      "kind": "method",
+      "name": "ModelRegistry.registerProvider",
+      "startLine": 623,
+      "startOffset": 22651,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.registerProvider::method"
+    },
+    {
+      "endLine": 642,
+      "endOffset": 23459,
+      "kind": "method",
+      "name": "ModelRegistry.unregisterProvider",
+      "startLine": 637,
+      "startOffset": 23231,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.unregisterProvider::method"
+    },
+    {
+      "endLine": 799,
+      "endOffset": 29419,
+      "kind": "method",
+      "name": "ModelRegistry.applyProviderConfig",
+      "startLine": 644,
+      "startOffset": 23462,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.applyProviderConfig::method"
+    },
+    {
+      "endLine": 853,
+      "endOffset": 31191,
+      "kind": "method",
+      "name": "ModelRegistry.discoverModels",
+      "startLine": 805,
+      "startOffset": 29582,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.discoverModels::method"
+    },
+    {
+      "endLine": 863,
+      "endOffset": 31577,
+      "kind": "method",
+      "name": "ModelRegistry.getAllWithDiscovered",
+      "startLine": 859,
+      "startOffset": 31321,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAllWithDiscovered::method"
+    },
+    {
+      "endLine": 870,
+      "endOffset": 31802,
+      "kind": "method",
+      "name": "ModelRegistry.isDiscovered",
+      "startLine": 868,
+      "startOffset": 31661,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isDiscovered::method"
+    },
+    {
+      "endLine": 877,
+      "endOffset": 31928,
+      "kind": "method",
+      "name": "ModelRegistry.getDiscoveryCache",
+      "startLine": 875,
+      "startOffset": 31853,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryCache::method"
+    },
+    {
+      "endLine": 903,
+      "endOffset": 32824,
+      "kind": "method",
+      "name": "ModelRegistry.convertDiscoveredModels",
+      "startLine": 882,
+      "startOffset": 32010,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.convertDiscoveredModels::method"
+    },
+    {
+      "endLine": 919,
+      "endOffset": 33330,
+      "kind": "method",
+      "name": "ModelRegistry.getProviderApis",
+      "startLine": 905,
+      "startOffset": 32827,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderApis::method"
+    },
+    {
+      "endLine": 933,
+      "endOffset": 33731,
+      "kind": "method",
+      "name": "ModelRegistry.getAutoDiscoverableProviders",
+      "startLine": 921,
+      "startOffset": 33333,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getAutoDiscoverableProviders::method"
+    },
+    {
+      "endLine": 939,
+      "endOffset": 34043,
+      "kind": "method",
+      "name": "ModelRegistry.getProviderBaseUrl",
+      "startLine": 935,
+      "startOffset": 33734,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getProviderBaseUrl::method"
+    },
+    {
+      "endLine": 966,
+      "endOffset": 34647,
+      "kind": "method",
+      "name": "ModelRegistry.getDiscoveryProviderDefaults",
+      "startLine": 941,
+      "startOffset": 34046,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryProviderDefaults::method"
+    },
+    {
+      "endLine": 975,
+      "endOffset": 34885,
+      "kind": "method",
+      "name": "ModelRegistry.getDiscoveryTtl",
+      "startLine": 968,
+      "startOffset": 34650,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.getDiscoveryTtl::method"
+    },
+    {
+      "endLine": 983,
+      "endOffset": 35092,
+      "kind": "method",
+      "name": "ModelRegistry.isLocalModel",
+      "startLine": 981,
+      "startOffset": 35010,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isLocalModel::method"
+    },
+    {
+      "endLine": 994,
+      "endOffset": 35409,
+      "kind": "method",
+      "name": "ModelRegistry.isAllLocalChain",
+      "startLine": 990,
+      "startOffset": 35258,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry.isAllLocalChain::method"
+    },
+    {
+      "endLine": 1027,
+      "endOffset": 36446,
+      "kind": "interface",
+      "name": "ProviderConfigInput",
+      "startLine": 1000,
+      "startOffset": 35461,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ProviderConfigInput::interface"
+    },
+    {
+      "endLine": 144,
+      "endOffset": 5658,
+      "kind": "type",
+      "name": "ProviderAuthMode",
+      "startLine": 144,
+      "startOffset": 5583,
+      "symbolId": "packages/pi-coding-agent/src/core/model-registry.ts::ProviderAuthMode::type"
+    }
+  ]
+}

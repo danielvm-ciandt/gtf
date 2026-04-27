@@ -1,0 +1,28 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "6fb50326d7f1671d42d7eceec7850edcf95253c94677df9c9433e107aab64d90",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-auth.test.ts::anthropic-auth.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/anthropic.ts::usesAnthropicBearerAuth::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/anthropic-auth.test.ts::anthropic-auth.test::variable",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/anthropic.ts::resolveAnthropicBaseUrl::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/anthropic-auth.test.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": []
+}

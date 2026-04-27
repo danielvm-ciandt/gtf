@@ -1,0 +1,34 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "300de4290ef1472de729385d0d055a2389ee55d8db2cc096a2b7312c4c6ba652",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/modes/interactive/theme/themes.ts::builtinThemes::variable",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/modes/interactive/theme/theme-schema.ts::ThemeJson::type",
+      "typeOnly": true
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/modes/interactive/theme/themes.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 377,
+      "endOffset": 8600,
+      "kind": "variable",
+      "name": "builtinThemes",
+      "startLine": 372,
+      "startOffset": 8503,
+      "symbolId": "packages/pi-coding-agent/src/modes/interactive/theme/themes.ts::builtinThemes::variable"
+    }
+  ]
+}

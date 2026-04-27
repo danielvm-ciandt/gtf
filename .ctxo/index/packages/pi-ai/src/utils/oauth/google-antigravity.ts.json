@@ -1,0 +1,179 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function"
+    },
+    {
+      "cyclomatic": 19,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function"
+    }
+  ],
+  "contentHash": "720cd646f147255edb600a4e66e05ff5a604864f8833c8d9d2786ffb4fa207fb",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::CallbackServerInfo::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthLoginCallbacks::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::discoverProject::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::refreshGoogleOAuthToken::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/pkce.ts::generatePKCE::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::CallbackServerInfo::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::startCallbackServer::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::parseRedirectUrl::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/google-oauth-utils.ts::getGoogleUserEmail::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/oauth/google-antigravity.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 131,
+      "endOffset": 4462,
+      "kind": "function",
+      "name": "refreshAntigravityToken",
+      "startLine": 129,
+      "startOffset": 4242,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::refreshAntigravityToken::function"
+    },
+    {
+      "endLine": 299,
+      "endOffset": 9204,
+      "kind": "function",
+      "name": "loginAntigravity",
+      "startLine": 141,
+      "startOffset": 4804,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::loginAntigravity::function"
+    },
+    {
+      "endLine": 322,
+      "endOffset": 10043,
+      "kind": "variable",
+      "name": "antigravityOAuthProvider",
+      "startLine": 301,
+      "startOffset": 9219,
+      "symbolId": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::antigravityOAuthProvider::variable"
+    }
+  ]
+}

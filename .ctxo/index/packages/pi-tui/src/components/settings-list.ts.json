@@ -1,0 +1,349 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.updateValue::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.invalidate::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.render::method"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.handleInput::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.activateItem::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.closeSubmenu::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.applyFilter::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.addHintLine::method"
+    }
+  ],
+  "contentHash": "935081227f7b48d935f39a37b2fb4aa2bb8a0c1e955ea510a128d049d4b39331",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/components/input.ts::Input::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.render::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.addHintLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.addHintLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.addHintLine::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.activateItem::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.handleInput::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.applyFilter::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.activateItem::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/settings-list.ts::SettingsList.closeSubmenu::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.applyFilter::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList.addHintLine::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/components/input.ts::Input::class"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::truncateToWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::wrapTextWithAnsi::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/keybindings.ts::getEditorKeybindings::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/fuzzy.ts::fuzzyFilter::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/settings-list.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 250,
+      "endOffset": 7965,
+      "kind": "class",
+      "name": "SettingsList",
+      "startLine": 33,
+      "startOffset": 1103,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList::class"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 2275,
+      "kind": "method",
+      "name": "SettingsList.updateValue",
+      "startLine": 69,
+      "startOffset": 2120,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.updateValue::method"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2342,
+      "kind": "method",
+      "name": "SettingsList.invalidate",
+      "startLine": 76,
+      "startOffset": 2278,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.invalidate::method"
+    },
+    {
+      "endLine": 87,
+      "endOffset": 2546,
+      "kind": "method",
+      "name": "SettingsList.render",
+      "startLine": 80,
+      "startOffset": 2345,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.render::method"
+    },
+    {
+      "endLine": 166,
+      "endOffset": 5191,
+      "kind": "method",
+      "name": "SettingsList.renderMainList",
+      "startLine": 89,
+      "startOffset": 2549,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.renderMainList::method"
+    },
+    {
+      "endLine": 197,
+      "endOffset": 6368,
+      "kind": "method",
+      "name": "SettingsList.handleInput",
+      "startLine": 168,
+      "startOffset": 5194,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.handleInput::method"
+    },
+    {
+      "endLine": 221,
+      "endOffset": 7252,
+      "kind": "method",
+      "name": "SettingsList.activateItem",
+      "startLine": 199,
+      "startOffset": 6371,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.activateItem::method"
+    },
+    {
+      "endLine": 230,
+      "endOffset": 7503,
+      "kind": "method",
+      "name": "SettingsList.closeSubmenu",
+      "startLine": 223,
+      "startOffset": 7255,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.closeSubmenu::method"
+    },
+    {
+      "endLine": 235,
+      "endOffset": 7654,
+      "kind": "method",
+      "name": "SettingsList.applyFilter",
+      "startLine": 232,
+      "startOffset": 7506,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.applyFilter::method"
+    },
+    {
+      "endLine": 249,
+      "endOffset": 7963,
+      "kind": "method",
+      "name": "SettingsList.addHintLine",
+      "startLine": 237,
+      "startOffset": 7657,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsList.addHintLine::method"
+    },
+    {
+      "endLine": 19,
+      "endOffset": 798,
+      "kind": "interface",
+      "name": "SettingItem",
+      "startLine": 6,
+      "startOffset": 261,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingItem::interface"
+    },
+    {
+      "endLine": 27,
+      "endOffset": 1034,
+      "kind": "interface",
+      "name": "SettingsListTheme",
+      "startLine": 21,
+      "startOffset": 800,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsListTheme::interface"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 1101,
+      "kind": "interface",
+      "name": "SettingsListOptions",
+      "startLine": 29,
+      "startOffset": 1036,
+      "symbolId": "packages/pi-tui/src/components/settings-list.ts::SettingsListOptions::interface"
+    }
+  ]
+}

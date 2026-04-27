@@ -1,0 +1,63 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "d851e82dce80873049df6fba9c59d8f3dfe8c7d6ec8bb58224855b2c4b1ccc85",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/core/slash-commands.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 10,
+      "endOffset": 287,
+      "kind": "interface",
+      "name": "SlashCommandInfo",
+      "startLine": 4,
+      "startOffset": 133,
+      "symbolId": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandInfo::interface"
+    },
+    {
+      "endLine": 15,
+      "endOffset": 366,
+      "kind": "interface",
+      "name": "BuiltinSlashCommand",
+      "startLine": 12,
+      "startOffset": 289,
+      "symbolId": "packages/pi-coding-agent/src/core/slash-commands.ts::BuiltinSlashCommand::interface"
+    },
+    {
+      "endLine": 0,
+      "endOffset": 66,
+      "kind": "type",
+      "name": "SlashCommandSource",
+      "startLine": 0,
+      "startOffset": 0,
+      "symbolId": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandSource::type"
+    },
+    {
+      "endLine": 2,
+      "endOffset": 131,
+      "kind": "type",
+      "name": "SlashCommandLocation",
+      "startLine": 2,
+      "startOffset": 68,
+      "symbolId": "packages/pi-coding-agent/src/core/slash-commands.ts::SlashCommandLocation::type"
+    },
+    {
+      "endLine": 41,
+      "endOffset": 2063,
+      "kind": "variable",
+      "name": "BUILTIN_SLASH_COMMANDS",
+      "startLine": 17,
+      "startOffset": 381,
+      "symbolId": "packages/pi-coding-agent/src/core/slash-commands.ts::BUILTIN_SLASH_COMMANDS::variable"
+    }
+  ]
+}

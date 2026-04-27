@@ -1,0 +1,36 @@
+{
+  "antiPatterns": [],
+  "complexity": [],
+  "contentHash": "4d1becdd14a02cad3e0c81279c8cf581ba98457e8a0ffa672d87f45d0e4524e1",
+  "edges": [],
+  "file": "packages/native/src/ttsr/types.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 6,
+      "endOffset": 212,
+      "kind": "interface",
+      "name": "TtsrRuleInput",
+      "startLine": 1,
+      "startOffset": 46,
+      "symbolId": "packages/native/src/ttsr/types.ts::TtsrRuleInput::interface"
+    },
+    {
+      "endLine": 9,
+      "endOffset": 296,
+      "kind": "type",
+      "name": "TtsrHandle",
+      "startLine": 9,
+      "startOffset": 264,
+      "symbolId": "packages/native/src/ttsr/types.ts::TtsrHandle::type"
+    }
+  ]
+}

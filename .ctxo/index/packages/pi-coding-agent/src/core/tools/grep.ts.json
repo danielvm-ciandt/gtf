@@ -1,0 +1,179 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 46,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function"
+    }
+  ],
+  "contentHash": "fac9a232b6f989a1962d625c2789d7235fedf88c1557c405f1945945c983eb3e",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/utils/tools-manager.ts::ensureTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::GREP_MAX_LINE_LENGTH::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::TruncationResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateLine::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/utils/tools-manager.ts::ensureTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateLine::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::DEFAULT_MAX_BYTES::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::GREP_MAX_LINE_LENGTH::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/utils/tools-manager.ts::ensureTool::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/path-utils.ts::resolveToCwd::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateLine::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::truncateHead::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/tools/truncate.ts::formatSize::function"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/tools/grep.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320163,
+  "symbols": [
+    {
+      "endLine": 342,
+      "endOffset": 10299,
+      "kind": "function",
+      "name": "createGrepTool",
+      "startLine": 62,
+      "startOffset": 2230,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/grep.ts::createGrepTool::function"
+    },
+    {
+      "endLine": 39,
+      "endOffset": 1544,
+      "kind": "interface",
+      "name": "GrepToolDetails",
+      "startLine": 35,
+      "startOffset": 1420,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/grep.ts::GrepToolDetails::interface"
+    },
+    {
+      "endLine": 50,
+      "endOffset": 1944,
+      "kind": "interface",
+      "name": "GrepOperations",
+      "startLine": 45,
+      "startOffset": 1665,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/grep.ts::GrepOperations::interface"
+    },
+    {
+      "endLine": 60,
+      "endOffset": 2228,
+      "kind": "interface",
+      "name": "GrepToolOptions",
+      "startLine": 57,
+      "startOffset": 2090,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/grep.ts::GrepToolOptions::interface"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 1390,
+      "kind": "type",
+      "name": "GrepToolInput",
+      "startLine": 31,
+      "startOffset": 1336,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/grep.ts::GrepToolInput::type"
+    },
+    {
+      "endLine": 345,
+      "endOffset": 10429,
+      "kind": "variable",
+      "name": "grepTool",
+      "startLine": 345,
+      "startOffset": 10389,
+      "symbolId": "packages/pi-coding-agent/src/core/tools/grep.ts::grepTool::variable"
+    }
+  ]
+}

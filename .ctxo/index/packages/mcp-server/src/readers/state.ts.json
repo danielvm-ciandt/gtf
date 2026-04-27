@@ -1,0 +1,192 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/mcp-server/src/readers/state.ts::readProgress::function"
+    }
+  ],
+  "contentHash": "37c1b9eb2d7a9daf38f463fb0de13c62eb5c113f57b2f1e36d4712f91006a24e",
+  "edges": [
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneDir::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveMilestoneFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findSliceIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "imports",
+      "to": "packages/mcp-server/src/readers/paths.ts::findTaskFiles::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::countSlicesAndTasks::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseActiveRef::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseBoldField::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseActiveRef::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseBoldField::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseActiveRef::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseBoldField::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parsePhase::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseBoldField::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseRequirementsLine::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseBoldField::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseBlockers::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseNextAction::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::parseMilestoneRegistry::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "calls",
+      "to": "packages/mcp-server/src/readers/state.ts::countSlicesAndTasks::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveGsdRoot::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::resolveRootFile::function"
+    },
+    {
+      "from": "packages/mcp-server/src/readers/state.ts::readProgress::function",
+      "kind": "uses",
+      "to": "packages/mcp-server/src/readers/paths.ts::findMilestoneIds::function"
+    }
+  ],
+  "file": "packages/mcp-server/src/readers/state.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320159,
+  "symbols": [
+    {
+      "endLine": 222,
+      "endOffset": 8216,
+      "kind": "function",
+      "name": "readProgress",
+      "startLine": 159,
+      "startOffset": 5726,
+      "symbolId": "packages/mcp-server/src/readers/state.ts::readProgress::function"
+    },
+    {
+      "endLine": 29,
+      "endOffset": 1080,
+      "kind": "interface",
+      "name": "ProgressResult",
+      "startLine": 18,
+      "startOffset": 491,
+      "symbolId": "packages/mcp-server/src/readers/state.ts::ProgressResult::interface"
+    }
+  ]
+}

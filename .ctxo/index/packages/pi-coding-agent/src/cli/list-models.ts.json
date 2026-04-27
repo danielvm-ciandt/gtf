@@ -1,0 +1,81 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/cli/list-models.ts::discoverAndPrintModels::function"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function"
+    }
+  ],
+  "contentHash": "e0fdad013c2cfc499000a75dd71b3c5da632385ccf779b2bc498a0423c201208",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/cli/list-models.ts::discoverAndPrintModels::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::formatTokenCount::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/cli/list-models.ts::formatTokenCount::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/list-models.ts::discoverAndPrintModels::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/model-registry.ts::ModelRegistry::class"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/cli/list-models.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320161,
+  "symbols": [
+    {
+      "endLine": 49,
+      "endOffset": 1414,
+      "kind": "function",
+      "name": "discoverAndPrintModels",
+      "startLine": 33,
+      "startOffset": 922,
+      "symbolId": "packages/pi-coding-agent/src/cli/list-models.ts::discoverAndPrintModels::function"
+    },
+    {
+      "endLine": 163,
+      "endOffset": 4892,
+      "kind": "function",
+      "name": "listModels",
+      "startLine": 55,
+      "startOffset": 1556,
+      "symbolId": "packages/pi-coding-agent/src/cli/list-models.ts::listModels::function"
+    },
+    {
+      "endLine": 13,
+      "endOffset": 408,
+      "kind": "interface",
+      "name": "ListModelsOptions",
+      "startLine": 8,
+      "startOffset": 237,
+      "symbolId": "packages/pi-coding-agent/src/cli/list-models.ts::ListModelsOptions::interface"
+    }
+  ]
+}

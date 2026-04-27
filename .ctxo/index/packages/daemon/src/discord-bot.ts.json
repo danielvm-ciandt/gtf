@@ -1,0 +1,319 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 3,
+      "symbolId": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    },
+    {
+      "cyclomatic": 8,
+      "symbolId": "packages/daemon/src/discord-bot.ts::validateDiscordConfig::function"
+    },
+    {
+      "cyclomatic": 9,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.login::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.destroy::method"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.getChannelManager::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.getClient::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.setEventBridge::method"
+    },
+    {
+      "cyclomatic": 15,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.handleInteraction::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.handleGsdStart::method"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.handleGsdStop::method"
+    }
+  ],
+  "contentHash": "c96d680e6dcdbb78961ecd8024132c5db635bad44874752b8ab480b10dc604c4",
+  "edges": [
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::VerbosityLevel::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/logger.ts::Logger::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/commands.ts::buildCommands::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/commands.ts::registerGuildCommands::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/commands.ts::formatSessionStatus::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::isAuthorized::function",
+      "kind": "imports",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.login::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/commands.ts::buildCommands::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.login::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/commands.ts::registerGuildCommands::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.login::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::DiscordBot.handleInteraction::method"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.getChannelManager::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.handleInteraction::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.handleInteraction::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/commands.ts::formatSessionStatus::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.handleInteraction::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::DiscordBot.handleGsdStart::method"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot.handleInteraction::method",
+      "kind": "calls",
+      "to": "packages/daemon/src/discord-bot.ts::DiscordBot.handleGsdStop::method"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::validateDiscordConfig::function",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/channel-manager.ts::ChannelManager::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/event-bridge.ts::EventBridge::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::DaemonConfig::interface"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/logger.ts::Logger::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/session-manager.ts::SessionManager::class"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::ProjectInfo::interface"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/commands.ts::buildCommands::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/commands.ts::registerGuildCommands::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/commands.ts::formatSessionStatus::function"
+    },
+    {
+      "from": "packages/daemon/src/discord-bot.ts::DiscordBot::class",
+      "kind": "uses",
+      "to": "packages/daemon/src/types.ts::VerbosityLevel::type"
+    }
+  ],
+  "file": "packages/daemon/src/discord-bot.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320158,
+  "symbols": [
+    {
+      "endLine": 37,
+      "endOffset": 1369,
+      "kind": "function",
+      "name": "isAuthorized",
+      "startLine": 34,
+      "startOffset": 1225,
+      "symbolId": "packages/daemon/src/discord-bot.ts::isAuthorized::function"
+    },
+    {
+      "endLine": 58,
+      "endOffset": 2114,
+      "kind": "function",
+      "name": "validateDiscordConfig",
+      "startLine": 43,
+      "startOffset": 1510,
+      "symbolId": "packages/daemon/src/discord-bot.ts::validateDiscordConfig::function"
+    },
+    {
+      "endLine": 490,
+      "endOffset": 17772,
+      "kind": "class",
+      "name": "DiscordBot",
+      "startLine": 72,
+      "startOffset": 2552,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot::class"
+    },
+    {
+      "endLine": 200,
+      "endOffset": 7287,
+      "kind": "method",
+      "name": "DiscordBot.login",
+      "startLine": 94,
+      "startOffset": 3350,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.login::method"
+    },
+    {
+      "endLine": 225,
+      "endOffset": 7977,
+      "kind": "method",
+      "name": "DiscordBot.destroy",
+      "startLine": 206,
+      "startOffset": 7404,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.destroy::method"
+    },
+    {
+      "endLine": 247,
+      "endOffset": 8785,
+      "kind": "method",
+      "name": "DiscordBot.getChannelManager",
+      "startLine": 235,
+      "startOffset": 8311,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.getChannelManager::method"
+    },
+    {
+      "endLine": 255,
+      "endOffset": 8989,
+      "kind": "method",
+      "name": "DiscordBot.getClient",
+      "startLine": 253,
+      "startOffset": 8933,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.getClient::method"
+    },
+    {
+      "endLine": 263,
+      "endOffset": 9219,
+      "kind": "method",
+      "name": "DiscordBot.setEventBridge",
+      "startLine": 261,
+      "startOffset": 9141,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.setEventBridge::method"
+    },
+    {
+      "endLine": 339,
+      "endOffset": 12090,
+      "kind": "method",
+      "name": "DiscordBot.handleInteraction",
+      "startLine": 269,
+      "startOffset": 9421,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.handleInteraction::method"
+    },
+    {
+      "endLine": 422,
+      "endOffset": 15275,
+      "kind": "method",
+      "name": "DiscordBot.handleGsdStart",
+      "startLine": 345,
+      "startOffset": 12290,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.handleGsdStart::method"
+    },
+    {
+      "endLine": 489,
+      "endOffset": 17770,
+      "kind": "method",
+      "name": "DiscordBot.handleGsdStop",
+      "startLine": 428,
+      "startOffset": 15474,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBot.handleGsdStop::method"
+    },
+    {
+      "endLine": 70,
+      "endOffset": 2550,
+      "kind": "interface",
+      "name": "DiscordBotOptions",
+      "startLine": 64,
+      "startOffset": 2295,
+      "symbolId": "packages/daemon/src/discord-bot.ts::DiscordBotOptions::interface"
+    }
+  ]
+}

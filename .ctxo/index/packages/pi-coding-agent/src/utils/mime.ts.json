@@ -1,0 +1,32 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/utils/mime.ts::detectSupportedImageMimeTypeFromFile::function"
+    }
+  ],
+  "contentHash": "4c4b94af7aaaf27355e348b0e7e2de6515b7b5d7affaa45dfd85d68e849c36e1",
+  "edges": [],
+  "file": "packages/pi-coding-agent/src/utils/mime.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 29,
+      "endOffset": 811,
+      "kind": "function",
+      "name": "detectSupportedImageMimeTypeFromFile",
+      "startLine": 7,
+      "startOffset": 218,
+      "symbolId": "packages/pi-coding-agent/src/utils/mime.ts::detectSupportedImageMimeTypeFromFile::function"
+    }
+  ]
+}

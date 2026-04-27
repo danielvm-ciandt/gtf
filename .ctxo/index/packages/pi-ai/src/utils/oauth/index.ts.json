@@ -1,0 +1,171 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::registerOAuthProvider::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::unregisterOAuthProvider::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::resetOAuthProviders::function"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProviders::function"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthApiKey::function"
+    }
+  ],
+  "contentHash": "afa8d7e5cc0579ce0896d825dbc6ab52cab0c5a9c0f0565ca37a5a336e8f713f",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/github-copilot.ts::githubCopilotOAuthProvider::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-antigravity.ts::antigravityOAuthProvider::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/google-gemini-cli.ts::geminiCliOAuthProvider::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/openai-codex.ts::openaiCodexOAuthProvider::variable"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderId::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthApiKey::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderId::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::registerOAuthProvider::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProviders::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderInterface::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthApiKey::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthProviderId::type"
+    },
+    {
+      "from": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthApiKey::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/oauth/types.ts::OAuthCredentials::type"
+    }
+  ],
+  "file": "packages/pi-ai/src/utils/oauth/index.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 56,
+      "endOffset": 2095,
+      "kind": "function",
+      "name": "getOAuthProvider",
+      "startLine": 54,
+      "startOffset": 1963,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProvider::function"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 2273,
+      "kind": "function",
+      "name": "registerOAuthProvider",
+      "startLine": 61,
+      "startOffset": 2141,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::registerOAuthProvider::function"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2706,
+      "kind": "function",
+      "name": "unregisterOAuthProvider",
+      "startLine": 71,
+      "startOffset": 2433,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::unregisterOAuthProvider::function"
+    },
+    {
+      "endLine": 88,
+      "endOffset": 2941,
+      "kind": "function",
+      "name": "resetOAuthProviders",
+      "startLine": 83,
+      "startOffset": 2755,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::resetOAuthProviders::function"
+    },
+    {
+      "endLine": 95,
+      "endOffset": 3106,
+      "kind": "function",
+      "name": "getOAuthProviders",
+      "startLine": 93,
+      "startOffset": 2989,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthProviders::function"
+    },
+    {
+      "endLine": 133,
+      "endOffset": 4242,
+      "kind": "function",
+      "name": "getOAuthApiKey",
+      "startLine": 108,
+      "startOffset": 3532,
+      "symbolId": "packages/pi-ai/src/utils/oauth/index.ts::getOAuthApiKey::function"
+    }
+  ]
+}

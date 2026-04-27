@@ -1,0 +1,250 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.addChild::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.insertChildBefore::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.removeChild::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.clear::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.setBgFn::method"
+    },
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.invalidateCache::method"
+    },
+    {
+      "cyclomatic": 5,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.matchCache::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.invalidate::method"
+    },
+    {
+      "cyclomatic": 10,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.render::method"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.applyBg::method"
+    }
+  ],
+  "contentHash": "c35f1f28e6399acd3a7a488dc5842d8eb4ba8496530c7131680555eef1f1dff7",
+  "edges": [
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box::class",
+      "kind": "imports",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box::class",
+      "kind": "implements",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.addChild::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.invalidateCache::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.insertChildBefore::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.invalidateCache::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.removeChild::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.invalidateCache::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.clear::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.invalidateCache::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.invalidate::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.invalidateCache::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.matchCache::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.applyBg::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.applyBg::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.render::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/components/box.ts::Box.applyBg::method"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.applyBg::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box.applyBg::method",
+      "kind": "calls",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/tui.ts::Component::interface"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::visibleWidth::function"
+    },
+    {
+      "from": "packages/pi-tui/src/components/box.ts::Box::class",
+      "kind": "uses",
+      "to": "packages/pi-tui/src/utils.ts::applyBackgroundToLine::function"
+    }
+  ],
+  "file": "packages/pi-tui/src/components/box.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320164,
+  "symbols": [
+    {
+      "endLine": 146,
+      "endOffset": 3459,
+      "kind": "class",
+      "name": "Box",
+      "startLine": 13,
+      "startOffset": 316,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box::class"
+    },
+    {
+      "endLine": 31,
+      "endOffset": 800,
+      "kind": "method",
+      "name": "Box.addChild",
+      "startLine": 28,
+      "startOffset": 700,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.addChild::method"
+    },
+    {
+      "endLine": 41,
+      "endOffset": 1062,
+      "kind": "method",
+      "name": "Box.insertChildBefore",
+      "startLine": 33,
+      "startOffset": 803,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.insertChildBefore::method"
+    },
+    {
+      "endLine": 49,
+      "endOffset": 1247,
+      "kind": "method",
+      "name": "Box.removeChild",
+      "startLine": 43,
+      "startOffset": 1065,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.removeChild::method"
+    },
+    {
+      "endLine": 54,
+      "endOffset": 1316,
+      "kind": "method",
+      "name": "Box.clear",
+      "startLine": 51,
+      "startOffset": 1250,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.clear::method"
+    },
+    {
+      "endLine": 59,
+      "endOffset": 1464,
+      "kind": "method",
+      "name": "Box.setBgFn",
+      "startLine": 56,
+      "startOffset": 1319,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.setBgFn::method"
+    },
+    {
+      "endLine": 63,
+      "endOffset": 1529,
+      "kind": "method",
+      "name": "Box.invalidateCache",
+      "startLine": 61,
+      "startOffset": 1467,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.invalidateCache::method"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 1866,
+      "kind": "method",
+      "name": "Box.matchCache",
+      "startLine": 65,
+      "startOffset": 1532,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.matchCache::method"
+    },
+    {
+      "endLine": 81,
+      "endOffset": 1986,
+      "kind": "method",
+      "name": "Box.invalidate",
+      "startLine": 76,
+      "startOffset": 1869,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.invalidate::method"
+    },
+    {
+      "endLine": 134,
+      "endOffset": 3164,
+      "kind": "method",
+      "name": "Box.render",
+      "startLine": 83,
+      "startOffset": 1989,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.render::method"
+    },
+    {
+      "endLine": 145,
+      "endOffset": 3457,
+      "kind": "method",
+      "name": "Box.applyBg",
+      "startLine": 136,
+      "startOffset": 3167,
+      "symbolId": "packages/pi-tui/src/components/box.ts::Box.applyBg::method"
+    }
+  ]
+}

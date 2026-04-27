@@ -1,0 +1,221 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::hasRootMarkers::function"
+    },
+    {
+      "cyclomatic": 7,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveLocalBinaryPath::function"
+    },
+    {
+      "cyclomatic": 4,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::which::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveCommand::function"
+    },
+    {
+      "cyclomatic": 12,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function"
+    },
+    {
+      "cyclomatic": 6,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::getServersForFile::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::getServerForFile::function"
+    }
+  ],
+  "contentHash": "ae21cbd1971cdbe1278371e999aaab4afafcdbb2c4c1ff274b9f9f974639550f",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::hasRootMarkers::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::hasRootMarkers::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/helpers.ts::isRecord::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::hasRootMarkers::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::ServerConfig::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveLocalBinaryPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::hasRootMarkers::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveLocalBinaryPath::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::getWindowsBinaryCandidates::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveLocalBinaryPath::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveCommand::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::which::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::coerceServerConfigs::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::getConfigPaths::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::readConfigFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::mergeServers::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::applyRuntimeDefaults::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::hasRootMarkers::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::applyRuntimeDefaults::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveCommand::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::getServerForFile::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/lsp/config.ts::getServersForFile::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::ServerConfig::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::getServersForFile::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::ServerConfig::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/lsp/config.ts::getServerForFile::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/lsp/types.ts::ServerConfig::interface"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/lsp/config.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 168,
+      "endOffset": 5240,
+      "kind": "function",
+      "name": "hasRootMarkers",
+      "startLine": 149,
+      "startOffset": 4787,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::hasRootMarkers::function"
+    },
+    {
+      "endLine": 215,
+      "endOffset": 6922,
+      "kind": "function",
+      "name": "resolveLocalBinaryPath",
+      "startLine": 198,
+      "startOffset": 6406,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveLocalBinaryPath::function"
+    },
+    {
+      "endLine": 228,
+      "endOffset": 7561,
+      "kind": "function",
+      "name": "which",
+      "startLine": 217,
+      "startOffset": 6924,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::which::function"
+    },
+    {
+      "endLine": 234,
+      "endOffset": 7787,
+      "kind": "function",
+      "name": "resolveCommand",
+      "startLine": 230,
+      "startOffset": 7563,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::resolveCommand::function"
+    },
+    {
+      "endLine": 323,
+      "endOffset": 10582,
+      "kind": "function",
+      "name": "loadConfig",
+      "startLine": 278,
+      "startOffset": 9073,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::loadConfig::function"
+    },
+    {
+      "endLine": 351,
+      "endOffset": 11563,
+      "kind": "function",
+      "name": "getServersForFile",
+      "startLine": 329,
+      "startOffset": 10767,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::getServersForFile::function"
+    },
+    {
+      "endLine": 355,
+      "endOffset": 11725,
+      "kind": "function",
+      "name": "getServerForFile",
+      "startLine": 353,
+      "startOffset": 11565,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::getServerForFile::function"
+    },
+    {
+      "endLine": 23,
+      "endOffset": 926,
+      "kind": "interface",
+      "name": "LspConfig",
+      "startLine": 19,
+      "startOffset": 702,
+      "symbolId": "packages/pi-coding-agent/src/core/lsp/config.ts::LspConfig::interface"
+    }
+  ]
+}

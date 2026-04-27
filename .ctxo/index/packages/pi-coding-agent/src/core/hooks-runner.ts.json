@@ -1,0 +1,485 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 1,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function"
+    },
+    {
+      "cyclomatic": 16,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function"
+    }
+  ],
+  "contentHash": "02527f48f63c1fccff8ef46c5eb8e74332ed77153817724b5e6025ae6e9d80a6",
+  "edges": [
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/runner.ts::ExtensionRunner::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeCommitEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePrEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePushEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeVerifyEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BudgetThresholdEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::CommitEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::InputEventResult::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::NotificationEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::PrOpenedEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::PushEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionEndEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionStartEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::StopEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolResultEvent::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolResultEventResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeCommitEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePrEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePushEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeVerifyEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BudgetThresholdEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::InputEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::MilestoneEndEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::MilestoneStartEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeCompactEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeCompactResult::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionCompactEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::UnitEndEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::UnitStartEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::VerifyResultEvent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::HookEntry::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::HooksSettings::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "imports",
+      "to": "packages/pi-coding-agent/src/core/settings-manager.ts::Settings::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/hooks-runner.ts::collectHooks::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "calls",
+      "to": "packages/pi-coding-agent/src/core/hooks-runner.ts::runChain::function"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/config.ts::CONFIG_DIR_NAME::variable"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::InputEventResult::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::InputEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolCallEvent::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolResultEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::ToolResultEvent::type"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::StopEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::NotificationEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionEndEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeCommitEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeCommitEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::CommitEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePushEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePushEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::PushEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePrEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforePrEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::PrOpenedEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeVerifyEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BeforeVerifyEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::VerifyResultEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BudgetThresholdEventResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::BudgetThresholdEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::MilestoneStartEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::MilestoneEndEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::UnitStartEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::UnitEndEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeCompactResult::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionBeforeCompactEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionCompactEvent::interface"
+    },
+    {
+      "from": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function",
+      "kind": "uses",
+      "to": "packages/pi-coding-agent/src/core/extensions/types.ts::SessionStartEvent::interface"
+    }
+  ],
+  "file": "packages/pi-coding-agent/src/core/hooks-runner.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320162,
+  "symbols": [
+    {
+      "endLine": 86,
+      "endOffset": 2262,
+      "kind": "function",
+      "name": "isProjectHooksTrusted",
+      "startLine": 84,
+      "startOffset": 2137,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::isProjectHooksTrusted::function"
+    },
+    {
+      "endLine": 459,
+      "endOffset": 13774,
+      "kind": "function",
+      "name": "createHooksRunner",
+      "startLine": 249,
+      "startOffset": 6794,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::createHooksRunner::function"
+    },
+    {
+      "endLine": 70,
+      "endOffset": 1922,
+      "kind": "interface",
+      "name": "HookStdoutResult",
+      "startLine": 63,
+      "startOffset": 1751,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::HookStdoutResult::interface"
+    },
+    {
+      "endLine": 82,
+      "endOffset": 2135,
+      "kind": "interface",
+      "name": "HookInvocation",
+      "startLine": 72,
+      "startOffset": 1924,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::HookInvocation::interface"
+    },
+    {
+      "endLine": 237,
+      "endOffset": 6469,
+      "kind": "interface",
+      "name": "HooksRunnerOptions",
+      "startLine": 231,
+      "startOffset": 6254,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::HooksRunnerOptions::interface"
+    },
+    {
+      "endLine": 245,
+      "endOffset": 6722,
+      "kind": "interface",
+      "name": "HooksRunner",
+      "startLine": 239,
+      "startOffset": 6471,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::HooksRunner::interface"
+    },
+    {
+      "endLine": 56,
+      "endOffset": 1640,
+      "kind": "type",
+      "name": "HookName",
+      "startLine": 56,
+      "startOffset": 1597,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::HookName::type"
+    },
+    {
+      "endLine": 57,
+      "endOffset": 1686,
+      "kind": "type",
+      "name": "HookScope",
+      "startLine": 57,
+      "startOffset": 1641,
+      "symbolId": "packages/pi-coding-agent/src/core/hooks-runner.ts::HookScope::type"
+    }
+  ]
+}

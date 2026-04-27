@@ -1,0 +1,364 @@
+{
+  "antiPatterns": [],
+  "complexity": [
+    {
+      "cyclomatic": 35,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function"
+    },
+    {
+      "cyclomatic": 2,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesTools::function"
+    },
+    {
+      "cyclomatic": 78,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function"
+    }
+  ],
+  "contentHash": "6fd0199c6ad88822d0f0d3b9e2c6a11c1b479eab1ea375d8ed99dece3c2d2692",
+  "edges": [
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Api::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Context::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ImageContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Model::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::StopReason::type",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::TextSignatureV1::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ThinkingContent::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Tool::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/types.ts::Usage::interface",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class",
+      "typeOnly": true
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/hash.ts::shortHash::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "imports",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/openai-responses-shared.ts::parseTextSignature::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/hash.ts::shortHash::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/openai-responses-shared.ts::encodeTextSignatureV1::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "calls",
+      "to": "packages/pi-ai/src/providers/openai-responses-shared.ts::mapStopReason::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Context::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/providers/transform-messages.ts::transformMessagesWithReport::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/sanitize-unicode.ts::sanitizeSurrogates::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/hash.ts::shortHash::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ImageContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesTools::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Tool::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Api::type"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::AssistantMessage::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/event-stream.ts::AssistantMessageEventStream::class"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::Model::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ThinkingContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::TextContent::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/types.ts::ToolCall::interface"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/utils/json-parse.ts::parseStreamingJson::function"
+    },
+    {
+      "from": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function",
+      "kind": "uses",
+      "to": "packages/pi-ai/src/models.ts::calculateCost::function"
+    }
+  ],
+  "file": "packages/pi-ai/src/providers/openai-responses-shared.ts",
+  "intent": [
+    {
+      "date": "2026-04-25T15:11:51-03:00",
+      "hash": "cf5403daf7f66bef3a49ee6fb2870e46442fd435",
+      "kind": "commit",
+      "message": "chore: initial copy from gsd-2"
+    }
+  ],
+  "lastModified": 1777320160,
+  "symbols": [
+    {
+      "endLine": 255,
+      "endOffset": 8389,
+      "kind": "function",
+      "name": "convertResponsesMessages",
+      "startLine": 84,
+      "startOffset": 2455,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesMessages::function"
+    },
+    {
+      "endLine": 270,
+      "endOffset": 8953,
+      "kind": "function",
+      "name": "convertResponsesTools",
+      "startLine": 261,
+      "startOffset": 8573,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::convertResponsesTools::function"
+    },
+    {
+      "endLine": 474,
+      "endOffset": 16804,
+      "kind": "function",
+      "name": "processResponsesStream",
+      "startLine": 276,
+      "startOffset": 9139,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::processResponsesStream::function"
+    },
+    {
+      "endLine": 70,
+      "endOffset": 2105,
+      "kind": "interface",
+      "name": "OpenAIResponsesStreamOptions",
+      "startLine": 64,
+      "startOffset": 1863,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::OpenAIResponsesStreamOptions::interface"
+    },
+    {
+      "endLine": 74,
+      "endOffset": 2191,
+      "kind": "interface",
+      "name": "ConvertResponsesMessagesOptions",
+      "startLine": 72,
+      "startOffset": 2107,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::ConvertResponsesMessagesOptions::interface"
+    },
+    {
+      "endLine": 78,
+      "endOffset": 2268,
+      "kind": "interface",
+      "name": "ConvertResponsesToolsOptions",
+      "startLine": 76,
+      "startOffset": 2193,
+      "symbolId": "packages/pi-ai/src/providers/openai-responses-shared.ts::ConvertResponsesToolsOptions::interface"
+    }
+  ]
+}
