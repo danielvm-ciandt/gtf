@@ -1,83 +1,54 @@
-
-# ── Compiled test output ──
-dist-test/
-
-# ── Compiled output in src/ (should only contain .ts source) ──
-src/**/*.js
-src/**/*.js.map
-src/**/*.d.ts
-src/**/*.d.ts.map
-!src/**/*.test.js
-
-# ── Repowise index (local machine-generated cache) ──
-.repowise/
-repowise.db
-repowise.db-*
-
-# ── GSD project state (development-only, lives in worktree branches) ──
+# Dependencies
+node_modules/
 package-lock.json
-.claude/
-RELEASE-GUIDE.md
-*.tgz
+yarn.lock
+
+# Build outputs
+dist/
+build/
 *.tsbuildinfo
-.DS_Store
-Thumbs.db
+
+# Runtime state
+.gsd/
+.git/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
-.idea/
-.vscode/
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# ── GSD baseline (auto-generated) ──
+.gsd
+.gsd-id
+.mcp.json
+.bg-shell/
+Thumbs.db
 *.code-workspace
-.env
 .env.*
 !.env.example
-node_modules/
 .next/
-# /dist/ is committed so the package can be installed from GitHub without a build step
-!/pkg/dist/modes/
-!/pkg/dist/core/export-html/
-build/
 __pycache__/
 *.pyc
 .venv/
 venv/
 target/
 vendor/
-!packages/pi-coding-agent/src/core/export-html/vendor/
-!pkg/dist/core/export-html/vendor/
-*.log
 coverage/
 .cache/
-tmp/
-
-# ── Workspace packages ──
-packages/*/dist/
-packages/*/node_modules/
-
-# ── Scratch/WIP files ──
-preflight-script.ts
-
-# dist/ is intentionally tracked (see above)
-.bg_shell
-.gsd*.tgz
-.artifacts/
-AGENTS.md
-.bg-shell/
-TODOS.md
-.planning/
-.audits/
-docs/coherence-audit/
-.plans/
-
-# ── GSD project state (per-worktree, never committed) ──
-.gsd/
-
-# ── Stale lock files (npm is canonical) ──
-pnpm-lock.yaml
-bun.lock
-
-# ── GSD baseline (auto-generated) ──
-.gsd
-
-# ── GSD baseline (auto-generated) ──
-.gsd-id
