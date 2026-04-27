@@ -401,15 +401,15 @@ export async function autoLoop(
       deps.emitJournalEvent({ ts: new Date().toISOString(), flowId, seq: nextSeq(), eventType: "iteration-start", data: { iteration } });
       let iterData: IterationData;
 
-      // ── Custom engine path ──────────────────────────────────────────────
-      // When activeEngineId is a non-dev value, bypass runPreDispatch and
-      // runDispatch entirely — the custom engine drives its own state via
-      // GRAPH.yaml. Shares runGuards and runUnitPhase with the dev path.
-      // After unit execution, verifies then reconciles via the engine layer.
+      // ── Engine path ─────────────────────────────────────────────────────
+      // All sessions (including null/dev activeEngineId) run through the
+      // engine layer. resolveEngine maps null and "dev" to DevWorkflowEngine.
+      // Bypasses runPreDispatch and runDispatch — the engine drives its own
+      // state via GRAPH.yaml and shares runGuards and runUnitPhase.
       //
       // GSD_ENGINE_BYPASS=1 skips the engine layer entirely — falls through
-      // to the dev path below.
-      if (s.activeEngineId != null && s.activeEngineId !== "dev" && !sidecarItem && process.env.GSD_ENGINE_BYPASS !== "1") {
+      // to the legacy dev path below.
+      if (!sidecarItem && process.env.GSD_ENGINE_BYPASS !== "1") {
         debugLog("autoLoop", { phase: "custom-engine-derive", iteration, engineId: s.activeEngineId });
 
         const { engine, policy } = resolveEngine({
