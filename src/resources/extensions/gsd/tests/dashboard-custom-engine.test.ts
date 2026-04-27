@@ -43,8 +43,8 @@ describe("Dashboard custom-engine: updateProgressWidget in custom engine path", 
     const loopPath = resolve(__filename, "../../auto/loop.ts");
     const source = readFileSync(loopPath, "utf-8");
 
-    // Find the custom engine block
-    const customEngineStart = source.indexOf('s.activeEngineId !== "dev"');
+    // Find the engine block by the bypass guard (anchor since T02 removed the activeEngineId guard)
+    const customEngineStart = source.indexOf('GSD_ENGINE_BYPASS !== "1"');
     assert.ok(customEngineStart > -1, "Should find custom engine path in loop.ts");
 
     // The updateProgressWidget call should appear after the custom engine block start
@@ -66,7 +66,7 @@ describe("Dashboard custom-engine: updateProgressWidget in custom engine path", 
     const loopPath = resolve(__filename, "../../auto/loop.ts");
     const source = readFileSync(loopPath, "utf-8");
 
-    const customEngineStart = source.indexOf('s.activeEngineId !== "dev"');
+    const customEngineStart = source.indexOf('GSD_ENGINE_BYPASS !== "1"');
     const afterCustomEngine = source.slice(customEngineStart);
 
     // Verify custom engine path has iterData built before the widget call
