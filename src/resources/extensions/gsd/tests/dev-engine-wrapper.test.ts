@@ -173,6 +173,12 @@ describe("DevWorkflowEngine", () => {
     assert.ok("stepCount" in meta, "should have stepCount");
     assert.equal(meta.engineLabel, "GSD Dev");
   });
+
+  test("getSkillFilter() returns undefined (all skills visible for dev sessions)", async () => {
+    const { DevWorkflowEngine } = await import("../dev-workflow-engine.ts");
+    const engine = new DevWorkflowEngine();
+    assert.equal(engine.getSkillFilter(), undefined);
+  });
 });
 
 // ── DevExecutionPolicy stubs ────────────────────────────────────────────────

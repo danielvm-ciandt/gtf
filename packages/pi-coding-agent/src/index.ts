@@ -264,6 +264,8 @@ export {
 	type Skill,
 	type SkillFrontmatter,
 } from "./core/skills.js";
+export { createWorkflowSkillFilter, type SkillFilter } from "./core/skill-filter.js";
+export { buildSystemPrompt, type BuildSystemPromptOptions } from "./core/system-prompt.js";
 // Tools
 export {
 	type BashInterceptorRule,

@@ -75,6 +75,7 @@ import type {
 	VerifyFailure,
 	VerifyResultEvent,
 } from "./types.js";
+import type { SkillFilter } from "../skill-filter.js";
 
 // Keybindings for these actions cannot be overridden by extensions
 const RESERVED_ACTIONS_FOR_EXTENSION_CONFLICTS: ReadonlyArray<KeyAction> = [
@@ -241,6 +242,7 @@ export class ExtensionRunner {
 	private reloadHandler: ReloadHandler = async () => {
 		throw new Error("Command context not yet bound: reload is unavailable during early lifecycle");
 	};
+	private setSkillFilterHandler: (filter: SkillFilter | undefined) => void = () => {};
 	private shutdownHandler: ShutdownHandler = () => {};
 	private shortcutDiagnostics: ResourceDiagnostic[] = [];
 	private commandDiagnostics: ResourceDiagnostic[] = [];
@@ -432,6 +434,7 @@ export class ExtensionRunner {
 			this.navigateTreeHandler = actions.navigateTree;
 			this.switchSessionHandler = actions.switchSession;
 			this.reloadHandler = actions.reload;
+			this.setSkillFilterHandler = actions.setSkillFilter;
 			return;
 		}
 
@@ -441,6 +444,7 @@ export class ExtensionRunner {
 		this.navigateTreeHandler = async () => ({ cancelled: false });
 		this.switchSessionHandler = async () => ({ cancelled: false });
 		this.reloadHandler = async () => {};
+		this.setSkillFilterHandler = () => {};
 	}
 
 	setUIContext(uiContext?: ExtensionUIContext): void {
@@ -682,6 +686,7 @@ export class ExtensionRunner {
 			navigateTree: (targetId, options) => this.navigateTreeHandler(targetId, options),
 			switchSession: (sessionPath) => this.switchSessionHandler(sessionPath),
 			reload: () => this.reloadHandler(),
+			setSkillFilter: (filter) => this.setSkillFilterHandler(filter),
 		};
 	}
 

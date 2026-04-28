@@ -49,5 +49,9 @@ export function createDefaultCommandContextActions(session: AgentSession): Exten
 		reload: async () => {
 			await session.reload();
 		},
+
+		setSkillFilter: (filter) => {
+			session.setSkillFilter(filter);
+		},
 	};
 }

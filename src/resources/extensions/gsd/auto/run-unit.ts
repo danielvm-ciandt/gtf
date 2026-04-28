@@ -92,6 +92,12 @@ export async function runUnit(
     return { status: "cancelled" };
   }
 
+  // Apply the engine's skill filter to the new session so only workflow-relevant
+  // skills appear in the system prompt for this unit.
+  if (s.skillFilter !== undefined) {
+    s.cmdCtx!.setSkillFilter(s.skillFilter);
+  }
+
   if (s.currentUnitModel && typeof pi.setModel === "function") {
     const restored = await pi.setModel(s.currentUnitModel, { persist: false });
     if (!restored) {

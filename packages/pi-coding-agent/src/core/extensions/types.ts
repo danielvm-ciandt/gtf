@@ -57,6 +57,7 @@ import type {
 import type { SlashCommandInfo } from "../slash-commands.js";
 import type { BashOperations } from "../tools/bash.js";
 import type { EditToolDetails } from "../tools/edit.js";
+import type { SkillFilter } from "../skill-filter.js";
 import type {
 	BashToolDetails,
 	BashToolInput,
@@ -324,6 +325,10 @@ export interface ExtensionCommandContext extends ExtensionContext {
 
 	/** Reload extensions, skills, prompts, and themes. */
 	reload(): Promise<void>;
+
+	/** Apply a skill filter predicate to the current session's system prompt.
+	 *  Pass undefined to remove the filter and restore all skills. */
+	setSkillFilter(filter: SkillFilter | undefined): void;
 }
 
 // ============================================================================
@@ -1762,6 +1767,7 @@ export interface ExtensionCommandContextActions {
 	) => Promise<{ cancelled: boolean }>;
 	switchSession: (sessionPath: string) => Promise<{ cancelled: boolean }>;
 	reload: () => Promise<void>;
+	setSkillFilter: (filter: SkillFilter | undefined) => void;
 }
 
 /**

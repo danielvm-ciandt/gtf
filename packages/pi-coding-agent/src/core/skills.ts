@@ -82,6 +82,7 @@ export interface SkillFrontmatter {
 	name?: string;
 	description?: string;
 	"disable-model-invocation"?: boolean;
+	workflows?: string[];
 	[key: string]: unknown;
 }
 
@@ -92,6 +93,7 @@ export interface Skill {
 	baseDir: string;
 	source: string;
 	disableModelInvocation: boolean;
+	workflows?: string[];
 }
 
 export interface LoadSkillsResult {
@@ -290,6 +292,7 @@ function loadSkillFromFile(
 				baseDir: skillDir,
 				source,
 				disableModelInvocation: frontmatter["disable-model-invocation"] === true,
+				workflows: Array.isArray(frontmatter.workflows) ? frontmatter.workflows : undefined,
 			},
 			diagnostics,
 		};

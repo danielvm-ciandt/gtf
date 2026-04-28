@@ -12,6 +12,7 @@ import type {
   ReconcileResult,
   DisplayMetadata,
 } from "./engine-types.js";
+import type { SkillFilter } from "@gsd/pi-coding-agent";
 
 /** A pluggable workflow engine that drives the auto-loop. */
 export interface WorkflowEngine {
@@ -35,4 +36,7 @@ export interface WorkflowEngine {
 
   /** Return UI-facing metadata for progress display. */
   getDisplayMetadata(state: EngineState): DisplayMetadata;
+
+  /** Return the skill filter for this engine, or undefined to allow all skills. */
+  getSkillFilter?(): SkillFilter | undefined;
 }

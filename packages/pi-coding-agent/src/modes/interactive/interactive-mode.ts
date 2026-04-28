@@ -1227,6 +1227,9 @@ export class InteractiveMode {
 					reload: async () => {
 						await this.handleReloadCommand();
 					},
+					setSkillFilter: (filter) => {
+						this.session.setSkillFilter(filter);
+					},
 				},
 				shutdownHandler: () => {
 					this.shutdownRequested = true;

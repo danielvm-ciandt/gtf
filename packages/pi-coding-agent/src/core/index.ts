@@ -78,3 +78,4 @@ export {
 } from "./extensions/index.js";
 
 export { ContextualTips, type TipContext } from "./contextual-tips.js";
+export { createWorkflowSkillFilter, type SkillFilter } from "./skill-filter.js";

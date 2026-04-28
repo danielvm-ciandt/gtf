@@ -417,6 +417,8 @@ export async function autoLoop(
           activeRunDir: s.activeRunDir,
         });
 
+        s.skillFilter = engine.getSkillFilter?.();
+
         const engineState = await engine.deriveState(s.basePath);
         if (engineState.isComplete) {
           await deps.stopAuto(ctx, pi, "Workflow complete");

@@ -78,6 +78,7 @@ import { getLatestCompactionEntry } from "./session-manager.js";
 import type { SettingsManager } from "./settings-manager.js";
 import { BUILTIN_SLASH_COMMANDS, type SlashCommandInfo, type SlashCommandLocation } from "./slash-commands.js";
 import { buildSystemPrompt } from "./system-prompt.js";
+import type { SkillFilter } from "./skill-filter.js";
 import type { BashOperations } from "./tools/bash.js";
 import { createAllTools } from "./tools/index.js";
 
@@ -169,6 +170,9 @@ export interface AgentSessionConfig {
 	/** Optional: check if the claude-code CLI provider is ready (installed + authed).
 	 * Passed through to RetryHandler for third-party block recovery (#3772). */
 	isClaudeCodeReady?: () => boolean;
+	/** Optional predicate to suppress skills from the <available_skills> catalog.
+	 * Skills returning false are omitted from the prompt but remain invocable by name. */
+	skillFilter?: SkillFilter;
 }
 
 export interface ExtensionBindings {
@@ -299,6 +303,8 @@ export class AgentSession {
 	// Base system prompt (without extension appends) - used to apply fresh appends each turn
 	private _baseSystemPrompt = "";
 
+	private _skillFilter?: SkillFilter;
+
 	constructor(config: AgentSessionConfig) {
 		this.agent = config.agent;
 		this.sessionManager = config.sessionManager;
@@ -316,6 +322,7 @@ export class AgentSession {
 		this._extensionRunnerRef = config.extensionRunnerRef;
 		this._initialActiveToolNames = config.initialActiveToolNames;
 		this._baseToolsOverride = config.baseToolsOverride;
+		this._skillFilter = config.skillFilter;
 
 		// Initialize delegated subsystems
 		this._retryHandler = new RetryHandler({
@@ -1009,7 +1016,17 @@ export class AgentSession {
 			selectedTools: validToolNames,
 			toolSnippets,
 			promptGuidelines,
+			skillFilter: this._skillFilter,
 		});
+	}
+
+	/**
+	 * Update the skill filter and immediately rebuild the system prompt.
+	 * Pass undefined to restore all skills (remove the filter).
+	 */
+	setSkillFilter(filter: SkillFilter | undefined): void {
+		this._skillFilter = filter;
+		this._baseSystemPrompt = this._rebuildSystemPrompt(this.getActiveToolNames());
 	}
 
 	// =========================================================================

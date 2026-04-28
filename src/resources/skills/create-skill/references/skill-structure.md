@@ -86,6 +86,35 @@ description: What it does and when to use it (third person, specific triggers)
 ```
 </required_fields>
 
+<optional_fields>
+**`workflows:`** — restrict catalog visibility to specific workflow IDs.
+
+- **Omit entirely** (default): the skill appears in all workflow sessions
+- **Set to a list**: the skill only appears in the `available_skills` block when the active workflow matches one of the listed IDs
+
+```yaml
+# Visible only in bmad and gsd sessions
+---
+name: my-skill
+description: ...
+workflows: [bmad, gsd]
+---
+```
+
+```yaml
+# Visible in all sessions (no workflows field)
+---
+name: my-universal-skill
+description: ...
+---
+```
+
+**Important semantics:**
+- `workflows:` only affects catalog visibility — the `available_skills` block shown in the system prompt
+- A skill with `workflows: [bmad]` is **not** shown to the agent in a `gsd` session, but it can still be invoked explicitly by name
+- Absence of the field means "visible in every workflow" — this is the correct default for general-purpose skills
+</optional_fields>
+
 <name_field>
 **Validation rules**:
 - Maximum 64 characters
@@ -361,6 +390,7 @@ Every skill must have: `<objective>`, `<quick_start>`, and `<success_criteria>` 
 Before finalizing a skill, verify:
 
 - ✅ YAML frontmatter valid (name matches directory, description in third person)
+- ✅ `workflows:` field omitted (universal) or set to a list of workflow IDs (scoped)
 - ✅ No markdown headings in body (pure XML structure)
 - ✅ Required tags present: objective, quick_start, success_criteria
 - ✅ Conditional tags appropriate for complexity level

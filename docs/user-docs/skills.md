@@ -145,6 +145,29 @@ Place skills in your project for project-specific guidance:
 
 Project-local skills can be committed to version control so team members share the same skill set.
 
+### Scoping Skills to Specific Workflows
+
+The optional `workflows:` frontmatter field controls which workflow sessions a skill appears in. When omitted, the skill is visible in every session. When set, the skill only shows up in the `available_skills` catalog for the listed workflow IDs.
+
+```yaml
+# Visible only in bmad and gsd sessions
+---
+name: my-bmad-skill
+description: Specialized guidance for BMAD projects.
+workflows: [bmad, gsd]
+---
+```
+
+```yaml
+# Visible in all sessions (default — omit the field)
+---
+name: my-general-skill
+description: General-purpose guidance for any project.
+---
+```
+
+`workflows:` only affects catalog visibility. A scoped skill can still be invoked explicitly by name from any session — the filter only controls whether it appears in the auto-discovery list.
+
 ## Skill Lifecycle Management
 
 GSD tracks skill performance across auto-mode sessions and surfaces health data to help you maintain skill quality.

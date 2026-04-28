@@ -107,4 +107,8 @@ export class DevWorkflowEngine implements WorkflowEngine {
       stepCount: null,
     };
   }
+
+  getSkillFilter(): undefined {
+    return undefined;
+  }
 }

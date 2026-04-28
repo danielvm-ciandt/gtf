@@ -17,7 +17,7 @@
  */
 
 import type { Api, Model } from "@gsd/pi-ai";
-import type { ExtensionAPI, ExtensionCommandContext } from "@gsd/pi-coding-agent";
+import type { ExtensionAPI, ExtensionCommandContext, SkillFilter } from "@gsd/pi-coding-agent";
 import type { GitServiceImpl } from "../git-service.js";
 import type { CaptureEntry } from "../captures.js";
 import type { BudgetAlertLevel } from "../auto-budget.js";
@@ -89,6 +89,8 @@ export class AutoSession {
   activeEngineId: string | null = null;
   activeRunDir: string | null = null;
   cmdCtx: ExtensionCommandContext | null = null;
+  /** Skill filter predicate resolved from the active WorkflowEngine. Cleared on stop. */
+  skillFilter: SkillFilter | undefined = undefined;
 
   // ── Paths ────────────────────────────────────────────────────────────────
   basePath = "";
@@ -243,6 +245,7 @@ export class AutoSession {
     this.activeEngineId = null;
     this.activeRunDir = null;
     this.cmdCtx = null;
+    this.skillFilter = undefined;
 
     // Paths
     this.basePath = "";
